@@ -1,23 +1,50 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import styled from 'react-emotion';
+import Logo from '../../static/ss_group_white.svg';
+import { Link } from 'gatsby';
+import '../styles/footer.css';
 
 const StyledFooter = styled.footer`
-  max-width: ${props => props.theme.maxWidth};
-  margin: 6rem auto 0 auto;
-  padding: 2rem;
-  color: ${props => props.theme.colors.grey};
+  max-width: 100%;
+  background-color: grey;
 `;
 
 class Footer extends Component {
   render() {
-    const { children } = this.props;
-    return <StyledFooter>{children}</StyledFooter>;
+    return <StyledFooter>
+    <div className="footerlogo">
+      <Link to="/">
+        <img className="logofoot" src={Logo} alt="" title="" description=""/>
+      </Link>
+      </div>
+      <div>
+        <ul className="footernav" style={{ listStyle: "none", textAlign: 'center'}}>
+            <Link to="/">
+              <li>Factory</li>
+            </Link>
+            <Link to="/">
+              <li>Investment</li>
+            </Link>
+            <Link to="/">
+              <li>Portfolio</li>
+            </Link>
+            <Link to="/">
+              <li>Growth Services</li>
+            </Link>
+            <Link to="/">
+              <li>Investor Club</li>
+            </Link>
+            <Link to="/">
+              <li>Contact</li>
+            </Link>
+        </ul>
+      </div>
+      <div className="container">
+      <p className="copyright"><span>2018 Swiss Startup Group</span></p>
+      </div>
+    </StyledFooter>;
   }
 }
 
 export default Footer;
 
-Footer.propTypes = {
-  children: PropTypes.node.isRequired,
-};

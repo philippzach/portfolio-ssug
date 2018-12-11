@@ -69,9 +69,7 @@ const PureLayout = ({ children }) => (
     <>
       <SEO />
       {children}
-      <Footer>
-      This is the Footer
-      </Footer>
+      <Footer />
     </>
   </ThemeProvider>
 );

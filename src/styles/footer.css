@@ -1,0 +1,30 @@
+.footerlogo {
+    text-align: center;
+}
+.container {
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 3em;
+  }
+ p.copyright {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid lightgrey; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+} 
+
+p.copyright span { 
+    background:grey; 
+    padding:0 30px; 
+}
+.logofoot {
+    max-width: 200px;
+}
+
+@media (min-width: 600px) {
+    .footernav {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

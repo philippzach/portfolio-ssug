@@ -111,8 +111,8 @@ class Index extends Component {
         <Hero>
         <Navbar />
           <HeroInner>
-            <h1>Switzerland's #1 <br></br> Venture Builder </h1>
-            <HeroText>A purely privately financed Swiss startup platform to scout, analyze, accelerate and invest in the most promising early stage startup projects in Switzerland. </HeroText>
+            <h1>Switzerland's #1<br></br>Venture Builder</h1>
+            <HeroText>A purely privately financed Swiss startup platform to scout, analyze, accelerate and invest in the most promising early stage startup projects in Switzerland.</HeroText>
           </HeroInner>
         </Hero>
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
