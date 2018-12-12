@@ -1,10 +1,11 @@
 .footerlogo {
     text-align: center;
+    padding: 2.45em 0;
 }
 .container {
     max-width: 90%;
     margin: auto;
-    padding-bottom: 3em;
+    padding-bottom: 2.45em;
   }
  p.copyright {
    width: 100%; 
@@ -27,4 +28,14 @@ p.copyright span {
         display: flex;
         justify-content: space-evenly;
     }
+}
+.socialfollow {
+    display: inline-block;
+}
+.socialicon {
+    height: 20px;
+    padding: 0 5px 0 15px;
+}
+.socialcontainer {
+    text-align: center;
 }

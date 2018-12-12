@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import styled from 'react-emotion';
-import Logo from '../../static/ss_group_white.svg';
 import { Link } from 'gatsby';
+import Logo from '../../static/ss_group_white.svg';
 import '../styles/footer.css';
+import Twitter from './twitter.svg';
+import Facebook from './facebook.svg';
 
 const StyledFooter = styled.footer`
   max-width: 100%;
@@ -18,7 +20,7 @@ class Footer extends Component {
       </Link>
       </div>
       <div>
-        <ul className="footernav" style={{ listStyle: "none", textAlign: 'center'}}>
+        <ul className="footernav" style={{ listStyle: "none", textAlign: 'center', margin: '0', paddingBottom: '2.45em'}}>
             <Link to="/">
               <li>Factory</li>
             </Link>
@@ -39,8 +41,13 @@ class Footer extends Component {
             </Link>
         </ul>
       </div>
+      <div className="socialcontainer">
+      <p className="socialfollow">Follow us</p>
+      <a href="https://twitter.com"><img className="socialicon" src={Twitter}/></a>
+      <a href="https://twitter.com"><img className="socialicon" src={Facebook}/></a>
+      </div>
       <div className="container">
-      <p className="copyright"><span>2018 Swiss Startup Group</span></p>
+      <p className="copyright"><span>©2018 Swiss Startup Group</span></p>
       </div>
     </StyledFooter>;
   }

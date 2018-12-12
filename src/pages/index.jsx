@@ -4,6 +4,9 @@ import styled from 'react-emotion';
 import { graphql } from 'gatsby';
 import { Layout, Listing, Wrapper, Title, Navbar } from 'components';
 import Background from '../swiss-startup-group-peak-background.jpg';
+import '../styles/index.css';
+import Logo from '../group.svg';
+import Dna from '../components/dna';
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -52,55 +55,6 @@ const HeroText = styled.div`
   }
 `;
 
-const Social = styled.ul`
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 0;
-  font-family: 'Source Sans Pro', -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial',
-    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  li {
-    display: inline;
-    &:not(:first-child) {
-      margin-left: 2.5rem;
-      @media (max-width: ${props => props.theme.breakpoints.s}) {
-        margin-left: 1.75rem;
-      }
-    }
-    a {
-      font-style: normal;
-      color: ${props => props.theme.colors.greyDark};
-      font-size: 1.333rem;
-      font-weight: 600;
-      &:hover,
-      &:focus {
-        color: ${props => props.theme.colors.primary};
-        text-decoration: none;
-      }
-      @media (max-width: ${props => props.theme.breakpoints.s}) {
-        font-size: 1.2rem;
-      }
-    }
-  }
-`;
-
-const ProjectListing = styled.ul`
-  list-style-type: none;
-  margin-left: 0;
-  margin-top: 4rem;
-  li {
-    margin-bottom: 1.45rem;
-    a {
-      font-size: 2.369rem;
-      font-style: normal;
-      color: ${props => props.theme.colors.black};
-      @media (max-width: ${props => props.theme.breakpoints.s}) {
-        font-size: 1.777rem;
-      }
-    }
-  }
-`;
-
 class Index extends Component {
   render() {
     const {
@@ -109,12 +63,41 @@ class Index extends Component {
     return (
       <Layout>
         <Hero>
-        <Navbar />
+          <Navbar />
           <HeroInner>
-            <h1>Switzerland's #1<br></br>Venture Builder</h1>
-            <HeroText>A purely privately financed Swiss startup platform to scout, analyze, accelerate and invest in the most promising early stage startup projects in Switzerland.</HeroText>
+            <h1>
+              Switzerland's #1
+              <br />
+              Venture Builder
+            </h1>
+            <HeroText>
+              A purely privately financed Swiss startup platform to scout, analyze, accelerate and invest in the most
+              promising early stage startup projects in Switzerland.
+            </HeroText>
           </HeroInner>
         </Hero>
+        <div className="line" />
+        <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+          <div className="logocontainer">
+            <img src={Logo} alt="" title="" description="" />
+          </div>
+          <div>
+            <h2>
+              With our proven track record as independent Startup platform, we have built an exclusive skill set and
+              know how in Switzerland.
+            </h2>
+            <p>
+              We know the Swiss Startup market in-depth and scout actively for the best cases in all regions, building a
+              strong bridge between the Swiss and the international markets. Our integrated service platform combines
+              all different skills of accelerators, angel networks, VC’s, venture builders and innovation consulting. It
+              makes the Swiss Startup Group a unique piece in Switzerland’s fast growing ecosystem.
+            </p>
+            <b>We are dedicated, passionate and driven by success.</b>
+            <br />
+            <b>We have skin in the game.</b>
+          </div>
+          <Title style={{ marginTop: '4rem' }}>Our DNA</Title>
+        </Wrapper>
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <Title style={{ marginTop: '4rem' }}>Blog & News</Title>
           <Listing posts={posts.edges} />
@@ -141,6 +124,10 @@ export const pageQuery = graphql`
           data {
             title {
               text
+            }
+            cover {
+              alt
+              url
             }
             date(formatString: "DD.MM.YYYY")
             categories {
@@ -175,7 +162,7 @@ export const pageQuery = graphql`
           </ProjectListing>
           */
 
- /*
+/*
 projects: allPrismicProjectsBodyLinkItem {
       edges {
         node {

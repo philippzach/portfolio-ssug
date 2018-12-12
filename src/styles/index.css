@@ -1,0 +1,14 @@
+.line::before {
+content: "";
+position: absolute;
+left: 50%;
+margin-top: -5em;
+height: 200px;
+width: 2px;
+background-color: #edecea;
+}
+
+.logocontainer {
+    max-width: 250px;
+    margin: 7em auto 5em;
+}

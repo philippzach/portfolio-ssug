@@ -1,0 +1,16 @@
+div .o-grid {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: justify;
+    border-width: 0;
+    box-sizing: border-box;
+    column-gap: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin: 0 0 5.5rem;
+    outline: 0;
+    padding: 0;
+  }

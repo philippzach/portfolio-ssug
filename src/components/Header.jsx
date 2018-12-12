@@ -19,7 +19,7 @@ class Header extends Component {
     const { invert } = this.props;
     return (
       <StyledHeader invert={invert}>
-        <Link to="/">Frontend Developer</Link>
+        <Link to="/">Go back</Link>
       </StyledHeader>
     );
   }

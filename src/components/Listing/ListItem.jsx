@@ -38,6 +38,7 @@ export default class ListItem extends Component {
           {node.data.date} — {categories && <Categories categories={categories} />}
         </Headline>
         <StyledLink to={node.uid}>{node.data.title.text}</StyledLink>
+        <img src={node.data.cover.url} />
       </Item>
     );
   }
