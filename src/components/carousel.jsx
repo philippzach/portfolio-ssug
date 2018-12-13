@@ -2,11 +2,11 @@ import React from 'react';
 import Slice1 from '../../static/slice1.png';
 
 const Carousel = () => (
-    <div className="cf">
-  <div className="fl w-100 w-50-ns">
+    <div className="flex flex-column flex-row-ns">
+  <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
     <img src={Slice1} alt=""/>
   </div>
-  <div className="fl w-100 w-50-ns tc">
+  <div className="w-100 w-60-ns pl3-ns">
   <div>
   <h3>Know How</h3>
     <p>End-to-end startup development and investment skill-set. SWISS STARTUP GROUP

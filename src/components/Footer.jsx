@@ -8,19 +8,23 @@ import Facebook from './facebook.svg';
 
 const StyledFooter = styled.footer`
   max-width: 100%;
-  background-color: grey;
+  background-color: #939393;
 `;
 
 class Footer extends Component {
   render() {
-    return <StyledFooter>
-    <div className="footerlogo">
-      <Link to="/">
-        <img className="logofoot" src={Logo} alt="" title="" description=""/>
-      </Link>
-      </div>
-      <div>
-        <ul className="footernav" style={{ listStyle: "none", textAlign: 'center', margin: '0', paddingBottom: '2.45em'}}>
+    return (
+      <StyledFooter>
+        <div className="footerlogo">
+          <Link to="/">
+            <img className="logofoot" src={Logo} alt="" title="" description="" />
+          </Link>
+        </div>
+        <div>
+          <ul
+            className="footernav"
+            style={{ listStyle: 'none', textAlign: 'center', margin: '0', paddingBottom: '2.45em' }}
+          >
             <Link to="/">
               <li>Factory</li>
             </Link>
@@ -39,19 +43,25 @@ class Footer extends Component {
             <Link to="/">
               <li>Contact</li>
             </Link>
-        </ul>
-      </div>
-      <div className="socialcontainer">
-      <p className="socialfollow">Follow us</p>
-      <a href="https://twitter.com"><img className="socialicon" src={Twitter}/></a>
-      <a href="https://twitter.com"><img className="socialicon" src={Facebook}/></a>
-      </div>
-      <div className="container">
-      <p className="copyright"><span>©2018 Swiss Startup Group</span></p>
-      </div>
-    </StyledFooter>;
+          </ul>
+        </div>
+        <div className="socialcontainer">
+          <p className="socialfollow">Follow us</p>
+          <a href="https://twitter.com">
+            <img className="socialicon" src={Twitter} alt="" />
+          </a>
+          <a href="https://twitter.com">
+            <img className="socialicon" src={Facebook} alt="" />
+          </a>
+        </div>
+        <div className="container">
+          <p className="copyright">
+            <span>©2018 Swiss Startup Group</span>
+          </p>
+        </div>
+      </StyledFooter>
+    );
   }
 }
 
 export default Footer;
-

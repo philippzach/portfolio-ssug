@@ -25,52 +25,52 @@ const Navigation = styled.nav`
 const Navbar = () => (
   <Header>
     <Link to="/">
-    <img src={Logo} alt="Swiss Startup Group Logo" title="Swiss Startup Group Logo" height="55px" />
+      <img src={Logo} alt="Swiss Startup Group Logo" title="Swiss Startup Group Logo" height="55px" />
     </Link>
     <Navigation>
       <ul className="nav__menu">
-        <li className="nav__menu-item"><a className="factory_after">Factory</a>
+        <li className="nav__menu-item"><a href="https://swissstartupfactory.com" target="_blank" className="factory_after">Factory</a>
           <ul className="nav__submenu factory">
-            <li className="nav__submenu-item"><div className="containeremoji"><span style={{ paddingLeft: ".5em", paddingRight: ".25em" }}>🚀</span></div>
+            <li className="nav__submenu-item">
             
               <a className="nav_submenu_linkleft">Startups</a>
             
             </li>
-            <li className="nav__submenu-item"><div className="containeremoji"><span style={{ paddingLeft: ".5em", paddingRight: ".25em" }}>🧭</span></div>
+            <li className="nav__submenu-item">
             
-            <a className="nav_submenu_linkleft">Corporate Acceleration</a>
-            
-            </li>
-            <li className="nav__submenu-item"><div className="containeremoji"><span style={{ paddingLeft: ".5em", paddingRight: ".25em" }}>🏗</span></div>
-            
-            <a className="nav_submenu_linkleft">Company Building</a>
+            <a target="_blank" className="nav_submenu_linkleft">Corporate Acceleration</a>
             
             </li>
-            <li className="nav__submenu-item"><div className="containeremoji"><span style={{ paddingLeft: ".5em", paddingRight: ".25em" }}>📈</span></div>
+            <li className="nav__submenu-item">
             
-            <a className="nav_submenu_linkleft">Corporate Venture Capital</a>
+            <a target="_blank" className="nav_submenu_linkleft">Company Building</a>
             
             </li>
-            <li className="nav__submenu-item"><div className="containeremoji"><span style={{ paddingLeft: ".5em", paddingRight: ".25em" }}>💡</span></div>
+            <li className="nav__submenu-item">
             
-            <a className="nav_submenu_linkleft">Intra Innovation</a>
+            <a target="_blank" className="nav_submenu_linkleft">Corporate Venture Capital</a>
+            
+            </li>
+            <li className="nav__submenu-item">
+            
+            <a target="_blank" className="nav_submenu_linkleft">Intra Innovation</a>
             
             </li>
           </ul>
         </li>
-        <li className="nav__menu-item"><a >Investment Portfolio</a></li>
-        <li className="nav__menu-item"><a >Growth Services</a></li>
-        <li className="nav__menu-item"><a >Investor Club</a></li>
-        <li className="nav__menu-item"><a className="about_after grey">About</a>
+        <li className="nav__menu-item"><Link to="/investmentportfolio" >Investment Portfolio</Link></li>
+        <li className="nav__menu-item"><Link to="/growthservices">Growth Services</Link></li>
+        <li className="nav__menu-item"><Link to="/investorclub" >Investor Club</Link></li>
+        <li className="nav__menu-item"><Link to="/aboutus" className="about_after grey">About</Link>
           <ul className="nav__submenu about">
-            <li className="nav__submenu-item"><a className="nav_submenu_linkright">Values</a>
-            <div className="containeremoji"><span style={{ paddingLeft: ".5em", paddingRight: ".25em" }}>💯</span></div></li>
+            <li className="nav__submenu-item"><Link to="/aboutus" className="nav_submenu_linkright">Values</Link>
+            </li>
             <li className="nav__submenu-item"><a className="nav_submenu_linkright">Jobs</a>
-            <div className="containeremoji"><span style={{ paddingLeft: ".5em", paddingRight: ".25em" }}>👩‍💻</span></div></li>
-            <li className="nav__submenu-item"><a className="nav_submenu_linkright">Partner</a>
-            <div className="containeremoji"><span style={{ paddingLeft: ".5em", paddingRight: ".25em" }}>🌐</span></div></li>
+            </li>
+            <li className="nav__submenu-item"><Link to="/aboutus" className="nav_submenu_linkright">Partner</Link>
+            </li>
             <li className="nav__submenu-item"><a className="nav_submenu_linkright">News</a>
-            <div className="containeremoji"><span style={{ paddingLeft: ".5em", paddingRight: ".25em" }}>🗞</span></div></li>
+            </li>
           </ul>
         </li>
       </ul>
@@ -94,6 +94,3 @@ const Navbar = () => (
 );
 
 export default Navbar;
-/*
-
-*/

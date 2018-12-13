@@ -9,6 +9,10 @@ import '../styles/index.css';
 import Logo from '../group.svg';
 import Carousel from '../components/carousel';
 import Founders from '../../static/founders.png';
+import Acceleration from '../../static/acceleration.svg';
+import Portfolio from '../../static/portfolio.svg';
+import Growth from '../../static/growth.svg';
+import Investors from '../../static/investors.svg';
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -106,35 +110,56 @@ class Index extends Component {
           <Title style={{ marginTop: '4rem' }}>What we do</Title>
         </Wrapper>
         <>
-        <div className="cardwrapper">
-          <div className="card">
-            <h4>Accelerate</h4>
+          <div className="cardwrapper">
+            <div className="card">
+              <img className="svgicons" src={Acceleration} alt="" description="" title="" />
+              <h4>Acceleration</h4>
+              <p className="iconsdescription">
+                Our accelerator provides a professional execution platform to corporates and startups through a business
+                process that brings their innovation to market fast and lean.
+              </p>
+            </div>
+            <div className="card">
+              <img className="svgicons" src={Investors} alt="" description="" title="" />
+              <h4>Investors</h4>
+              <p className="iconsdescription">
+                Become part of our investors club and invest in startups to extend your portfolio.
+              </p>
+            </div>
+            <div className="card">
+              <img className="svgicons" src={Portfolio} alt="" description="" title="" />
+              <h4>Portfolio</h4>
+              <p className="iconsdescription">
+                We invest in a portfolio of well diversified startups in different stages, industries and countries
+              </p>
+            </div>
+            <div className="card">
+              <img className="svgicons" src={Growth} alt="" description="" title="" />
+              <h4>Growth</h4>
+              <p className="iconsdescription">
+                We offer dedicated and specialized growth service platform for corporate clients, startups and
+                investors.
+              </p>
+            </div>
           </div>
-          <div className="card">
-            <h4>Accelerate</h4>
-          </div>
-          <div className="card">
-            <h4>Accelerate</h4>
-          </div>
-          <div className="card">
-            <h4>Accelerate</h4>
-          </div>
-        </div>
         </>
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <Title style={{ marginTop: '4rem' }}>Founders</Title>
-                <div className="cf">
-          <div className="fl w-100 w-50-ns">
-            <img src={Founders} alt=""/>
+          <div className="cf">
+            <div className="fl w-100 w-50-ns">
+              <img src={Founders} alt="" />
+            </div>
+            <div className="fl w-100 w-50-ns tc">
+              <div>
+                <h3>Max Meister, COO</h3>
+                <p>
+                  “The last two years are a great proof of concept for us and we are amazed by the market response.
+                  Together with our strategic partners we will now focus on internationalization, while corporate
+                  acceleration and company building will play an even more important role in our future business model.”
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="fl w-100 w-50-ns tc">
-          <div>
-          <h3>Max Meister, COO</h3>
-            <p>“The last two years are a great proof of concept for us and we are amazed by the market 
-response. Together with our strategic partners we will now focus on internationalization, while corporate acceleration and company building will play an even more important role in our future business model.”</p>
-          </div>
-          </div>
-        </div>
         </Wrapper>
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <Title style={{ marginTop: '4rem' }}>Partners</Title>
