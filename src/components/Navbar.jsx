@@ -29,7 +29,7 @@ const Navbar = () => (
     </Link>
     <Navigation>
       <ul className="nav__menu">
-        <li className="nav__menu-item"><a className="factory_after blue">Factory</a>
+        <li className="nav__menu-item"><a className="factory_after">Factory</a>
           <ul className="nav__submenu factory">
             <li className="nav__submenu-item"><div className="containeremoji"><span style={{ paddingLeft: ".5em", paddingRight: ".25em" }}>🚀</span></div>
             
@@ -58,9 +58,9 @@ const Navbar = () => (
             </li>
           </ul>
         </li>
-        <li className="nav__menu-item"><a className="purple">Investment Portfolio</a></li>
-        <li className="nav__menu-item"><a className="orange">Growth Services</a></li>
-        <li className="nav__menu-item"><a className="green">Investor Club</a></li>
+        <li className="nav__menu-item"><a >Investment Portfolio</a></li>
+        <li className="nav__menu-item"><a >Growth Services</a></li>
+        <li className="nav__menu-item"><a >Investor Club</a></li>
         <li className="nav__menu-item"><a className="about_after grey">About</a>
           <ul className="nav__submenu about">
             <li className="nav__submenu-item"><a className="nav_submenu_linkright">Values</a>

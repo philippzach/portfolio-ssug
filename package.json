@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-prismicio",
-  "description": "Gatsby Starter for Prismic.io",
+  "name": "ssug-starter-prismicio",
+  "description": "Gatsby Starter with Prismic.io",
   "license": "MIT",
   "version": "1.0.0",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Philipp Zach <dev@philippzach.com>",
   "scripts": {
     "dev": "gatsby develop -o",
     "build": "gatsby build",
@@ -39,8 +39,6 @@
     "react-emotion": "^9.2.12",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.13",
-    "typeface-lora": "^0.0.54",
-    "typeface-source-sans-pro": "^0.0.54",
     "typography": "^0.16.17"
   },
   "devDependencies": {

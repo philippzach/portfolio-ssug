@@ -44,7 +44,7 @@ const Post = ({ data: { prismicPost, posts }, location }) => {
       <Wrapper>
         <SliceZone allSlices={data.body} />
         <Title style={{ marginTop: '4rem' }}>Recent posts</Title>
-        {/*}<Listing posts={posts.edges} />{*/}
+        <Listing posts={posts.edges} />
       </Wrapper>
     </Layout>
   );
@@ -134,6 +134,9 @@ export const pageQuery = graphql`
           data {
             title {
               text
+            }
+            cover {
+              url
             }
             date(formatString: "DD.MM.YYYY")
             categories {

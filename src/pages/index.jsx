@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Tachyons from 'tachyons/css/tachyons.min.css';
 import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 import { graphql } from 'gatsby';
@@ -6,7 +7,8 @@ import { Layout, Listing, Wrapper, Title, Navbar } from 'components';
 import Background from '../swiss-startup-group-peak-background.jpg';
 import '../styles/index.css';
 import Logo from '../group.svg';
-import Dna from '../components/dna';
+import Carousel from '../components/carousel';
+import Founders from '../../static/founders.png';
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -25,6 +27,7 @@ const HeroInner = styled.div`
   h1 {
     margin-bottom: 2rem;
     text-transform: uppercase;
+    font-size: 2.45em;
   }
   @media (max-width: ${props => props.theme.breakpoints.l}) {
     padding-top: 4rem;
@@ -98,8 +101,52 @@ class Index extends Component {
           </div>
           <Title style={{ marginTop: '4rem' }}>Our DNA</Title>
         </Wrapper>
+        <Carousel />
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-          <Title style={{ marginTop: '4rem' }}>Blog & News</Title>
+          <Title style={{ marginTop: '4rem' }}>What we do</Title>
+        </Wrapper>
+        <>
+        <div className="cardwrapper">
+          <div className="card">
+            <h4>Accelerate</h4>
+          </div>
+          <div className="card">
+            <h4>Accelerate</h4>
+          </div>
+          <div className="card">
+            <h4>Accelerate</h4>
+          </div>
+          <div className="card">
+            <h4>Accelerate</h4>
+          </div>
+        </div>
+        </>
+        <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+          <Title style={{ marginTop: '4rem' }}>Founders</Title>
+                <div className="cf">
+          <div className="fl w-100 w-50-ns">
+            <img src={Founders} alt=""/>
+          </div>
+          <div className="fl w-100 w-50-ns tc">
+          <div>
+          <h3>Max Meister, COO</h3>
+            <p>“The last two years are a great proof of concept for us and we are amazed by the market 
+response. Together with our strategic partners we will now focus on internationalization, while corporate acceleration and company building will play an even more important role in our future business model.”</p>
+          </div>
+          </div>
+        </div>
+        </Wrapper>
+        <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+          <Title style={{ marginTop: '4rem' }}>Partners</Title>
+          <h3 style={{ textAlign: 'center' }}>Strategic Partners</h3>
+          <p style={{ textAlign: 'center' }}>
+            We develop strategic partnerships with companies and organizations that share important core and strategic
+            startup goals and values. These partnerships comprise several areas of execution aiming – ultimately –
+            sharing value to our partners, the Swiss Startup ecosystem, as well as the Swiss Startup Group at once.
+          </p>
+        </Wrapper>
+        <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+          <Title style={{ marginTop: '4rem' }}>News & Trending Articles</Title>
           <Listing posts={posts.edges} />
         </Wrapper>
       </Layout>
@@ -124,10 +171,6 @@ export const pageQuery = graphql`
           data {
             title {
               text
-            }
-            cover {
-              alt
-              url
             }
             date(formatString: "DD.MM.YYYY")
             categories {
