@@ -29,11 +29,11 @@ const Navbar = () => (
     </Link>
     <Navigation>
       <ul className="nav__menu">
-        <li className="nav__menu-item"><a href="https://swissstartupfactory.com" target="_blank" className="factory_after">Factory</a>
+        <li className="nav__menu-item"><Link to="/factory" className="factory_after">Factory</Link>
           <ul className="nav__submenu factory">
             <li className="nav__submenu-item">
             
-              <a className="nav_submenu_linkleft">Startups</a>
+              <a target="_blank" className="nav_submenu_linkleft">Startups</a>
             
             </li>
             <li className="nav__submenu-item">
@@ -80,12 +80,12 @@ const Navbar = () => (
         <span className='menu'>
             <span className='hamburger'></span>
         </span>
-        <ul>
-            <li><a href='/'>Factory</a></li>
-            <li><a href='/'>Investment Portfolio</a></li>
-            <li><a href='/'>Growth Services</a></li>
-            <li><a href='/'>Investor Club</a></li>
-            <li><a href='/'>About us</a></li>
+        <ul className="list pl0 ma0">
+            <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/factory'>Factory</Link></li>
+            <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/investmentportfolio'>Investment Portfolio</Link></li>
+            <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/growthservices'>Growth Services</Link></li>
+            <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/investorclub'>Investor Club</Link></li>
+            <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/aboutus'>About us</Link></li>
         </ul>
         </label>
         </div>

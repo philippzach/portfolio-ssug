@@ -1,5 +1,7 @@
-.containertitle {
-    margin-left: 40%;
+@media (min-width: 30em) {
+    .containertitle {
+        margin-left: 40%;
+    }
 }
 .containerinvestors {
     text-align: center;

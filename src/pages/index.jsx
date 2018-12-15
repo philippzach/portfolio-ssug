@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import Tachyons from 'tachyons/css/tachyons.min.css';
 import PropTypes from 'prop-types';
 import styled from 'react-emotion';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import { Layout, Listing, Wrapper, Title, Navbar } from 'components';
+import PageTransition from '../components/pagetransition';
 import Background from '../swiss-startup-group-peak-background.jpg';
-import '../styles/index.css';
+import '../styles/pages/index.css';
 import Logo from '../group.svg';
 import Carousel from '../components/carousel';
 import Founders from '../../static/founders.png';
@@ -31,7 +32,7 @@ const HeroInner = styled.div`
   h1 {
     margin-bottom: 2rem;
     text-transform: uppercase;
-    font-size: 2.45em;
+    font-size: 3.45em;
   }
   @media (max-width: ${props => props.theme.breakpoints.l}) {
     padding-top: 4rem;
@@ -89,19 +90,19 @@ class Index extends Component {
             <img src={Logo} alt="" title="" description="" />
           </div>
           <div>
-            <h2>
+            <h2 className="lh-title">
               With our proven track record as independent Startup platform, we have built an exclusive skill set and
               know how in Switzerland.
             </h2>
-            <p>
+            <p className="lh-copy">
               We know the Swiss Startup market in-depth and scout actively for the best cases in all regions, building a
               strong bridge between the Swiss and the international markets. Our integrated service platform combines
               all different skills of accelerators, angel networks, VC’s, venture builders and innovation consulting. It
               makes the Swiss Startup Group a unique piece in Switzerland’s fast growing ecosystem.
             </p>
-            <b>We are dedicated, passionate and driven by success.</b>
+            <b className="lh-copy">We are dedicated, passionate and driven by success.</b>
             <br />
-            <b>We have skin in the game.</b>
+            <b className="lh-copy">We have skin in the game.</b>
           </div>
           <Title style={{ marginTop: '4rem' }}>Our DNA</Title>
         </Wrapper>
@@ -111,36 +112,48 @@ class Index extends Component {
         </Wrapper>
         <>
           <div className="cardwrapper">
-            <div className="card">
+          <Link to="/factory">
+            <div className="card black">
               <img className="svgicons" src={Acceleration} alt="" description="" title="" />
               <h4>Acceleration</h4>
-              <p className="iconsdescription">
-                Our accelerator provides a professional execution platform to corporates and startups through a business
-                process that brings their innovation to market fast and lean.
+              <p className="iconsdescription lh-copy">
+                  Our accelerator provides a professional execution platform to corporates and startups through a
+                  process that brings their innovation to market fast and lean.
               </p>
+              <p className="ttu b">Our Accelerator ></p>
             </div>
-            <div className="card">
+            </Link>
+            <Link to="/investorclub">
+            <div className="card black">
               <img className="svgicons" src={Investors} alt="" description="" title="" />
               <h4>Investors</h4>
-              <p className="iconsdescription">
+              <p className="iconsdescription lh-copy">
                 Become part of our investors club and invest in startups to extend your portfolio.
               </p>
+              <p className="ttu b">Learn More ></p>
             </div>
-            <div className="card">
+            </Link>
+            <Link to="/investmentportfolio">
+            <div className="card black">
               <img className="svgicons" src={Portfolio} alt="" description="" title="" />
               <h4>Portfolio</h4>
-              <p className="iconsdescription">
+              <p className="iconsdescription lh-copy">
                 We invest in a portfolio of well diversified startups in different stages, industries and countries
               </p>
+              <p className="ttu b">Our Portfolio ></p>
             </div>
-            <div className="card">
+            </Link>
+            <Link to="/growthservices">
+            <div className="card black">
               <img className="svgicons" src={Growth} alt="" description="" title="" />
               <h4>Growth</h4>
-              <p className="iconsdescription">
+              <p className="iconsdescription lh-copy">
                 We offer dedicated and specialized growth service platform for corporate clients, startups and
                 investors.
               </p>
+              <p className="ttu b">Our Services ></p>
             </div>
+            </Link>
           </div>
         </>
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
@@ -152,7 +165,7 @@ class Index extends Component {
             <div className="fl w-100 w-50-ns tc">
               <div>
                 <h3>Max Meister, COO</h3>
-                <p>
+                <p className="lh-copy">
                   “The last two years are a great proof of concept for us and we are amazed by the market response.
                   Together with our strategic partners we will now focus on internationalization, while corporate
                   acceleration and company building will play an even more important role in our future business model.”
@@ -164,7 +177,7 @@ class Index extends Component {
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <Title style={{ marginTop: '4rem' }}>Partners</Title>
           <h3 style={{ textAlign: 'center' }}>Strategic Partners</h3>
-          <p style={{ textAlign: 'center' }}>
+          <p style={{ textAlign: 'center' }} className="lh-copy">
             We develop strategic partnerships with companies and organizations that share important core and strategic
             startup goals and values. These partnerships comprise several areas of execution aiming – ultimately –
             sharing value to our partners, the Swiss Startup ecosystem, as well as the Swiss Startup Group at once.

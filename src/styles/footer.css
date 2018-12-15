@@ -18,15 +18,24 @@
 p.copyright span { 
     background:#939393; 
     padding:0 30px; 
+    color: white;
+    font-family: Poppins;
+    font-size: .7em;
 }
 .logofoot {
     max-width: 200px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
     .footernav {
         display: flex;
         justify-content: space-evenly;
+    }
+    div .mobilecta {
+        display: none;
+    }
+    .footernav {
+        padding: 0;
     }
 }
 .socialfollow {
@@ -38,4 +47,48 @@ p.copyright span {
 }
 .socialcontainer {
     text-align: center;
+}
+
+.mobilebutton1 {
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(127, 126, 126);
+    color: white;
+}
+.mobilebutton2 {
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(157, 157, 157);
+    color: white;
+}
+.topmenu {
+    font-family: Poppins;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .9em;
+}
+.footernav {
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+}
+.listitem {
+    padding-top: 1em;
+    
+}
+.sublistitem {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: .9em
+}
+.adress {
+    font-size: .85em;
+    color: white;
+    line-height: 1.65em;
+    font-family: roboto;
+    text-transform: uppercase;
+    font-weight: 600;
 }

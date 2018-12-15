@@ -1,0 +1,21 @@
+@media (min-width: 30em) {
+    .containertitle {
+        margin-left: 40%;
+    }
+}
+@media (min-width: 788px){
+    .startupscontainer {
+        display: flex;
+    }
+}
+@media (min-width: 650px){
+    .row {
+        display: flex
+    }
+}
+.startupscontainer {
+    padding: 3em 0 0;
+}
+.corporatescontainer {
+    padding: 3em 0 0;
+}
