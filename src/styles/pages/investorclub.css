@@ -3,3 +3,14 @@
         margin-left: 40%;
     }
 }
+@media (min-width: 45em) {
+    .testimonialmobile {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media (max-width: 45em) {
+    .mobile {
+        margin: 0 auto;
+    }
+}

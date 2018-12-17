@@ -1,7 +1,7 @@
 /* eslint-disable react/display-name */
 import React, { Component } from 'react';
 import { Transition, animated } from 'react-spring';
-import '../styles/pagetransition.css';
+import '../styles/pagetransitiondna.css';
 import Slice1 from '../../static/slice1.png';
 
 const pages = [
@@ -11,12 +11,14 @@ const pages = [
         <img src={Slice1} alt="" style={{ maxHeight: '600px' }}/>
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center">
-        <div className="measure">
+        <div className="paddingdna measure">
           <h3>KNOW HOW</h3>
           <p className="lh-copy">
             End-to-end startup development and investment skill-set. SWISS STARTUP GROUP offers services across the
             entire value chain: scouting, analysis, deal-making, acceleration, growth, investing and exits.
           </p>
+          <span className="b">01/04</span>
+          <span className="b ttu fr">next</span>
         </div>
       </div>
     </animated.div>
@@ -26,12 +28,14 @@ const pages = [
         <img src={Slice1} alt="" style={{ maxHeight: '600px' }}/>
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center">
-        <div className="measure">
+        <div className="paddingdna measure">
           <h3>NETWORK PLATFORM</h3>
           <p className="lh-copy">
             End-to-end startup development and investment skill-set. SWISS STARTUP GROUP offers services across the
             entire value chain: scouting, analysis, deal-making, acceleration, growth, investing and exits.
           </p>
+          <span className="b">02/04</span>
+          <span className="b ttu fr">next</span>
         </div>
       </div>
 
@@ -41,12 +45,14 @@ const pages = [
         <img src={Slice1} alt="" style={{ maxHeight: '600px' }} />
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center">
-        <div className="measure">
+        <div className="paddingdna measure">
           <h3>FUNDING</h3>
           <p className="lh-copy">
             End-to-end startup development and investment skill-set. SWISS STARTUP GROUP offers services across the
             entire value chain: scouting, analysis, deal-making, acceleration, growth, investing and exits.
           </p>
+          <span className="b">03/04</span>
+          <span className="b ttu fr">next</span>
         </div>
       </div>
   </animated.div>,
@@ -55,12 +61,14 @@ const pages = [
     <img src={Slice1} alt="" style={{ maxHeight: '600px' }} />
   </div>
   <div className="w-100 w-60-ns pl3-ns flex items-center">
-    <div className="measure">
+    <div className="paddingdna measure">
       <h3>DEAL FLOW</h3>
       <p className="lh-copy">
         End-to-end startup development and investment skill-set. SWISS STARTUP GROUP offers services across the
         entire value chain: scouting, analysis, deal-making, acceleration, growth, investing and exits.
       </p>
+      <span className="b">04/04</span>
+      <span className="b ttu fr">next</span>
     </div>
   </div>
 </animated.div>,
@@ -76,6 +84,7 @@ export default class PageTransition extends Component {
 
   render() {
     return (
+      <div className="dna">
       <div className="main" onClick={this.toggle}>
         <Transition
           native
@@ -88,6 +97,7 @@ export default class PageTransition extends Component {
         >
           {index => pages[index]}
         </Transition>
+      </div>
       </div>
     );
   }

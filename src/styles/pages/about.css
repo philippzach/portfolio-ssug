@@ -3,3 +3,11 @@
         margin-left: 40%;
     }
 }
+.tabitem {
+    width: calc(100%/4);
+}
+.tablist {
+    width: 100%;
+    display: flex;
+    list-style: none;
+}

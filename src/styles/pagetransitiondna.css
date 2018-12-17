@@ -5,28 +5,32 @@
     max-height: 600px;
     will-change: transform, opacity;
 }  
+.paddingdna {
+    padding: 4em 2em 0em;
+}
+
 @media (max-width: 30em) {
-    .main{
+    .dna{
         height: 600px;
     }
 }
 @media (min-width: 30em) and (max-width: 45em) {
-    .main {
+    .dna {
         height: 300px
     }
 }
 @media (min-width: 45em) and (max-width: 60em) {
-    .main {
+    .dna {
         height: 350px
     }
 }
 @media (min-width: 60em) and (max-width: 75em) {
-    .main {
+    .dna {
         height: 450px
     }
 }
 @media (min-width: 75em) {
-    .main {
+    .dna {
         height: 550px
     }
 }

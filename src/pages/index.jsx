@@ -4,19 +4,34 @@ import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 import { graphql, Link } from 'gatsby';
 import { Layout, Listing, Wrapper, Title, Navbar } from 'components';
+import MediaQuery from 'react-responsive';
 import PageTransition from '../components/pagetransition';
-import Background from '../swiss-startup-group-peak-background.jpg';
+import Background from '../../static/indexbg.jpg';
+import BackgroundMobile from '../../static/indexbgmobile.jpg';
 import '../styles/pages/index.css';
 import Logo from '../group.svg';
+import Fade from 'react-reveal/Fade';
 import Carousel from '../components/carousel';
 import Founders from '../../static/founders.png';
 import Acceleration from '../../static/acceleration.svg';
 import Portfolio from '../../static/portfolio.svg';
 import Growth from '../../static/growth.svg';
 import Investors from '../../static/investors.svg';
+import LogoSlider from '../components/logoslider';
+import FounderSlider from '../components/pictureslider/indexfounders';
 
 const Hero = styled.header`
  background-image: url("${Background}");
+ background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+background-position:center;
+`;
+
+const HeroMobile = styled.header`
+background-image: url("${BackgroundMobile}");
  background-repeat:no-repeat;
 -webkit-background-size:cover;
 -moz-background-size:cover;
@@ -70,6 +85,23 @@ class Index extends Component {
     } = this.props;
     return (
       <Layout>
+      <MediaQuery maxWidth={700}>
+        <HeroMobile>
+          <Navbar />
+          <HeroInner>
+            <h1>
+              Switzerland's #1
+              <br />
+              Venture Builder
+            </h1>
+            <HeroText>
+              A purely privately financed Swiss startup platform to scout, analyze, accelerate and invest in the most
+              promising early stage startup projects in Switzerland.
+            </HeroText>
+          </HeroInner>
+        </HeroMobile>
+        </MediaQuery>
+        <MediaQuery minWidth={700}>
         <Hero>
           <Navbar />
           <HeroInner>
@@ -84,9 +116,13 @@ class Index extends Component {
             </HeroText>
           </HeroInner>
         </Hero>
+        </MediaQuery>
         <div className="line" />
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <div className="logocontainer">
+          <Fade right>
+                  <p className="lh-copy">A purely privately financed Swiss startup platform to scout, analyze, accelerate and invest in the most promising early stage startup projects in Switzerland.</p>
+                </Fade>
             <img src={Logo} alt="" title="" description="" />
           </div>
           <div>
@@ -151,28 +187,15 @@ class Index extends Component {
                 We offer dedicated and specialized growth service platform for corporate clients, startups and
                 investors.
               </p>
-              <p className="ttu b">Our Services ></p>
+              <p className="ttu b">Our Services></p>
             </div>
             </Link>
           </div>
         </>
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <Title style={{ marginTop: '4rem' }}>Founders</Title>
-          <div className="cf">
-            <div className="fl w-100 w-50-ns">
-              <img src={Founders} alt="" />
-            </div>
-            <div className="fl w-100 w-50-ns tc">
-              <div>
-                <h3>Max Meister, COO</h3>
-                <p className="lh-copy">
-                  “The last two years are a great proof of concept for us and we are amazed by the market response.
-                  Together with our strategic partners we will now focus on internationalization, while corporate
-                  acceleration and company building will play an even more important role in our future business model.”
-                </p>
-              </div>
-            </div>
-          </div>
+          <FounderSlider />
+
         </Wrapper>
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <Title style={{ marginTop: '4rem' }}>Partners</Title>
@@ -182,6 +205,7 @@ class Index extends Component {
             startup goals and values. These partnerships comprise several areas of execution aiming – ultimately –
             sharing value to our partners, the Swiss Startup ecosystem, as well as the Swiss Startup Group at once.
           </p>
+          <LogoSlider />
         </Wrapper>
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <Title style={{ marginTop: '4rem' }}>News & Trending Articles</Title>
@@ -228,6 +252,25 @@ export const pageQuery = graphql`
 `;
 
 /*
+<div className="cf">
+            <div className="fl w-100 w-50-ns">
+              <img src={Founders} alt="" />
+            </div>
+            <div className="fl w-100 w-50-ns tc">
+              <div>
+                <h3>Max Meister, COO</h3>
+                <p className="lh-copy">
+                  “The last two years are a great proof of concept for us and we are amazed by the market response.
+                  Together with our strategic partners we will now focus on internationalization, while corporate
+                  acceleration and company building will play an even more important role in our future business model.”
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+
 {social.edges.map(s => (
                 <li key={s.node.primary.label.text}>
                   <a href={s.node.primary.link.url}>{s.node.primary.label.text}</a>

@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import styled from 'react-emotion';
 import { Link } from 'gatsby';
-import Logo from '../../static/ss_group_white.svg';
+import Logo from '../../static/ssug_grey.svg';
 import '../styles/footer.css';
 import Twitter from './twitter.svg';
 import Facebook from './facebook.svg';
 
 const StyledFooter = styled.footer`
   max-width: 100%;
-  background-color: #939393;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(127,127,127,1) 90%);
 `;
 
 class Footer extends Component {
@@ -24,7 +24,7 @@ class Footer extends Component {
           <div className="w-50 mobilebutton1 pa3">
             Switzerlands #1 <br /> Venture Builder
           </div>
-          <div className="w-50 flex items-center justify-center mobilebutton2">Learn more</div>
+          <div className="w-50 flex items-center justify-center mobilebutton2">Contact us</div>
         </div>
         <div>
           <ul

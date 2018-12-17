@@ -1,8 +1,8 @@
 import styled from 'react-emotion';
 
 const Title = styled.p`
-  font-style: italic;
-  font-size: 1.4444rem;
+  font-family: Poppins;
+  font-size: 1rem;
   position: relative;
   &:before {
     content: '';

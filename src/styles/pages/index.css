@@ -9,7 +9,8 @@ background-color: #edecea;
 }
 
 .logocontainer {
-    max-width: 200px;
+    display: flex;
+    flex-direction: column;
     margin: 7em auto 5em;
 }
 @media (max-width: 750px) {
@@ -57,4 +58,8 @@ background-color: #edecea;
 }
 .iconsdescription {
     max-width: 700px;
+}
+p.react-reveal.lh-copy {
+    width: 50%;
+    margin: 0px 56% 3em;
 }
