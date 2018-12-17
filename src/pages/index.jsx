@@ -10,7 +10,7 @@ import Background from '../../static/indexbg.jpg';
 import BackgroundMobile from '../../static/indexbgmobile.jpg';
 import '../styles/pages/index.css';
 import Logo from '../group.svg';
-import Fade from 'react-reveal/Fade';
+//import Fade from 'react-reveal/Fade';
 import Carousel from '../components/carousel';
 import Founders from '../../static/founders.png';
 import Acceleration from '../../static/acceleration.svg';
@@ -120,9 +120,6 @@ class Index extends Component {
         <div className="line" />
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <div className="logocontainer">
-          <Fade right>
-                  <p className="lh-copy">A purely privately financed Swiss startup platform to scout, analyze, accelerate and invest in the most promising early stage startup projects in Switzerland.</p>
-                </Fade>
             <img src={Logo} alt="" title="" description="" />
           </div>
           <div>
@@ -195,7 +192,6 @@ class Index extends Component {
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <Title style={{ marginTop: '4rem' }}>Founders</Title>
           <FounderSlider />
-
         </Wrapper>
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <Title style={{ marginTop: '4rem' }}>Partners</Title>

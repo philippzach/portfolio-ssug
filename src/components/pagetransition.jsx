@@ -31,8 +31,7 @@ const pages = [
         <div className="paddingdna measure">
           <h3>NETWORK PLATFORM</h3>
           <p className="lh-copy">
-            End-to-end startup development and investment skill-set. SWISS STARTUP GROUP offers services across the
-            entire value chain: scouting, analysis, deal-making, acceleration, growth, investing and exits.
+          Direct access to all stakeholders of the venture value chain such as investors, corporates and startups as well as top talents, mentors and academic partners. 
           </p>
           <span className="b">02/04</span>
           <span className="b ttu fr">next</span>
@@ -48,8 +47,7 @@ const pages = [
         <div className="paddingdna measure">
           <h3>FUNDING</h3>
           <p className="lh-copy">
-            End-to-end startup development and investment skill-set. SWISS STARTUP GROUP offers services across the
-            entire value chain: scouting, analysis, deal-making, acceleration, growth, investing and exits.
+          One of the most active early stage investor in Switzerland that assures a straightforward and efficient funding process for startups seeking for pre-seed, seed, A-, B- or C- rounds.
           </p>
           <span className="b">03/04</span>
           <span className="b ttu fr">next</span>
@@ -64,8 +62,7 @@ const pages = [
     <div className="paddingdna measure">
       <h3>DEAL FLOW</h3>
       <p className="lh-copy">
-        End-to-end startup development and investment skill-set. SWISS STARTUP GROUP offers services across the
-        entire value chain: scouting, analysis, deal-making, acceleration, growth, investing and exits.
+      Exclusive startup investment pipeline and access through our ecosystem composed of shareholders, Investors’ Club, advisory board, corporate and academic partners but also through active scouting within Switzerland and abroad and startup applications.
       </p>
       <span className="b">04/04</span>
       <span className="b ttu fr">next</span>

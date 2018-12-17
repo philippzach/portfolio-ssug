@@ -1,3 +1,11 @@
+
+
+
+"gatsby develop" use file .env.development
+"gatsby build" rename to .env.production
+
+
+
 # Swiss Startup Group
 
 A typography-heavy & light-themed Gatsby Starter which uses the Headless CMS [Prismic](https://prismic.io/).
