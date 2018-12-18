@@ -29,15 +29,14 @@ Therefore the starter has following features:
 - SEO
   - Sitemap
   - Schema.org JSONLD
-  - OpenGraph Tags
+  - Helmet 
   - Favicons
+  - robots.txt
 - Offline Support
 - WebApp Manifest Support
 - Typography.js
-- Absolute modules imports
 - Configurable
   - Use the `website.js` to easily change the most important information
-  - Themeable with `theme.js`
 
 ## Instructions
 
