@@ -5,8 +5,10 @@
     max-height: 600px;
     will-change: transform, opacity;
 }  
-.paddingdna {
-    padding: 4em 2em 0em;
+@media (max-width: 480px){
+    .paddingdna {
+        padding: 7em 2em 0em;
+    }
 }
 
 @media (max-width: 30em) {

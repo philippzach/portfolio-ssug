@@ -10,6 +10,9 @@
         padding: 7em 2em 0em;
     }
 }
+.paddingfounders {
+    padding: 4em 2em 0em;
+}
 
 
 @media (max-width: 30em) {

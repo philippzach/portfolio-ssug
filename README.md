@@ -1,10 +1,8 @@
 
-
-
-"gatsby develop" use file .env.development
-"gatsby build" rename to .env.production
-
-
+### npm install
+### You need to install Gatsby 
+### "gatsby develop" with file .env.development
+### "gatsby build" rename to .env.production
 
 # Swiss Startup Group
 
@@ -24,16 +22,14 @@ Therefore the starter has following features:
 
 - Prismic as Headless CMS
 - Emotion for styling
-- PrismJS highlighting
-- Responsive images (gatsby-image)
-  - The right image size for every screen size
-  - Traced SVG Loading (Lazy-Loading)
-  - WebP Support
+- CSS Styles 
+- Responsive layout 
+  - gatsby-image - The right image size for every screen size
+  - Media Queries
 - SEO
   - Sitemap
   - Schema.org JSONLD
   - OpenGraph Tags
-  - Twitter Tags
   - Favicons
 - Offline Support
 - WebApp Manifest Support
@@ -62,27 +58,6 @@ The easiest way to deploy this starter is to use the same setup, meaning that yo
 ### Custom setup
 
 Changes to your Prismic repository imply the need to change the React/GraphQL code of this starter, e.g. if you change the names (and therefore API IDs) of custom types or their input fields, you'll need to change the corresponding GraphQL queries.
-
-#### Example: Use other slices
-
-Let's say you don't need to use the `Quote` slice. How would you get Gatsby to work without this slice?
-
-In this case the `Quote` slice gets queried in the `src/templates/post.jsx` file:
-
-```graphql
-... on PrismicPostBodyQuote {
-  slice_type
-  id
-  primary {
-    quote {
-      html
-      text
-    }
-  }
-}
-```
-
-Remove that bit from the query and Gatsby won't look for the Quote slice anymore (you also can remove the `src/slices/Quote.jsx` file). Vice versa you'd add a file in the `src/slices` directory, add it to `src/components/SliceZone.jsx`, and add it to the template query.
 
 ## Install
 

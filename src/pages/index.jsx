@@ -119,7 +119,7 @@ class Index extends Component {
             <br />
             <b className="lh-copy">We have skin in the game.</b>
           </div>
-          <Title style={{ marginTop: '4rem' }}>Our DNA</Title>
+          <Title style={{ marginTop: '4rem', marginBottom: '4em' }}>Our DNA</Title>
         </Wrapper>
         <Carousel />
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
