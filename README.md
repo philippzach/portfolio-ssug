@@ -1,10 +1,21 @@
 
-### npm install
-### You need to install Gatsby 
-### "gatsby develop" with file .env.development
-### "gatsby build" rename to .env.production
 
-# Swiss Startup Group
+In order to get it working
+
+1. npm install
+2. install gatsby if necessary
+3. create .env.development file for "gatsby develop"
+4. rename to .env.production when running "gatsby build"
+5. After running "build" the static files will be in /public folder
+
+### Key for .env file
+API_KEY=MC5YQWhMUlJBQUFMX0RoYjJK.DO-_vU8IFe-_vSt4He-_vRjvv71rMu-_vU7vv73vv71h77-9Ljnvv71977-9WO-_vQlZMkJ1
+
+
+
+
+
+# Swiss Startup Group - Gatsby Starter
 
 A typography-heavy & light-themed Gatsby Starter which uses the Headless CMS [Prismic](https://prismic.io/).
 
