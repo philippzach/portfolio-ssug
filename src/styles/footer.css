@@ -91,4 +91,6 @@ p.copyright span {
     font-family: roboto;
     text-transform: uppercase;
     font-weight: 600;
+    font-style: normal;
+    margin: 0;
 }

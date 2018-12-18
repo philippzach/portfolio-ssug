@@ -5,36 +5,29 @@
     max-height: 600px;
     will-change: transform, opacity;
 } 
-@media (max-width: 480px){
-    .paddingfounders {
-        padding: 7em 2em 0em;
-    }
-}
-
-
 @media (max-width: 30em) {
-    div.founders{
+    div.about{
         height: 600px;
     }
 }
 @media (min-width: 30em) and (max-width: 45em) {
-    div.founders {
+    div.about {
         height: 300px
     }
 }
 @media (min-width: 45em) and (max-width: 60em) {
-    div.founders {
+    div.about {
         height: 350px
     }
 }
 @media (min-width: 60em) and (max-width: 75em) {
-    div.founders {
+    div.about {
         height: 450px
     }
 }
 @media (min-width: 75em) {
-    div.founders {
-        height: 350px
+    div.about {
+        height: 550px
     }
 }
 

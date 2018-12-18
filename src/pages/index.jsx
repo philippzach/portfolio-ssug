@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 import { graphql, Link } from 'gatsby';
 import { Layout, Listing, Wrapper, Title, Navbar } from 'components';
-import MediaQuery from 'react-responsive';
+//import MediaQuery from 'react-responsive';
 import PageTransition from '../components/pagetransition';
 import Background from '../../static/indexbg.jpg';
 import BackgroundMobile from '../../static/indexbgmobile.jpg';
@@ -13,9 +13,11 @@ import Logo from '../group.svg';
 //import Fade from 'react-reveal/Fade';
 import Carousel from '../components/carousel';
 import Founders from '../../static/founders.png';
-import Acceleration from '../../static/acceleration.svg';
+//import Acceleration from '../../static/acceleration.svg';
+import Acceleration from '../../static/factorylogo.svg';
 import Portfolio from '../../static/portfolio.svg';
-import Growth from '../../static/growth.svg';
+import Growth from '../../static/techlogo.svg';
+//import Growth from '../../static/growth.svg';
 import Investors from '../../static/investors.svg';
 import LogoSlider from '../components/logoslider';
 import FounderSlider from '../components/pictureslider/indexfounders';
@@ -85,23 +87,6 @@ class Index extends Component {
     } = this.props;
     return (
       <Layout>
-      <MediaQuery maxWidth={700}>
-        <HeroMobile>
-          <Navbar />
-          <HeroInner>
-            <h1>
-              Switzerland's #1
-              <br />
-              Venture Builder
-            </h1>
-            <HeroText>
-              A purely privately financed Swiss startup platform to scout, analyze, accelerate and invest in the most
-              promising early stage startup projects in Switzerland.
-            </HeroText>
-          </HeroInner>
-        </HeroMobile>
-        </MediaQuery>
-        <MediaQuery minWidth={700}>
         <Hero>
           <Navbar />
           <HeroInner>
@@ -111,28 +96,25 @@ class Index extends Component {
               Venture Builder
             </h1>
             <HeroText>
-              A purely privately financed Swiss startup platform to scout, analyze, accelerate and invest in the most
+              A purely privately financed Swiss venture platform to scout, analyze, accelerate and invest in the most
               promising early stage startup projects in Switzerland.
             </HeroText>
           </HeroInner>
         </Hero>
-        </MediaQuery>
         <div className="line" />
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <div className="logocontainer">
-            <img src={Logo} alt="" title="" description="" />
+            <img src={Logo} alt="" title="" description="" className="logoheight"/>
           </div>
-          <div>
-            <h2 className="lh-title">
-              With our proven track record as independent Startup platform, we have built an exclusive skill set and
-              know how in Switzerland.
-            </h2>
+          <div className="measure center">
+            <h3 className="lh-title">
+            <span className="b">The SWISS STARTUP GROUP provides you the exclusive possibility to get everything from one source thanks to our venture platform.</span>
+            </h3>
             <p className="lh-copy">
-              We know the Swiss Startup market in-depth and scout actively for the best cases in all regions, building a
-              strong bridge between the Swiss and the international markets. Our integrated service platform combines
-              all different skills of accelerators, angel networks, VC’s, venture builders and innovation consulting. It
-              makes the Swiss Startup Group a unique piece in Switzerland’s fast growing ecosystem.
+             With our Swiss venture platform you can scout, accelerate and invest in the most promising early stage startup projects and become a part of the Swiss Startup Ecosystem.
             </p>
+            <p className="lh-copy">With our proven track record as independent venture platform, we have built an exclusive skill set and know how in Switzerland. We know the Swiss Startup market in-depth and scout actively for the best cases in all regions, building a strong bridge between the Swiss and the international markets.</p>
+            <p className="lh-copy">Our venture platform combines all different skills of accelerators, angel networks, VC’s, venture builders and innovation consulting. It makes the Swiss Startup Group a unique piece in Switzerland’s fast growing ecosystem.</p>
             <b className="lh-copy">We are dedicated, passionate and driven by success.</b>
             <br />
             <b className="lh-copy">We have skin in the game.</b>
@@ -148,7 +130,7 @@ class Index extends Component {
           <Link to="/factory">
             <div className="card black">
               <img className="svgicons" src={Acceleration} alt="" description="" title="" />
-              <h4>Acceleration</h4>
+              {/*}<h4>Acceleration</h4>{*/}
               <p className="iconsdescription lh-copy">
                   Our accelerator provides a professional execution platform to corporates and startups through a
                   process that brings their innovation to market fast and lean.
@@ -179,24 +161,24 @@ class Index extends Component {
             <Link to="/growthservices">
             <div className="card black">
               <img className="svgicons" src={Growth} alt="" description="" title="" />
-              <h4>Growth</h4>
+              {/*}<h4>Growth</h4>{*/}
               <p className="iconsdescription lh-copy">
                 We offer dedicated and specialized growth service platform for corporate clients, startups and
                 investors.
               </p>
-              <p className="ttu b">Our Services></p>
+              <p className="ttu b">Our Growth Services></p>
             </div>
             </Link>
           </div>
         </>
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-          <Title style={{ marginTop: '4rem' }}>Founders</Title>
+          <Title className="mb6">Founders</Title>
           <FounderSlider />
         </Wrapper>
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <Title style={{ marginTop: '4rem' }}>Partners</Title>
-          <h3 style={{ textAlign: 'center' }}>Strategic Partners</h3>
-          <p style={{ textAlign: 'center' }} className="lh-copy">
+          <h3 className="tc pt4">Strategic Partners</h3>
+          <p className="lh-copy tc pb4">
             We develop strategic partnerships with companies and organizations that share important core and strategic
             startup goals and values. These partnerships comprise several areas of execution aiming – ultimately –
             sharing value to our partners, the Swiss Startup ecosystem, as well as the Swiss Startup Group at once.

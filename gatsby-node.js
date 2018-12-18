@@ -21,9 +21,6 @@ exports.createPages = async ({ graphql, actions }) => {
                   }
                 }
               }
-              cover {
-                url
-              }
             }
           }
         }

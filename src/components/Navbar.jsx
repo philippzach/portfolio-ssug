@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'react-emotion';
-import Logo from '../../static/ss_group_white.svg';
+import Logo from '../../static/ssug_grey.svg';
 import '../styles/navbar.css';
 
 const Header = styled.div`

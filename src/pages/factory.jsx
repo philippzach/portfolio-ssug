@@ -65,7 +65,7 @@ const Factory = () => (
         <article className="mw5 center bg-white br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
-              Support Meeting
+              startUP Support Meeting
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>

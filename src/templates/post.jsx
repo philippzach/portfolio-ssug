@@ -90,15 +90,6 @@ export const pageQuery = graphql`
               }
             }
           }
-          ... on PrismicPostBodyCodeBlock {
-            slice_type
-            id
-            primary {
-              code_block {
-                html
-              }
-            }
-          }
           ... on PrismicPostBodyQuote {
             slice_type
             id
@@ -134,9 +125,6 @@ export const pageQuery = graphql`
           data {
             title {
               text
-            }
-            cover {
-              url
             }
             date(formatString: "DD.MM.YYYY")
             categories {

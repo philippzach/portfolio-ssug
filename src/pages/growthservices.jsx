@@ -3,7 +3,11 @@ import styled from 'react-emotion';
 import { Layout, Wrapper, Navbar, Title } from 'components';
 import Background from '../../static/growth.jpg';
 import '../styles/pages/growth.css';
-import Placeholder from '../../static/placeholder.png'
+import Placeholder from '../../static/placeholder.png';
+import Product from '../../static/growth-process.svg';
+import Marketing from '../../static/growth-market.svg';
+import Analysis from '../../static/growth-analysis.svg';
+import Acount from '../../static/growth-account.svg';
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -45,9 +49,9 @@ const GrowthServices = () => (
         Our beneficial and unique growth service platform gives you advantages in various areas:
       </p>
       <div>
-      <article class="cf">
-        <div class="fl w-100 w-50-ns tc ">
-            <img src={Placeholder} alt="" title="" />
+      <article class="cf mv5">
+        <div class="fl w-100 w-50-ns tc flex justify-center pt4">
+            <img src={Product} alt="" title="" />
          </div>
         <div class="fl w-100 w-50-ns tc pa4">
          <p className="lh-copy">The <b>Swiss Startup Tech</b> helps startups create modern products. With our knowledge in
@@ -58,7 +62,7 @@ const GrowthServices = () => (
             <button>We are happy to consult you</button>
           </div>
         </article>
-        <article class="mobileview cf">
+        <article class="mobileview cf mv5">
         <div class="fl w-100 w-50-ns tc pa4">
          <p className="lh-copy">Once the products have been developed, they do not sell themselves. This 
               is where another SWISS STARTUP TECH service comes in. With our experience in marketing 
@@ -67,50 +71,45 @@ const GrowthServices = () => (
             <button>We are happy to consult you</button>
           </div>
         <div class="fl w-100 w-50-ns tc ">
-            <img src={Placeholder} alt="" title="" />
+            <img src={Marketing} alt="" title="" />
          </div>
         </article>
-        <article class="cf">
+        <article class="cf mv5">
         <div class="fl w-100 w-50-ns tc ">
-            <img src={Placeholder} alt="" title="" />
+            <img src={Analysis} alt="" title="" />
          </div>
         <div class="fl w-100 w-50-ns tc pa4">
          <p className="lh-copy"><b>The BV4 experts analyse any startup with their sophisticated rating system and  provide you with relevant information to support your decision process</b> with an objective summary for your convenience. Last but not least they provide with their integrated commercial and financial due diligence a comprehensive review of the startup’s business plan based on projected market conditions, the industry and the competition.</p>
             <button>We are happy to consult you</button>
           </div>
         </article>
-        <article class="mobileview cf">
+        <article class="mobileview cf mv5">
         <div class="fl w-100 w-50-ns tc pa4">
-         <p className="lh-copy"><b>With Avaneo we offer customised solutions for startups</b> in the areas of: Accounting, Tax consulting, (Direct and VAT), Payroll accounting, Human resources and controlling.
+         <p className="lh-copy">With Avaneo we offer <b>customised solutions for startups in the areas of: Accounting, Tax consulting, (Direct and VAT), Payroll accounting, Human resources and controlling.</b>
               Every startups gets a customised advice and therefore we offer accounting solutions that are tailored to your needs.</p>
             <button>We are happy to consult you</button>
           </div>
         <div class="fl w-100 w-50-ns tc ">
-            <img src={Placeholder} alt="" title="" />
+            <img src={Acount} alt="" title="" />
          </div>
         </article>
         <Title>Networking</Title>
         <div className="mw6 center pa3" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <h3 className="lh-title">
-      Networking in business is essential nowadays. The SWISS STARTUP GROUP must not lag behind either. 
+      The SWISS STARTUP GROUP offers a unique networking platform including world-class experts at top institutions
       </h3>
       <p className="lh-copy">
-        As a member of our investor club you will receive numerous advantages. One of them is that you can extend your
-        portfolio. And the SWISS STARTUP GROUP will support you as your partner from the very beginning.
+      The Swiss Startup Group offers a unique direct access to all stakeholders of the venture value chain such as investors, corporates, startups, top talents, mentors, academic partners and much more of which you can benefit of.
       </p>
       <p className="lh-copy">
-        First we have a world-class talent platform with our Swiss universities and our world wide benchmarking
-        educational system. Second our home market is a great testing market before scaling globally. Third Switzerland
-        has a very strong network of world market player companies such as ABB, Credit Suisse, UBS, Nestlé, Roche,
-        Novartis just to mention a few of them. Last but not least Switzerland offers political stability and liberal
-        laws.{' '}
+      Thanks to the experience of our founding team and advisory board we can help you with access to a large network and key contacts in different areas that will facilitate the implementation of each startup project.
       </p>
       <p className="lh-copy">
-        We experience a strong push of Switzerland’s next generation to follow an entrepreneurial career and create
-        their own startup companies. We are convinced that these ingredients follow in a exclusive Swiss investment
-        pipeline of early stage investment opportunities here in Switzerland.
+      You can build relations with key players in the ecosystem, both entrepreneurs and business angels, investors and VCs.
       </p>
-      <button>Learn more</button>
+      <div className="tc">
+      <div className="button -dark">Learn more</div>
+      </div>
     </div>  
       </div>
     </Wrapper>

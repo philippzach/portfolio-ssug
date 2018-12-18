@@ -6,6 +6,7 @@ import '../styles/pages/about.css';
 import Values from '../components/Values/index';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "react-tabs/style/react-tabs.css";
+import FounderSlider from '../components/pictureslider/aboutgroupslider';
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -23,7 +24,7 @@ const AboutUs = () => (
     <Hero>
       <Navbar />
     </Hero>
-    <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+    <Wrapper style={{ paddingTop: '2rem', paddingBottom: '4rem' }}>
       <Title>Our Team</Title>
       <div className="containertitle">
         <h1 className="lh-title ttu">Values</h1>
@@ -41,14 +42,14 @@ const AboutUs = () => (
         </p>
       </div>
       </Wrapper>
-      <Tabs>
+      <FounderSlider />
+      <Tabs className="mt6">
         <TabList className="tablist">
           <Tab className="tabitem">SSUF</Tab>
           <Tab className="tabitem">SSUT</Tab>
           <Tab className="tabitem">Avaneo</Tab>
           <Tab className="tabitem">BV4</Tab>
         </TabList>
-        <Wrapper>
         <TabPanel>
           <h2>Any content 1</h2>
         </TabPanel>
@@ -61,7 +62,6 @@ const AboutUs = () => (
         <TabPanel>
           <h2>Any content 4</h2>
         </TabPanel>
-        </Wrapper>
       </Tabs>
   </Layout>
 );

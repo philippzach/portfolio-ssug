@@ -4,7 +4,7 @@ import { Layout, Wrapper, Navbar, Title } from 'components';
 import Background from '../../static/investmentportfolio.jpg';
 import Startup from '../../static/portfoliostartup.jpg';
 import '../styles/pages/portfolio.css';
-import Slider from '../components/logoslider';
+import Slider from '../components/logosliderportfolio';
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -42,7 +42,7 @@ const InvestmentPortfolio = () => (
       </div>
       <Title>Startups</Title>
     </Wrapper>
-    <div className="flex flex-column flex-row-ns">
+    <div className="flex flex-column flex-row-ns mv4">
       <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
         <img src={Startup} alt="" />
       </div>
@@ -63,27 +63,26 @@ const InvestmentPortfolio = () => (
               <b>Just upload your pitch deck so our business analysts will analyse the potential of your company.</b>
             </b>
           </p>
-          <button>Send Pitch Deck</button>
+          <div className="button -dark">Send Pitch Deck</div>
         </div>
       </div>
     </div>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Investors</Title>
-      <div className="containerinvestors">
-        <h3 className="lh-title">
-          Do you want to invest in Swiss startups
-          <br /> to extend your portfolio?
+      <div className="containerinvestors mv6">
+        <h3 className="lh-title measure center">
+          Do you want to invest in Swiss startups to extend your portfolio?
         </h3>
         <p className="investorparagraph lh-copy">
           The SWISS STARTUP GROUP is the right partner for this endeavour. Why? The SWISS STARTUP GROUP has a deep
           startup know how, an in-depth view of the swiss startup market and strong growth services which allows us a
           fast, efficient and straightforward process.
         </p>
-        <button>Learn more</button>
+        <div className="button -dark center">Learn more</div>
       </div>
       <Title>Corporates</Title>
     </Wrapper>
-    <div className="flex flex-column flex-row-ns">
+    <div className="flex flex-column flex-row-ns mv4">
       <div className="w-100 w-60-ns pl3-ns flex items-center">
         <div className="pa4">
           <h2>Corporates</h2>
@@ -100,14 +99,14 @@ const InvestmentPortfolio = () => (
               There are a number of possible approaches a business can take to Corporate Venturing. The SWISS STARTUP GROUP is very 
               familiar with the corporate venturing landscape and knows the business from the scratch. We are experts in this field and with our specialized startup know-how, experience and out growth services we strive to provide you with the most suitable strategy with the best service you can find.
           </p>
-          <button>Send Pitch Deck</button>
+          <div className="button -dark">Become part of our Portfolio</div>
         </div>
       </div>
       <div className="mb4 mb0-ns w-100 w-40-ns">
         <img src={Startup} alt="" />
       </div>
     </div>
-    <Wrapper>
+    <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Portfolio</Title>
       <Slider />
     </Wrapper>

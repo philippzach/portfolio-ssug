@@ -5,6 +5,7 @@ import Background from '../../static/investorclub.jpg';
 import '../styles/pages/investorclub.css';
 import Strebel from '../../static/hanspeter_strebel.jpg';
 import Urs from '../../static/urs_wietlisbach.jpg';
+import Chris from '../../static/chris_wildmoser.jpg';
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -43,37 +44,37 @@ const Investor = () => (
       <Title>Testimonials</Title>
     </Wrapper>
     <div className="testimonialmobile">
-      <article className="mobile mw5 bg-white br1 pa3 pa4-ns mv3 ba b--black-10">
+      <article className="mobile mw6 bg-white pa3 pa4-ns mv3">
         <div className="tc">
-          <img src="http://tachyons.io/img/avatar_1.jpg" className="br-100 h4 w4 dib" title="" alt="" />
+          <img src={Chris} className="br-100 h4 w4 dib" title="" alt="" />
           <h4 className="pt4">Chris Wildmoser</h4>
         </div>
-        <p className="lh-copy measure center f6 black-70">
+        <p className="tc lh-copy measure center f6 black-70">
           Christian Wildmoser is former partner of CVC Capital Partners and Swiss Startup Group Investor.
         </p>
       </article>
-      <article className="mobile mw5 bg-white br1 pa3 pa4-ns mv3 ba b--black-10">
+      <article className="mobile mw6 bg-white pa3 pa4-ns mv3">
         <div className="tc">
           <img src={Urs} className="br-100 h4 w4 dib" title="" alt="" />
           <h4 className="pt4">Urs Wietlisbach</h4>
         </div>
-        <p className="lh-copy measure center f6 black-70">
+        <p className="tc lh-copy measure center f6 black-70">
           Urs Wietlisbach co-founded Partners Group in 1996. He is a member of Partners Group Holding AG’s Board of
           Directors and Chairman of the Markets Committee, based in Zug. He has 28 years of industry experience.
         </p>
       </article>
-      <article className="mobile mw5 bg-white br1 pa3 pa4-ns mv3 ba b--black-10">
+      <article className="mobile mw6 bg-white pa3 pa4-ns mv3">
         <div className="tc">
           <img src={Strebel} className="br-100 h4 w4 dib" title="" alt="" />
           <h4 className="pt4">Dr. Hans Peter Strebel</h4>
         </div>
-        <p className="lh-copy measure center f6 black-70">
+        <p className="tc lh-copy measure center f6 black-70">
           Owner of «On Your Marks», the competence center for top athletics and researchMarkets Committee, based in Zug.
           He has 28 years of industry experie
         </p>
       </article>
     </div>
-    <div className="mw6 center pa3" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+    <div className="mw6 center pa3" style={{ paddingTop: '2rem', paddingBottom: '4rem' }}>
       <h3 className="lh-title">
         Switzerland is one of the leading countries of innovation and has a good positioning as a startup hub
       </h3>
@@ -93,7 +94,9 @@ const Investor = () => (
         their own startup companies. We are convinced that these ingredients follow in a exclusive Swiss investment
         pipeline of early stage investment opportunities here in Switzerland.
       </p>
-      <button>Learn more</button>
+      <div className="tc mt5">
+      <div className="button -dark center">Join the Investor Club</div>
+      </div>
     </div>
   </Layout>
 );
