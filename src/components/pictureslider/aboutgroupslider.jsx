@@ -63,7 +63,7 @@ export default class PageTransition extends Component {
   render() {
     return (
       <div className="about">
-      <div className="main" onClick={this.toggle}>
+      <div className="aboutmain" onClick={this.toggle}>
         <Transition
           native
           reset

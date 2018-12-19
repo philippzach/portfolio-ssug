@@ -1,37 +1,43 @@
-.main > div {
+.dnamain > div {
     cursor: pointer;
     position: absolute;
     width: 100%;
     max-height: 600px;
     will-change: transform, opacity;
+    
 }  
-@media (max-width: 480px){
+@media only screen and (min-width: 550px) {
+    .dnamain > div {
+        background-color: rgba(247,247,247,0.5);
+    }
+}
+@media only screen and  (max-width: 480px){
     .paddingdna {
         padding: 7em 2em 0em;
     }
 }
 
-@media (max-width: 30em) {
+@media only screen and  (max-width: 30em) {
     .dna{
-        height: 600px;
+        height: 650px;
     }
 }
-@media (min-width: 30em) and (max-width: 45em) {
+@media only screen and  (min-width: 30em) and (max-width: 45em) {
     .dna {
         height: 300px
     }
 }
-@media (min-width: 45em) and (max-width: 60em) {
+@media only screen and  (min-width: 45em) and (max-width: 60em) {
     .dna {
         height: 350px
     }
 }
-@media (min-width: 60em) and (max-width: 75em) {
+@media only screen and  (min-width: 60em) and (max-width: 75em) {
     .dna {
         height: 450px
     }
 }
-@media (min-width: 75em) {
+@media only screen and  (min-width: 75em) {
     .dna {
         height: 550px
     }

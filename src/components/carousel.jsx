@@ -1,6 +1,6 @@
 import React from 'react';
 //import Slice1 from '../../static/slice1.png';
-import PageTransition from './pagetransition';
+import PageTransition from './pictureslider/indexdna';
 
 const Carousel = () => <PageTransition />;
 

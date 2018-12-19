@@ -1,14 +1,17 @@
 /* eslint-disable react/display-name */
 import React, { Component } from 'react';
 import { Transition, animated } from 'react-spring';
-import '../styles/pagetransitiondna.css';
-import Slice1 from '../../static/slice1.png';
+import '../../styles/pagetransitiondna.css';
+import Slice1 from '../../../static/dna1.svg';
+import Slice2 from '../../../static/dna2.svg';
+import Slice3 from '../../../static/dna3.svg';
+import Slice4 from '../../../static/dna1.svg';
 
 const pages = [
   style => (
     <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
-      <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-        <img src={Slice1} alt="" style={{ maxHeight: '600px' }}/>
+      <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+        <img src={Slice1} style={{maxHeight: '600px'}} alt="" title=""/>
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center">
         <div className="paddingdna measure">
@@ -24,8 +27,8 @@ const pages = [
     </animated.div>
   ),
   style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
-    <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-        <img src={Slice1} alt="" style={{ maxHeight: '600px' }}/>
+    <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+        <img src={Slice2} style={{maxHeight: '600px'}} alt="" title=""/>
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center">
         <div className="paddingdna measure">
@@ -40,8 +43,8 @@ const pages = [
 
   </animated.div>,
   style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
-      <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-        <img src={Slice1} alt="" style={{ maxHeight: '600px' }} />
+      <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+        <img src={Slice1} style={{maxHeight: '600px'}} alt="" title="" />
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center">
         <div className="paddingdna measure">
@@ -55,8 +58,8 @@ const pages = [
       </div>
   </animated.div>,
   style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
-  <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-    <img src={Slice1} alt="" style={{ maxHeight: '600px' }} />
+  <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+    <img src={Slice1} style={{maxHeight: '600px'}} alt="" title="" />
   </div>
   <div className="w-100 w-60-ns pl3-ns flex items-center">
     <div className="paddingdna measure">
@@ -82,7 +85,7 @@ export default class PageTransition extends Component {
   render() {
     return (
       <div className="dna">
-      <div className="main" onClick={this.toggle}>
+      <div className="dnamain" onClick={this.toggle}>
         <Transition
           native
           reset

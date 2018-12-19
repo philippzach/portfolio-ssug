@@ -63,7 +63,7 @@ export default class Founders extends Component {
   render() {
     return (
       <div className="founders">
-      <div className="main" onClick={this.toggle}>
+      <div className="foundermain" onClick={this.toggle}>
         <Transition
           native
           reset

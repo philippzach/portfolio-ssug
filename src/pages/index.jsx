@@ -5,7 +5,7 @@ import styled from 'react-emotion';
 import { graphql, Link } from 'gatsby';
 import { Layout, Listing, Wrapper, Title, Navbar } from 'components';
 //import MediaQuery from 'react-responsive';
-import PageTransition from '../components/pagetransition';
+import PageTransition from '../components/pictureslider/indexdna';
 import Background from '../../static/indexbg.jpg';
 import BackgroundMobile from '../../static/indexbgmobile.jpg';
 import '../styles/pages/index.css';
@@ -117,7 +117,7 @@ class Index extends Component {
             <br />
             <b className="lh-copy">We have skin in the game.</b>
           </div>
-          <Title style={{ marginTop: '4rem', marginBottom: '4em' }}>Our DNA</Title>
+          <Title style={{ marginTop: '4rem', marginBottom: '2em' }}>Our DNA</Title>
         </Wrapper>
         <Carousel />
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
@@ -130,7 +130,7 @@ class Index extends Component {
               <img className="svgicons" src={Acceleration} alt="" description="" title="" />
               {/*}<h4>Acceleration</h4>{*/}
               <p className="iconsdescription lh-copy">
-                  Our accelerator provides a professional execution platform to corporates and startups through a
+                  Our <b>Accelerator</b> provides a professional execution platform to corporates and startups through a
                   process that brings their innovation to market fast and lean.
               </p>
               <p className="ttu b">Our Accelerator ></p>
@@ -141,7 +141,7 @@ class Index extends Component {
               <img className="svgicons" src={Investors} alt="" description="" title="" />
               {/*}<h4>Investors</h4>{*/}
               <p className="iconsdescription lh-copy">
-                Become part of our investors club and invest in startups to extend your portfolio.
+                Become part of our <b>Investors Club</b> and invest in startups to extend your portfolio.
               </p>
               <p className="ttu b">Learn More ></p>
             </div>
@@ -151,7 +151,7 @@ class Index extends Component {
               <img className="svgicons" src={Portfolio} alt="" description="" title="" />
               {/*}<h4>Portfolio</h4>{*/}
               <p className="iconsdescription lh-copy">
-                We invest in a portfolio of well diversified startups in different stages, industries and countries
+                We invest in a <b>Portfolio</b> of well diversified startups in different stages, industries and countries
               </p>
               <p className="ttu b">Our Portfolio ></p>
             </div>
@@ -161,7 +161,7 @@ class Index extends Component {
               <img className="svgicons" src={Growth} alt="" description="" title="" />
               {/*}<h4>Growth</h4>{*/}
               <p className="iconsdescription lh-copy">
-                We offer dedicated and specialized growth service platform for corporate clients, startups and
+                We offer dedicated and specialized <b>Growth Service Platform</b> for corporate clients, startups and
                 investors.
               </p>
               <p className="ttu b">Our Growth Services></p>
@@ -170,9 +170,9 @@ class Index extends Component {
           </div>
         </>
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-          <Title className="mb6">Founders</Title>
-          <FounderSlider />
+          <Title className="mb4">Founders</Title>
         </Wrapper>
+          <FounderSlider />
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <Title style={{ marginTop: '4rem' }}>Partners</Title>
           <h3 className="tc pt4">Strategic Partners</h3>
