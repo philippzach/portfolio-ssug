@@ -44,7 +44,7 @@ const Investor = () => (
       <Title>Testimonials</Title>
     </Wrapper>
     <div className="testimonialmobile">
-      <article className="mobile mw6 bg-white pa3 pa4-ns mv3">
+      <article className="mobile mw6  pa3 pa4-ns mv3">
         <div className="tc">
           <img src={Chris} className="br-100 h4 w4 dib" title="" alt="" />
           <h4 className="pt4">Chris Wildmoser</h4>
@@ -53,7 +53,7 @@ const Investor = () => (
           Christian Wildmoser is former partner of CVC Capital Partners and Swiss Startup Group Investor.
         </p>
       </article>
-      <article className="mobile mw6 bg-white pa3 pa4-ns mv3">
+      <article className="mobile mw6  pa3 pa4-ns mv3">
         <div className="tc">
           <img src={Urs} className="br-100 h4 w4 dib" title="" alt="" />
           <h4 className="pt4">Urs Wietlisbach</h4>
@@ -63,7 +63,7 @@ const Investor = () => (
           Directors and Chairman of the Markets Committee, based in Zug. He has 28 years of industry experience.
         </p>
       </article>
-      <article className="mobile mw6 bg-white pa3 pa4-ns mv3">
+      <article className="mobile mw6  pa3 pa4-ns mv3">
         <div className="tc">
           <img src={Strebel} className="br-100 h4 w4 dib" title="" alt="" />
           <h4 className="pt4">Dr. Hans Peter Strebel</h4>

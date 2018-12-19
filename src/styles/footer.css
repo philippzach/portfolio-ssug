@@ -16,9 +16,9 @@
 } 
 
 p.copyright span { 
-    background:#7f7f7f; 
+    background:#575757; 
     padding:0 30px; 
-    color: white;
+    color: lightgrey;
     font-family: Poppins;
     font-size: .7em;
 }
@@ -42,8 +42,10 @@ p.copyright span {
     display: inline-block;
 }
 .socialicon {
-    height: 20px;
     padding: 0 5px 0 15px;
+}
+.socialicon:hover path {
+    fill: white;
 }
 .socialcontainer {
     text-align: center;
@@ -54,22 +56,23 @@ p.copyright span {
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    background-color: rgb(127, 126, 126);
-    color: white;
+    background-color: #f3f3f3;
+    color: dimgrey;
 }
 .mobilebutton2 {
     font-family: Poppins;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
-    background-color: rgb(157, 157, 157);
+    background-color: #3a3939;
     color: white;
 }
 .topmenu {
     font-family: Poppins;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     font-size: .9em;
+    color: white;
 }
 .footernav {
     padding-top: 1.25em;
@@ -82,8 +85,25 @@ p.copyright span {
 .sublistitem {
     font-family: Roboto;
     font-weight: 300;
-    font-size: .9em
+    font-size: .9em;
+    color: lightgrey;
+    cursor: pointer;
 }
+.sublistitem:hover {
+    color: white;
+}
+span.topmenu:hover {
+    color: lightgrey;
+    text-shadow: 0.5px 0.5px 0px black;
+}
+.impressum {
+    cursor: pointer;
+}
+.impressum:hover {
+    color:white;
+    
+}
+
 .adress {
     font-size: .85em;
     color: white;

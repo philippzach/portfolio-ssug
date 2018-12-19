@@ -42,7 +42,7 @@ const InvestmentPortfolio = () => (
       </div>
       <Title>Startups</Title>
     </Wrapper>
-    <div className="flex flex-column flex-row-ns mv4">
+    <div className="flex flex-column flex-row-ns mv4 background">
       <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
         <img src={Startup} alt="" />
       </div>
@@ -82,7 +82,7 @@ const InvestmentPortfolio = () => (
       </div>
       <Title>Corporates</Title>
     </Wrapper>
-    <div className="flex flex-column flex-row-ns mv4">
+    <div className="flex flex-column flex-row-ns mv4 background">
       <div className="w-100 w-60-ns pl3-ns flex items-center">
         <div className="pa4">
           <h2>Corporates</h2>

@@ -32,7 +32,7 @@
 }
 @media (min-width: 60em) and (max-width: 75em) {
     div.founders {
-        height: 450px
+        height: 400px
     }
 }
 @media (min-width: 75em) {

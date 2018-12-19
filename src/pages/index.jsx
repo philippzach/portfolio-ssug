@@ -13,12 +13,10 @@ import Logo from '../group.svg';
 //import Fade from 'react-reveal/Fade';
 import Carousel from '../components/carousel';
 import Founders from '../../static/founders.png';
-//import Acceleration from '../../static/acceleration.svg';
-import Acceleration from '../../static/factorylogo.svg';
-import Portfolio from '../../static/portfolio.svg';
-import Growth from '../../static/techlogo.svg';
-//import Growth from '../../static/growth.svg';
-import Investors from '../../static/investors.svg';
+import Acceleration from '../../static/indexacceleration.svg';
+import Portfolio from '../../static/indexportfolio.svg';
+import Growth from '../../static/indexgrowth.svg';
+import Investors from '../../static/indexinvestors.svg';
 import LogoSlider from '../components/logoslider';
 import FounderSlider from '../components/pictureslider/indexfounders';
 
@@ -104,7 +102,7 @@ class Index extends Component {
         <div className="line" />
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <div className="logocontainer">
-            <img src={Logo} alt="" title="" description="" className="logoheight"/>
+            <img src={Logo} alt="" title="" description="" className="logoheight logoanimation"/>
           </div>
           <div className="measure center">
             <h3 className="lh-title">
@@ -141,7 +139,7 @@ class Index extends Component {
             <Link to="/investorclub">
             <div className="card black">
               <img className="svgicons" src={Investors} alt="" description="" title="" />
-              <h4>Investors</h4>
+              {/*}<h4>Investors</h4>{*/}
               <p className="iconsdescription lh-copy">
                 Become part of our investors club and invest in startups to extend your portfolio.
               </p>
@@ -151,7 +149,7 @@ class Index extends Component {
             <Link to="/investmentportfolio">
             <div className="card black">
               <img className="svgicons" src={Portfolio} alt="" description="" title="" />
-              <h4>Portfolio</h4>
+              {/*}<h4>Portfolio</h4>{*/}
               <p className="iconsdescription lh-copy">
                 We invest in a portfolio of well diversified startups in different stages, industries and countries
               </p>

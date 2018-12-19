@@ -12,7 +12,7 @@ const Hero = styled.header`
 -moz-background-size:cover;
 -o-background-size:cover;
 background-size:cover;
-background-position:center;
+background-position:bottom;
 height: 400px;
 `;
 
@@ -49,7 +49,7 @@ const Factory = () => (
         </p>
       </div>
       <div className="startupscontainer">
-        <article className="mw5 center bg-white br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <article className="hover mw5 center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
               Acceleration
@@ -60,21 +60,21 @@ const Factory = () => (
             Based on more than 3-years of experience we have designed a completely new customised accelerator program
             which will prepare you and your team to live up to your potential
           </p>
-          <span className="mid-gray ttu b">Learn more</span>
+          <span className="buttonfactory mid-gray ttu b">Learn more</span>
         </article>
-        <article className="mw5 center bg-white br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <article className="hover mw5 center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
-              startUP Support Meeting
+              Startup Support Meeting
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
           <p className="lh-copy measure center f6 black-70">
             30 minutes meeting where you can pitch us your idea, tell us about your challenges and ask us for feedback
           </p>
-          <span className="mid-gray ttu b">Learn more</span>
+          <span className="buttonfactory mid-gray ttu b">Learn more</span>
         </article>
-        <article className="mw5 center bg-white br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <article className="hover mw5 center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
               Pitch Training
@@ -85,7 +85,7 @@ const Factory = () => (
             We help you to improve your pitch that allows you to understand which areas are important and should be in
             the spotlight to move you company forward as fast as possible
           </p>
-          <span className="mid-gray ttu b">Learn more</span>
+          <span className="buttonfactory mid-gray ttu b">Learn more</span>
         </article>
       </div>
     </div>
@@ -101,7 +101,7 @@ const Factory = () => (
       </div>
       <div className="corporatescontainer">
       <div className="row">
-        <article className="mw5 center bg-white br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
               Intra Innovation
@@ -111,9 +111,9 @@ const Factory = () => (
           <p className="lh-copy measure center f6 black-70">
             We offer customised innovation and digital transformation consulting services.
           </p>
-          <span className="mid-gray ttu b">Learn more</span>
+          <span className="buttonfactory mid-gray ttu b">Learn more</span>
         </article>
-        <article className="mw5 center bg-white br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
               Corporate Acceleration
@@ -124,11 +124,11 @@ const Factory = () => (
             Adjusting our accelerator program to the structure of the corporate, we build up their existing startup
             projects with - or without taking equity.
           </p>
-          <span className="mid-gray ttu b">Learn more</span>
+          <span className="buttonfactory mid-gray ttu b">Learn more</span>
         </article>
         </div>
         <div className="row">
-        <article className="mw5 center bg-white br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
               Company Builder
@@ -139,9 +139,9 @@ const Factory = () => (
             Building up a completely new business model or startup from scratch - outside of the existing corporate
             structures
           </p>
-          <span className="mid-gray ttu b">Learn more</span>
+          <span className="buttonfactory mid-gray ttu b">Learn more</span>
         </article>
-        <article className="mw5 center bg-white br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
               Corporate Venture Capital
@@ -152,7 +152,7 @@ const Factory = () => (
             Developing the center by organising outstanding events & winning new members. In addition, we build up
             frameworks and a CV expertise for CVC in-house.
           </p>
-          <span className="mid-gray ttu b">Learn more</span>
+          <span className="buttonfactory mid-gray ttu b">Learn more</span>
         </article>
         </div>
       </div>

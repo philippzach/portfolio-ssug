@@ -59,13 +59,6 @@ background-color: #edecea;
 .iconsdescription {
     max-width: 700px;
 }
-p.react-reveal.lh-copy {
-    width: 50%;
-    margin: 0px 56% 3em;
-}
-span.topmenu:hover {
-    color: dimgrey;
-}
 .logoheight {
     height: 8em;
 }
@@ -121,4 +114,20 @@ span.topmenu:hover {
   .button.-dark:focus {
     outline: 1px dotted white;
     outline-offset: -4px;
+  }
+  @keyframes move {
+    from {
+    }
+  
+    to {
+        transform: translateY(25px)
+    }
+  }
+  
+  .logoanimation {
+    animation-duration: 2s;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
   }

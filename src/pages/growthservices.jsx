@@ -44,7 +44,7 @@ const GrowthServices = () => (
         </p>
       </div>
       <Title>Services</Title>
-      <h3 className="tc lh-title">What is the growth service patform?</h3>
+      <h3 className="tc lh-title">What is the growth service platform?</h3>
       <p className="tc lh-copy measure center">
         Our beneficial and unique growth service platform gives you advantages in various areas:
       </p>
@@ -54,7 +54,7 @@ const GrowthServices = () => (
             <img src={Product} alt="" title="" />
          </div>
         <div class="fl w-100 w-50-ns tc pa4">
-         <p className="lh-copy">The <b>Swiss Startup Tech</b> helps startups create modern products. With our knowledge in
+         <p className="lh-copy">The <b>SWISS STARTUP TECH</b> helps startups create modern products. With our knowledge in
           application architecture <b>we build highly scalable products and deploy them on cloud infrastructures.</b>
            In addition, we transform existing applications to keep up with the technological progress. 
            We challenge your existing application with our free due diligence. 
@@ -65,17 +65,17 @@ const GrowthServices = () => (
         <article class="mobileview cf mv5">
         <div class="fl w-100 w-50-ns tc pa4">
          <p className="lh-copy">Once the products have been developed, they do not sell themselves. This 
-              is where another SWISS STARTUP TECH service comes in. With our experience in marketing 
+              is where another <b>SWISS STARTUP TECH</b> service comes in. With our experience in marketing 
               and communication, <b>we help you to position the products 
                     correctly and to communicate them externally.</b></p>
             <button>We are happy to consult you</button>
           </div>
-        <div class="fl w-100 w-50-ns tc ">
+        <div class="fl w-100 w-50-ns tc pt4">
             <img src={Marketing} alt="" title="" />
          </div>
         </article>
         <article class="cf mv5">
-        <div class="fl w-100 w-50-ns tc ">
+        <div class="fl w-100 w-50-ns tc pt4">
             <img src={Analysis} alt="" title="" />
          </div>
         <div class="fl w-100 w-50-ns tc pa4">
@@ -89,7 +89,7 @@ const GrowthServices = () => (
               Every startups gets a customised advice and therefore we offer accounting solutions that are tailored to your needs.</p>
             <button>We are happy to consult you</button>
           </div>
-        <div class="fl w-100 w-50-ns tc ">
+        <div class="fl w-100 w-50-ns tc pt4">
             <img src={Acount} alt="" title="" />
          </div>
         </article>

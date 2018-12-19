@@ -2,13 +2,13 @@
 import React, { Component } from 'react';
 import { Transition, animated } from 'react-spring';
 import '../../styles/pagetransitionindexfounders.css';
-import Slice1 from '../../../static/slice1.png';
+import Slice1 from '../../../static/mike_gross_square.jpg';
 
 const pages = [
   style => (
     <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
       <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-        <img src={Slice1} alt="" style={{ maxHeight: '600px' }}/>
+        <img src={Slice1} alt="" style={{ maxHeight: '550px' }}/>
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center">
         <div className="paddingfounders measure">
@@ -52,7 +52,7 @@ const pages = [
   </animated.div>
 ];
 
-export default class PageTransition extends Component {
+export default class Founders extends Component {
   state = { index: 0 };
 
   toggle = e =>
