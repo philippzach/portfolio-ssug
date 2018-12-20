@@ -28,7 +28,7 @@ const pages = [
   ),
   style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-        <img src={Slice2} style={{maxHeight: '600px'}} alt="" title=""/>
+        <img src={Slice1} style={{maxHeight: '600px'}} alt="" title=""/>
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center">
         <div className="paddingdna measure">

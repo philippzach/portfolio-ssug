@@ -4,15 +4,13 @@ import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 import { graphql, Link } from 'gatsby';
 import { Layout, Listing, Wrapper, Title, Navbar } from 'components';
-//import MediaQuery from 'react-responsive';
 import PageTransition from '../components/pictureslider/indexdna';
 import Background from '../../static/indexbg.jpg';
 import BackgroundMobile from '../../static/indexbgmobile.jpg';
 import '../styles/pages/index.css';
 import Logo from '../group.svg';
-//import Fade from 'react-reveal/Fade';
 import Carousel from '../components/carousel';
-import Founders from '../../static/founders.png';
+//import Founders from '../../static/founders.png';
 import Acceleration from '../../static/indexacceleration.svg';
 import Portfolio from '../../static/indexportfolio.svg';
 import Growth from '../../static/indexgrowth.svg';
@@ -206,13 +204,25 @@ Index.propTypes = {
 
 export const pageQuery = graphql`
   query IndexQuery {
-    posts: allPrismicPost(sort: { fields: [data___date], order: DESC }) {
+    posts: allPrismicPost {
       edges {
         node {
           uid
           data {
             title {
               text
+            }
+            coverimage {
+              url
+              alt
+              localFile {
+                id
+              	childImageSharp {
+                  fluid(maxWidth: 700){
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
             }
             date(formatString: "DD.MM.YYYY")
             categories {

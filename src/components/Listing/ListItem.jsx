@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 import { Link } from 'gatsby';
-import { Categories } from 'components/Listing';
+import { Categories, CoverImage } from 'components/Listing';
 
 const Item = styled.li`
   margin-bottom: 1.45rem;
@@ -31,14 +31,17 @@ const StyledLink = styled(Link)`
   }
 `;
 
+
 export default class ListItem extends Component {
   render() {
-    const { node, categories } = this.props;
+    const { node, categories, cover } = this.props;
     return (
       <Item>
         <Headline>
           {node.data.date} — {categories && <Categories categories={categories} />}
         </Headline>
+        { console.log(node.data.coverimage) }
+        {/*}<CoverImage cover={cover} />{*/}
         <StyledLink to={node.uid}>
           {node.data.title.text}
         </StyledLink>
@@ -50,4 +53,7 @@ export default class ListItem extends Component {
 ListItem.propTypes = {
   node: PropTypes.object.isRequired,
   categories: PropTypes.array.isRequired,
+  cover: PropTypes.object.isRequired
 };
+
+

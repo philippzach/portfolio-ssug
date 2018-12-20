@@ -18,6 +18,7 @@ import Placeholder from '../../static/teamavaneo/default.png';
 import Spinu from '../../static/teamssut/alex_spinu.jpg';
 import Michael from '../../static/teamavaneo/michael_brentari.jpg';
 import Laura from '../../static/teamavaneo/laura_izzo.jpg';
+import Supporters from '../components/supporters';
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -236,6 +237,7 @@ const AboutUs = () => (
             </div>
         </TabPanel>
       </Tabs>
+      <Supporters />
   </Layout>
 );
 

@@ -45,7 +45,7 @@ const Category = ({
       <Title style={{ marginTop: '4rem' }}>
         {totalCount} {totalCount === 1 ? 'Post' : 'Posts'} {totalCount === 1 ? 'was' : 'were'} tagged with "{category}"
       </Title>
-      <Listing posts={edges} />
+      {/*}<Listing posts={edges} />{*/}
     </Wrapper>
   </Layout>
 );
@@ -82,6 +82,18 @@ export const pageQuery = graphql`
           data {
             title {
               text
+            }
+            coverimage {
+              url
+              alt
+              localFile {
+                id
+              	childImageSharp {
+                  fluid(maxWidth: 700){
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
             }
             date(formatString: "DD.MM.YYYY")
             categories {
