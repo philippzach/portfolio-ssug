@@ -12,12 +12,10 @@ In order to get it working locally
 ### Key for .env file
 API_KEY=MC5YQWhMUlJBQUFMX0RoYjJK.DO-_vU8IFe-_vSt4He-_vRjvv71rMu-_vU7vv73vv71h77-9Ljnvv71977-9WO-_vQlZMkJ1
 
+Blog Content is managed by Prismic. You can find the hard coded content in "/pages". Each file represents a Page Url.
+
 
 # Swiss Startup Group - Gatsby Starter
-
-
-
-
 
 A typography-heavy & light-themed Gatsby Starter which uses the Headless CMS [Prismic](https://prismic.io/).
 
