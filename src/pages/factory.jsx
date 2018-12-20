@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'react-emotion';
 import { Layout, Wrapper, Navbar, Title } from 'components';
-import Background from '../../static/factory.jpg';
+import Background from '../../static/factory_space.jpg';
 import '../styles/pages/factory.css';
 import FactoryLogo from '../../static/ssuf.svg';
 
@@ -12,7 +12,7 @@ const Hero = styled.header`
 -moz-background-size:cover;
 -o-background-size:cover;
 background-size:cover;
-background-position:bottom;
+background-position:center;
 height: 400px;
 `;
 
@@ -50,6 +50,7 @@ const Factory = () => (
       </div>
       <div className="startupscontainer">
         <article className="hover mw5 center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <a href="https://www.swissstartupfactory.com/startups/accelerator" target="_blank">
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
               Acceleration
@@ -61,8 +62,10 @@ const Factory = () => (
             which will prepare you and your team to live up to your potential
           </p>
           <span className="buttonfactory mid-gray ttu b">Learn more</span>
+          </a>
         </article>
         <article className="hover mw5 center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <a href="mailto:chris.bargholz@ssuf.ch">
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
               Startup Support Meeting
@@ -73,8 +76,10 @@ const Factory = () => (
             30 minutes meeting where you can pitch us your idea, tell us about your challenges and ask us for feedback
           </p>
           <span className="buttonfactory mid-gray ttu b">Learn more</span>
+          </a>
         </article>
         <article className="hover mw5 center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <a href="mailto:chris.bargholz@ssuf.ch">
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
               Pitch Training
@@ -86,6 +91,7 @@ const Factory = () => (
             the spotlight to move you company forward as fast as possible
           </p>
           <span className="buttonfactory mid-gray ttu b">Learn more</span>
+          </a>
         </article>
       </div>
     </div>
@@ -102,6 +108,7 @@ const Factory = () => (
       <div className="corporatescontainer">
       <div className="row">
         <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <a href="https://www.swissstartupfactory.com/corporates/innovation-consulting" target="_blank">
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
               Intra Innovation
@@ -112,8 +119,10 @@ const Factory = () => (
             We offer customised innovation and digital transformation consulting services.
           </p>
           <span className="buttonfactory mid-gray ttu b">Learn more</span>
+          </a>
         </article>
         <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <a href="https://www.swissstartupfactory.com/corporates/corporate-acceleration" target="_blank">
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
               Corporate Acceleration
@@ -125,10 +134,12 @@ const Factory = () => (
             projects with - or without taking equity.
           </p>
           <span className="buttonfactory mid-gray ttu b">Learn more</span>
+          </a>
         </article>
         </div>
         <div className="row">
         <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <a href="https://www.swissstartupfactory.com/corporates/company-building" target="_blank">
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
               Company Builder
@@ -140,8 +151,10 @@ const Factory = () => (
             structures
           </p>
           <span className="buttonfactory mid-gray ttu b">Learn more</span>
+          </a>
         </article>
         <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <a href="https://ccvs.ch/" target="_blank">
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
               Corporate Venture Capital
@@ -153,6 +166,7 @@ const Factory = () => (
             frameworks and a CV expertise for CVC in-house.
           </p>
           <span className="buttonfactory mid-gray ttu b">Learn more</span>
+          </a>
         </article>
         </div>
       </div>

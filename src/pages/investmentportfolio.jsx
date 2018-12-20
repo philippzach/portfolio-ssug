@@ -3,6 +3,7 @@ import styled from 'react-emotion';
 import { Layout, Wrapper, Navbar, Title } from 'components';
 import Background from '../../static/investmentportfolio.jpg';
 import Startup from '../../static/portfoliostartup.jpg';
+import Corporates from '../../static/corporatesportfolio.jpg';
 import '../styles/pages/portfolio.css';
 import Slider from '../components/logosliderportfolio';
 
@@ -63,7 +64,9 @@ const InvestmentPortfolio = () => (
               <b>Just upload your pitch deck so our business analysts will analyse the potential of your company.</b>
             </b>
           </p>
+          <a href="https://ssuf.typeform.com/to/BPDGQ9" target="_blank">
           <div className="button -dark">Send Pitch Deck</div>
+          </a>
         </div>
       </div>
     </div>
@@ -78,7 +81,9 @@ const InvestmentPortfolio = () => (
           startup know how, an in-depth view of the swiss startup market and strong growth services which allows us a
           fast, efficient and straightforward process.
         </p>
-        <div className="button -dark center">Learn more</div>
+        <a href="mailto:virginia.beljean@ssut.ch">
+        <div className="button -dark center">Do you want to invest</div>
+        </a>
       </div>
       <Title>Corporates</Title>
     </Wrapper>
@@ -99,11 +104,13 @@ const InvestmentPortfolio = () => (
               There are a number of possible approaches a business can take to Corporate Venturing. The SWISS STARTUP GROUP is very 
               familiar with the corporate venturing landscape and knows the business from the scratch. We are experts in this field and with our specialized startup know-how, experience and out growth services we strive to provide you with the most suitable strategy with the best service you can find.
           </p>
-          <div className="button -dark">Become part of our Portfolio</div>
+          <a href="mailto:chris.bargholz@ssuf.ch">
+          <div className="button -dark">Tell me more</div>
+          </a>
         </div>
       </div>
       <div className="mb4 mb0-ns w-100 w-40-ns">
-        <img src={Startup} alt="" />
+        <img src={Corporates} alt="" />
       </div>
     </div>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>

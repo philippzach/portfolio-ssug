@@ -2,13 +2,15 @@
 import React, { Component } from 'react';
 import { Transition, animated } from 'react-spring';
 import '../../styles/pagetransitionindexfounders.css';
-import Slice1 from '../../../static/mike_gross_square.jpg';
+import Mike from '../../../static/mike_gross_square.jpg';
+import Max from '../../../static/max_meister_square.jpg';
+import Oli from '../../../static/oliver_walzer_square.jpg';
 
 const pages = [
   style => (
     <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
       <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-        <img src={Slice1} alt="" style={{ maxHeight: '550px' }}/>
+        <img src={Max} alt="" style={{ maxHeight: '550px' }}/>
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center">
         <div className="paddingfounders measure">
@@ -24,7 +26,7 @@ const pages = [
   ),
   style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-        <img src={Slice1} alt="" style={{ maxHeight: '600px' }}/>
+        <img src={Mike} alt="" style={{ maxHeight: '600px' }}/>
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center">
         <div className="paddingfounders measure">
@@ -38,7 +40,7 @@ const pages = [
   </animated.div>,
   style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
       <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-        <img src={Slice1} alt="" style={{ maxHeight: '600px' }} />
+        <img src={Oli} alt="" style={{ maxHeight: '600px' }} />
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center">
         <div className="paddingfounders measure">

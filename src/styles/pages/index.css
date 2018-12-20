@@ -7,6 +7,10 @@ height: 200px;
 width: 2px;
 background-color: #edecea;
 }
+.backgroundpartners {
+    background-color: rgba(247,247,247,0.5);
+    padding: 6rem 0;
+}
 
 .logocontainer {
     display: flex;

@@ -20,105 +20,169 @@ import LogoP from '../../static/logos_portfolio/Logos-Portfolio-svg-westhive-01.
 
 
 const Slider = () => (
-    <div className="slider" style={{height: '250px', margin: '5em 0'}}>
+    <div className="slider2lanes">
 	<div className="slide-track">
 		<div className="slide">
+			<a href="https://avaneo.ch" target="_blank">
 			<img className="iconspa" src={LogoA} height="100" width="250" alt="" />
+			</a>
 		</div>
 		<div className="slide">
+		<a href="http://www.beaconsmind.com/" target="_blank">
 			<img className="iconspa" src={LogoB}  height="100" width="250" alt="" />
+			</a>
 		</div>
 		<div className="slide">
+		<a href="http://blinkers.io/" target="_blank">
 			<img className="iconspa" src={LogoC}  height="100" width="250" alt="" />
+			</a>
 		</div>
 		<div className="slide">
+		<a href="http://bv4.ch" target="_blank">
 			<img className="iconspa" src={LogoD}  height="100" width="250" alt="" />
+			</a>
 		</div>
 		<div className="slide">
+		<a href="http://www.carhelper.ch/" target="_blank">
 			<img className="iconspa" src={LogoE}  height="100" width="250" alt="" />
+			</a>
 		</div>
 	<div className="slide">
+	<a href="http://www.evolute.ch" target="_blank">
 			<img className="iconspa" src={LogoF}  height="100" width="250" alt="" />
+			</a>
 	</div>
 	<div className="slide">
+	<a href="https://www.gowago.ch" target="_blank">
 			<img className="iconspa" src={LogoG}  height="100" width="250" alt="" />
+			</a>
 	</div>
 	<div className="slide">
+	<a href="https://iduntechnologies.ch" target="_blank">
 			<img className="iconspa" src={LogoH}  height="100" width="250" alt="" />
+			</a>
 	</div>
 	<div className="slide">
+			<a href="https://avaneo.ch" target="_blank">
 			<img className="iconspa" src={LogoA} height="100" width="250" alt="" />
+			</a>
 		</div>
 		<div className="slide">
+		<a href="http://www.beaconsmind.com/" target="_blank">
 			<img className="iconspa" src={LogoB}  height="100" width="250" alt="" />
+			</a>
 		</div>
 		<div className="slide">
+		<a href="http://blinkers.io/" target="_blank">
 			<img className="iconspa" src={LogoC}  height="100" width="250" alt="" />
+			</a>
 		</div>
 		<div className="slide">
+		<a href="http://bv4.ch" target="_blank">
 			<img className="iconspa" src={LogoD}  height="100" width="250" alt="" />
+			</a>
 		</div>
 		<div className="slide">
+		<a href="http://www.carhelper.ch/" target="_blank">
 			<img className="iconspa" src={LogoE}  height="100" width="250" alt="" />
+			</a>
 		</div>
 	<div className="slide">
+	<a href="http://www.evolute.ch" target="_blank">
 			<img className="iconspa" src={LogoF}  height="100" width="250" alt="" />
+			</a>
 	</div>
 	<div className="slide">
+	<a href="https://www.gowago.ch" target="_blank">
 			<img className="iconspa" src={LogoG}  height="100" width="250" alt="" />
+			</a>
 	</div>
 	<div className="slide">
+	<a href="https://iduntechnologies.ch" target="_blank">
 			<img className="iconspa" src={LogoH}  height="100" width="250" alt="" />
+			</a>
 	</div>
 	</div>
     <div className="slide-track">
 		<div className="slide">
+		<a href="https://joineer.com" target="_blank">
 			<img className="iconspa" src={LogoI} height="100" width="250" alt="" />
+			</a>
 		</div>
 		<div className="slide">
+		<a href="http://www.mictic.com" target="_blank">
 			<img className="iconspa" src={LogoJ}  height="100" width="250" alt="" />
+			</a>
 		</div>
 		<div className="slide">
+		<a href="https://www.moveagain.ch" target="_blank">
 			<img className="iconspa" src={LogoK}  height="100" width="250" alt="" />
+			</a>
 		</div>
 		<div className="slide">
+		<a href="http://snowcookiesports.com" target="_blank">
 			<img className="iconspa" src={LogoL}  height="100" width="250" alt="" />
+			</a>
 		</div>
 		<div className="slide">
+		<a href="https://swissstartuptech.com" target="_blank">
 			<img className="iconspa" src={LogoM}  height="100" width="250" alt="" />
+			</a>
 		</div>
 	<div className="slide">
+	<a href="https://swissstartupfactory.com" target="_blank">
 			<img className="iconspa" src={LogoN}  height="100" width="250" alt="" />
+			</a>
 	</div>
 	<div className="slide">
+	<a href="http://www.struckd.com/" target="_blank">
 			<img className="iconspa" src={LogoO}  height="100" width="250" alt="" />
+			</a>
 	</div>
 	<div className="slide">
+	<a href="http://westhive.com" target="_blank">
 			<img className="iconspa" src={LogoP}  height="100" width="250" alt="" />
+			</a>
 	</div>
 	<div className="slide">
+		<a href="https://joineer.com" target="_blank">
 			<img className="iconspa" src={LogoI} height="100" width="250" alt="" />
+			</a>
 		</div>
 		<div className="slide">
+		<a href="http://www.mictic.com" target="_blank">
 			<img className="iconspa" src={LogoJ}  height="100" width="250" alt="" />
+			</a>
 		</div>
 		<div className="slide">
+		<a href="https://www.moveagain.ch" target="_blank">
 			<img className="iconspa" src={LogoK}  height="100" width="250" alt="" />
+			</a>
 		</div>
 		<div className="slide">
+		<a href="http://snowcookiesports.com" target="_blank">
 			<img className="iconspa" src={LogoL}  height="100" width="250" alt="" />
+			</a>
 		</div>
 		<div className="slide">
+		<a href="https://swissstartuptech.com" target="_blank">
 			<img className="iconspa" src={LogoM}  height="100" width="250" alt="" />
+			</a>
 		</div>
 	<div className="slide">
+	<a href="https://swissstartupfactory.com" target="_blank">
 			<img className="iconspa" src={LogoN}  height="100" width="250" alt="" />
+			</a>
 	</div>
 	<div className="slide">
+	<a href="http://www.struckd.com/" target="_blank">
 			<img className="iconspa" src={LogoO}  height="100" width="250" alt="" />
+			</a>
 	</div>
 	<div className="slide">
+	<a href="http://westhive.com" target="_blank">
 			<img className="iconspa" src={LogoP}  height="100" width="250" alt="" />
+			</a>
 	</div>
 	</div>
 </div>

@@ -2,19 +2,54 @@
     .containertitleabout {
         margin-left: 30%;
     }
+    .tabrow {
+        display: flex;
+}
+    .tabrow2 {
+        display: flex;
+    }
 }
 @media only screen and (max-width: 950px) {
     .containertitleabout {
         margin-left: 0%;
 }
+    .tabrow {
+        display: flex;
+        flex-direction: column;
 }
+}
+@media only screen and (max-width: 550px) {
+    .containertitle {
+        padding-bottom: 3em;
+    }
+}
+.fixerclass {
+    padding: 4em 0;
+    background-color: #F7F7F7;
+}
+.paddingtabs {
+    padding: 4em 0;
+}
+.tabitem::before {
+    content: '';
+    width: 2rem;
+    height: 1px;
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    top: 40%;
+    right: 4%
+    }
+
 .tabitem {
     width: calc(100%/4);
-    padding: 1em;
+    padding: 2em 0;
     display: flex;
     justify-content: center;
     margin-bottom: 0;
     color: #3c3c3c;
+    font-weight: 500;
+    cursor: pointer;
 }
 .tabitem.one, .tabpanel.one {
     background-color: #dcdfe4;
@@ -33,7 +68,4 @@
     display: flex;
     list-style: none;
     margin: 0;
-}
-.tabrow {
-    display: flex;
 }

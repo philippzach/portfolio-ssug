@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'react-emotion';
 import { Layout, Wrapper, Navbar, Title } from 'components';
-import Background from '../../static/growth.jpg';
+import Background from '../../static/growth_rocket.jpg';
 import '../styles/pages/growth.css';
 import Placeholder from '../../static/placeholder.png';
 import Product from '../../static/growth-process.svg';
@@ -16,7 +16,7 @@ const Hero = styled.header`
 -moz-background-size:cover;
 -o-background-size:cover;
 background-size:cover;
-background-position:center;
+background-position:bottom;
 height: 400px;
 `;
 
@@ -44,13 +44,15 @@ const GrowthServices = () => (
         </p>
       </div>
       <Title>Services</Title>
+      </Wrapper>
+      <div>
+      <Wrapper>
       <h3 className="tc lh-title">What is the growth service platform?</h3>
       <p className="tc lh-copy measure center">
         Our beneficial and unique growth service platform gives you advantages in various areas:
       </p>
-      <div>
       <article class="cf mv5">
-        <div class="fl w-100 w-50-ns tc flex justify-center pt4">
+        <div class="backgroundgrowth fl w-100 w-50-ns tc flex justify-center">
             <img src={Product} alt="" title="" />
          </div>
         <div class="fl w-100 w-50-ns tc pa4">
@@ -59,59 +61,71 @@ const GrowthServices = () => (
            In addition, we transform existing applications to keep up with the technological progress. 
            We challenge your existing application with our free due diligence. 
             Want to get your product started or need additional speed to meet the deadline?</p>
-            <button>We are happy to consult you</button>
+            <a href="mailto:virginia.beljean@ssut.ch">
+            <div className="button -dark">We are happy to consult you</div>
+            </a>
           </div>
         </article>
         <article class="mobileview cf mv5">
-        <div class="fl w-100 w-50-ns tc pa4">
-         <p className="lh-copy">Once the products have been developed, they do not sell themselves. This 
-              is where another <b>SWISS STARTUP TECH</b> service comes in. With our experience in marketing 
-              and communication, <b>we help you to position the products 
-                    correctly and to communicate them externally.</b></p>
-            <button>We are happy to consult you</button>
-          </div>
-        <div class="fl w-100 w-50-ns tc pt4">
-            <img src={Marketing} alt="" title="" />
-         </div>
+            <div class="fl w-100 w-50-ns tc pa4">
+            <p className="lh-copy">Once the products have been developed, they do not sell themselves. This 
+                  is where another <b>SWISS STARTUP TECH</b> service comes in. With our experience in marketing 
+                  and communication, <b>we help you to position the products 
+                        correctly and to communicate them externally.</b></p>
+                        <a href="mailto:virginia.beljean@ssut.ch">
+                        <div className="button -dark">We are happy to consult you</div>
+                        </a>
+              </div>
+            <div class="backgroundgrowth fl w-100 w-50-ns tc">
+                <img src={Marketing} alt="" title="" />
+            </div>
         </article>
         <article class="cf mv5">
-        <div class="fl w-100 w-50-ns tc pt4">
-            <img src={Analysis} alt="" title="" />
-         </div>
-        <div class="fl w-100 w-50-ns tc pa4">
-         <p className="lh-copy"><b>The BV4 experts analyse any startup with their sophisticated rating system and  provide you with relevant information to support your decision process</b> with an objective summary for your convenience. Last but not least they provide with their integrated commercial and financial due diligence a comprehensive review of the startup’s business plan based on projected market conditions, the industry and the competition.</p>
-            <button>We are happy to consult you</button>
-          </div>
+            <div class="backgroundgrowth fl w-100 w-50-ns tc">
+                <img src={Analysis} alt="" title="" />
+            </div>
+            <div class="fl w-100 w-50-ns tc pa4">
+            <p className="lh-copy"><b>The BV4 experts analyse any startup with their sophisticated rating system and  provide you with relevant information to support your decision process</b> with an objective summary for your convenience. Last but not least they provide with their integrated commercial and financial due diligence a comprehensive review of the startup’s business plan based on projected market conditions, the industry and the competition.</p>
+            <a href="https://www.bv4.ch" target="_blank">
+            <div className="button -dark">We are happy to consult you</div>
+            </a>
+              </div>
         </article>
         <article class="mobileview cf mv5">
-        <div class="fl w-100 w-50-ns tc pa4">
-         <p className="lh-copy">With Avaneo we offer <b>customised solutions for startups in the areas of: Accounting, Tax consulting, (Direct and VAT), Payroll accounting, Human resources and controlling.</b>
-              Every startups gets a customised advice and therefore we offer accounting solutions that are tailored to your needs.</p>
-            <button>We are happy to consult you</button>
-          </div>
-        <div class="fl w-100 w-50-ns tc pt4">
-            <img src={Acount} alt="" title="" />
-         </div>
+            <div class="fl w-100 w-50-ns tc pa4">
+            <p className="lh-copy">With Avaneo we offer <b>customised solutions for startups in the areas of: Accounting, Tax consulting, (Direct and VAT), Payroll accounting, Human resources and controlling.</b>
+                  Every startups gets a customised advice and therefore we offer accounting solutions that are tailored to your needs.</p>
+                  <a href="https://www.avaneo.ch" target="_blank">
+                <div className="button -dark">We are happy to consult you</div>
+                </a>
+              </div>
+            <div class="backgroundgrowth fl w-100 w-50-ns tc">
+                <img src={Acount} alt="" title="" />
+            </div>
         </article>
+        </Wrapper>
+        </div>
+        <Wrapper>
         <Title>Networking</Title>
         <div className="mw6 center pa3" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-      <h3 className="lh-title">
-      The SWISS STARTUP GROUP offers a unique networking platform including world-class experts at top institutions
-      </h3>
-      <p className="lh-copy">
-      The Swiss Startup Group offers a unique direct access to all stakeholders of the venture value chain such as investors, corporates, startups, top talents, mentors, academic partners and much more of which you can benefit of.
-      </p>
-      <p className="lh-copy">
-      Thanks to the experience of our founding team and advisory board we can help you with access to a large network and key contacts in different areas that will facilitate the implementation of each startup project.
-      </p>
-      <p className="lh-copy">
-      You can build relations with key players in the ecosystem, both entrepreneurs and business angels, investors and VCs.
-      </p>
-      <div className="tc">
-      <div className="button -dark">Learn more</div>
-      </div>
-    </div>  
-      </div>
+            <h3 className="lh-title">
+            The SWISS STARTUP GROUP offers a unique networking platform including world-class experts at top institutions
+            </h3>
+            <p className="lh-copy">
+            The Swiss Startup Group offers a unique direct access to all stakeholders of the venture value chain such as investors, corporates, startups, top talents, mentors, academic partners and much more of which you can benefit of.
+            </p>
+            <p className="lh-copy">
+            Thanks to the experience of our founding team and advisory board we can help you with access to a large network and key contacts in different areas that will facilitate the implementation of each startup project.
+            </p>
+            <p className="lh-copy">
+            You can build relations with key players in the ecosystem, both entrepreneurs and business angels, investors and VCs.
+            </p>
+            <div className="tc">
+            <a href="mailto:virginia.beljean@ssut.ch">
+            <div className="button -dark">Learn more</div>
+            </a>
+            </div>
+          </div> 
     </Wrapper>
   </Layout>
 );

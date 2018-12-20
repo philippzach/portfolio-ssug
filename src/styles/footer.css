@@ -16,7 +16,7 @@
 } 
 
 p.copyright span { 
-    background:#575757; 
+    background:#5a5a5a; 
     padding:0 30px; 
     color: lightgrey;
     font-family: Poppins;
@@ -36,6 +36,9 @@ p.copyright span {
     }
     .footernav {
         padding: 0;
+    }
+    .mobileonly {
+        display: none;
     }
 }
 .socialfollow {

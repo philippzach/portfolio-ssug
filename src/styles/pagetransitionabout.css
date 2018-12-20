@@ -4,6 +4,7 @@
     width: 100%;
     max-height: 600px;
     will-change: transform, opacity;
+    background-color: #F7F7F7;
 } 
 @media (max-width: 30em) {
     div.about{
@@ -17,17 +18,17 @@
 }
 @media (min-width: 45em) and (max-width: 60em) {
     div.about {
-        height: 350px
+        height: 300px
     }
 }
 @media (min-width: 60em) and (max-width: 75em) {
     div.about {
-        height: 450px
+        height: 360px
     }
 }
 @media (min-width: 75em) {
     div.about {
-        height: 550px
+        height: 450px
     }
 }
 

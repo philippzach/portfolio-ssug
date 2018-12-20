@@ -95,7 +95,9 @@ const Investor = () => (
         pipeline of early stage investment opportunities here in Switzerland.
       </p>
       <div className="tc mt5">
+      <a href="mailto:virginia.beljean@ssut.ch">
       <div className="button -dark center">Join the Investor Club</div>
+      </a>
       </div>
     </div>
   </Layout>

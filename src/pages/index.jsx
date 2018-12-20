@@ -120,7 +120,7 @@ class Index extends Component {
           <Title style={{ marginTop: '4rem', marginBottom: '2em' }}>Our DNA</Title>
         </Wrapper>
         <Carousel />
-        <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+        <Wrapper style={{ paddingTop: '5rem', paddingBottom: '1rem' }}>
           <Title style={{ marginTop: '4rem' }}>What we do</Title>
         </Wrapper>
         <>
@@ -169,20 +169,24 @@ class Index extends Component {
             </Link>
           </div>
         </>
-        <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+        <Wrapper style={{ paddingTop: '5rem', paddingBottom: '1rem' }}>
           <Title className="mb4">Founders</Title>
         </Wrapper>
           <FounderSlider />
-        <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-          <Title style={{ marginTop: '4rem' }}>Partners</Title>
-          <h3 className="tc pt4">Strategic Partners</h3>
-          <p className="lh-copy tc pb4">
-            We develop strategic partnerships with companies and organizations that share important core and strategic
-            startup goals and values. These partnerships comprise several areas of execution aiming – ultimately –
-            sharing value to our partners, the Swiss Startup ecosystem, as well as the Swiss Startup Group at once.
-          </p>
-          <LogoSlider />
-        </Wrapper>
+        <Wrapper style={{ paddingTop: '5rem', paddingBottom: '1rem' }}>
+          <Title>Partners</Title>
+          </Wrapper>
+            <div className="backgroundpartners">
+            <Wrapper>
+            <h3 className="tc pt4">Strategic Partners</h3>
+            <p className="lh-copy tc pb4">
+              We develop strategic partnerships with companies and organizations that share important core and strategic
+              startup goals and values. These partnerships comprise several areas of execution aiming – ultimately –
+              sharing value to our partners, the Swiss Startup ecosystem, as well as the Swiss Startup Group at once.
+            </p>
+            <LogoSlider />
+          </Wrapper>
+        </div>
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <Title style={{ marginTop: '4rem' }}>News & Trending Articles</Title>
           <Listing posts={posts.edges} />
