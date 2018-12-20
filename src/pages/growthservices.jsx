@@ -28,7 +28,7 @@ const GrowthServices = () => (
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Growth</Title>
       <div className="containertitle">
-        <h1 className="lh-title ttu">Dedicated services for our corporate clients, startups and investors</h1>
+        <h2 className="lh-title ttu">Dedicated services for our corporate clients, startups and investors</h2>
         <p className="lh-copy">
           The growth services are just one part from our integrated services. Together we can make your startup grow
           faster and take it to the next level.

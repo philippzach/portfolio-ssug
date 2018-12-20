@@ -37,7 +37,7 @@ const Supporters = () => (
       </Wrapper>
       <div className="flex flex-column flex-row-ns justify-center">
       <div className="pr3-ns mb4 mb0-ns w-100 w-50-ns bg-grey flex containersupporter" style={style}>
-        <div className="logorow flex flex-column">
+        <div className="logorow flex flex-column items-center">
         <a href="https://aiesec.org" target="_blank">
             <img className="pa3" src={LogoA} />
         </a>
@@ -60,7 +60,7 @@ const Supporters = () => (
         <img className="pa3" src={LogoG} />
         </a>
         </div>
-        <div className="logorow flex flex-column">
+        <div className="logorow flex flex-column items-center">
         <a href="https://www.startglobal.org/" target="_blank">
         <img className="pa3" src={LogoH} />
         </a>
@@ -84,7 +84,7 @@ const Supporters = () => (
         </a>
         </div>
       </div>
-      <div className="w-100 w-50-ns pl3-ns flex items-center">
+      <div className="w-100 w-50-ns pl3-ns flex items-center justify-center">
         <div className="pa3 measure">
           <h3>Supporters & Eco System</h3>
           <p className="lh-copy">

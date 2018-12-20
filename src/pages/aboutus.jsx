@@ -39,7 +39,7 @@ const AboutUs = () => (
     <Wrapper style={{ paddingTop: '2rem' }}>
       <Title>Our Team</Title>
       <div className="containertitleabout">
-        <h1 className="lh-title ttu">Values</h1>
+        <h2 className="lh-title ttu">Values</h2>
         <p className="lh-copy">
         Our values are part of our DNA. They guide the way we work with our  partners, within our communities and with each other. Through integrity, passion, humility, simplicity and a focus on 
           success, we have created a vibrant company culture where ideas can blossom, people can thrive and success can flourish. 
@@ -61,7 +61,7 @@ const AboutUs = () => (
           <Tab className="tabitem one" selectedClassName="selected">SSUF</Tab>
           <Tab className="tabitem two" selectedClassName="selected">SSUT</Tab>
           <Tab className="tabitem three" selectedClassName="selected">Avaneo</Tab>
-          <Tab className="tabitem four" selectedClassName="selected">BV4</Tab>
+          
         </TabList>
         <TabPanel className="tabpanel one">
         <div className="paddingtabs">
@@ -188,49 +188,6 @@ const AboutUs = () => (
                 <img src={Laura} className="br-100 h4 w4 dib pa2" title="" alt="" />
                 <h3 className="f5 mb2">Laura Izzo</h3>
                 <h4 className="f6 fw4 gray mt0">Accountant</h4>
-              </div>
-            </article>
-            </div>
-            </div>
-        </TabPanel>
-        <TabPanel className="tabpanel four">
-        <div className="paddingtabs">
-        <div className="tabrow2">
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Placeholder} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Joel Hofmänner</h3>
-                <h4 className="f6 fw4 gray mt0">Head Analyst</h4>
-              </div>
-            </article>
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Placeholder} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Pascal Stämpfli </h3>
-                <h4 className="f6 fw4 gray mt0">Analyst</h4>
-              </div>
-            </article>
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Placeholder} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Tamara Savchuk</h3>
-                <h4 className="f6 fw4 gray mt0">Analyst</h4>
-              </div>
-            </article>
-            </div>
-            <div className="tabrow2">
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Placeholder} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Dorian Ebneter</h3>
-                <h4 className="f6 fw4 gray mt0">Analyst</h4>
-              </div>
-            </article>
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Placeholder} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Jeremy L. Meier</h3>
-                <h4 className="f6 fw4 gray mt0">Analyst</h4>
               </div>
             </article>
             </div>

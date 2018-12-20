@@ -1,18 +1,16 @@
 
 
-In order to get it working
+In order to get it working locally
 
 1. npm install
 2. install gatsby if necessary
-3. create .env.development file for "gatsby develop"
-4. rename to .env.production when running "gatsby build"
-5. After running "build" the static files will be in /public folder
+3. create .env.development + .evn.production with API key from below
+4. run "gatsby develop" to run local server on localhost:8000
+5. run "gatsby build" to compile to production ready code
+6. After running "build" the static files will be in /public folder
 
 ### Key for .env file
 API_KEY=MC5YQWhMUlJBQUFMX0RoYjJK.DO-_vU8IFe-_vSt4He-_vRjvv71rMu-_vU7vv73vv71h77-9Ljnvv71977-9WO-_vQlZMkJ1
-
-
-
 
 
 # Swiss Startup Group - Gatsby Starter
