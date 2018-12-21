@@ -57,15 +57,15 @@ const InvestmentPortfolio = () => (
           <p className="lh-copy">
             No matter if you need money for your first prototype, for further product development or international
             expansion, we can support you. In addition, with us you do not only get funding, you will benefit from our
-            growth services, which offers various skills such as accelerators, angel networks, innovation consulting and
+            growth services, which offers various skills such as accelerators, angel networks, innovation consulting and more.
           </p>
           <p className="lh-copy">
             <b>
-              <b>Just upload your pitch deck so our business analysts will analyse the potential of your company.</b>
+              <b>Just fill in the questionnaire and upload the necessary documents.</b>
             </b>
           </p>
-          <a href="https://ssuf.typeform.com/to/BPDGQ9" target="_blank">
-          <div className="button -dark">Send Pitch Deck</div>
+          <a href="https://ssuf.typeform.com/to/PUNY52" target="_blank">
+          <div className="button -dark">Start Now</div>
           </a>
         </div>
       </div>
@@ -82,7 +82,7 @@ const InvestmentPortfolio = () => (
           fast, efficient and straightforward process.
         </p>
         <a href="mailto:virginia.beljean@ssut.ch">
-        <div className="button -dark center">Do you want to invest</div>
+        <div className="button -dark center">Contact us now</div>
         </a>
       </div>
       <Title>Corporates</Title>

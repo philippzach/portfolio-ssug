@@ -11,6 +11,9 @@ background-color: #edecea;
     background-color: rgba(247,247,247,0.5);
     padding: 6rem 0;
 }
+.containterindex.center {
+    max-width: 35em;
+}
 
 .logocontainer {
     display: flex;

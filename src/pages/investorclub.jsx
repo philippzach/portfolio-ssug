@@ -25,7 +25,7 @@ const Investor = () => (
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Investor Club</Title>
       <div className="containertitle">
-        <h1 className="lh-title ttu">For Private Venture Investors </h1>
+        <h2 className="lh-title ttu">For Private Venture Investors </h2>
         <p className="lh-copy">
           We set a new standard in the selection process of early stage venture investment opportunities for qualified
           investors. Together with some of our advisory board members and with of the most renown ultra high net worth
@@ -74,26 +74,66 @@ const Investor = () => (
         </p>
       </article>
     </div>
-    <div className="mw6 center pa3" style={{ paddingTop: '2rem', paddingBottom: '4rem' }}>
-      <h3 className="lh-title">
-        Switzerland is one of the leading countries of innovation and has a good positioning as a startup hub
+    <div className="mw7 center pa3" style={{ paddingTop: '2rem', paddingBottom: '4rem' }}>
+      <h3 className="mw6 center lh-title tc pt4">
+      Switzerland – The world leader in innovation and top startup hub.
       </h3>
-      <p className="lh-copy">
-        As a member of our investor club you will receive numerous advantages. One of them is that you can extend your
-        portfolio. And the SWISS STARTUP GROUP will support you as your partner from the very beginning.
-      </p>
-      <p className="lh-copy">
-        First we have a world-class talent platform with our Swiss universities and our world wide benchmarking
-        educational system. Second our home market is a great testing market before scaling globally. Third Switzerland
-        has a very strong network of world market player companies such as ABB, Credit Suisse, UBS, Nestlé, Roche,
-        Novartis just to mention a few of them. Last but not least Switzerland offers political stability and liberal
-        laws.{' '}
-      </p>
-      <p className="lh-copy">
-        We experience a strong push of Switzerland’s next generation to follow an entrepreneurial career and create
-        their own startup companies. We are convinced that these ingredients follow in a exclusive Swiss investment
-        pipeline of early stage investment opportunities here in Switzerland.
-      </p>
+      <h4 className="center mw6 tc">Why?</h4>
+      <div className="row">
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        
+          <div className="tc">
+            <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
+            World Class Talent Platform
+            </h3>
+            
+          </div>
+          <p className="lh-copy measure center f6 black-70">
+          We have a world-class talent platform with our Swiss universities and our world wide benchmarking educational system.
+          </p>
+          
+        </article>
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        
+          <div className="tc">
+            <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
+            Liberal Governance
+            </h3>
+          </div>
+          <p className="lh-copy measure center f6 black-70">
+          The Swiss economy is one of the most liberal and competitive economies in the world. Low capital costs, a stable currency, moderate taxation, a federal state system, and economic and political stability guarantee a high level of security for investments in Switzerland.
+          </p>
+          
+        </article>
+        </div>
+        <div className="row">
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        
+          <div className="tc">
+            <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
+            World Market Players
+            </h3>
+            
+          </div>
+          <p className="lh-copy measure center f6 black-70">
+          Switzerland has a very strong network of world market player companies such as ABB, Credit Suisse, UBS, Nestlé, Roche, Novartis just to mention a few of them. Last but not least Switzerland offers political stability and liberal laws.
+          </p>
+          
+        </article>
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        
+          <div className="tc">
+            <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
+            Entrepreneurial Mindset
+            </h3>
+          </div>
+          <p className="lh-copy measure center f6 black-70">
+          We experience a strong push of Switzerland’s next generation to follow an entrepreneurial career and create their own startup companies.
+          </p>
+          
+        </article>
+        </div>
+      <p className="mw6 center tc lh-copy pt5 b">We are convinced that these ingredients follow in a exclusive Swiss investment pipeline of early stage investment opportunities here in Switzerland.</p>
       <div className="tc mt5">
       <a href="mailto:virginia.beljean@ssut.ch">
       <div className="button -dark center">Join the Investor Club</div>

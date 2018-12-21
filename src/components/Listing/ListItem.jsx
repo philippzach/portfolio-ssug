@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 import { Link } from 'gatsby';
-import { Categories, CoverImage } from 'components/Listing';
+import { Categories } from 'components/Listing';
+import '../../styles/blogpost.css';
 
 const Item = styled.li`
   margin-bottom: 1.45rem;
@@ -22,8 +23,8 @@ const Headline = styled.p`
 `;
 
 const StyledLink = styled(Link)`
-  font-size: 2rem;
-  margin-top: 1em;
+  font-size: 1.75rem;
+  margin: 1em 0 .5em;
   color: ${props => props.theme.colors.black};
   font-style: normal;
   @media (max-width: ${props => props.theme.breakpoints.s}) {
@@ -34,18 +35,22 @@ const StyledLink = styled(Link)`
 
 export default class ListItem extends Component {
   render() {
-    const { node, categories, cover } = this.props;
+    const { node, categories} = this.props;
     return (
+      <Link to={node.uid}>
       <Item>
+      <div className="blogpost fl w-100 w-50-ns pa3 pa3-m pa4-l">
+        { console.log(node.data.coverimage) }
+        <img className="shadowblog" src={node.data.coverimage.url} />
+          <StyledLink className="lh-title">
+          {node.data.title.text}
+          </StyledLink>
         <Headline>
           {node.data.date} — {categories && <Categories categories={categories} />}
         </Headline>
-        { console.log(node.data.coverimage) }
-        {/*}<CoverImage cover={cover} />{*/}
-        <StyledLink to={node.uid}>
-          {node.data.title.text}
-        </StyledLink>
+        </div>
       </Item>
+      </Link>
     );
   }
 }

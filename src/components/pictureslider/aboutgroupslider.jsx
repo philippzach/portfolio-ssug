@@ -6,6 +6,7 @@ import Slice1 from '../../../static/slice1.png';
 import Mike from '../../../static/mike_gross_square.jpg';
 import Max from '../../../static/max_meister_square.jpg';
 import Oli from '../../../static/oliver_walzer_square.jpg';
+import Larissa from '../../../static/larissa.jpg';
 
 const pages = [
   style => (
@@ -58,7 +59,7 @@ const pages = [
   </animated.div>,
    style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
    <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-     <img src={Oli} alt="" style={{ maxHeight: '600px' }} />
+     <img src={Larissa} alt="" style={{ maxHeight: '600px' }} />
    </div>
    <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
      <div className="paddingfounders measure">

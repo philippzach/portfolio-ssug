@@ -102,7 +102,7 @@ class Index extends Component {
           <div className="logocontainer">
             <img src={Logo} alt="" title="" description="" className="logoheight logoanimation"/>
           </div>
-          <div className="measure center">
+          <div className="containterindex center">
             <h3 className="lh-title">
             <span className="b">The SWISS STARTUP GROUP provides you the exclusive possibility to get everything from one source thanks to our venture platform.</span>
             </h3>
@@ -149,7 +149,7 @@ class Index extends Component {
               <img className="svgicons" src={Portfolio} alt="" description="" title="" />
               {/*}<h4>Portfolio</h4>{*/}
               <p className="iconsdescription lh-copy">
-                We invest in a <b>Portfolio</b> of well diversified startups in different stages, industries and countries
+                We invest in a <b>Portfolio</b> of well diversified startups in different stages, industries and countries.
               </p>
               <p className="ttu b">Our Portfolio ></p>
             </div>
@@ -185,10 +185,12 @@ class Index extends Component {
             <LogoSlider />
           </Wrapper>
         </div>
-        <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+        <Wrapper style={{ paddingTop: '5rem' }}>
           <Title style={{ marginTop: '4rem' }}>News & Trending Articles</Title>
-          <Listing posts={posts.edges} />
         </Wrapper>
+        <div className="cf ph2-ns"> 
+          <Listing posts={posts.edges} />
+        </div> 
       </Layout>
     );
   }
@@ -204,7 +206,7 @@ Index.propTypes = {
 
 export const pageQuery = graphql`
   query IndexQuery {
-    posts: allPrismicPost {
+    posts: allPrismicPost(limit: 6, sort: { fields: [data___date], order: DESC }) {
       edges {
         node {
           uid

@@ -33,27 +33,27 @@ const Navbar = () => (
           <ul className="nav__submenu factory">
             <li className="nav__submenu-item">
             
-              <a target="_blank" className="nav_submenu_linkleft">Startups</a>
+              <a href="https://www.swissstartupfactory.com/startups/accelerator" target="_blank" className="nav_submenu_linkleft">Startups</a>
             
             </li>
             <li className="nav__submenu-item">
             
-            <a target="_blank" className="nav_submenu_linkleft">Corporate Acceleration</a>
+            <a href="https://www.swissstartupfactory.com/corporates/corporate-acceleration" target="_blank" className="nav_submenu_linkleft">Corporate Acceleration</a>
             
             </li>
             <li className="nav__submenu-item">
             
-            <a target="_blank" className="nav_submenu_linkleft">Company Building</a>
+            <a href="https://www.swissstartupfactory.com/corporates/company-building" target="_blank" className="nav_submenu_linkleft">Company Building</a>
             
             </li>
             <li className="nav__submenu-item">
             
-            <a target="_blank" className="nav_submenu_linkleft">Corporate Venture Capital</a>
+            <a href="https://ccvs.ch/" target="_blank" className="nav_submenu_linkleft">Corporate Venture Capital</a>
             
             </li>
             <li className="nav__submenu-item">
             
-            <a target="_blank" className="nav_submenu_linkleft">Intra Innovation</a>
+            <a href="https://www.swissstartupfactory.com/corporates/innovation-consulting" target="_blank" className="nav_submenu_linkleft">Intra Innovation</a>
             
             </li>
           </ul>
@@ -63,13 +63,9 @@ const Navbar = () => (
         <li className="nav__menu-item"><Link to="/investorclub" >Investor Club</Link></li>
         <li className="nav__menu-item"><Link to="/aboutus" className="about_after grey">About</Link>
           <ul className="nav__submenu about">
-            <li className="nav__submenu-item"><Link to="/aboutus" className="nav_submenu_linkright">Values</Link>
+            <li className="nav__submenu-item"><a href="https://jobs.swissstartupgroup.com" className="nav_submenu_linkright">Jobs</a>
             </li>
-            <li className="nav__submenu-item"><a className="nav_submenu_linkright">Jobs</a>
-            </li>
-            <li className="nav__submenu-item"><Link to="/aboutus" className="nav_submenu_linkright">Partner</Link>
-            </li>
-            <li className="nav__submenu-item"><a className="nav_submenu_linkright">News</a>
+            <li className="nav__submenu-item"><Link to="/blog" className="nav_submenu_linkright">News</Link>
             </li>
           </ul>
         </li>

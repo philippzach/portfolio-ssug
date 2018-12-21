@@ -39,6 +39,9 @@ export const pageQuery = graphql`
             title {
               text
             }
+            coverimage {
+              url
+            }
             date(formatString: "DD.MM.YYYY")
             categories {
               category {

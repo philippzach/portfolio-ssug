@@ -12,7 +12,7 @@ const pages = [
       <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
         <img src={Max} alt="" style={{ maxHeight: '550px' }}/>
       </div>
-      <div className="w-100 w-60-ns pl3-ns flex items-center">
+      <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
         <div className="paddingfounders measure">
           <h3>Max Meister, COO</h3>
           <p className="lh-copy">
@@ -26,9 +26,9 @@ const pages = [
   ),
   style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
     <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-        <img src={Mike} alt="" style={{ maxHeight: '600px' }}/>
+        <img src={Mike} alt="" style={{ maxHeight: '550px' }}/>
       </div>
-      <div className="w-100 w-60-ns pl3-ns flex items-center">
+      <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
         <div className="paddingfounders measure">
           <h3>Mike Baur, CEO</h3>
           <p className="lh-copy">
@@ -40,9 +40,9 @@ const pages = [
   </animated.div>,
   style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
       <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-        <img src={Oli} alt="" style={{ maxHeight: '600px' }} />
+        <img src={Oli} alt="" style={{ maxHeight: '550px' }} />
       </div>
-      <div className="w-100 w-60-ns pl3-ns flex items-center">
+      <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
         <div className="paddingfounders measure">
           <h3>Oliver Walzer, COO</h3>
           <p className="lh-copy">

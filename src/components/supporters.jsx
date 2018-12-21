@@ -38,11 +38,11 @@ const Supporters = () => (
       <div className="flex flex-column flex-row-ns justify-center">
       <div className="pr3-ns mb4 mb0-ns w-100 w-50-ns bg-grey flex containersupporter" style={style}>
         <div className="logorow flex flex-column items-center">
-        <a href="https://aiesec.org" target="_blank">
-            <img className="pa3" src={LogoA} />
+        <a href="https://www.wengervieli.ch" target="_blank">
+        <img className="pa3" src={LogoM} />
         </a>
-        <a href="https://www.biathlon-arena-lenzerheide.ch/de" target="_blank">
-        <img className="pa3" src={LogoB} />
+        <a href="https://www.microsoft.com/de-ch/" target="_blank">
+        <img className="pa3" src={LogoG} />
         </a>
         <a href="https://www.cofoundme.org/" target="_blank">
         <img className="pa3" src={LogoC} />
@@ -53,11 +53,11 @@ const Supporters = () => (
         <a href="https://innolabfribourg.ch/" target="_blank">
         <img className="pa3" src={LogoE} />
         </a>
-        <a href="https://www.investiere.ch/" target="_blank">
-        <img className="pa3" src={LogoF} />
+        <a href="https://worldwebforum.com/display/nextGen/Home" target="_blank">
+        <img className="pa3" src={LogoN} />
         </a>
-        <a href="https://www.microsoft.com/de-ch/" target="_blank">
-        <img className="pa3" src={LogoG} />
+        <a href="https://aiesec.org" target="_blank">
+            <img className="pa3" src={LogoA} />
         </a>
         </div>
         <div className="logorow flex flex-column items-center">
@@ -76,11 +76,11 @@ const Supporters = () => (
         <a href="https://what.digital/" target="_blank">
         <img className="pa3" src={LogoL} />
         </a>
-        <a href="https://www.wengervieli.ch" target="_blank">
-        <img className="pa3" src={LogoM} />
+        <a href="https://www.investiere.ch/" target="_blank">
+        <img className="pa3" src={LogoF} />
         </a>
-        <a href="https://worldwebforum.com/display/nextGen/Home" target="_blank">
-        <img className="pa3" src={LogoN} />
+        <a href="https://www.biathlon-arena-lenzerheide.ch/de" target="_blank">
+        <img className="pa3" src={LogoB} />
         </a>
         </div>
       </div>
@@ -107,16 +107,32 @@ const Supporters = () => (
         </div>
       <div className="pr3-ns mb4 mb0-ns w-100 w-50-ns bg-grey flex containersupporter" style={style}>
         <div className="logorow flex flex-column">
+        <a href="http://www.dieci.ch/" target="_blank">
         <img className="pa3" src={Logoa} />
+        </a>
+        <a href="http://www.drink.ch" target="_blank">
         <img className="pa3" src={Logob} />
+        </a>
+        <a href="http://www.feldschloesschen.ch" target="_blank">
         <img className="pa3" src={Logoc} />
+        </a>
+        <a href="https://www.interio.ch/de" target="_blank">
         <img className="pa3" src={Logod} />
+        </a>
         </div>
         <div className="logorow flex flex-column">
+        <a href="http://www.nespresso.com" target="_blank">
         <img className="pa3" src={Logoe} />
+        </a>
+        <a href="http://www.on-running.com" target="_blank">
         <img className="pa3" src={Logof} />
+        </a>
+        <a href="http://www.redbull.com" target="_blank">
         <img className="pa3" src={Logog} />
+        </a>
+        <a href="https://winzerei-zur-metzg.ch" target="_blank">
         <img className="pa3" src={Logoh} />
+        </a>
         </div>
       </div>
       </div>
