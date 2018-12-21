@@ -12,6 +12,8 @@ In order to get it working locally
 ### Key for .env file
 API_KEY=MC5YQWhMUlJBQUFMX0RoYjJK.DO-_vU8IFe-_vSt4He-_vRjvv71rMu-_vU7vv73vv71h77-9Ljnvv71977-9WO-_vQlZMkJ1
 
+Blog Content is managed by Prismic. You can find the hard coded content in "/pages". Each file represents a Page Url.
+
 
 # Swiss Startup Group - Gatsby Starter
 
@@ -23,22 +25,19 @@ A typography-heavy & light-themed Gatsby Starter which uses the Headless CMS [Pr
 Multiple features of Prismic are used in this starter:
 
 - **Slices**: Enrich your blogposts with custom quotes, images or codeblocks. You can order them how you like. When you used the _Image-Slice_ the image will get inserted and optimized by **gatsby-image**
-- **Labels**: When marking a single word or a whole block with the given labels, Prism.js will transform these to syntax-highlighted codeblocks
-- **Relationship fields**: Categorize your blogposts in Categories via a relationship field. You can change categories on the fly
-- **Both custom types (Single / Repeatable)**: (Nearly) Every aspect of the website is managed with Prismic. The social media links or the recent projects get both managed in Prismic, no hardcoded entries!
+- **Custom types (Categories / Posts)**:
 
 Therefore the starter has following features:
 
 - Prismic as Headless CMS
-- Emotion for styling
-- CSS Styles 
+- Emotion and CSS for styling
 - Responsive layout 
   - gatsby-image - The right image size for every screen size
   - Media Queries
 - SEO
   - Sitemap
   - Schema.org JSONLD
-  - Helmet 
+  - Helmet for Meta Tags
   - Favicons
   - robots.txt
 - Offline Support
