@@ -8,7 +8,7 @@
 }  
 @media only screen and (min-width: 550px) {
     .dnamain > div {
-        background-color: rgba(247,247,247, 1);
+        background-color: #E6E6EA;
     }
 }
 @media only screen and  (max-width: 480px){

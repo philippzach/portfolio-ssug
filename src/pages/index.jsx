@@ -86,7 +86,7 @@ class Index extends Component {
         <Hero>
           <Navbar />
           <HeroInner>
-            <h1>
+            <h1 className="headingcolorshadow">
               Switzerland's #1
               <br />
               Venture Builder
@@ -100,16 +100,22 @@ class Index extends Component {
         <div className="line" />
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <div className="logocontainer">
-            <img src={Logo} alt="" title="" description="" className="logoheight logoanimation"/>
+            <h3 className="lh-copy headingcolorshadow tc">ONE platform is all you need</h3>
+            <p className="tr measure">Big Know How</p>
+            <p>Unique Network</p>
+            <img src={Logo} alt="" title="" description="" className="logoheight"/>
+            <p  className="tr measure">Exclusive Pipeline</p>
+            <p>Early Stage Investors</p>
           </div>
-          <div className="containterindex center">
-            <h3 className="lh-title">
-            <span className="b">The SWISS STARTUP GROUP provides you the exclusive possibility to get everything from one source thanks to our venture platform.</span>
-            </h3>
+          <div className="containertitle">
+            <h2 className="lh-copy headingcolorshadow">
+            OUR VISION: BECOME WORLD CLASS VENTURE BUILDER
+            </h2>
+            <p className="lh-copy"><span className="b">The SWISS STARTUP GROUP provides you the exclusive possibility to get everything from one source thanks to our venture platform.</span></p>
             <p className="lh-copy">
-             With our Swiss venture platform you can scout, accelerate and invest in the most promising early stage startup projects and become a part of the Swiss Startup Ecosystem.
+            With our Swiss venture platform you can scout, accelerate and invest in the most promising early stage startup projects and become a part of the Swiss Startup Ecosystem.
             </p>
-            <p className="lh-copy">With our proven track record as independent venture platform, we have built an exclusive skill set and know how in Switzerland. We know the Swiss Startup market in-depth and scout actively for the best cases in all regions, building a strong bridge between the Swiss and the international markets.</p>
+            <p className="lh-copy">As a independent venture platform with proven track record we have built an exclusive skill set and know how. We know the startup market in-depth and scout actively for the best cases in all regions, building a strong bridge between the Swiss and the international markets.</p>
             <p className="lh-copy">Our venture platform combines all different skills of accelerators, angel networks, VC’s, venture builders and innovation consulting. It makes the Swiss Startup Group a unique piece in Switzerland’s fast growing ecosystem.</p>
             <b className="lh-copy">We are dedicated, passionate and driven by success.</b>
             <br />
@@ -128,8 +134,7 @@ class Index extends Component {
               <img className="svgicons" src={Acceleration} alt="" description="" title="" />
               {/*}<h4>Acceleration</h4>{*/}
               <p className="iconsdescription lh-copy">
-                  Our <b>Accelerator</b> provides a professional execution platform to corporates and startups through a
-                  process that brings their innovation to market fast and lean.
+                  Our <b>Accelerator</b> provides a professional execution platform to corporates and startups.
               </p>
               <p className="ttu b">Our Accelerator ></p>
             </div>
@@ -188,9 +193,12 @@ class Index extends Component {
         <Wrapper style={{ paddingTop: '5rem' }}>
           <Title style={{ marginTop: '4rem' }}>News & Trending Articles</Title>
         </Wrapper>
-        <div className="cf ph2-ns"> 
+        <div className="cf ph2-ns mb3"> 
           <Listing posts={posts.edges} />
         </div> 
+        <div className="w100 flex justify-center mb6">
+        <div className="button -dark"><Link to="/blog">NEWS</Link></div>
+        </div>
       </Layout>
     );
   }

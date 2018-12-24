@@ -62,11 +62,19 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 };
 
-/* Allow us to use something like: import { X } from 'directory' instead of '../../folder/directory' */
-exports.onCreateWebpackConfig = ({ actions }) => {
+/* Allow us to use something like: import { X } from 'directory' instead of '../../folder/directory' & Typeform window undefined */
+exports.onCreateWebpackConfig = ({ loaders, actions }) => {
   actions.setWebpackConfig({
     resolve: {
       modules: [path.resolve(__dirname, 'src'), 'node_modules'],
+    },
+    module: {
+      rules: [
+        {
+          test: /@typeform/,
+          use: loaders.null(),
+        },
+      ],
     },
   });
 };

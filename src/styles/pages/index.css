@@ -11,16 +11,13 @@ background-color: #edecea;
     background-color: rgba(247,247,247,0.5);
     padding: 6rem 0;
 }
-.containterindex.center {
-    max-width: 35em;
-}
 
 .logocontainer {
     display: flex;
     flex-direction: column;
     margin: 7em auto 5em;
 }
-@media (max-width: 750px) {
+@media only screen and (max-width: 750px) {
     .cardwrapper {
         display: flex-wrap;
         margin: 0 auto;
@@ -29,12 +26,17 @@ background-color: #edecea;
         
     }
 }
-@media (min-width: 750px) {
+@media only screen and (min-width: 750px) {
     .cardwrapper {
         display: flex;
         margin: 0 auto;
         width: 95%;
         justify-content: space-between;
+    }
+}
+@media only screen and (min-width: 30em) {
+    .containertitle {
+        margin-left: 40%;
     }
 }
 
@@ -122,6 +124,10 @@ background-color: #edecea;
   .button.-dark:focus {
     outline: 1px dotted white;
     outline-offset: -4px;
+  }
+  .headingcolorshadow {
+    color: #333333;
+    text-shadow: 1px 1px 1px #666;
   }
   @keyframes move {
     from {

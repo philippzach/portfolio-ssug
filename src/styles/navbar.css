@@ -143,8 +143,8 @@ nav ul {
   }
   .nav__submenu.about {
       background-color: rgba(247,247,247, 0.9);
-      width: 140px;
-      margin-left: -70px;
+      width: 110px;
+    margin-left: -46px;
       text-align: right;
       box-shadow: 0px 15px 61px -14px rgba(0,0,0,0.5);
       border-radius: 3px;
@@ -162,7 +162,7 @@ nav ul {
     transition-timing-function: ease-out;
   }
   .nav__submenu-item:hover a.nav_submenu_linkleft {
-    padding-left: 1em
+    padding-left: 1.5em
   }
   .nav__submenu-item:hover a.nav_submenu_linkright {
     padding-right: 1.5em
@@ -178,7 +178,7 @@ nav ul {
     margin-top: 1em;
 }
 .nav_submenu_linkleft {
-    padding-left: .5em
+    padding-left: 1em
 }
 .nav_submenu_linkright {
     padding-right: 1em

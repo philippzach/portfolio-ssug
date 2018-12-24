@@ -8,6 +8,8 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "react-tabs/style/react-tabs.css";
 import FounderSlider from '../components/pictureslider/aboutgroupslider';
 import Mike from '../../static/teamssug/mike_baur.jpg';
+import Max from '../../static/teamssug/meister_max.png';
+import Larissa from '../../static/teamssug/larissa.jpg';
 import Oliver from '../../static/teamssug/walzer_oliver.png';
 import Chris from '../../static/teamssuf/chris_bargholz.jpg';
 import Patric from '../../static/teamssuf/patric_hauser.jpg';
@@ -36,10 +38,10 @@ const AboutUs = () => (
     <Hero>
       <Navbar />
     </Hero>
-    <Wrapper style={{ paddingTop: '2rem' }}>
+    <Wrapper style={{ paddingTop: '5rem' }}>
       <Title>Our Team</Title>
       <div className="containertitleabout">
-        <h2 className="lh-title ttu">Values</h2>
+        <h2 className="lh-title ttu headingcolorshadow">Values</h2>
         <p className="lh-copy">
         Our values are part of our DNA. They guide the way we work with our  partners, within our communities and with each other. Through integrity, passion, humility, simplicity and a focus on 
           success, we have created a vibrant company culture where ideas can blossom, people can thrive and success can flourish. 
@@ -48,7 +50,7 @@ const AboutUs = () => (
       </div>
       <Title className="mt6">SSUG</Title>
       <div className="containertitle">
-        <h1 className="lh-title ttu">Team</h1>
+        <h1 className="lh-title ttu headingcolorshadow">Team</h1>
         <p className="lh-copy">
          Our team consists smart experts with a diverse set of experiences and backgrounds. As unique as we are individually, we share a mutual passion for startup ecosstem and doing excellent work for our clients and partners. Get to know our team below. 
         </p>
@@ -58,11 +60,47 @@ const AboutUs = () => (
       <div className="fixerclass"></div>
       <Tabs className="mobiletabs">
         <TabList className="tablist">
+          <Tab className="tabitem four" selectedClassName="selected">SSUG</Tab>
           <Tab className="tabitem one" selectedClassName="selected">SSUF</Tab>
           <Tab className="tabitem two" selectedClassName="selected">SSUT</Tab>
           <Tab className="tabitem three" selectedClassName="selected">Avaneo</Tab>
-          
         </TabList>
+        <TabPanel className="tabpanel four">
+        <div className="paddingtabs">
+        <div className="tabrow2">
+            <article className="center pa3 pa4-ns">
+            <div className="tc">
+                <img src={Mike} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <h3 className="f5 mb2">Mike Baur</h3>
+                <h4 className="f6 fw4 gray mt0">CEO</h4>
+              </div>
+              
+            </article>
+            <article className="center pa3 pa4-ns">
+            <div className="tc">
+                <img src={Max} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <h3 className="f5 mb2">Max Meister</h3>
+                <h4 className="f6 fw4 gray mt0">CSO</h4>
+              </div>
+            </article>
+            <article className="center pa3 pa4-ns">
+            <div className="tc">
+                <img src={Oliver} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <h3 className="f5 mb2">Oliver Walzer</h3>
+                <h4 className="f6 fw4 gray mt0">COO</h4>
+              </div>
+              
+            </article>
+            <article className="center pa3 pa4-ns">
+            <div className="tc">
+                <img src={Larissa} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <h3 className="f5 mb2">Larissa Truffer</h3>
+                <h4 className="f6 fw4 gray mt0">Executive Assistant</h4>
+              </div>
+            </article>
+            </div>
+            </div>
+        </TabPanel>
         <TabPanel className="tabpanel one">
         <div className="paddingtabs">
           <div className="tabrow">
@@ -193,6 +231,7 @@ const AboutUs = () => (
             </div>
             </div>
         </TabPanel>
+        
       </Tabs>
       <Supporters />
   </Layout>

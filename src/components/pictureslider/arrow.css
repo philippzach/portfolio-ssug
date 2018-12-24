@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1100px) {
+    .arrows {
+        position: relative;
+        /**/
+        position: absolute;
+        right: 1.5em;
+        /**/
+        width: 28px;
+        height: 28px;
+        transform: translate(-50%, -50%);
+        transform: rotate(-90deg);
+      }
+}
+@media only screen and (min-width: 1100px) {
+    .arrows {
+        position: relative;
+        /**/
+        position: absolute;
+        right: 4em;
+        /**/
+        width: 28px;
+        height: 28px;
+        transform: translate(-50%, -50%);
+        transform: rotate(-90deg);
+      }
+}
+
+  .arrows:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-left: 9.3333333333px solid rgba(0, 0, 0, 0.7);
+    border-bottom: 9.3333333333px solid rgba(0, 0, 0, 0.7);
+    transform: translate(9.3333333333px, 37.3333333333px) rotate(-45deg);
+    animation: arrows 6s linear infinite;
+  }
+  .arrows:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-left: 9.3333333333px solid rgba(0, 0, 0, 0.7);
+    border-bottom: 9.3333333333px solid rgba(0, 0, 0, 0.7);
+    transform: translate(18.6666666667px, 0px) rotate(-45deg);
+    animation: arrows 6s linear infinite -3s;
+  }
+  
+  @keyframes arrows {
+    0% {
+      border-left: 9.3333333333px solid rgba(0, 0, 0, 0);
+      border-bottom: 9.3333333333px solid rgba(0, 0, 0, 0);
+      transform: translate(-4.6666666667px, -18.6666666667px) rotate(-45deg);
+    }
+    10%, 90% {
+      border-left: 9.3333333333px solid rgba(0, 0, 0, 0);
+      border-bottom: 9.3333333333px solid rgba(0, 0, 0, 0);
+    }
+    50% {
+      border-left: 9.3333333333px solid rgba(0, 0, 0, 0.7);
+      border-bottom: 9.3333333333px solid rgba(0, 0, 0, 0.7);
+      transform: translate(-4.6666666667px, 0px) rotate(-45deg);
+    }
+    100% {
+      border-left: 9.3333333333px solid rgba(0, 0, 0, 0);
+      border-bottom: 9.3333333333px solid rgba(0, 0, 0, 0);
+      transform: translate(-4.6666666667px, 18.6666666667px) rotate(-45deg);
+    }
+  }
+  

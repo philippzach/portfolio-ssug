@@ -25,14 +25,13 @@ const Investor = () => (
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Investor Club</Title>
       <div className="containertitle">
-        <h2 className="lh-title ttu">For Private Venture Investors </h2>
+        <h2 className="lh-copy ttu headingcolorshadow">For Private Venture Investors </h2>
         <p className="lh-copy">
           We set a new standard in the selection process of early stage venture investment opportunities for qualified
-          investors. Together with some of our advisory board members and with of the most renown ultra high net worth
-          individuals in Europe we create a powerful and efficient startup investor club.
+          investors. Together with our advisory board members and with some of the most renown ultra high net worth individuals in Europe we create a powerful and efficient startup investor club.
         </p>
         <p className="lh-copy">
-          The SWISS STARTUP GROUP has a unique startup know- how, an in-depth view of the Swiss startup market and a
+          The SWISS STARTUP GROUP has a unique startup know how, an in-depth view of the Swiss startup market and a
           strong platform which allows a fast, efficient and straightforward process.
         </p>
         <p className="lh-copy">
@@ -75,12 +74,12 @@ const Investor = () => (
       </article>
     </div>
     <div className="mw7 center pa3" style={{ paddingTop: '2rem', paddingBottom: '4rem' }}>
-      <h3 className="mw6 center lh-title tc pt4">
-      Switzerland – The world leader in innovation and top startup hub.
+      <h3 className="mw6 center lh-copy tc pt4">
+      Switzerland a world leader in innovation and top startup hub.
       </h3>
       <h4 className="center mw6 tc">Why?</h4>
       <div className="row">
-        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <article className="shadow hover items-center center br1 pa3 pv4-ns mv3 ba b--black-10 flex flex-column justify-around">
         
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>

@@ -26,7 +26,7 @@ const InvestmentPortfolio = () => (
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Portfolio</Title>
       <div className="containertitle">
-        <h2 className="lh-title ttu">Be part of the whole together we grow faster and stronger</h2>
+        <h2 className="lh-copy ttu headingcolorshadow">Be part of the whole together we grow faster and stronger</h2>
         <p className="lh-copy">
           With our investors club, the network platform with direct access to all stakeholders of the venture chain, our
           know-how, deal-flow and funding the SWISS STARTUP GROUP helps you to meet your needs.
@@ -37,13 +37,12 @@ const InvestmentPortfolio = () => (
           investors, corporates, startups, mentors and many more.
         </p>
         <p className="lh-copy">
-          Together we achieve more. With our growth services we offer an integrated package which enables an efficient
-          and straightforward process for corporates, investors and startups.
+          Together we achieve more.
         </p>
       </div>
-      <Title>Startups</Title>
+      <Title>What we offer</Title>
     </Wrapper>
-    <div className="flex flex-column flex-row-ns mv4 background">
+    <div className="flex flex-column flex-row-ns mv4 background pb4">
       <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
         <img src={Startup} alt="" />
       </div>
@@ -71,9 +70,8 @@ const InvestmentPortfolio = () => (
       </div>
     </div>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-      <Title>Investors</Title>
       <div className="containerinvestors mv6">
-        <h3 className="lh-title measure center">
+        <h3 className="lh-copy measure center">
           Do you want to invest in Swiss startups to extend your portfolio?
         </h3>
         <p className="investorparagraph lh-copy">
@@ -85,22 +83,22 @@ const InvestmentPortfolio = () => (
         <div className="button -dark center">Contact us now</div>
         </a>
       </div>
-      <Title>Corporates</Title>
+      
     </Wrapper>
-    <div className="flex flex-column flex-row-ns mv4 background">
+    <div className="flex flex-column flex-row-ns mv4 background pb4">
       <div className="w-100 w-60-ns pl3-ns flex items-center">
         <div className="pa4">
           <h2>Corporates</h2>
-          <p className="lh-copy">
+          <p className="lh-copy measure">
             Coordination and control mechanisms hinder agile work. As a result, established companies lose market share to innovative startups. 
           </p>
-          <p className="lh-copy">
+          <p className="lh-copy measure">
           Corporate venturing enables your company to invest in new strategically relevant business models with
            top entrepreneurs who have fresh ideas and thus a different approach to a specific market. Thereby you
             gain competitive advantages such as specialist knowledge in the core business (R&D), learn new know-how
              in processes and partner models (M&A), open up new business opportunities and much more.
           </p>
-          <p className="lh-copy">
+          <p className="lh-copy measure">
               There are a number of possible approaches a business can take to Corporate Venturing. The SWISS STARTUP GROUP is very 
               familiar with the corporate venturing landscape and knows the business from the scratch. We are experts in this field and with our specialized startup know-how, experience and out growth services we strive to provide you with the most suitable strategy with the best service you can find.
           </p>
@@ -114,7 +112,7 @@ const InvestmentPortfolio = () => (
       </div>
     </div>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-      <Title>Portfolio</Title>
+    <h2 className="lh-copy measure center tc">Portfolio</h2>
       <Slider />
     </Wrapper>
   </Layout>

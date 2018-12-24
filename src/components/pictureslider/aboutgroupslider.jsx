@@ -7,6 +7,7 @@ import Mike from '../../../static/mike_gross_square.jpg';
 import Max from '../../../static/max_meister_square.jpg';
 import Oli from '../../../static/oliver_walzer_square.jpg';
 import Larissa from '../../../static/larissa.jpg';
+import './arrow.css';
 
 const pages = [
   style => (
@@ -15,14 +16,32 @@ const pages = [
         <img src={Max} alt="" style={{ maxHeight: '600px' }}/>
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
-        <div className="paddingfounders measure">
+        <div className="paddingfounders">
           <h4 className="mb1 dimgray">COO</h4>
           <h3>Max Meister</h3>
-          <p className="lh-copy">
-          “The last two years are a great proof of concept for us and we are amazed by the market response.
-                  Together with our strategic partners we will now focus on internationalization, while corporate
-                  acceleration and company building will play an even more important role in our future business model.”
-          </p>
+          <div className="flex">
+          <dl class="lh-title pr1-s pr2-m pr4-l mt0">
+              <dt class="f6 b">Favorite Heroes</dt>
+              <dd class="ml0 mb3">MacGuyver, Colt Seaver, Eddie the Eagle</dd>
+              <dt class="f6 b mt2">Passion</dt>
+              <dd class="ml0 mb3">Swimming</dd>
+              <dt class="f6 b mt2">You didn't know that about me</dt>
+              <dd class="ml0 mb3">I used to have Rastas</dd>
+              <dt class="f6 b mt2">Negligible vices</dt>
+              <dd class="ml0 mb3">approx. 15 coffees a day</dd>
+            </dl>
+            <dl class="lh-title mt0">
+              <dt class="f6 b mt2">Always goes</dt>
+              <dd class="ml0 mb3">Underpromise, Overdeliver</dd>
+              <dt class="f6 b mt2">Last thing in the evening</dt>
+              <dd class="ml0 mb3">Netflix - 2 minutes before I fall asleep </dd>
+              <dt class="f6 b mt2">What Oliver says</dt>
+              <dd class="ml0 mb3"> I'll take a close look first!</dd>
+              <dt class="f6 b mt2">What Mike says</dt>
+              <dd class="ml0 mb3">GoGoGo!</dd>
+          </dl>
+          </div>
+          <span className="arrows"></span>
         </div>
       </div>
     </animated.div>
@@ -32,12 +51,32 @@ const pages = [
         <img src={Mike} alt="" style={{ maxHeight: '600px' }}/>
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
-        <div className="paddingfounders measure">
+        <div className="paddingfounders">
           <h4 className="mb1 dimgray">CEO</h4>
           <h3>Mike Baur</h3>
-          <p className="lh-copy">
-          “With the SSUG we want to put Switzerland on the map of international early stage investors. For us, this is just the beginning of a very exciting but also challenging mission. We are thankful for the investors trust and we are fully conscious of the responsibility and performance driven ambition of the SWISS STARTUP GROUP”.
-          </p>
+          <div className="flex">
+          <dl class="lh-title pr1-s pr2-m pr4-l mt0">
+              <dt class="f6 b">Never without</dt>
+              <dd class="ml0 mb3">Airpods</dd>
+              <dt class="f6 b mt2">A must for reading</dt>
+              <dd class="ml0 mb3">Das Power Prinzip von Anthony Robbins</dd>
+              <dt class="f6 b mt2">As a child, I wanted to be</dt>
+              <dd class="ml0 mb3">professional footballer or tennis professional</dd>
+              <dt class="f6 b mt2">Overrated</dt>
+              <dd class="ml0 mb3">A lot of people I'd met in banking</dd>
+            </dl>
+            <dl class="lh-title mt0">
+              <dt class="f6 b mt2">I’m not good at</dt>
+              <dd class="ml0 mb3">Electrician works</dd>
+              <dt class="f6 b mt2">Unbelievable but true</dt>
+              <dd class="ml0 mb3">I had a crazy lunch with Dennis Rodman</dd>
+              <dt class="f6 b mt2">What Max says</dt>
+              <dd class="ml0 mb3">Let’s do it!</dd>
+              <dt class="f6 b mt2">What Oliver says</dt>
+              <dd class="ml0 mb3"> I'll take a close look first!</dd>
+          </dl>
+          </div>
+          <span className="arrows"></span>
         </div>
       </div>
 
@@ -47,13 +86,32 @@ const pages = [
         <img src={Oli} alt="" style={{ maxHeight: '600px' }} />
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
-        <div className="paddingfounders measure">
+        <div className="paddingfounders">
           <h4 className="mb1 dimgray">COO</h4>
           <h3>Oliver Walzer</h3>
-          <p className="lh-copy">
-          “Building a startup is a challenging journey with many roadblocks to overcome. With our track record in venture building we enable startups to iterate faster and increase the likeliness of their success. We use our platform to foster innovation and consolidate our experience into the Swiss Startup Group.”
-          </p>
-
+          <div className="flex">
+          <dl class="lh-title pr1-s pr2-m pr4-l mt0">
+              <dt class="f6 b">What Mike says</dt>
+              <dd class="ml0 mb3">It’s all about the power of platform</dd>
+              <dt class="f6 b mt2">Still on the bucket list</dt>
+              <dd class="ml0 mb3">Seeing northern lights</dd>
+              <dt class="f6 b mt2">I always wanted to</dt>
+              <dd class="ml0 mb3">Ride in a submarine</dd>
+              <dt class="f6 b mt2">Favorite Tool</dt>
+              <dd class="ml0 mb3">Harvest</dd>
+            </dl>
+            <dl class="lh-title mt0">
+              <dt class="f6 b mt2">My teen idol</dt>
+              <dd class="ml0 mb3">DJ Bobo</dd>
+              <dt class="f6 b mt2">I do best</dt>
+              <dd class="ml0 mb3">Finding solutions to any kind of problem</dd>
+              <dt class="f6 b mt2">Overestimated</dt>
+              <dd class="ml0 mb3">Money</dd>
+              <dt class="f6 b mt2">Underestimated</dt>
+              <dd class="ml0 mb3">Pragmatism</dd>
+          </dl>
+          </div>
+          <span className="arrows"></span>
         </div>
       </div>
   </animated.div>,
@@ -62,12 +120,32 @@ const pages = [
      <img src={Larissa} alt="" style={{ maxHeight: '600px' }} />
    </div>
    <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
-     <div className="paddingfounders measure">
+     <div className="paddingfounders">
        <h4 className="mb1 dimgray">Executive Assistant</h4>
        <h3>Larissa Truffer</h3>
-       <p className="lh-copy">
-       “Building a startup is a challenging journey with many roadblocks to overcome. With our track record in venture building we enable startups to iterate faster and increase the likeliness of their success. We use our platform to foster innovation and consolidate our experience into the Swiss Startup Group.”
-       </p>
+       <div className="flex">
+          <dl class="lh-title pr1-s pr2-m pr4-l mt0">
+              <dt class="f6 b">No-Go</dt>
+              <dd class="ml0 mb3">Arroganz</dd>
+              <dt class="f6 b mt2">I Like</dt>
+              <dd class="ml0 mb3">Pasta</dd>
+              <dt class="f6 b mt2">Never without</dt>
+              <dd class="ml0 mb3">Mobile phone and handkerchiefs</dd>
+              <dt class="f6 b mt2">My Desktop</dt>
+              <dd class="ml0 mb3">Must be cleaned up every week</dd>
+            </dl>
+            <dl class="lh-title mt0">
+              <dt class="f6 b mt2">Summer Residence</dt>
+              <dd class="ml0 mb3">Lake Zurich</dd>
+              <dt class="f6 b mt2">Winter residence</dt>
+              <dd class="ml0 mb3">Warm Bed</dd>
+              <dt class="f6 b mt2">Unbelievable but true</dt>
+              <dd class="ml0 mb3">I once had red, short hair</dd>
+              <dt class="f6 b mt2">What's easy</dt>
+              <dd class="ml0 mb3">to get up early</dd>
+          </dl>
+          </div>
+          <span className="arrows"></span>
      </div>
    </div>
 </animated.div>

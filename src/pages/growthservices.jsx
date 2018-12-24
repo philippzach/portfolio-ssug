@@ -25,10 +25,10 @@ const GrowthServices = () => (
     <Hero>
       <Navbar />
     </Hero>
-    <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
+    <Wrapper style={{ paddingTop: '5rem', paddingBottom: '1rem' }}>
       <Title>Growth</Title>
       <div className="containertitle">
-        <h2 className="lh-title ttu">Dedicated services for our corporate clients, startups and investors</h2>
+        <h2 className="lh-copy ttu headingcolorshadow">Dedicated services for our corporate clients, startups and investors</h2>
         <p className="lh-copy">
           The growth services are just one part from our integrated services. Together we can make your startup grow
           faster and take it to the next level.
@@ -43,10 +43,10 @@ const GrowthServices = () => (
           marketing and communication, legal, finance, growth hacking and more.
         </p>
       </div>
-      <Title>Services</Title>
       </Wrapper>
-      <div>
+      <div className="backgroundgrowthcontainer pv5">
       <Wrapper>
+      <Title>Services</Title>
       <h3 className="tc lh-title">What is the growth service platform?</h3>
       <p className="tc lh-copy measure center">
         Our beneficial and unique growth service platform gives you advantages in various areas:
@@ -69,9 +69,9 @@ const GrowthServices = () => (
         <article class="mobileview cf mv5">
             <div class="fl w-100 w-50-ns tc pa4">
             <p className="lh-copy">Once the products have been developed, they do not sell themselves. This 
-                  is where another <b>SWISS STARTUP TECH</b> service comes in. With our experience in marketing 
-                  and communication, <b>we help you to position the products 
-                        correctly and to communicate them externally.</b></p>
+                  is where another <b>SWISS STARTUP TECH</b> service comes in. With our experience in <b>marketing 
+                  and communication,</b> we help you to position the products 
+                        correctly and to communicate them externally.</p>
                         <a href="mailto:virginia.beljean@ssut.ch">
                         <div className="button -dark">We are happy to consult you</div>
                         </a>
@@ -106,13 +106,13 @@ const GrowthServices = () => (
         </Wrapper>
         </div>
         <Wrapper>
-        <Title>Networking</Title>
-        <div className="mw6 center pa3" style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-            <h3 className="lh-title">
+        <Title style={{ marginTop: '5em'}}>Networking</Title>
+        <div className="mw6 center pa3" style={{ paddingTop: '2rem', paddingBottom: '5rem' }}>
+            <h3 className="lh-copy">
             The SWISS STARTUP GROUP offers a unique networking platform including world-class experts at top institutions
             </h3>
             <p className="lh-copy">
-            The Swiss Startup Group offers a unique direct access to all stakeholders of the venture value chain such as investors, corporates, startups, top talents, mentors, academic partners and much more of which you can benefit of.
+            The SWISS STARTUP GROUP offers a unique direct access to all stakeholders of the venture value chain such as investors, corporates, startups, top talents, mentors, academic partners and much more of which you can benefit of.
             </p>
             <p className="lh-copy">
             Thanks to the experience of our founding team and advisory board we can help you with access to a large network and key contacts in different areas that will facilitate the implementation of each startup project.

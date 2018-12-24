@@ -14,7 +14,9 @@ class Blog extends Component {
         <Navbar />
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <Title style={{ marginTop: '4rem' }}>Blog & News</Title>
+          <div className="cf ph2-ns mb3"> 
           <BlogGrid posts={posts.edges} />
+          </div>
         </Wrapper>
       </Layout>
     );
