@@ -153,7 +153,7 @@ const Factory = () => (
         </article>
         </div>
         <div className="row">
-        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-center">
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column">
         <a className="flex flex-column" href="https://www.swissstartupfactory.com/corporates/company-building" target="_blank">
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
@@ -161,7 +161,7 @@ const Factory = () => (
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
-          <div>
+          <div className="mv3">
           <p className="lh-copy measure center f6 black-70">
             Building up a completely new business model or startup from scratch - outside of the existing corporate
             structures

@@ -1,4 +1,4 @@
-div .o-grid {
+/* div .o-grid {
     -webkit-box-direction: normal;
     -webkit-box-orient: horizontal;
     -webkit-box-pack: justify;
@@ -13,4 +13,61 @@ div .o-grid {
     margin: 0 0 5.5rem;
     outline: 0;
     padding: 0;
+  } */
+
+.subscribe h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #3e4146;
+    line-height: 130%;
+    letter-spacing: 0.01rem;
+    margin-bottom: 30px;
+  }
+   .subscribe h1 span {
+  }
+   .subscribe form {
+    overflow: hidden;
+  }
+   .subscribe form input {
+    width: 25%;
+    float: left;
+    padding: 15px 20px;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1rem;
+    outline: 0;
+  }
+   .subscribe form input[type=email] {
+    width: 66%;
+    margin-right: 4%;
+    margin-bottom: 15px;
+    border: 1px solid #bec1c5;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    font-weight: 600;
+  }
+  
+   .subscribe form input[type=email]:focus {
+    border-color: #3e4146;
+  }
+   .subscribe form input[type=submit] {
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    text-transform: uppercase;
+    font-family: roboto;
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    background: rgb(0,67,103);
+  }
+  .subscribe form input[type=submit]:hover {
+    
+  }
+
+  .blog {
+    columns: 2;
   }

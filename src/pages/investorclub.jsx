@@ -74,15 +74,15 @@ const Investor = () => (
       </article>
     </div>
     <div className="mw7 center pa3" style={{ paddingTop: '2rem', paddingBottom: '4rem' }}>
-      <h3 className="mw6 center lh-copy tc pt4">
+      <h3 className="mw6 center lh-copy lcenter tc pt4">
       Switzerland a world leader in innovation and top startup hub.
       </h3>
       <h4 className="center mw6 tc">Why?</h4>
       <div className="row">
-        <article className="shadow hover items-center center br1 pa3 pv4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-center">
         
           <div className="tc">
-            <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
+            <h3 className="f4 lh-copy" style={{ color: 'rgb(0, 71, 107)' }}>
             World Class Talent Platform
             </h3>
             
@@ -92,7 +92,7 @@ const Investor = () => (
           </p>
           
         </article>
-        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-center">
         
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
@@ -106,7 +106,7 @@ const Investor = () => (
         </article>
         </div>
         <div className="row">
-        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-center">
         
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
@@ -119,7 +119,7 @@ const Investor = () => (
           </p>
           
         </article>
-        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-around">
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-center">
         
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>

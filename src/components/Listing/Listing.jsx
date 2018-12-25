@@ -8,6 +8,12 @@ const List = styled.ul`
   margin-bottom: 4rem;
   list-style-type: none;
   margin-left: 0;
+  @media only screen and (max-width: 650px) {
+    columns: 1;
+  }
+  @media only screen and (min-width: 650px) {
+    columns: 2;
+  }
 `;
 
 export default class Listing extends Component {

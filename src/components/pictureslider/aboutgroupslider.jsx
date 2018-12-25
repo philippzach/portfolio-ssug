@@ -17,7 +17,7 @@ const pages = [
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
         <div className="paddingfounders">
-          <h4 className="mb1 dimgray">COO</h4>
+          <h4 className="mb1 dimgray">CSO</h4>
           <h3>Max Meister</h3>
           <div className="flex">
           <dl class="lh-title pr1-s pr2-m pr4-l mt0">

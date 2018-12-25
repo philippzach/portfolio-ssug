@@ -36,7 +36,7 @@ const InvestmentPortfolio = () => (
           corporate partners. We know the corporate venturing landscape inside out and have an excellent network from
           investors, corporates, startups, mentors and many more.
         </p>
-        <p className="lh-copy">
+        <p className="lh-copy b">
           Together we achieve more.
         </p>
       </div>
@@ -46,7 +46,7 @@ const InvestmentPortfolio = () => (
       <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
         <img src={Startup} alt="" />
       </div>
-      <div className="w-100 w-60-ns pl3-ns flex items-center measure">
+      <div className="w-100 w-60-ns pl3-ns flex items-center measure center">
         <div className="pa4">
           <h2>Startups</h2>
           <p className="lh-copy">
@@ -86,7 +86,7 @@ const InvestmentPortfolio = () => (
       
     </Wrapper>
     <div className="flex flex-column flex-row-ns mv4 background pb4">
-      <div className="w-100 w-60-ns pl3-ns flex items-center">
+      <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
         <div className="pa4">
           <h2>Corporates</h2>
           <p className="lh-copy measure">

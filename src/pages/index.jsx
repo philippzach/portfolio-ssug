@@ -193,7 +193,7 @@ class Index extends Component {
         <Wrapper style={{ paddingTop: '5rem' }}>
           <Title style={{ marginTop: '4rem' }}>News & Trending Articles</Title>
         </Wrapper>
-        <div className="cf ph2-ns mb3"> 
+        <div className="ph4-s ph5-m ph6-l mb3"> 
           <Listing posts={posts.edges} />
         </div> 
         <div className="w100 flex justify-center mb6">
@@ -214,7 +214,7 @@ Index.propTypes = {
 
 export const pageQuery = graphql`
   query IndexQuery {
-    posts: allPrismicPost(limit: 6, sort: { fields: [data___date], order: DESC }) {
+    posts: allPrismicPost(limit: 4, sort: { fields: [data___date], order: DESC }) {
       edges {
         node {
           uid

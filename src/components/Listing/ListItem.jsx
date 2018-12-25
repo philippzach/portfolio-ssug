@@ -6,7 +6,7 @@ import { Categories } from 'components/Listing';
 import '../../styles/blogpost.css';
 
 const Item = styled.li`
-  margin-bottom: 1.45rem;
+margin-bottom: 1.5em;
 `;
 
 const Headline = styled.p`
@@ -22,8 +22,8 @@ const Headline = styled.p`
   }
 `;
 
-const StyledLink = styled(Link)`
-  font-size: 1.75rem;
+const StyledLink = styled.p`
+  font-size: 1rem;
   margin: 1em 0 .5em;
   color: ${props => props.theme.colors.black};
   font-style: normal;
@@ -39,10 +39,9 @@ export default class ListItem extends Component {
     return (
       <Link to={node.uid}>
       <Item>
-      <div className="blogpost fl w-100 w-50-ns pa3 pa3-m pa4-l">
-        { console.log(node.data.coverimage) }
+      <div className="blogpost pa3 pa4-m pa4-l">
         <img className="shadowblog" src={node.data.coverimage.url} />
-          <StyledLink className="lh-title">
+          <StyledLink className="lh-copy">
           {node.data.title.text}
           </StyledLink>
         <Headline>

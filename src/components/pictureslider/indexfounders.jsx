@@ -15,7 +15,7 @@ const pages = [
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center ">
         <div className="paddingfounders measure">
-          <h3>Max Meister, COO</h3>
+          <h3>Max Meister, CSO</h3>
           <span className="arrows"></span>
           <p className="lh-copy">
           “The last two years are a great proof of concept for us and we are amazed by the market response.

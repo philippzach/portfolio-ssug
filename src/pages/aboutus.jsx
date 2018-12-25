@@ -7,6 +7,7 @@ import Values from '../components/Values/index';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "react-tabs/style/react-tabs.css";
 import FounderSlider from '../components/pictureslider/aboutgroupslider';
+import AdvisorSlider from '../components/pictureslider/aboutadvisorslider';
 import Mike from '../../static/teamssug/mike_baur.jpg';
 import Max from '../../static/teamssug/meister_max.png';
 import Larissa from '../../static/teamssug/larissa.jpg';
@@ -136,11 +137,17 @@ const AboutUs = () => (
             <div className="tabrow">
             <article className="center pa3 pa4-ns">
             <div className="tc">
+                <img src={Max} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <h3 className="f5 mb2">Max Meister</h3>
+                <h4 className="f6 fw4 gray mt0">CSO</h4>
+              </div>
+            </article>
+            <article className="center pa3 pa4-ns">
+            <div className="tc">
                 <img src={Alex} className="br-100 h4 w4 dib pa2" title="" alt="" />
                 <h3 className="f5 mb2">Alex Just</h3>
                 <h4 className="f6 fw4 gray mt0">Startup Consultant</h4>
               </div>
-              
             </article>
             <article className="center pa3 pa4-ns">
             <div className="tc">
@@ -231,8 +238,11 @@ const AboutUs = () => (
             </div>
             </div>
         </TabPanel>
-        
       </Tabs>
+      <Wrapper style={{ paddingTop: "5em", paddingBottom: "1em"}}>
+        <Title>Advisors</Title>
+        </Wrapper>
+        <AdvisorSlider />
       <Supporters />
   </Layout>
 );
