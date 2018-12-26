@@ -94,7 +94,7 @@ const Factory = () => (
           </div>
           <p className="lh-copy measure center f6 black-70">
             We help you to improve your pitch that allows you to understand which areas are important and should be in
-            the spotlight to move you company forward as fast as possible
+            the spotlight to move you company forward
           </p>
           <div className="mv3">
           <span className="buttonfactory mid-gray ttu b">Learn more</span>

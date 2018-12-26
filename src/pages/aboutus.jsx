@@ -61,9 +61,9 @@ const AboutUs = () => (
       <div className="fixerclass"></div>
       <Tabs className="mobiletabs">
         <TabList className="tablist">
-          <Tab className="tabitem four" selectedClassName="selected">SSUG</Tab>
-          <Tab className="tabitem one" selectedClassName="selected">SSUF</Tab>
-          <Tab className="tabitem two" selectedClassName="selected">SSUT</Tab>
+          <Tab className="tabitem four" selectedClassName="selected">Swiss Startup Group</Tab>
+          <Tab className="tabitem one" selectedClassName="selected">Swiss Startup Factory</Tab>
+          <Tab className="tabitem two" selectedClassName="selected">Swiss Startup Tech</Tab>
           <Tab className="tabitem three" selectedClassName="selected">Avaneo</Tab>
         </TabList>
         <TabPanel className="tabpanel four">
@@ -240,7 +240,7 @@ const AboutUs = () => (
         </TabPanel>
       </Tabs>
       <Wrapper style={{ paddingTop: "5em", paddingBottom: "1em"}}>
-        <Title>Advisors</Title>
+        <Title>Advisory Board</Title>
         </Wrapper>
         <AdvisorSlider />
       <Supporters />

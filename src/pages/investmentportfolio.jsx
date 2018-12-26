@@ -86,6 +86,9 @@ const InvestmentPortfolio = () => (
       
     </Wrapper>
     <div className="flex flex-column flex-row-ns mv4 background pb4">
+    <div className="mb4 mb0-ns w-100 w-40-ns">
+        <img src={Corporates} alt="" />
+      </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
         <div className="pa4">
           <h2>Corporates</h2>
@@ -106,9 +109,6 @@ const InvestmentPortfolio = () => (
           <div className="button -dark">Tell me more</div>
           </a>
         </div>
-      </div>
-      <div className="mb4 mb0-ns w-100 w-40-ns">
-        <img src={Corporates} alt="" />
       </div>
     </div>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>

@@ -100,16 +100,16 @@ class Index extends Component {
         <div className="line" />
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <div className="logocontainer">
-            <h3 className="lh-copy headingcolorshadow tc">ONE platform is all you need</h3>
-            <p className="tr measure">Big Know How</p>
-            <p>Unique Network</p>
+            <h3 className="lh-copy headingcolorshadow tc mt4 mb5">ONE platform is all you need</h3>
+            <p className="tr measure mb0 b">Big Know How</p>
+            <p className="b">Unique Network</p>
             <img src={Logo} alt="" title="" description="" className="logoheight"/>
-            <p  className="tr measure">Exclusive Pipeline</p>
-            <p>Early Stage Investors</p>
+            <p  className="tr measure mb0 mt4 b">Exclusive Pipeline</p>
+            <p className="b">Early Stage Investors</p>
           </div>
           <div className="containertitle">
             <h2 className="lh-copy headingcolorshadow">
-            OUR VISION: BECOME WORLD CLASS VENTURE BUILDER
+            OUR VISION: BECOME A WORLD CLASS VENTURE BUILDER
             </h2>
             <p className="lh-copy"><span className="b">The SWISS STARTUP GROUP provides you the exclusive possibility to get everything from one source thanks to our venture platform.</span></p>
             <p className="lh-copy">
@@ -197,7 +197,7 @@ class Index extends Component {
           <Listing posts={posts.edges} />
         </div> 
         <div className="w100 flex justify-center mb6">
-        <div className="button -dark"><Link to="/blog">NEWS</Link></div>
+        <div className="button -dark"><a style={{ fontWeight: "600", lineHeight: "1.3em" }} href="/blog" target="_blank">NEWS</a></div>
         </div>
       </Layout>
     );

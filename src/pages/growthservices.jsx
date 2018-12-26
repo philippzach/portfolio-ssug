@@ -55,7 +55,7 @@ const GrowthServices = () => (
         <div class="backgroundgrowth fl w-100 w-50-ns tc flex justify-center">
             <img src={Product} alt="" title="" />
          </div>
-        <div class="fl w-100 w-50-ns tc pa4">
+        <div class="fl w-100 w-50-ns tr pa3-s pa3-m pl4-l">
          <p className="lh-copy">The <b>SWISS STARTUP TECH</b> helps startups create modern products. With our knowledge in
           application architecture <b>we build highly scalable products and deploy them on cloud infrastructures.</b>
            In addition, we transform existing applications to keep up with the technological progress. 
@@ -67,7 +67,7 @@ const GrowthServices = () => (
           </div>
         </article>
         <article class="mobileview cf mv5">
-            <div class="fl w-100 w-50-ns tc pa4">
+            <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
             <p className="lh-copy">Once the products have been developed, they do not sell themselves. This 
                   is where another <b>SWISS STARTUP TECH</b> service comes in. With our experience in <b>marketing 
                   and communication,</b> we help you to position the products 
@@ -84,7 +84,7 @@ const GrowthServices = () => (
             <div class="backgroundgrowth fl w-100 w-50-ns tc">
                 <img src={Analysis} alt="" title="" />
             </div>
-            <div class="fl w-100 w-50-ns tc pa4">
+            <div class="fl w-100 w-50-ns tr pa4-s pa3-m pl4-l">
             <p className="lh-copy"><b>The BV4 experts analyse any startup with their sophisticated rating system and  provide you with relevant information to support your decision process</b> with an objective summary for your convenience. Last but not least they provide with their integrated commercial and financial due diligence a comprehensive review of the startup’s business plan based on projected market conditions, the industry and the competition.</p>
             <a href="https://www.bv4.ch" target="_blank">
             <div className="button -dark">We are happy to consult you</div>
@@ -92,7 +92,7 @@ const GrowthServices = () => (
               </div>
         </article>
         <article class="mobileview cf mv5">
-            <div class="fl w-100 w-50-ns tc pa4">
+            <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
             <p className="lh-copy">With Avaneo we offer <b>customised solutions for startups in the areas of: Accounting, Tax consulting, (Direct and VAT), Payroll accounting, Human resources and controlling.</b>
                   Every startups gets a customised advice and therefore we offer accounting solutions that are tailored to your needs.</p>
                   <a href="https://www.avaneo.ch" target="_blank">

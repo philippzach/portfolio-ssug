@@ -79,7 +79,7 @@ const Investor = () => (
       </h3>
       <h4 className="center mw6 tc">Why?</h4>
       <div className="row">
-        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-center">
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column ">
         
           <div className="tc">
             <h3 className="f4 lh-copy" style={{ color: 'rgb(0, 71, 107)' }}>
@@ -92,7 +92,7 @@ const Investor = () => (
           </p>
           
         </article>
-        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-center">
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column ">
         
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
@@ -106,7 +106,7 @@ const Investor = () => (
         </article>
         </div>
         <div className="row">
-        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-center">
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column ">
         
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
@@ -119,7 +119,7 @@ const Investor = () => (
           </p>
           
         </article>
-        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column justify-center">
+        <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column ">
         
           <div className="tc">
             <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
