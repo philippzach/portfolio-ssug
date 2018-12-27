@@ -27,6 +27,7 @@ const StyledLink = styled.p`
   margin: 1em 0 .5em;
   color: ${props => props.theme.colors.black};
   font-style: normal;
+  height: 3em;
   @media (max-width: ${props => props.theme.breakpoints.s}) {
     font-size: 1.777rem;
   }
@@ -37,8 +38,8 @@ export default class ListItem extends Component {
   render() {
     const { node, categories} = this.props;
     return (
-      <Link to={node.uid}>
       <Item>
+      <Link to={node.uid}>
       <div className="blogpost pa3 pa4-m pa5-l">
         <img className="shadowblog" src={node.data.coverimage.url} />
           <StyledLink className="lh-copy">
@@ -48,8 +49,8 @@ export default class ListItem extends Component {
           {node.data.date} — {categories && <Categories categories={categories} />}
         </Headline>
         </div>
+        </Link>
       </Item>
-      </Link>
     );
   }
 }
