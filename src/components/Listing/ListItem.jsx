@@ -39,7 +39,7 @@ export default class ListItem extends Component {
     return (
       <Link to={node.uid}>
       <Item>
-      <div className="blogpost pa3 pa4-m pa4-l">
+      <div className="blogpost pa3 pa4-m pa5-l">
         <img className="shadowblog" src={node.data.coverimage.url} />
           <StyledLink className="lh-copy">
           {node.data.title.text}

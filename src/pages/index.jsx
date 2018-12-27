@@ -101,11 +101,11 @@ class Index extends Component {
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <div className="logocontainer">
             <h3 className="lh-copy headingcolorshadow tc mt4 mb5">ONE platform is all you need</h3>
-            <p className="tr measure mb0 b">Big Know How</p>
-            <p className="b">Unique Network</p>
+            <p className="fadeintextrighttop">Big Know How</p>
+            <p className="fadeintextlefttop">Unique Network</p>
             <img src={Logo} alt="" title="" description="" className="logoheight"/>
-            <p  className="tr measure mb0 mt4 b">Exclusive Pipeline</p>
-            <p className="b">Early Stage Investors</p>
+            <p  className="fadeintextrightbottom">Exclusive Pipeline</p>
+            <p className="fadeintextleftbottom">Early Stage Investors</p>
           </div>
           <div className="containertitle">
             <h2 className="lh-copy headingcolorshadow">

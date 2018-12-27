@@ -16,6 +16,10 @@ background-color: #edecea;
     display: flex;
     flex-direction: column;
     margin: 7em auto 5em;
+    width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
 }
 @media only screen and (max-width: 750px) {
     .cardwrapper {
@@ -27,8 +31,81 @@ background-color: #edecea;
     .logocontainer {
         display: flex;
         flex-direction: column;
-        margin: 5em 2em;
+        margin: 5em auto;
+        height: 29.5rem;
     }
+    @keyframes FadeInRight {
+        0% {
+          
+          transform:translateX(0px);
+          opacity: 0;
+        }
+      
+        100% {
+            transform:translateX(4rem);
+          opacity: 1;
+        }
+      }
+      @keyframes FadeInLeft {
+        0% {
+          
+          transform:translateX(0px);
+          opacity: 0;
+        }
+      
+        100% {
+            transform:translateX(4rem);
+          opacity: 1;
+        }
+      }
+      .fadeintextrighttop {
+        font-size: 1rem;
+        font-weight: 300;
+        position: absolute;
+        top: 21.5rem;
+        opacity: 0;
+        animation-name: FadeInRight;
+        animation-delay: .5s;
+        animation-duration: 6s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+      }
+      .fadeintextrightbottom {
+        font-size: 1rem;
+        font-weight: 300;
+        position: absolute;
+        top: 23.5rem;
+        opacity: 0;
+        animation-name: FadeInRight;
+        animation-delay: 1.5s;
+        animation-duration: 6s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+      }
+      .fadeintextlefttop {
+        font-size: 1rem;
+        font-weight: 300;
+        position: absolute;
+        top: 25.5rem;
+        opacity: 0;
+        animation-name: FadeInLeft;
+        animation-delay: 2s;
+        animation-duration: 6s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+      }
+      .fadeintextleftbottom {
+        font-size: 1rem;
+        font-weight: 300;
+        position: absolute;
+        top: 27.5rem;
+        opacity: 0;
+        animation-name: FadeInLeft;
+        animation-delay: 2.5s;
+        animation-duration: 6s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+      }
 }
 @media only screen and (min-width: 750px) {
     .cardwrapper {
@@ -40,8 +117,82 @@ background-color: #edecea;
     .logocontainer {
         display: flex;
         flex-direction: column;
-        margin: 5em 10em;
+        margin: 5em auto;
+        height: 19.5rem;
     }
+    @keyframes FadeInRight {
+        0% {
+          
+          transform:translateX(30em);
+          opacity: 0;
+        }
+      
+        100% {
+            transform:translateX(25em);
+          opacity: 1;
+        }
+      }
+      @keyframes FadeInLeft {
+        0% {
+          
+          transform:translateX(1em);
+          opacity: 0;
+        }
+      
+        100% {
+            transform:translateX(5em);
+          opacity: 1;
+        }
+      }
+    
+      .fadeintextrighttop {
+        font-size: 1rem;
+        font-weight: 300;
+        position: absolute;
+        top: 8.5rem;
+        opacity: 0;
+        animation-name: FadeInRight;
+        animation-delay: 2s;
+        animation-duration: 6s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+      }
+      .fadeintextrightbottom {
+        font-size: 1rem;
+        font-weight: 300;
+        position: absolute;
+        top: 17.5rem;
+        opacity: 0;
+        animation-name: FadeInRight;
+        animation-delay: 2.5s;
+        animation-duration: 6s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+      }
+      .fadeintextlefttop {
+        font-size: 1rem;
+        font-weight: 300;
+        position: absolute;
+        top: 8.5rem;
+        opacity: 0;
+        animation-name: FadeInLeft;
+        animation-delay: .5s;
+        animation-duration: 6s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+      }
+      .fadeintextleftbottom {
+        font-size: 1rem;
+        font-weight: 300;
+        position: absolute;
+        top: 17.5rem;
+        opacity: 0;
+        animation-name: FadeInLeft;
+        animation-delay: 1.5s;
+        animation-duration: 6s;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+      }    
 }
 @media only screen and (min-width: 30em) {
     .containertitle {
@@ -154,3 +305,74 @@ background-color: #edecea;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
   }
+
+/*   @keyframes FadeInRight {
+    0% {
+      
+      transform:translateX(30em);
+      opacity: 0;
+    }
+  
+    100% {
+        transform:translateX(25em);
+      opacity: 1;
+    }
+  }
+  @keyframes FadeInLeft {
+    0% {
+      
+      transform:translateX(1em);
+      opacity: 0;
+    }
+  
+    100% {
+        transform:translateX(5em);
+      opacity: 1;
+    }
+  }
+
+  .fadeintextrighttop {
+    font-size: 1rem;
+    position: absolute;
+    top: 8.5rem;
+    opacity: 0;
+    animation-name: FadeInRight;
+    animation-delay: 2s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+  }
+  .fadeintextrightbottom {
+    font-size: 1rem;
+    position: absolute;
+    top: 13.5rem;
+    opacity: 0;
+    animation-name: FadeInRight;
+    animation-delay: 2.5s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+  }
+  .fadeintextlefttop {
+    font-size: 1rem;
+    position: absolute;
+    top: 8.5rem;
+    opacity: 0;
+    animation-name: FadeInLeft;
+    animation-delay: .5s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+  }
+  .fadeintextleftbottom {
+    font-size: 1rem;
+    position: absolute;
+    top: 15.5rem;
+    opacity: 0;
+    animation-name: FadeInLeft;
+    animation-delay: 1.5s;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+  }
+   */

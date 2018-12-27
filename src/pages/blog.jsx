@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { Layout, Wrapper, Title, Navbar } from 'components';
 import BlogGrid from '../components/Blog/bloggrid';
-import Background from '../../static/imprint.jpg';
+import Background from '../../static/blog.jpg';
 import '../styles/pages/blog.css';
 
 const Hero = styled.header`
@@ -14,7 +14,7 @@ const Hero = styled.header`
 -moz-background-size:cover;
 -o-background-size:cover;
 background-size:cover;
-background-position:top;
+background-position:center;
 height: 400px;
 `;
 
