@@ -32,9 +32,7 @@ const InvestmentPortfolio = () => (
           know-how, deal-flow and funding the SWISS STARTUP GROUP helps you to meet your needs.
         </p>
         <p className="lh-copy">
-          We have an exclusive startup investment timeline, which contains our investor’s club, advisory board and
-          corporate partners. We know the corporate venturing landscape inside out and have an excellent network from
-          investors, corporates, startups, mentors and many more.
+        We have an exclusive startup investment platform, which contains our investor’s club, advisory board and corporate partners. We know the corporate venturing landscape inside out and have an excellent network from investors, corporates, startups, mentors and many more.
         </p>
         <p className="lh-copy b">
           Together we achieve more.
@@ -54,9 +52,7 @@ const InvestmentPortfolio = () => (
             world. For this we look for scalable startups with a disruptive idea and an complementary team.
           </p>
           <p className="lh-copy">
-            No matter if you need money for your first prototype, for further product development or international
-            expansion, we can support you. In addition, with us you do not only get funding, you will benefit from our
-            growth services, which offers various skills such as accelerators, angel networks, innovation consulting and more.
+          No matter if you need money for your first prototype, for further product development or international expansion, we can support you. In addition, with us you do not only get funding, you will benefit from our overall Swiss Startup Group platform and our exclusive network.
           </p>
           <p className="lh-copy">
             <b>

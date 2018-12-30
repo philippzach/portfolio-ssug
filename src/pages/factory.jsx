@@ -26,11 +26,11 @@ const Factory = () => (
       <div className="containertitle">
         <h2 className="lh-copy ttu headingcolorshadow">We inspire and enable people to build sustainable companies</h2>
         <p className="lh-copy">
-          SWISS STARTUP FACTORY is a venture studio for corporates and startups to innovate and accelerate in the best
+          SWISS STARTUP FACTORY is a venture studio for corporates and startups to innovate and accelerate the best
           new technologies.
         </p>
         <p className="lh-copy">
-          We are the number one privately financed accelerator in Switzerland. The SWISS STARTUP FACTORY provides a
+          We are the number one purely privately financed and independent accelerator in Switzerland. The SWISS STARTUP FACTORY provides a
           professional execution platform to corporates and startups through a dedicated business driven process that
           brings their innovation to market fast and lean.
         </p>
@@ -123,11 +123,11 @@ const Factory = () => (
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
           <div>
-          <p className="lh-copy measure center f6 black-70">
+          <p className="lh-copy measure center f6 black-70 mb4-l">
             We offer customised innovation and digital transformation consulting services.
           </p>
           </div>
-          <div className="mv3 tc">
+          <div className="mt4-l mv3 tc">
           <span className="buttonfactory mid-gray ttu b">Learn more</span>
           </div>
           </a>
@@ -161,9 +161,9 @@ const Factory = () => (
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
-          <div className="mv3">
+          <div className="mv5-l">
           <p className="lh-copy measure center f6 black-70">
-            Building up a completely new business model or startup from scratch - outside of the existing corporate
+            Building up a completely new business model or startup from scratch - outside the existing corporate
             structures
           </p>
           </div>
@@ -182,8 +182,7 @@ const Factory = () => (
           </div>
           <div>
           <p className="lh-copy measure center f6 black-70">
-            Developing the center by organising outstanding events & winning new members. In addition, we build up
-            frameworks and a CV expertise for CVC in-house.
+          The Center of Corporate Venturing Switzerland connects innovation leaders – its members have access to educational events, networking opportunities and a place to exchange ideas for best practices. In addition, we build up frameworks and a CV expertise for CVC in-house.
           </p>
           </div>
           <div className="mv3 tc">

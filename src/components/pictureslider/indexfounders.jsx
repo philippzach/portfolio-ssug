@@ -18,7 +18,7 @@ const pages = [
           <h3>Max Meister, CSO</h3>
           <span className="arrows"></span>
           <p className="lh-copy">
-          “The last two years are a great proof of concept for us and we are amazed by the market response.
+          “The last four years are a great proof of concept for us and we are amazed by the market response.
                   Together with our strategic partners we will now focus on internationalization, while corporate
                   acceleration and company building will play an even more important role in our future business model.”
           </p>

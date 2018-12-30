@@ -39,7 +39,7 @@ const FlipCard = () => (
       <p className="fliptitle">Initiative</p>
     </div>
     <div class="flip-card-back">
-      <p className="fliptitleback lh-copy pa2">As entrepreneurs ourselves, we think beyond our assigned tasks and create new opportunities for the SSUF</p>
+      <p className="fliptitleback lh-copy pa2">As entrepreneurs ourselves, we think beyond our assigned tasks and create new opportunities for the Swiss Startup Group</p>
     </div>
   </div>
   </div>

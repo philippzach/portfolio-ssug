@@ -39,6 +39,7 @@ const Investor = () => (
           We source, analyse, review due diligences, structure and negotiate the investment terms and present these
           investment opportunities to the members of the investor club.
         </p>
+        <p className="lh-copy b">As a member of our investors club you will join an exclusive circle of very active, private venture investors and SWISS STARTUP GROUP will become your venture office.</p>
       </div>
       <Title>Testimonials</Title>
     </Wrapper>
@@ -75,7 +76,7 @@ const Investor = () => (
     </div>
     <div className="mw7 center pa3" style={{ paddingTop: '2rem', paddingBottom: '4rem' }}>
       <h3 className="mw6 center lh-copy lcenter tc pt4">
-      Switzerland a world leader in innovation and top startup hub.
+      Switzerland –  The world leader in innovation and top startup hub.
       </h3>
       <h4 className="center mw6 tc">Why?</h4>
       <div className="row">

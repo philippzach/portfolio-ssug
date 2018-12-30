@@ -92,31 +92,30 @@ class Index extends Component {
               Venture Builder
             </h1>
             <HeroText>
-              A purely privately financed Swiss venture platform to scout, analyze, accelerate and invest in the most
-              promising early stage startup projects in Switzerland.
+            A purely privately financed Swiss venture platform to scout, build, accelerate and invest in the most promising startups.
             </HeroText>
           </HeroInner>
         </Hero>
         <div className="line" />
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <div className="logocontainer">
-            <h3 className="lh-copy headingcolorshadow tc mt4 mb5">ONE platform is all you need</h3>
-            <p className="fadeintextrighttop">Big Know How</p>
-            <p className="fadeintextlefttop">Unique Network</p>
+            <h3 className="lh-copy headingcolorshadow tc mt4 mb5">The power of our platform</h3>
+            <p className="fadeintextrighttop">Know How</p>
+            <p className="fadeintextlefttop">Network</p>
             <img src={Logo} alt="" title="" description="" className="logoheight"/>
-            <p  className="fadeintextrightbottom">Exclusive Pipeline</p>
-            <p className="fadeintextleftbottom">Early Stage Investors</p>
+            <p  className="fadeintextrightbottom">Deal Flow</p>
+            <p className="fadeintextleftbottom">Funding</p>
           </div>
           <div className="containertitle">
             <h2 className="lh-copy headingcolorshadow">
             OUR VISION: BECOME A WORLD CLASS VENTURE BUILDER
             </h2>
-            <p className="lh-copy"><span className="b">The SWISS STARTUP GROUP provides you the exclusive possibility to get everything from one source thanks to our venture platform.</span></p>
+            <p className="lh-copy"><span className="b">The SWISS STARTUP GROUP is the only market player in Switzerland combining all assets of the venture business on one platform.</span></p>
             <p className="lh-copy">
-            With our Swiss venture platform you can scout, accelerate and invest in the most promising early stage startup projects and become a part of the Swiss Startup Ecosystem.
+            With our venture platform you can scout, analyse, accelerate, build and invest in the most promising startups and become part of the fast growing Swiss startup ecosystem.
             </p>
-            <p className="lh-copy">As a independent venture platform with proven track record we have built an exclusive skill set and know how. We know the startup market in-depth and scout actively for the best cases in all regions, building a strong bridge between the Swiss and the international markets.</p>
-            <p className="lh-copy">Our venture platform combines all different skills of accelerators, angel networks, VC’s, venture builders and innovation consulting. It makes the Swiss Startup Group a unique piece in Switzerland’s fast growing ecosystem.</p>
+            <p className="lh-copy">As a independent venture builder with proven track record we have built an exclusive skill set and know how. We know the Swiss startup market in-depth and scout actively for the best cases, building a strong bridge between the Swiss and the international markets.</p>
+            <p className="lh-copy">Our venture platform combines all different skills of accelerators, angel networks, VC’s, venture builders and innovation consulting. It makes the Swiss Startup Group a unique piece in Switzerland’s startup ecosystem.</p>
             <b className="lh-copy">We are dedicated, passionate and driven by success.</b>
             <br />
             <b className="lh-copy">We have skin in the game.</b>
@@ -164,7 +163,7 @@ class Index extends Component {
               <img className="svgicons" src={Growth} alt="" description="" title="" />
               {/*}<h4>Growth</h4>{*/}
               <p className="iconsdescription lh-copy">
-                We offer dedicated and specialized <b>Growth Service Platform</b> for corporate clients, startups and
+                We offer a dedicated and specialized <b>Growth Service Platform</b> for corporate clients, startups and
                 investors.
               </p>
               <p className="ttu b">Our Growth Services></p>
@@ -185,7 +184,7 @@ class Index extends Component {
             <p className="lh-copy tc pb4">
               We develop strategic partnerships with companies and organizations that share important core and strategic
               startup goals and values. These partnerships comprise several areas of execution aiming – ultimately –
-              sharing value to our partners, the Swiss Startup ecosystem, as well as the Swiss Startup Group at once.
+              creating value to our partners, the Swiss tartup ecosystem, as well as the Swiss Startup Group at once.
             </p>
             <LogoSlider />
           </Wrapper>

@@ -20,7 +20,7 @@ const pages = [
           <span className="arrows"></span>
           <p className="lh-copy">
             End-to-end startup development and investment skill-set. SWISS STARTUP GROUP offers services across the
-            entire value chain: scouting, analysis, deal-making, acceleration, growth, investing and exits.
+            entire value chain: scouting, analysis, due diligence, acceleration, company bulding, investing and exit advisory.
           </p>
           <span className="b">1/4</span>
          
@@ -71,7 +71,7 @@ const pages = [
       <h3 className="headingcolorshadow">DEAL FLOW</h3>
       <span className="arrows"></span>
       <p className="lh-copy">
-      Exclusive startup investment pipeline and access through our ecosystem composed of shareholders, Investors’ Club, advisory board, corporate and academic partners but also through active scouting within Switzerland and abroad and startup applications.
+      Exclusive startup investment pipeline and access through our Swiss Startup Group ecosystem composed of our shareholders, our investors club members, advisory board members, corporate partners and academic partners but also through our active scouting within Switzerland and abroad together with our Swiss Startup Group ambassadors and all the startup applications we directly receive.
       </p>
       <span className="b">4/4</span>
       {/* <span className="b ttu fr pr3">next</span> */}

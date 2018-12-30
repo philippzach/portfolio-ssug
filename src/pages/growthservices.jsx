@@ -115,10 +115,7 @@ const GrowthServices = () => (
             The SWISS STARTUP GROUP offers a unique direct access to all stakeholders of the venture value chain such as investors, corporates, startups, top talents, mentors, academic partners and much more of which you can benefit of.
             </p>
             <p className="lh-copy">
-            Thanks to the experience of our founding team and advisory board we can help you with access to a large network and key contacts in different areas that will facilitate the implementation of each startup project.
-            </p>
-            <p className="lh-copy">
-            You can build relations with key players in the ecosystem, both entrepreneurs and business angels, investors and VCs.
+            Thanks to the experience of our Swiss Startup Group founder team and our high level advisory board we can help you with a fast track access to a large network and top down key contacts to decision makers.
             </p>
             <div className="tc">
             <a href="mailto:virginia.beljean@ssut.ch">
