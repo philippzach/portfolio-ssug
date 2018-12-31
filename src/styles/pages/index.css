@@ -128,7 +128,7 @@ background-color: #edecea;
         }
       
         100% {
-            transform:translateX(25em);
+            transform:translateX(26em);
           opacity: 1;
         }
       }
@@ -140,7 +140,7 @@ background-color: #edecea;
         }
       
         100% {
-            transform:translateX(5em);
+            transform:translateX(8em);
           opacity: 1;
         }
       }

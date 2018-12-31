@@ -29,7 +29,7 @@ const Navbar = () => (
     </Link>
     <Navigation>
       <ul className="nav__menu">
-        <li className="nav__menu-item"><Link to="/factory" className="factory_after">Factory</Link>
+        <li className="nav__menu-item"><Link to="/factory" className="factory_after hovereffect">Factory</Link>
           <ul className="nav__submenu factory">
             <li className="nav__submenu-item">
             
@@ -58,10 +58,10 @@ const Navbar = () => (
             </li>
           </ul>
         </li>
-        <li className="nav__menu-item"><Link to="/investmentportfolio" >Investment Portfolio</Link></li>
-        <li className="nav__menu-item"><Link to="/growthservices">Growth Services</Link></li>
-        <li className="nav__menu-item"><Link to="/investorclub" >Investor Club</Link></li>
-        <li className="nav__menu-item"><Link to="/aboutus" className="about_after grey">About</Link>
+        <li className="nav__menu-item"><Link to="/investmentportfolio"  className="hovereffect">Investment Portfolio</Link></li>
+        <li className="nav__menu-item"><Link to="/growthservices" className="hovereffect">Growth Services</Link></li>
+        <li className="nav__menu-item"><Link to="/investorclub"  className="hovereffect">Investor Club</Link></li>
+        <li className="nav__menu-item"><Link to="/aboutus" className="about_after grey hovereffect">About</Link>
           <ul className="nav__submenu about">
             <li className="nav__submenu-item"><a href="https://jobs.swissstartupgroup.com" className="nav_submenu_linkright">Jobs</a>
             </li>

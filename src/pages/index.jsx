@@ -17,6 +17,7 @@ import Growth from '../../static/indexgrowth.svg';
 import Investors from '../../static/indexinvestors.svg';
 import LogoSlider from '../components/logoslider';
 import FounderSlider from '../components/pictureslider/indexfounders';
+import Point from '../../static/point.svg'
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -76,6 +77,11 @@ const HeroText = styled.div`
   }
 `;
 
+const BulletPoint = styled.img`
+ height: 10px;
+ padding-right: 0.3em;
+ `
+
 class Index extends Component {
   render() {
     const {
@@ -100,11 +106,11 @@ class Index extends Component {
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <div className="logocontainer">
             <h3 className="lh-copy headingcolorshadow tc mt4 mb5">The power of our platform</h3>
-            <p className="fadeintextrighttop">Know How</p>
-            <p className="fadeintextlefttop">Network</p>
+            <div className="fadeintextrighttop"><BulletPoint src={Point} />Know How</div>
+            <div className="fadeintextlefttop"><BulletPoint src={Point} />Network</div>
             <img src={Logo} alt="" title="" description="" className="logoheight"/>
-            <p  className="fadeintextrightbottom">Deal Flow</p>
-            <p className="fadeintextleftbottom">Funding</p>
+            <div  className="fadeintextrightbottom"><BulletPoint src={Point} />Deal Flow</div>
+            <div className="fadeintextleftbottom"><BulletPoint src={Point} />Funding</div>
           </div>
           <div className="containertitle">
             <h2 className="lh-copy headingcolorshadow">

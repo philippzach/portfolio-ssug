@@ -39,7 +39,7 @@ const AboutUs = () => (
     <Hero>
       <Navbar />
     </Hero>
-    <Wrapper style={{ paddingTop: '5rem' }}>
+    <Wrapper style={{ paddingTop: '2rem' }}>
       <Title>Our Team</Title>
       <div className="containertitleabout">
         <h2 className="lh-title ttu headingcolorshadow">Values</h2>

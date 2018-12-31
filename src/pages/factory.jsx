@@ -21,7 +21,7 @@ const Factory = () => (
     <Hero>
       <Navbar />
     </Hero>
-    <Wrapper style={{ paddingTop: '5rem', paddingBottom: '2rem' }}>
+    <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Swiss Startup Factory</Title>
       <div className="containertitle">
         <h2 className="lh-copy ttu headingcolorshadow">We inspire and enable people to build sustainable companies</h2>
@@ -161,7 +161,7 @@ const Factory = () => (
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
-          <div className="mv5-l">
+          <div className="mv4-l">
           <p className="lh-copy measure center f6 black-70">
             Building up a completely new business model or startup from scratch - outside the existing corporate
             structures
@@ -182,7 +182,7 @@ const Factory = () => (
           </div>
           <div>
           <p className="lh-copy measure center f6 black-70">
-          The Center of Corporate Venturing Switzerland connects innovation leaders – its members have access to educational events, networking opportunities and a place to exchange ideas for best practices. In addition, we build up frameworks and a CV expertise for CVC in-house.
+          The Center of Corporate Venturing  connects innovation leaders – its members have access to educational events, networking opportunities and a place to exchange ideas.
           </p>
           </div>
           <div className="mv3 tc">

@@ -25,7 +25,7 @@ const GrowthServices = () => (
     <Hero>
       <Navbar />
     </Hero>
-    <Wrapper style={{ paddingTop: '5rem', paddingBottom: '1rem' }}>
+    <Wrapper style={{ paddingTop: '2rem', paddingBottom: '1rem' }}>
       <Title>Growth</Title>
       <div className="containertitle">
         <h2 className="lh-copy ttu headingcolorshadow">Dedicated services for our corporate clients, startups and investors</h2>
@@ -51,7 +51,7 @@ const GrowthServices = () => (
       <p className="tc lh-copy measure center">
         Our beneficial and unique growth service platform gives you advantages in various areas:
       </p>
-      <article class="cf mv5">
+      <article class="cf mv6">
         <div class="backgroundgrowth fl w-100 w-50-ns tc flex justify-center">
             <img src={Product} alt="" title="" />
          </div>
@@ -62,41 +62,41 @@ const GrowthServices = () => (
            We challenge your existing application with our free due diligence. 
             Want to get your product started or need additional speed to meet the deadline?</p>
             <a href="mailto:virginia.beljean@ssut.ch">
-            <div className="button -dark">We are happy to consult you</div>
+            <div className="button -dark">Learn More</div>
             </a>
           </div>
         </article>
-        <article class="mobileview cf mv5">
+        <article class="mobileview cf mv6">
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
             <p className="lh-copy">Once the products have been developed, they do not sell themselves. This 
                   is where another <b>SWISS STARTUP TECH</b> service comes in. With our experience in <b>marketing 
-                  and communication,</b> we help you to position the products 
+                  and communication</b>, we help you to position the products 
                         correctly and to communicate them externally.</p>
                         <a href="mailto:virginia.beljean@ssut.ch">
-                        <div className="button -dark">We are happy to consult you</div>
+                        <div className="button -dark">Happy to consult you</div>
                         </a>
               </div>
             <div class="backgroundgrowth fl w-100 w-50-ns tc">
                 <img src={Marketing} alt="" title="" />
             </div>
         </article>
-        <article class="cf mv5">
+        <article class="cf mv6">
             <div class="backgroundgrowth fl w-100 w-50-ns tc">
                 <img src={Analysis} alt="" title="" />
             </div>
             <div class="fl w-100 w-50-ns tr pa4-s pa3-m pl4-l">
             <p className="lh-copy"><b>The BV4 experts analyse any startup with their sophisticated rating system and  provide you with relevant information to support your decision process</b> with an objective summary for your convenience. Last but not least they provide with their integrated commercial and financial due diligence a comprehensive review of the startup’s business plan based on projected market conditions, the industry and the competition.</p>
             <a href="https://www.bv4.ch" target="_blank">
-            <div className="button -dark">We are happy to consult you</div>
+            <div className="button -dark">About BV4</div>
             </a>
               </div>
         </article>
-        <article class="mobileview cf mv5">
+        <article class="mobileview cf mv6">
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
-            <p className="lh-copy">With Avaneo we offer <b>customised solutions for startups in the areas of: Accounting, Tax consulting, (Direct and VAT), Payroll accounting, Human resources and controlling.</b>
+            <p className="lh-copy">With Avaneo we offer <b>customised solutions for</b> startups in the areas of: <b>Accounting, Tax consulting, (Direct and VAT), Payroll accounting, Human resources and controlling. </b>
                   Every startups gets a customised advice and therefore we offer accounting solutions that are tailored to your needs.</p>
                   <a href="https://www.avaneo.ch" target="_blank">
-                <div className="button -dark">We are happy to consult you</div>
+                <div className="button -dark">About Avaneo</div>
                 </a>
               </div>
             <div class="backgroundgrowth fl w-100 w-50-ns tc">
