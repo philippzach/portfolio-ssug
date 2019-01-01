@@ -59,9 +59,9 @@ const pages = [
               <dt class="f6 b">Never without</dt>
               <dd class="ml0 mb3">Airpods</dd>
               <dt class="f6 b mt2">A must for reading</dt>
-              <dd class="ml0 mb3">Das Power Prinzip von Anthony Robbins</dd>
+              <dd class="ml0 mb3">Unlimited Power by Anthony Robbins</dd>
               <dt class="f6 b mt2">As a child, I wanted to be</dt>
-              <dd class="ml0 mb3">professional footballer or tennis professional</dd>
+              <dd class="ml0 mb3">Professional footballer or tennis professional</dd>
               <dt class="f6 b mt2">Overrated</dt>
               <dd class="ml0 mb3">A lot of people I'd met in banking</dd>
             </dl>

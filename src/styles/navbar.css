@@ -155,7 +155,10 @@ nav ul {
     box-shadow: 0px 15px 61px -14px rgba(0,0,0,0.5);
     border-radius: 3px;
 }
-  
+  .nav__submenu-item a {
+    display: block;
+    margin-bottom: 0;
+  }
   .nav__submenu-item:hover {
     background: rgba(0, 0, 0, 0.1);
     transition-delay: 0s;

@@ -66,7 +66,7 @@ const InvestmentPortfolio = () => (
       </div>
     </div>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-      <div className="containerinvestors mv6">
+      <div className="containerinvestors">
         <h3 className="lh-copy measure center">
           Do you want to invest in Swiss startups to extend your portfolio?
         </h3>

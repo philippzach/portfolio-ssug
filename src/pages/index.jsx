@@ -105,7 +105,7 @@ class Index extends Component {
         <div className="line" />
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <div className="logocontainer">
-            <h3 className="lh-copy headingcolorshadow tc mt4 mb5">The power of our platform</h3>
+            <h3 className="lh-copy headingcolorshadow tc mt4 mb5">The Power of our Platform</h3>
             <div className="fadeintextrighttop"><BulletPoint src={Point} />Know How</div>
             <div className="fadeintextlefttop"><BulletPoint src={Point} />Network</div>
             <img src={Logo} alt="" title="" description="" className="logoheight"/>

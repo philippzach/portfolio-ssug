@@ -87,7 +87,7 @@ const GrowthServices = () => (
             <div class="fl w-100 w-50-ns tr pa4-s pa3-m pl4-l">
             <p className="lh-copy"><b>The BV4 experts analyse any startup with their sophisticated rating system and  provide you with relevant information to support your decision process</b> with an objective summary for your convenience. Last but not least they provide with their integrated commercial and financial due diligence a comprehensive review of the startup’s business plan based on projected market conditions, the industry and the competition.</p>
             <a href="https://www.bv4.ch" target="_blank">
-            <div className="button -dark">About BV4</div>
+            <div className="button -dark">To BV4</div>
             </a>
               </div>
         </article>
@@ -96,7 +96,7 @@ const GrowthServices = () => (
             <p className="lh-copy">With Avaneo we offer <b>customised solutions for</b> startups in the areas of: <b>Accounting, Tax consulting, (Direct and VAT), Payroll accounting, Human resources and controlling. </b>
                   Every startups gets a customised advice and therefore we offer accounting solutions that are tailored to your needs.</p>
                   <a href="https://www.avaneo.ch" target="_blank">
-                <div className="button -dark">About Avaneo</div>
+                <div className="button -dark">To Avaneo</div>
                 </a>
               </div>
             <div class="backgroundgrowth fl w-100 w-50-ns tc">

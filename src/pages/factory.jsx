@@ -34,7 +34,7 @@ const Factory = () => (
           professional execution platform to corporates and startups through a dedicated business driven process that
           brings their innovation to market fast and lean.
         </p>
-        <p className="lh-copy">
+        <p className="lh-copy b">
           At SWISS STARTUP FACTORY innovation meets execution – we unleash your entrepreneurial potential!
         </p>
       </div>
@@ -161,7 +161,7 @@ const Factory = () => (
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>
-          <div className="mv4-l">
+          <div className="mv3-l">
           <p className="lh-copy measure center f6 black-70">
             Building up a completely new business model or startup from scratch - outside the existing corporate
             structures
@@ -175,8 +175,8 @@ const Factory = () => (
         <article className="shadow hover items-center center br1 pa3 pa4-ns mv3 ba b--black-10 flex flex-column ">
         <a className="flex flex-column" href="https://ccvs.ch/" target="_blank">
           <div className="tc">
-            <h3 className="f4 lh-copy" style={{ color: 'rgb(0, 71, 107)' }}>
-              Corporate Venture Capital
+            <h3 className="f4" style={{ color: 'rgb(0, 71, 107)' }}>
+              Corporate Venturing
             </h3>
             <hr className="mw3 bb bw1 b--black-10" />
           </div>

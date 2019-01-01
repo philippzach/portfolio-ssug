@@ -31,10 +31,9 @@ const Navbar = () => (
       <ul className="nav__menu">
         <li className="nav__menu-item"><Link to="/factory" className="factory_after hovereffect">Factory</Link>
           <ul className="nav__submenu factory">
+          
             <li className="nav__submenu-item">
-            
               <a href="https://www.swissstartupfactory.com/startups/accelerator" target="_blank" className="nav_submenu_linkleft">Startups</a>
-            
             </li>
             <li className="nav__submenu-item">
             
