@@ -31,7 +31,7 @@ const Navbar = () => (
       <ul className="nav__menu">
         <li className="nav__menu-item"><Link to="/factory" className="factory_after hovereffect">Factory</Link>
           <ul className="nav__submenu factory">
-          
+
             <li className="nav__submenu-item">
               <a href="https://www.swissstartupfactory.com/startups/accelerator" target="_blank" className="nav_submenu_linkleft">Startups</a>
             </li>
@@ -62,7 +62,7 @@ const Navbar = () => (
         <li className="nav__menu-item"><Link to="/investorclub"  className="hovereffect">Investor Club</Link></li>
         <li className="nav__menu-item"><Link to="/aboutus" className="about_after grey hovereffect">About</Link>
           <ul className="nav__submenu about">
-            <li className="nav__submenu-item"><a href="https://jobs.swissstartupgroup.com" className="nav_submenu_linkright">Jobs</a>
+            <li className="nav__submenu-item"><a href="https://jobs.ssug.sh" className="nav_submenu_linkright">Jobs</a>
             </li>
             <li className="nav__submenu-item"><Link to="/blog" className="nav_submenu_linkright">News</Link>
             </li>
