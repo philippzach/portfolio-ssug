@@ -4,6 +4,7 @@ import { Layout, Wrapper, Navbar, Title } from 'components';
 import Background from '../../static/factory_space.jpg';
 import '../styles/pages/factory.css';
 import FactoryLogo from '../../static/ssuf.svg';
+import Seo from '../components/SEO/index';
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -18,6 +19,7 @@ height: 400px;
 
 const Factory = () => (
   <Layout>
+    <Seo title="SWISS STARTUP GROUP – Swiss Startup Factory" desc="SWISS STARTUP FACTORY is a venture studio for corporates and startups for Innovation and Acceleration of the best new technologies" />
     <Hero>
       <Navbar />
     </Hero>

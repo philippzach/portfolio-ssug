@@ -91,7 +91,7 @@ const pages = [
           <h3>Oliver Walzer</h3>
           <div className="flex">
           <dl class="lh-title pr1-s pr2-m pr4-l mt0">
-              <dt class="f6 b">What Mike says</dt>
+              <dt class="f6 b">What Co-Founder Mike says</dt>
               <dd class="ml0 mb3">It’s all about the power of platform</dd>
               <dt class="f6 b mt2">Still on the bucket list</dt>
               <dd class="ml0 mb3">Seeing northern lights</dd>

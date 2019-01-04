@@ -6,6 +6,7 @@ import Startup from '../../static/portfoliostartup.jpg';
 import Corporates from '../../static/corporatesportfolio.jpg';
 import '../styles/pages/portfolio.css';
 import Slider from '../components/logosliderportfolio';
+import Seo from '../components/SEO/index';
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -20,6 +21,7 @@ height: 400px;
 
 const InvestmentPortfolio = () => (
   <Layout>
+  <Seo title="SWISS STARTUP GROUP – Investment Portfolio" desc="Exclusive startup investment platform, which contains investor club, advisory board and corporate partners for everything about startup investments" />
     <Hero>
       <Navbar />
     </Hero>
@@ -38,6 +40,7 @@ const InvestmentPortfolio = () => (
           Together we achieve more.
         </p>
       </div>
+      <h3 className="tc">Our Portfolio</h3>
       <Slider />
       <Title>What we offer</Title>
     </Wrapper>

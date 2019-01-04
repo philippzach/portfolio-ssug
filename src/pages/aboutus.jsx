@@ -8,6 +8,9 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "react-tabs/style/react-tabs.css";
 import FounderSlider from '../components/pictureslider/aboutgroupslider';
 import AdvisorSlider from '../components/pictureslider/aboutadvisorslider';
+import Supporters from '../components/supporters';
+import Seo from '../components/SEO/index';
+
 import Mike from '../../static/teamssug/mike_baur.jpg';
 import Max from '../../static/teamssug/meister_max.png';
 import Larissa from '../../static/teamssug/larissa.jpg';
@@ -21,7 +24,22 @@ import Placeholder from '../../static/teamavaneo/default.png';
 import Spinu from '../../static/teamssut/alex_spinu.jpg';
 import Michael from '../../static/teamavaneo/michael_brentari.jpg';
 import Laura from '../../static/teamavaneo/laura_izzo.jpg';
-import Supporters from '../components/supporters';
+
+import Rico from '../../static/advisors/baldegger_rico_portrait.jpg';
+import Robert from '../../static/advisors/bider_robert_portrait.jpg';
+import Biver from '../../static/advisors/biver_jeanclaude_portrait.jpg';
+import Claudia from '../../static/advisors/coninx_claudia_portrait.jpg';
+import Beat from '../../static/advisors/curti_beat_portrait.jpg';
+import David from '../../static/advisors/david_allemann_portrait.jpg';
+import Friedli from '../../static/advisors/friedli_portrait.jpg';
+import Andreas from '../../static/advisors/gall_andreas_portrait.jpg';
+import Dietmar from '../../static/advisors/grichnik_dietmar_portrait.jpg';
+import Daniel from '../../static/advisors/gutenberg_daniel_portrait.jpg';
+import MichaelHartweg from '../../static/advisors/hartweg_michael_portrait.jpg';
+import Patrick from '../../static/advisors/patrick_aebischer_portrait.jpg';
+import Sauter from '../../static/advisors/sauter_claudia_portrait.jpg';
+import Stan from '../../static/advisors/wawrinka_stan_portrait.jpg';
+import Urs from '../../static/advisors/wietlisbach_urs_portrait.jpg';
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -36,6 +54,7 @@ height: 400px;
 
 const AboutUs = () => (
   <Layout>
+  <Seo title="SWISS STARTUP GROUP – About us" desc="Get to know our team, advisory board, partners, supporters and sponsors, that offers a perfect network platform in the swiss startup ecosystem" />
     <Hero>
       <Navbar />
     </Hero>
@@ -120,26 +139,26 @@ const AboutUs = () => (
               </div>
             </article>
             <article className="center pa3 pa4-ns">
+            <div className="tc">
+                <img src={Max} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <h3 className="f5 mb2">Max Meister</h3>
+                <h4 className="f6 fw4 gray mt0">Co-Founder</h4>
+              </div>
+            </article>
+            <article className="center pa3 pa4-ns">
               <div className="tc">
                 <img src={Chris} className="br-100 h4 w4 dib pa2" title="" alt="" />
                 <h3 className="f5 mb2">Chris Bargholz</h3>
                 <h4 className="f6 fw4 gray mt0">COO & Head of Accelerator</h4>
               </div>
             </article>
+            </div>
+            <div className="tabrow">
             <article className="center pa3 pa4-ns">
               <div className="tc">
                 <img src={Patric} className="br-100 h4 w4 dib pa2" title="" alt="" />
                 <h3 className="f5 mb2">Patric Hauser</h3>
                 <h4 className="f6 fw4 gray mt0">Project Manager</h4>
-              </div>
-            </article>
-            </div>
-            <div className="tabrow">
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Max} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Max Meister</h3>
-                <h4 className="f6 fw4 gray mt0">Co-Founder</h4>
               </div>
             </article>
             <article className="center pa3 pa4-ns">
@@ -243,6 +262,89 @@ const AboutUs = () => (
         <Title>Advisory Board</Title>
         </Wrapper>
         <AdvisorSlider />
+        <div className="panel">
+        <div className="paddingtabs">
+          <div className="tabrow">
+                    <article className="center pa3 pa4-ns">
+                      <div className="tc">
+                        <img src={Rico} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Rico J. Baldegger</h3>
+                      </div>
+                    </article>
+                    <article className="center pa3 pa4-ns">
+                      <div className="tc">
+                        <img src={Robert} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Robert Bider</h3>
+                        
+                      </div>
+                    </article>
+                    <article className="center pa3 pa4-ns">
+                    <div className="tc">
+                        <img src={Biver} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Jean Claude Biver</h3>
+                      </div>
+                    </article>
+                    <article className="center pa3 pa4-ns">
+                      <div className="tc">
+                        <img src={Claudia} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Claudia Coninx</h3>
+                      </div>
+                    </article>
+            </div>
+            <div className="tabrow">
+                    <article className="center pa3 pa4-ns">
+                      <div className="tc">
+                        <img src={Beat} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Beat Curti</h3>
+                      </div>
+                    </article>
+                    <article className="center pa3 pa4-ns">
+                    <div className="tc">
+                        <img src={David} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">David Allemann</h3>
+                      </div>
+                    </article>
+                    <article className="center pa3 pa4-ns">
+                    <div className="tc">
+                        <img src={Friedli} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Peter Friedli</h3>
+                      </div>
+                    </article>
+                    <article className="center pa3 pa4-ns">
+                      <div className="tc">
+                        <img src={Andreas} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Andreas Gall</h3>
+                      </div>
+                    </article>
+                    </div>
+            <div className="tabrow">
+                    <article className="center pa3 pa4-ns">
+                      <div className="tc">
+                        <img src={Dietmar} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Dietmar Grichnik</h3>
+                      </div>
+                    </article>
+                    <article className="center pa3 pa4-ns">
+                    <div className="tc">
+                        <img src={Daniel} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Daniel Gutenberg</h3>
+                      </div>
+                    </article>
+                    <article className="center pa3 pa4-ns">
+                    <div className="tc">
+                        <img src={Michael} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Michael Hartweg</h3>
+                      </div>
+                    </article>
+                    <article className="center pa3 pa4-ns">
+                      <div className="tc">
+                        <img src={Patrick} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Patrick Aebischer</h3>
+                      </div>
+                    </article>
+                  </div>
+            </div>
+        </div>
       <Supporters />
   </Layout>
 );

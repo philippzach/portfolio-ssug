@@ -7,6 +7,7 @@ import { Layout, Wrapper, Title, Navbar } from 'components';
 import BlogGrid from '../components/Blog/bloggrid';
 import Background from '../../static/blog.jpg';
 import '../styles/pages/blog.css';
+import Seo from '../components/SEO/index';
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -26,6 +27,7 @@ class Blog extends Component {
     } = this.props;
     return (
       <Layout>
+      <Seo title="SWISS STARTUP GROUP – News" desc="What's going on at the Swiss Startup Group and ecosystem?  News and background information on investments, startups and VC" />
       <Hero>
         <Navbar />
         </Hero>

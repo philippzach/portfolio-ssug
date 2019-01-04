@@ -66,7 +66,7 @@ injectGlobal`
 const PureLayout = ({ children }) => (
   <ThemeProvider theme={theme}>
     <>
-      <SEO />
+      {/* <SEO /> */}
       {children}
       <Footer />
     </>

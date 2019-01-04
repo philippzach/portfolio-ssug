@@ -8,6 +8,7 @@ import Product from '../../static/growth-process.svg';
 import Marketing from '../../static/growth-market.svg';
 import Analysis from '../../static/growth-analysis.svg';
 import Acount from '../../static/growth-account.svg';
+import Seo from '../components/SEO/index';
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -22,6 +23,7 @@ height: 400px;
 
 const GrowthServices = () => (
   <Layout>
+  <Seo title="SWISS STARTUP GROUP – Growth Services" desc="Dedicated growth services for corporate clients, startups and investors to grow faster. Accounting, Marketing, Finance, Communication and more." />
     <Hero>
       <Navbar />
     </Hero>

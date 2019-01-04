@@ -87,7 +87,7 @@ class Footer extends Component {
         </div>
         <div className="container">
           <p className="copyright">
-            <Link to="/imprint" className="impressum">©2018 Swiss Startup Group</Link>
+            <Link to="/imprint" className="impressum">©2019 Swiss Startup Group</Link>
           </p>
         </div>
       </StyledFooter>

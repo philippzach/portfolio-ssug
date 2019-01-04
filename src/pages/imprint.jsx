@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'react-emotion';
 import { Layout, Wrapper, Title, Navbar } from 'components';
 import Background from '../../static/imprint.jpg';
+import Seo from '../components/SEO/index';
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -16,6 +17,7 @@ height: 400px;
 
 const Imprint = () => (
     <Layout>
+    <Seo />
     <Hero>
     <Navbar />
     </Hero>
@@ -25,22 +27,23 @@ const Imprint = () => (
     <h2>Imprint and Contact Information</h2>
     </Title>
     <p>Swiss Startup Group</p>
-    <p>Hardturmstrasse 161</p>
-    <p>8055 Zurich</p>
+    <p>Kantonsstrasse 25</p>
+    <p>8807 Freienbach</p>
     <p>Switzerland</p>
     <a href="mailto:media@ssuf.ch">media@ssuf.ch</a>
      
     <Title><b>Authorised representative person(s)</b></Title>
     <p>Mike Baur</p>
     <p>Max Meister</p>
-    <p>Oliver Waltzer</p>
+    <p>Oliver Walzer</p>
+    <p>Michael Widmer</p>
      
     <Title><b>Commercial register entry</b></Title> 
     <p>Registered company name: Swiss Startup Group</p>
     <p>Commercial Register No: CHE-407.344.141</p>
     
     <Title><b>VAT number</b></Title>
-    <p>CHE-234,738,731</p>
+    <p>CHE-407.344.141 MWST</p>
      
 
     <Title><b >Disclaimer</b></Title>

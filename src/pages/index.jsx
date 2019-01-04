@@ -17,7 +17,8 @@ import Growth from '../../static/indexgrowth.svg';
 import Investors from '../../static/indexinvestors.svg';
 import LogoSlider from '../components/logoslider';
 import FounderSlider from '../components/pictureslider/indexfounders';
-import Point from '../../static/point.svg'
+import Point from '../../static/point.svg';
+import Seo from '../components/SEO/index';
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -89,6 +90,7 @@ class Index extends Component {
     } = this.props;
     return (
       <Layout>
+        <Seo title="SWISS STARTUP GROUP - World Class Venture Builder" desc="Swiss Venture Builder for Startup Scouting, Analysis, Acceleration, Company Building, Corporate Venturing, Growth and Investments in one platform."  />
         <Hero>
           <Navbar />
           <HeroInner>
@@ -129,7 +131,7 @@ class Index extends Component {
           <Title style={{ marginTop: '4rem', marginBottom: '2em' }}>Our DNA</Title>
         </Wrapper>
         <Carousel />
-        <Wrapper style={{ paddingTop: '5rem', paddingBottom: '1rem' }}>
+        <Wrapper style={{ paddingTop: '5rem', paddingBottom: '3rem' }}>
           <Title style={{ marginTop: '4rem' }}>What we do</Title>
         </Wrapper>
         <>

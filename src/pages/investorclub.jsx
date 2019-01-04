@@ -6,6 +6,7 @@ import '../styles/pages/investorclub.css';
 import Strebel from '../../static/hanspeter_strebel.jpg';
 import Urs from '../../static/urs_wietlisbach.jpg';
 import Chris from '../../static/chris_wildmoser.jpg';
+import Seo from '../components/SEO/index';
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -19,6 +20,7 @@ height: 400px;
 `;
 const Investor = () => (
   <Layout>
+  <Seo title="SWISS STARTUP GROUP – Investor Club" desc="Exclusive Investor Club for qualified private early stage venture investors that offers great investment opportunities" />
     <Hero>
       <Navbar />
     </Hero>
