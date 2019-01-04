@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import { Facebook, Twitter } from 'components/SEO';
+import Favicon from '../../favicon.ico';
 
 // Complete tutorial: https://www.gatsbyjs.org/docs/add-seo-component/
 
@@ -97,6 +98,7 @@ export default class SEO extends Component {
                 <meta name="apple-mobile-web-app-title" content={shortName} />
                 <meta name="application-name" content={shortName} />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="shortcut icon" href={Favicon} type="image/x-icon"></link>
                 <script type="application/ld+json">{JSON.stringify(schemaOrgJSONLD)}</script>
               </Helmet>
               <Facebook
