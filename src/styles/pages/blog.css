@@ -23,8 +23,7 @@
     letter-spacing: 0.01rem;
     margin-bottom: 30px;
   }
-   .subscribe h1 span {
-  }
+
    .subscribe form {
     overflow: hidden;
   }
@@ -64,10 +63,7 @@
     color: white;
     background: rgb(0,67,103);
   }
-  .subscribe form input[type=submit]:hover {
-    
-  }
-
+  
   .blog {
     columns: 2;
   }
