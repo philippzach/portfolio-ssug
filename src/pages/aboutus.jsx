@@ -332,7 +332,7 @@ const AboutUs = () => (
                     </article>
                     <article className="center pa3 pa4-ns">
                     <div className="tc">
-                        <img src={Michael} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <img src={MichaelHartweg} className="br-100 h4 w4 dib pa2" title="" alt="" />
                         <h3 className="f5 mb2">Michael Hartweg</h3>
                       </div>
                     </article>
@@ -340,6 +340,26 @@ const AboutUs = () => (
                       <div className="tc">
                         <img src={Patrick} className="br-100 h4 w4 dib pa2" title="" alt="" />
                         <h3 className="f5 mb2">Patrick Aebischer</h3>
+                      </div>
+                    </article>
+                  </div>
+                  <div className="tabrow">
+                  <article className="center pa3 pa4-ns">
+                      <div className="tc">
+                        <img src={Sauter} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Claudia Sauter</h3>
+                      </div>
+                    </article>
+                    <article className="center pa3 pa4-ns">
+                      <div className="tc">
+                        <img src={Stan} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Stan Wawrinka</h3>
+                      </div>
+                    </article>
+                    <article className="center pa3 pa4-ns">
+                      <div className="tc">
+                        <img src={Urs} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Urs Wietlisbach</h3>
                       </div>
                     </article>
                   </div>
