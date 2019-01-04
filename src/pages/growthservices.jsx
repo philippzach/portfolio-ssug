@@ -70,7 +70,7 @@ const GrowthServices = () => (
         </article>
         <article class="mobileview cf mv6">
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
-            <p className="lh-copy">Once the products have been developed, they do not sell themselves. This 
+            <p className="lh-copy pb5-l">Once the products have been developed, they do not sell themselves. This 
                   is where another <b>SWISS STARTUP TECH</b> service comes in. With our experience in <b>marketing 
                   and communication</b>, we help you to position the products 
                         correctly and to communicate them externally.</p>
@@ -95,7 +95,7 @@ const GrowthServices = () => (
         </article>
         <article class="mobileview cf mv6">
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
-            <p className="lh-copy">With Avaneo we offer <b>customised solutions for</b> startups in the areas of: <b>Accounting, Tax consulting, (Direct and VAT), Payroll accounting, Human resources and controlling. </b>
+            <p className="lh-copy pb4-l">With Avaneo we offer <b>customised solutions for</b> startups in the areas of: <b>Accounting, Tax consulting, (Direct and VAT), Payroll accounting, Human resources and controlling. </b>
                   Every startups gets a customised advice and therefore we offer accounting solutions that are tailored to your needs.</p>
                   <a href="https://www.avaneo.ch" target="_blank">
                 <div className="button -dark">To Avaneo</div>
