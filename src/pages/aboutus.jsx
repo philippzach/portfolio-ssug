@@ -139,7 +139,7 @@ const AboutUs = () => (
             <div className="tc">
                 <img src={Max} className="br-100 h4 w4 dib pa2" title="" alt="" />
                 <h3 className="f5 mb2">Max Meister</h3>
-                <h4 className="f6 fw4 gray mt0">CSO</h4>
+                <h4 className="f6 fw4 gray mt0">Co-Founder</h4>
               </div>
             </article>
             <article className="center pa3 pa4-ns">

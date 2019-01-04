@@ -38,6 +38,7 @@ const InvestmentPortfolio = () => (
           Together we achieve more.
         </p>
       </div>
+      <Slider />
       <Title>What we offer</Title>
     </Wrapper>
     <div className="flex flex-column flex-row-ns mv4 background pb4">
@@ -81,7 +82,7 @@ const InvestmentPortfolio = () => (
       </div>
       
     </Wrapper>
-    <div className="flex flex-column flex-row-ns mv4 background pb4">
+    <div className="flex flex-column flex-row-ns mt4 background pb4">
     <div className="mb4 mb0-ns w-100 w-40-ns">
         <img src={Corporates} alt="" />
       </div>
@@ -107,10 +108,6 @@ const InvestmentPortfolio = () => (
         </div>
       </div>
     </div>
-    <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-    <h2 className="lh-copy measure center tc">Portfolio</h2>
-      <Slider />
-    </Wrapper>
   </Layout>
 );
 

@@ -50,7 +50,7 @@ const Investor = () => (
           <h4 className="pt4">Chris Wildmoser</h4>
         </div>
         <p className="tc lh-copy measure center f6 black-70">
-          Christian Wildmoser is former partner of CVC Capital Partners and Swiss Startup Group Investor.
+        Christian Wildmoser is former partner of CVC Capital Partners one of the leading private equity companies in the world. He has more than 25 years of investment experience and is today an active venture investor.
         </p>
       </article>
       <article className="mobile mw6  pa3 pa4-ns mv3">
@@ -59,8 +59,7 @@ const Investor = () => (
           <h4 className="pt4">Urs Wietlisbach</h4>
         </div>
         <p className="tc lh-copy measure center f6 black-70">
-          Urs Wietlisbach co-founded Partners Group in 1996. He is a member of Partners Group Holding AG’s Board of
-          Directors and Chairman of the Markets Committee, based in Zug. He has 28 years of industry experience.
+        Urs Wietlisbach is co-founded of Partners Group based in Zug, Switzerland. He is a member of Partners Group Holding AG’s Board of Directors and Chairman of the Markets Committee. He as more than 25 years of industry experience and is an active venture investor. 
         </p>
       </article>
       <article className="mobile mw6  pa3 pa4-ns mv3">
@@ -69,8 +68,7 @@ const Investor = () => (
           <h4 className="pt4">Dr. Hans Peter Strebel</h4>
         </div>
         <p className="tc lh-copy measure center f6 black-70">
-          Owner of «On Your Marks», the competence center for top athletics and researchMarkets Committee, based in Zug.
-          He has 28 years of industry experie
+        Dr. Hans-Peter Strebel is the creator and owner of the competence center for top athletics and interdiciplinary sports research „On your marks“ - OYM AG - based in Cham, Switzerland. <a className="black" href="http://www.oym.ch/vision/">www.oym.com</a>
         </p>
       </article>
     </div>

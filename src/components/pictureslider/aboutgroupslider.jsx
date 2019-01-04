@@ -35,9 +35,9 @@ const pages = [
               <dd class="ml0 mb3">Underpromise, Overdeliver</dd>
               <dt class="f6 b mt2">Last thing in the evening</dt>
               <dd class="ml0 mb3">Netflix - 2 minutes before I fall asleep </dd>
-              <dt class="f6 b mt2">What Oliver says</dt>
+              <dt class="f6 b mt2">What Co-Founder Oliver says</dt>
               <dd class="ml0 mb3"> I'll take a close look first!</dd>
-              <dt class="f6 b mt2">What Mike says</dt>
+              <dt class="f6 b mt2">What Co-Founder Mike says</dt>
               <dd class="ml0 mb3">GoGoGo!</dd>
           </dl>
           </div>
@@ -70,9 +70,9 @@ const pages = [
               <dd class="ml0 mb3">Electrician works</dd>
               <dt class="f6 b mt2">Unbelievable but true</dt>
               <dd class="ml0 mb3">I had a crazy lunch with Dennis Rodman</dd>
-              <dt class="f6 b mt2">What Max says</dt>
+              <dt class="f6 b mt2">What Co-Founder Max says</dt>
               <dd class="ml0 mb3">Let’s do it!</dd>
-              <dt class="f6 b mt2">What Oliver says</dt>
+              <dt class="f6 b mt2">What Co-Founder Oliver says</dt>
               <dd class="ml0 mb3"> I'll take a close look first!</dd>
           </dl>
           </div>

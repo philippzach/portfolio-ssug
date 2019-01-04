@@ -20,7 +20,7 @@ const pages = [
           <span className="arrows"></span>
           <p className="lh-copy">
             End-to-end startup development and investment skill-set. SWISS STARTUP GROUP offers services across the
-            entire value chain: scouting, analysis, due diligence, acceleration, company bulding, investing and exit advisory.
+            entire value chain: scouting, analysis, due diligence, acceleration, company buildng, investing and exit advisory.
           </p>
           <span className="b">1/4</span>
          
