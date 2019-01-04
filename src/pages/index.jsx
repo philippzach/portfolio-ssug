@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Tachyons from 'tachyons/css/tachyons.min.css';
 import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 import { graphql, Link } from 'gatsby';

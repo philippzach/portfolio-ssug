@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Tachyons from 'tachyons/css/tachyons.min.css';
 import { injectGlobal } from 'emotion';
 import { ThemeProvider } from 'emotion-theming';
 import 'typeface-roboto';
