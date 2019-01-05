@@ -262,7 +262,7 @@ const AboutUs = () => (
         <Title>Advisory Board</Title>
         </Wrapper>
         <AdvisorSlider />
-        <div className="panel">
+        <div className="panel" style={{ backgroundColor: "#f7f7f7" }}>
         <div className="paddingtabs">
           <div className="tabrow">
                     <article className="center pa3 pa4-ns">
