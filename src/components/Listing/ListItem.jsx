@@ -5,8 +5,11 @@ import { Link } from 'gatsby';
 import { Categories } from 'components/Listing';
 import '../../styles/blogpost.css';
 
-const Item = styled.li`
-margin-bottom: 1.5em;
+const Item = styled.div`
+@media (min-width: 1500px) {
+  max-width: 75%;
+  margin: 0 auto;
+}
 `;
 
 const Headline = styled.p`
@@ -30,6 +33,7 @@ const StyledLink = styled.p`
   height: 3em;
   @media (max-width: ${props => props.theme.breakpoints.s}) {
     font-size: 1.777rem;
+    height: 4em;
   }
 `;
 

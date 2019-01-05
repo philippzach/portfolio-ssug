@@ -3,16 +3,31 @@ import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 import { ListItem } from 'components/Listing';
 
-const List = styled.ul`
+// const List = styled.ul`
+//   margin-top: 4rem;
+//   margin-bottom: 4rem;
+//   list-style-type: none;
+//   margin-left: 0;
+//   @media only screen and (max-width: 650px) {
+//     columns: 1;
+//   }
+//   @media only screen and (min-width: 650px) {
+//     columns: 2;
+//   }
+// `;
+
+const List = styled.div`
   margin-top: 4rem;
   margin-bottom: 4rem;
-  list-style-type: none;
   margin-left: 0;
-  @media only screen and (max-width: 650px) {
-    columns: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  @media (max-width: 1000px) {
+    grid-template-columns: repeat(2, 1fr);
   }
-  @media only screen and (min-width: 650px) {
-    columns: 2;
+  @media (max-width: 550px) {
+    grid-template-columns: repeat(1, 1fr);
   }
 `;
 
