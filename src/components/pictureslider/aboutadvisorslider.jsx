@@ -64,7 +64,7 @@ const pages = [
                 <h3>Jean Claude Biver</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
-                Jean-Claude Biver is the President of the Watches Division at LVMH Group, the CEO of TAG Heuer, Interim CEO of Zenith, and Chairman of the Board of Hublot.
+                Jean Claude Biver is the non executive president of the watch division at LVMH group as well as chairman of the board of Hublot. Over the last 35 years he has worked for Blancpain, Omega, Hublot and the LVMH group (TAG Heuer, Zenith) and has impacted the Swiss watch industry like almost no-one else.
                 </p>
             </div>
             </div>
@@ -96,7 +96,7 @@ const pages = [
                 <h3>Beat Curti</h3>
                 <span className="arrows"></span>
                 <p className="lh-copy">
-                Beat Curti is the founder, majority shareholder, and Beat, as well as vice-chairman and active partner of SoftwareOne. As an entrepreneur by heart, driven by the desire to create, he looks back on a fascinating career.
+                Beat Curti is the founder of Goldbach Media and also majority shareholder before Goldbach Media was sold to Tamedia in 2018. Beat acts as well as vice chairman and active partner of SoftwareOne. As an entrepreneur by heart, driven by the desire to create, he looks back on a fascinating career.
                 </p>
             </div>
             </div>
