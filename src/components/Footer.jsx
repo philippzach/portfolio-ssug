@@ -24,7 +24,9 @@ class Footer extends Component {
           <div className="w-50 mobilebutton1 pa3">
             Switzerlands #1 <br /> Venture Builder
           </div>
-          <div className="w-50 flex items-center justify-center mobilebutton2">Contact us</div>
+          
+          <div className="w-50 flex items-center justify-center mobilebutton2"><a style={{color: "white"}} href="mailto:virginia.beljean@ssut.ch">Contact us</a></div>
+         
         </div>
         <div>
           <ul
@@ -34,11 +36,11 @@ class Footer extends Component {
               <li className="listitem">
               <Link to="/factory"><span className="topmenu">Factory</span></Link>
                 <ul className="mobileonly list pl0 ma0 pt3 light-gray">
-                  <li className="sublistitem">Startup</li>
-                  <li className="sublistitem">Corporate Acceleration</li>
-                  <li className="sublistitem">Company Building</li>
-                  <li className="sublistitem">Corporate Venturing</li>
-                  <li className="sublistitem">Intra Inovation</li>
+                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/startups/accelerator" target="_blank">Startup</a></li>
+                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/corporates/corporate-acceleration" target="_blank">Corporate Acceleration</a></li>
+                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/corporates/company-building" target="_blank">Company Building</a></li>
+                  <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://ccvs.ch/" target="_blank">Corporate Venturing</a></li>
+                  <li className="sublistitem mb0"><a style={{color: "rgb(211, 211, 211)", }} href="https://www.swissstartupfactory.com/corporates/innovation-consulting" target="_blank">Intra Inovation</a></li>
                 </ul>
               </li>
               <li className="listitem">
@@ -58,10 +60,8 @@ class Footer extends Component {
               <li className="listitem">
               <Link to="/aboutus"><span className="topmenu">About Us</span></Link>
                   <ul className="mobileonly list pl0 ma0 pt3 light-gray">
-                    <li className="sublistitem">Values</li>
-                    <li className="sublistitem">Jobs</li>
-                    <li className="sublistitem">Partners</li>
-                    <li className="sublistitem">News</li>
+                    <li className="sublistitem"><a style={{color: "rgb(211, 211, 211)", }} href="https://swissstartupjobs.com">Jobs</a></li>
+                    <li className="sublistitem"><Link style={{color: "rgb(211, 211, 211)", }} to="/blog">News</Link></li>
                   </ul>
               </li>
             
