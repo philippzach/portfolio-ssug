@@ -97,7 +97,7 @@ class Index extends Component {
               Venture Builder
             </h1>
             <HeroText>
-            A purely privately financed Swiss venture platform to scout, build, accelerate and invest in the most promising startups.
+            A privately financed Swiss venture platform to scout, build, accelerate and invest in the most promising startups.
             </HeroText>
           </HeroInner>
         </Hero>
@@ -113,7 +113,7 @@ class Index extends Component {
           </div>
           <div className="containertitle">
             <h2 className="lh-copy headingcolorshadow">
-            OUR VISION: BECOME A WORLD CLASS VENTURE BUILDER
+            OUR VISION: BECOME ONE OF THE WORLD’S LEADING VENTURE BUILDER
             </h2>
             <p className="lh-copy"><span className="b">The SWISS STARTUP GROUP is the only market player in Switzerland combining all assets of the venture business on one platform.</span></p>
             <p className="lh-copy">

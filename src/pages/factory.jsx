@@ -32,7 +32,7 @@ const Factory = () => (
           new technologies.
         </p>
         <p className="lh-copy">
-          We are the number one purely privately financed and independent accelerator in Switzerland. The SWISS STARTUP FACTORY provides a
+          We are the number one privately financed and independent accelerator in Switzerland. The SWISS STARTUP FACTORY provides a
           professional execution platform to corporates and startups through a dedicated business driven process that
           brings their innovation to market fast and lean.
         </p>
