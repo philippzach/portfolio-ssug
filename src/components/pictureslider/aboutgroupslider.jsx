@@ -16,7 +16,7 @@ const pages = [
         <img src={Max} alt="" style={{ maxHeight: '600px' }}/>
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
-        <div className="paddingfounders">
+        <div className="paddingfoundersabout">
           <h4 className="mb1 dimgray">CSO</h4>
           <h3>Max Meister</h3>
           <div className="flex">
@@ -51,7 +51,7 @@ const pages = [
         <img src={Mike} alt="" style={{ maxHeight: '600px' }}/>
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
-        <div className="paddingfounders">
+        <div className="paddingfoundersabout">
           <h4 className="mb1 dimgray">CEO</h4>
           <h3>Mike Baur</h3>
           <div className="flex">
@@ -86,7 +86,7 @@ const pages = [
         <img src={Oli} alt="" style={{ maxHeight: '600px' }} />
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
-        <div className="paddingfounders">
+        <div className="paddingfoundersabout">
           <h4 className="mb1 dimgray">COO</h4>
           <h3>Oliver Walzer</h3>
           <div className="flex">
@@ -120,7 +120,7 @@ const pages = [
      <img src={Larissa} alt="" style={{ maxHeight: '600px' }} />
    </div>
    <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
-     <div className="paddingfounders">
+     <div className="paddingfoundersabout">
        <h4 className="mb1 dimgray">Executive Assistant</h4>
        <h3>Larissa Truffer</h3>
        <div className="flex">

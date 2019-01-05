@@ -22,9 +22,16 @@
     .containertitle {
         padding-bottom: 3em;
     }
+    .fixerclass {
+        padding: 7em 0;
+    }
+}
+@media only screen and (min-width:550px) {
+    .fixerclass {
+        padding: 4em 0;
+    }
 }
 .fixerclass {
-    padding: 4em 0;
     background-color: #F7F7F7;
 }
 .paddingtabs {

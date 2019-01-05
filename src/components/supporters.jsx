@@ -105,8 +105,8 @@ const Supporters = () => (
           </p>
         </div>
         </div>
-      <div className="pr3-ns mb4 mb0-ns w-100 w-50-ns bg-grey flex containersupporter" style={style}>
-        <div className="logorow flex flex-column">
+      <div className="pr3-ns mb0-ns w-100 w-50-ns bg-grey flex containersupporter" style={style}>
+        <div className="logorow flex flex-column justify-center items-center">
         <a href="http://www.dieci.ch/" target="_blank">
         <img className="pa3" src={Logoa} />
         </a>
@@ -120,7 +120,7 @@ const Supporters = () => (
         <img className="pa3" src={Logod} />
         </a>
         </div>
-        <div className="logorow flex flex-column">
+        <div className="logorow flex flex-column justify-center items-center">
         <a href="http://www.nespresso.com" target="_blank">
         <img className="pa3" src={Logoe} />
         </a>

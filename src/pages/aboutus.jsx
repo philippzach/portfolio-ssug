@@ -71,7 +71,7 @@ const AboutUs = () => (
       <Title className="mt6">SSUG</Title>
       <div className="containertitle">
         <h1 className="lh-title ttu headingcolorshadow">Team</h1>
-        <p className="lh-copy">
+        <p className="lh-copy mb5">
          Our team consists smart experts with a diverse set of experiences and backgrounds. As unique as we are individually, we share a mutual passion for startup ecosstem and doing excellent work for our clients and partners. Get to know our team below. 
         </p>
       </div>
@@ -258,7 +258,7 @@ const AboutUs = () => (
             </div>
         </TabPanel>
       </Tabs>
-      <Wrapper style={{ paddingTop: "5em", paddingBottom: "1em"}}>
+      <Wrapper style={{ paddingTop: "5em", paddingBottom: "3em"}}>
         <Title>Advisory Board</Title>
         </Wrapper>
         <AdvisorSlider />

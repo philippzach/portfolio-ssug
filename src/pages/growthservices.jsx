@@ -58,7 +58,7 @@ const GrowthServices = () => (
             <img src={Product} alt="" title="" />
          </div>
         <div class="fl w-100 w-50-ns tr pa3-s pa3-m pl4-l">
-         <p className="lh-copy">The <b>SWISS STARTUP TECH</b> helps startups create modern products. With our knowledge in
+         <p className="lh-copy mt3">The <b>SWISS STARTUP TECH</b> helps startups create modern products. With our knowledge in
           application architecture <b>we build highly scalable products and deploy them on cloud infrastructures.</b>
            In addition, we transform existing applications to keep up with the technological progress. 
            We challenge your existing application with our free due diligence. 
@@ -70,7 +70,7 @@ const GrowthServices = () => (
         </article>
         <article class="mobileview cf mv6">
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
-            <p className="lh-copy pb5-l">Once the products have been developed, they do not sell themselves. This 
+            <p className="lh-copy mt3 pb5-l">Once the products have been developed, they do not sell themselves. This 
                   is where another <b>SWISS STARTUP TECH</b> service comes in. With our experience in <b>marketing 
                   and communication</b>, we help you to position the products 
                         correctly and to communicate them externally.</p>
@@ -87,7 +87,7 @@ const GrowthServices = () => (
                 <img src={Analysis} alt="" title="" />
             </div>
             <div class="fl w-100 w-50-ns tr pa4-s pa3-m pl4-l">
-            <p className="lh-copy"><b>The BV4 experts analyse any startup with their sophisticated rating system and  provide you with relevant information to support your decision process</b> with an objective summary for your convenience. Last but not least they provide with their integrated commercial and financial due diligence a comprehensive review of the startup’s business plan based on projected market conditions, the industry and the competition.</p>
+            <p className="lh-copy mt3"><b>The BV4 experts analyse any startup with their sophisticated rating system and  provide you with relevant information to support your decision process</b> with an objective summary for your convenience. Last but not least they provide with their integrated commercial and financial due diligence a comprehensive review of the startup’s business plan based on projected market conditions, the industry and the competition.</p>
             <a href="https://www.bv4.ch" target="_blank">
             <div className="button -dark">To BV4</div>
             </a>
@@ -95,7 +95,7 @@ const GrowthServices = () => (
         </article>
         <article class="mobileview cf mv6">
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
-            <p className="lh-copy pb4-l">With Avaneo we offer <b>customised solutions for</b> startups in the areas of: <b>Accounting, Tax consulting, (Direct and VAT), Payroll accounting, Human resources and controlling. </b>
+            <p className="lh-copy mt3 pb4-l">With Avaneo we offer <b>customised solutions for</b> startups in the areas of: <b>Accounting, Tax consulting, (Direct and VAT), Payroll accounting, Human resources and controlling. </b>
                   Every startups gets a customised advice and therefore we offer accounting solutions that are tailored to your needs.</p>
                   <a href="https://www.avaneo.ch" target="_blank">
                 <div className="button -dark">To Avaneo</div>
