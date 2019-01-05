@@ -32,7 +32,7 @@ const StyledLink = styled.p`
   font-style: normal;
   height: 3em;
   @media (max-width: ${props => props.theme.breakpoints.s}) {
-    font-size: 1.777rem;
+    font-size: 1.3rem;
     height: 4em;
   }
 `;
