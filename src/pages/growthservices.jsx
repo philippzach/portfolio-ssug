@@ -4,10 +4,10 @@ import { Layout, Wrapper, Navbar, Title } from 'components';
 import Background from '../../static/growth_rocket.jpg';
 import '../styles/pages/growth.css';
 import Placeholder from '../../static/placeholder.png';
-import Product from '../../static/growth-process.svg';
-import Marketing from '../../static/growth-market.svg';
-import Analysis from '../../static/growth-analysis.svg';
-import Acount from '../../static/growth-account.svg';
+import Product from '../../static/ssut.svg' /* //'../../static/growth-process.svg'; */
+import Marketing from '../../static/ssut.svg'/* //'../../static/growth-market.svg'; */
+import Analysis from '../../static/bv4.svg'/* //'../../static/growth-analysis.svg'; */
+import Acount from '../../static/avaneo.svg'/* //'../../static/growth-account.svg'; */
 import Seo from '../components/SEO/index';
 
 const Hero = styled.header`
@@ -70,26 +70,28 @@ const GrowthServices = () => (
         </article>
         <article class="mobileview cf mv6">
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
-            <p className="lh-copy mt3 pb5-l">Once the products have been developed, they do not sell themselves. This 
-                  is where another <b>SWISS STARTUP TECH</b> service comes in. With our experience in <b>marketing 
-                  and communication</b>, we help you to position the products 
-                        correctly and to communicate them externally.</p>
-                        <a href="mailto:virginia.beljean@ssut.ch">
-                        <div className="button -dark">Happy to consult you</div>
+            <p className="lh-copy mt3 pb5-l"><b>The BV4 experts analyse any startup with their sophisticated rating system and  provide you with relevant information to support your decision process</b> with an objective summary for your convenience. Last but not least they provide with their integrated commercial and financial due diligence a comprehensive review of the startup’s business plan based on projected market conditions, the industry and the competition.</p>
+                        <a href="https://www.bv4.ch">
+                        <div className="button -dark">To BV4</div>
                         </a>
               </div>
             <div class="backgroundgrowth fl w-100 w-50-ns tc">
-                <img src={Marketing} alt="" title="" />
-            </div>
-        </article>
-        <article class="cf mv6">
-            <div class="backgroundgrowth fl w-100 w-50-ns tc">
                 <img src={Analysis} alt="" title="" />
             </div>
+        </article>
+        
+
+        <article class="cf mv6">
+            <div class="backgroundgrowth fl w-100 w-50-ns tc">
+                <img src={Marketing} alt="" title="" />
+            </div>
             <div class="fl w-100 w-50-ns tr pa4-s pa3-m pl4-l">
-            <p className="lh-copy mt3"><b>The BV4 experts analyse any startup with their sophisticated rating system and  provide you with relevant information to support your decision process</b> with an objective summary for your convenience. Last but not least they provide with their integrated commercial and financial due diligence a comprehensive review of the startup’s business plan based on projected market conditions, the industry and the competition.</p>
-            <a href="https://www.bv4.ch" target="_blank">
-            <div className="button -dark">To BV4</div>
+            <p className="lh-copy mt3">Once the products have been developed, they do not sell themselves. This 
+                  is where another <b>SWISS STARTUP TECH</b> service comes in. With our experience in <b>marketing 
+                  and communication</b>, we help you to position the products 
+                        correctly and to communicate them externally.</p>
+            <a href="mailto:virginia.beljean@ssut.ch" target="_blank">
+            <div className="button -dark">Happy to consult you</div>
             </a>
               </div>
         </article>
