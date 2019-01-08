@@ -44,6 +44,8 @@ export default class SliceZone extends Component {
           return <Image key={s.id} input={s} />;
         case 'quote':
           return <Quote key={s.id} input={s} />;
+        case 'embed' :
+          return <Embed key={s.id} input={s} />;
         default:
           return null;
       }

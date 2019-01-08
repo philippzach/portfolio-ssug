@@ -16,6 +16,7 @@ import LogoSlider from '../components/logoslider';
 import FounderSlider from '../components/pictureslider/indexfounders';
 import Point from '../../static/point.svg';
 import Seo from '../components/SEO/index';
+import SocialBanner from '../../static/socialsharing.jpg'
 
 const Hero = styled.header`
  background-image: url("${Background}");
@@ -87,7 +88,7 @@ class Index extends Component {
     } = this.props;
     return (
       <Layout>
-        <Seo title="SWISS STARTUP GROUP - World Class Venture Builder" desc="Swiss Venture Builder for Startup Scouting, Analysis, Acceleration, Company Building, Corporate Venturing, Growth and Investments in one platform."  />
+        <Seo title="SWISS STARTUP GROUP - World Class Venture Builder" desc="Swiss Venture Builder for Startup Scouting, Analysis, Acceleration, Company Building, Corporate Venturing, Growth and Investments in one platform." banner={SocialBanner} />
         <Hero>
           <Navbar />
           <HeroInner>

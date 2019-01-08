@@ -30,7 +30,7 @@ const Post = ({ data: { prismicPost, posts }, location }) => {
   }
   return (
     <Layout>
-      <SEO title={`${data.title.text} | ${website._title}`} pathname={location.pathname} article />
+      <SEO title={`${data.title.text} | ${website._title}`} pathname={location.pathname} article banner={data.coverimage.url}/>
       <Hero>
         <Wrapper>
           <Header />
@@ -70,6 +70,9 @@ export const pageQuery = graphql`
       data {
         title {
           text
+        }
+        coverimage {
+          url
         }
         date(formatString: "DD.MM.YYYY")
         categories {

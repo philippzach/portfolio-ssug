@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import { Facebook, Twitter } from 'components/SEO';
 import Favicon from '../../favicon.ico';
+import defaultBanner from '../../../static/socialsharing.jpg';
 
 // Complete tutorial: https://www.gatsbyjs.org/docs/add-seo-component/
 
@@ -26,7 +27,6 @@ export default class SEO extends Component {
               siteUrl,
               pathPrefix,
               defaultDescription,
-              defaultBanner,
               twitter,
             },
           },
@@ -34,7 +34,8 @@ export default class SEO extends Component {
           const seo = {
             title: title || defaultTitle,
             description: desc || defaultDescription ,
-            image: `${siteUrl}${banner || defaultBanner}`,
+            image: banner || defaultBanner,
+            // image: `${siteUrl}${banner || defaultBanner}`,
             url: `${siteUrl}${pathname || '/'}`,
           };
 

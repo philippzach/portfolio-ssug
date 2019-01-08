@@ -1,0 +1,12 @@
+.blogentry a {
+    color: dimgrey !important;
+    font-size: 21px !important;
+    line-height: 1.5em !important;
+    cursor: pointer !important;
+}
+.blogentry a:hover {
+    text-decoration: underline !important;
+}
+.blogentry div {
+    text-align: center;
+}

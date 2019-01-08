@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'react-emotion';
+import './style.css';
 
 const Content = styled.div`
   max-width: ${props => props.theme.maxWidthText};
 `;
 
-const BodyText = ({ input }) => <Content dangerouslySetInnerHTML={{ __html: input.primary.text.html }} />;
+const BodyText = ({ input }) => <Content className="blogentry" dangerouslySetInnerHTML={{ __html: input.primary.text.html }} />;
 
 export default BodyText;
 

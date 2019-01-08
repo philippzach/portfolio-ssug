@@ -61,7 +61,7 @@ const Investor = () => (
           <h4 className="pt4">Urs Wietlisbach</h4>
         </div>
         <p className="tc lh-copy measure center f6 black-70">
-        Urs Wietlisbach is co-founded of Partners Group based in Zug, Switzerland. He is a member of Partners Group Holding AG’s Board of Directors and Chairman of the Markets Committee. He as more than 25 years of industry experience and is an active venture investor. 
+        Urs Wietlisbach is co-founded of Partners Group based in Zug, Switzerland. He is a member of Partners Group Holding AG’s Board of Directors and Chairman of the Markets Committee. He has more than 25 years of industry experience and is an active venture investor. 
         </p>
       </article>
       <article className="mobile mw6  pa3 pa4-ns mv3">
