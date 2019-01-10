@@ -37,7 +37,7 @@ const Post = ({ data: { prismicPost, posts }, location }) => {
           <Headline>
             {data.date} — {categories && <Categories categories={categories} />}
           </Headline>
-          <h1>{data.title.text}</h1>
+          <h1 className="lh-title">{data.title.text}</h1>
         </Wrapper>
       </Hero>
       <Wrapper>
