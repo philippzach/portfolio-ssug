@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'react-emotion';
 import { Layout, Wrapper, Navbar, Title } from 'components';
-import Background from '../../static/aboutus.jpg';
+//import Background from '../../static/aboutus.jpg';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 import '../styles/pages/about.css';
 import Values from '../components/Values/index';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
@@ -41,23 +43,22 @@ import Sauter from '../../static/advisors/sauter_claudia_portrait.jpg';
 import Stan from '../../static/advisors/wawrinka_stan_portrait.jpg';
 import Urs from '../../static/advisors/wietlisbach_urs_portrait.jpg';
 
-const Hero = styled.header`
- background-image: url("${Background}");
- background-repeat:no-repeat;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center;
-height: 400px;
-`;
 
-const AboutUs = () => (
+
+const Test = styled.div`
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    max-height: 450px;
+`
+
+const AboutUs = ({ data }) => (
   <Layout>
   <Seo title="SWISS STARTUP GROUP – About us" desc="Get to know our team, advisory board, partners, supporters and sponsors, that offers a perfect network platform in the swiss startup ecosystem" />
-    <Hero>
       <Navbar />
-    </Hero>
+      <Test> 
+          <Img fluid={data.about.childImageSharp.fluid} className="w-100" />
+      </Test>
     <Wrapper style={{ paddingTop: '2rem' }}>
       <Title>Our Team</Title>
       <div className="containertitleabout">
@@ -370,3 +371,17 @@ const AboutUs = () => (
 );
 
 export default AboutUs;
+
+export const query = graphql`
+  query {
+    about: file(relativePath: { eq: "images/aboutus.jpg" }) {
+        childImageSharp {
+          fluid(
+            maxWidth: 1500
+            traceSVG: { background: "#fff", color: "lightgrey" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+    }
+  }`

@@ -1,32 +1,31 @@
 import React from 'react';
 import styled from 'react-emotion';
 import { Layout, Wrapper, Navbar, Title } from 'components';
-import Background from '../../static/growth_rocket.jpg';
+//import Background from '../../static/growth_rocket.jpg';
 import '../styles/pages/growth.css';
-import Placeholder from '../../static/placeholder.png';
+//import Placeholder from '../../static/placeholder.png';
 import Product from '../../static/ssut.svg' /* //'../../static/growth-process.svg'; */
 import Marketing from '../../static/ssut.svg'/* //'../../static/growth-market.svg'; */
 import Analysis from '../../static/bv4.svg'/* //'../../static/growth-analysis.svg'; */
 import Acount from '../../static/avaneo.svg'/* //'../../static/growth-account.svg'; */
 import Seo from '../components/SEO/index';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
-const Hero = styled.header`
- background-image: url("${Background}");
- background-repeat:no-repeat;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:bottom;
-height: 400px;
-`;
+const Test = styled.div`
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    max-height: 450px;
+`
 
-const GrowthServices = () => (
+const GrowthServices = ({ data }) => (
   <Layout>
   <Seo title="SWISS STARTUP GROUP – Growth Services" desc="Dedicated growth services for corporate clients, startups and investors to grow faster. Accounting, Marketing, Finance, Communication and more." />
-    <Hero>
       <Navbar />
-    </Hero>
+      <Test> 
+          <Img fluid={data.growth.childImageSharp.fluid} className="w-100" />
+      </Test>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '1rem' }}>
       <Title>Growth</Title>
       <div className="containertitle">
@@ -132,3 +131,18 @@ const GrowthServices = () => (
 );
 
 export default GrowthServices;
+
+export const query = graphql`
+  query {
+    growth: file(relativePath: { eq: "images/growth.jpg" }) {
+        childImageSharp {
+          fluid(
+            maxWidth: 1500
+            traceSVG: { background: "#fff", color: "lightgrey" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+    }
+  }`
+

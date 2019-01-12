@@ -3,8 +3,9 @@ import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 import { graphql, Link } from 'gatsby';
 import { Layout, Listing, Wrapper, Title, Navbar } from 'components';
-import Background from '../../static/indexbg.jpg';
-import BackgroundMobile from '../../static/indexbgmobile.jpg';
+import Img from 'gatsby-image';
+//import Background from '../../static/indexbg.jpg';
+//import BackgroundMobile from '../../static/indexbgmobile.jpg';
 import '../styles/pages/index.css';
 import Logo from '../group.svg';
 import Carousel from '../components/carousel';
@@ -18,46 +19,31 @@ import Point from '../../static/point.svg';
 import Seo from '../components/SEO/index';
 import SocialBanner from '../../static/socialsharing.jpg'
 
-const Hero = styled.header`
- background-image: url("${Background}");
- background-repeat:no-repeat;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center;
-`;
-
-const HeroMobile = styled.header`
-background-image: url("${BackgroundMobile}");
- background-repeat:no-repeat;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center;
-`;
+const Test = styled.div`
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    max-height: 900px;
+`
 
 const HeroInner = styled.div`
-  padding-top: 4rem;
-  padding-bottom: 23rem;
-  margin: 0 2em;
   h1 {
     margin-bottom: 2rem;
     text-transform: uppercase;
-    font-size: 3.45em;
+    font-size: 3em;
   }
-  @media (max-width: ${props => props.theme.breakpoints.l}) {
-    padding-top: 4rem;
-    padding-bottom: 23rem;
+  @media (min-width: 1000px) {
+    position: absolute;
+    top: 150px;
+    left: 50px;
   }
-  @media (max-width: ${props => props.theme.breakpoints.m}) {
-    padding-top: 4rem;
-    padding-bottom: 23rem;
+  @media (min-width: 700px) and (max-width: 1000px) {
+    position: absolute;
+    top: 100px;
+    left: 50px;
   }
-  @media (max-width: ${props => props.theme.breakpoints.s}) {
-    padding-top: 0rem;
-    padding-bottom: 27rem;
+  @media (max-width: 700px) {
+    text-align: center;
   }
 `;
 
@@ -74,6 +60,11 @@ const HeroText = styled.div`
     font-size: 1.25rem;
     max-width: 81%;
   }
+  @media (max-width: 700px) {
+    max-width: 100%;
+    margin-bottom: 5em;
+    padding: 1em;
+  }
 `;
 
 const BulletPoint = styled.img`
@@ -85,12 +76,15 @@ class Index extends Component {
   render() {
     const {
       data: { posts },
+      data: { index }
     } = this.props;
     return (
       <Layout>
         <Seo title="SWISS STARTUP GROUP - World Class Venture Builder" desc="Swiss Venture Builder for Startup Scouting, Analysis, Acceleration, Company Building, Corporate Venturing, Growth and Investments in one platform." banner={SocialBanner} />
-        <Hero>
           <Navbar />
+          <Test> 
+            <Img fluid={index.childImageSharp.fluid} className="w-100" />
+          </Test>
           <HeroInner>
             <h1 className="headingcolorshadow">
               Switzerland's #1
@@ -101,7 +95,6 @@ class Index extends Component {
             A privately financed Swiss venture platform to scout, build, accelerate and invest in the most promising startups.
             </HeroText>
           </HeroInner>
-        </Hero>
         <div className="line" />
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <div className="logocontainer">
@@ -253,6 +246,16 @@ export const pageQuery = graphql`
         }
       }
     }
+    index: file(relativePath: { eq: "images/indexbg.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#fff", color: "lightgrey" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+  }
   }
 `;
 
