@@ -20,6 +20,9 @@ const Header = styled.div`
   @media (max-width: ${props => props.theme.breakpoints.s}) {
     padding: 3em 4em 4em 1em;
   }
+  @media (max-width: 600px) {
+    background-image: linear-gradient(white,rgba(255,255,255, 0.2) 83%,transparent);
+  }
 `;
 const Navigation = styled.nav`
   margin: auto 0;

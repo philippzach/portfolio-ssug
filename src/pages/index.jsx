@@ -44,6 +44,9 @@ const HeroInner = styled.div`
   }
   @media (max-width: 700px) {
     text-align: center;
+    h1{
+      padding-top: 2rem;
+    }
   }
 `;
 
