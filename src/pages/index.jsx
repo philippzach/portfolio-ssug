@@ -39,7 +39,7 @@ const HeroInner = styled.div`
   }
   @media (min-width: 700px) and (max-width: 1000px) {
     position: absolute;
-    top: 100px;
+    top: 133px;
     left: 50px;
   }
   @media (max-width: 700px) {
