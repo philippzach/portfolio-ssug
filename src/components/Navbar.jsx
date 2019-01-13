@@ -21,7 +21,7 @@ const Header = styled.div`
     padding: 3em 4em 4em 1em;
   }
   @media (max-width: 600px) {
-    background-image: linear-gradient(white,rgba(255,255,255, 0.2) 83%,transparent);
+    background-image: linear-gradient(rgba(255,255,255,.8),rgba(255,255,255,0.2) 58%, transparent);
   }
 `;
 const Navigation = styled.nav`
