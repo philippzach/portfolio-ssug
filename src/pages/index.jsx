@@ -8,7 +8,7 @@ import Img from 'gatsby-image';
 //import BackgroundMobile from '../../static/indexbgmobile.jpg';
 import '../styles/pages/index.css';
 import Logo from '../group.svg';
-import Carousel from '../components/carousel';
+import DnaSlider from '../components/pictureslider/indexdna';
 import Acceleration from '../../static/indexacceleration.svg';
 import Portfolio from '../../static/indexportfolio.svg';
 import Growth from '../../static/indexgrowth.svg';
@@ -124,7 +124,7 @@ class Index extends Component {
           </div>
           <Title style={{ marginTop: '4rem', marginBottom: '2em' }}>Our DNA</Title>
         </Wrapper>
-        <Carousel />
+        <DnaSlider />
         <Wrapper style={{ paddingTop: '5rem', paddingBottom: '3rem' }}>
           <Title style={{ marginTop: '4rem' }}>What we do</Title>
         </Wrapper>

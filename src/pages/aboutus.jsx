@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'react-emotion';
 import { Layout, Wrapper, Navbar, Title } from 'components';
-//import Background from '../../static/aboutus.jpg';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import '../styles/pages/about.css';
@@ -42,8 +41,6 @@ import Patrick from '../../static/advisors/patrick_aebischer_portrait.jpg';
 import Sauter from '../../static/advisors/sauter_claudia_portrait.jpg';
 import Stan from '../../static/advisors/wawrinka_stan_portrait.jpg';
 import Urs from '../../static/advisors/wietlisbach_urs_portrait.jpg';
-
-
 
 const Test = styled.div`
     position: relative;
