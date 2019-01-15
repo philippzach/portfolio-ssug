@@ -3,7 +3,7 @@ module.exports = {
   _title: 'Swiss Startup Group - The #1 Venture Builder in Switzerland', // Navigation and Site Title
   _titleAlt: 'Swiss Startup Group', // Title for JSONLD
   description: 'Switzerlands #1 Venture Builder and Startup Accelerator',
-  _url: 'https://swissstartupgroup.com', // Domain of your site. No trailing slash!
+  _url: 'https://www.swissstartupgroup.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   logo: '/socialsharing.jpg', // Used for SEO
   defaultBanner: '/socialsharing.jpg',
