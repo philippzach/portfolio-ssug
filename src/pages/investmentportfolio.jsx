@@ -1,30 +1,29 @@
 import React from 'react';
 import styled from 'react-emotion';
 import { Layout, Wrapper, Navbar, Title } from 'components';
-import Background from '../../static/investmentportfolio.jpg';
+//import Background from '../../static/investmentportfolio.jpg';
 import Startup from '../../static/portfoliostartup.jpg';
 import Corporates from '../../static/corporatesportfolio.jpg';
 import '../styles/pages/portfolio.css';
 import Slider from '../components/logosliderportfolio';
 import Seo from '../components/SEO/index';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
-const Hero = styled.header`
- background-image: url("${Background}");
- background-repeat:no-repeat;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center;
-height: 400px;
-`;
+const Test = styled.div`
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    max-height: 450px;
+`
 
-const InvestmentPortfolio = () => (
+const InvestmentPortfolio = ({ data }) => (
   <Layout>
   <Seo title="SWISS STARTUP GROUP – Investment Portfolio" desc="Exclusive startup investment platform, which contains investor club, advisory board and corporate partners for everything about startup investments" />
-    <Hero>
       <Navbar />
-    </Hero>
+      <Test> 
+          <Img fluid={data.portfolio.childImageSharp.fluid} className="w-100" />
+      </Test>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Portfolio</Title>
       <div className="containertitle">
@@ -115,3 +114,18 @@ const InvestmentPortfolio = () => (
 );
 
 export default InvestmentPortfolio;
+
+export const query = graphql`
+  query {
+    portfolio: file(relativePath: { eq: "images/investmentportfolio.jpg" }) {
+        childImageSharp {
+          fluid(
+            maxWidth: 1500
+            traceSVG: { background: "#fff", color: "lightgrey" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+    }
+  }`
+
