@@ -1,28 +1,27 @@
 import React from 'react';
 import styled from 'react-emotion';
 import { Layout, Wrapper, Navbar, Title } from 'components';
-import Background from '../../static/factory_space.jpg';
+//import Background from '../../static/factory_space.jpg';
 import '../styles/pages/factory.css';
 import FactoryLogo from '../../static/ssuf.svg';
 import Seo from '../components/SEO/index';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
-const Hero = styled.header`
- background-image: url("${Background}");
- background-repeat:no-repeat;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center;
-height: 400px;
-`;
+const Test = styled.div`
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    max-height: 450px;
+`
 
-const Factory = () => (
+const Factory = ({ data }) => (
   <Layout>
     <Seo title="SWISS STARTUP GROUP – Swiss Startup Factory" desc="SWISS STARTUP FACTORY is a venture studio for corporates and startups for Innovation and Acceleration of the best new technologies" />
-    <Hero>
       <Navbar />
-    </Hero>
+      <Test> 
+          <Img fluid={data.factory.childImageSharp.fluid} className="w-100" />
+      </Test>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Swiss Startup Factory</Title>
       <div className="containertitle">
@@ -213,3 +212,17 @@ const Factory = () => (
 );
 
 export default Factory;
+
+export const query = graphql`
+  query {
+    factory: file(relativePath: { eq: "images/factory.jpg" }) {
+        childImageSharp {
+          fluid(
+            maxWidth: 1700
+            traceSVG: { background: "#fff", color: "lightgrey" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+    }
+  }`

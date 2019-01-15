@@ -8,6 +8,9 @@ const Header = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 2em 4em;
+  width: 100%;
+  z-index: 10;
+  position: absolute;
   @media (max-width: ${props => props.theme.breakpoints.l}) {
     padding: 3em 4em 4em 1em;
   }
@@ -16,6 +19,9 @@ const Header = styled.div`
   }
   @media (max-width: ${props => props.theme.breakpoints.s}) {
     padding: 3em 4em 4em 1em;
+  }
+  @media (max-width: 600px) {
+    background-image: linear-gradient(rgba(255,255,255,.8),rgba(255,255,255,0.2) 58%, transparent);
   }
 `;
 const Navigation = styled.nav`
@@ -75,7 +81,7 @@ const Navbar = () => (
         <span className='menu'>
             <span className='hamburger'></span>
         </span>
-        <ul className="list pl0 ma0">
+        <ul className="list pl0 ma0" style={{paddingTop: "22em"}}>
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/factory'>Factory</Link></li>
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/investmentportfolio'>Investment Portfolio</Link></li>
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/growthservices'>Growth Services</Link></li>

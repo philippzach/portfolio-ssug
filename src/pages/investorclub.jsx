@@ -1,29 +1,29 @@
 import React from 'react';
 import styled from 'react-emotion';
 import { Layout, Wrapper, Navbar, Title } from 'components';
-import Background from '../../static/investorclub.jpg';
+//import Background from '../../static/investorclub.jpg';
 import '../styles/pages/investorclub.css';
 import Strebel from '../../static/hanspeter_strebel.jpg';
 import Urs from '../../static/urs_wietlisbach.jpg';
 import Chris from '../../static/chris_wildmoser.jpg';
 import Seo from '../components/SEO/index';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
-const Hero = styled.header`
- background-image: url("${Background}");
- background-repeat:no-repeat;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center;
-height: 400px;
-`;
-const Investor = () => (
+const Test = styled.div`
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    max-height: 450px;
+`
+
+const Investor = ({ data }) => (
   <Layout>
   <Seo title="SWISS STARTUP GROUP – Investor Club" desc="Exclusive Investor Club for qualified private early stage venture investors that offers great investment opportunities" />
-    <Hero>
       <Navbar />
-    </Hero>
+      <Test> 
+          <Img fluid={data.investorclub.childImageSharp.fluid} className="w-100" />
+      </Test>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Investor Club</Title>
       <div className="containertitle">
@@ -144,3 +144,17 @@ const Investor = () => (
 );
 
 export default Investor;
+
+export const query = graphql`
+  query {
+    investorclub: file(relativePath: { eq: "images/investorclub.jpg" }) {
+        childImageSharp {
+          fluid(
+            maxWidth: 1500
+            traceSVG: { background: "#fff", color: "lightgrey" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+    }
+  }`

@@ -2,7 +2,6 @@
 import React, { Component } from 'react';
 import { Transition, animated } from 'react-spring';
 import '../../styles/pagetransitionabout.css';
-import Slice1 from '../../../static/slice1.png';
 import Mike from '../../../static/mike_gross_square.jpg';
 import Max from '../../../static/max_meister_square.jpg';
 import Oli from '../../../static/oliver_walzer_square.jpg';
