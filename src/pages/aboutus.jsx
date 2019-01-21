@@ -205,7 +205,7 @@ const AboutUs = ({ data }) => (
             <div className="tc">
                 <img src={Placeholder} className="br-100 h4 w4 dib pa2" title="" alt="" />
                 <h3 className="f5 mb2">Virginia Beljean</h3>
-                <h4 className="f6 fw4 gray mt0">Communications</h4>
+                <h4 className="f6 fw4 gray mt0">Head of Communication & Marketing</h4>
               </div>
               
             </article>
