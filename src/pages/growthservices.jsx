@@ -8,6 +8,7 @@ import Product from '../../static/ssut.svg' /* //'../../static/growth-process.sv
 import Marketing from '../../static/ssut.svg'/* //'../../static/growth-market.svg'; */
 import Analysis from '../../static/bv4.svg'/* //'../../static/growth-analysis.svg'; */
 import Acount from '../../static/avaneo.svg'/* //'../../static/growth-account.svg'; */
+import RedBull from '../../static/logo_partner/lg-redbull.svg';
 import Seo from '../components/SEO/index';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
@@ -105,6 +106,17 @@ const GrowthServices = ({ data }) => (
             <div class="backgroundgrowth fl w-100 w-50-ns tc">
                 <img src={Acount} alt="" title="" />
             </div>
+        </article>
+        <article class="cf mv6">
+            <div class="backgroundgrowth fl w-100 w-50-ns tc">
+                <img src={RedBull} alt="" title="" />
+            </div>
+            <div class="fl w-100 w-50-ns tr pa4-s pa3-m pl4-l">
+            <p className="lh-copy mt3">Red Bull Media House offers a wide range of premium media and content products across TV, mobile, digital, audio, and print. As a partner of the SWISS STARTUP GROUP, the <b>Red Bull Media House is part of our Growth Services,</b> with enables  innovative communication. From concept over know-how and equipment to implementation - everything from a single source. </p>
+            <a href="https://www.redbullmediahouse.com/" target="_blank">
+            <div className="button -dark">To Red Bull</div>
+            </a>
+              </div>
         </article>
         </Wrapper>
         </div>
