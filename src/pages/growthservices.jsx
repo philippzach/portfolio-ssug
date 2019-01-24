@@ -112,9 +112,9 @@ const GrowthServices = ({ data }) => (
                 <img src={RedBull} alt="" title="" />
             </div>
             <div class="fl w-100 w-50-ns tr pa4-s pa3-m pl4-l">
-            <p className="lh-copy mt3">Red Bull Media House offers a wide range of premium media and content products across TV, mobile, digital, audio, and print. As a partner of the SWISS STARTUP GROUP, the <b>Red Bull Media House is part of our Growth Services,</b> with enables  innovative communication. From concept over know-how and equipment to implementation - everything from a single source. </p>
+            <p className="lh-copy mt3">Red Bull Media House offers a wide range of premium media and content products across TV, mobile, digital, audio, and print. As a partner of the SWISS STARTUP GROUP, the <b>Red Bull Media House is part of our Growth Services</b>,  wich enables innovative communication. From concept over know-how and equipment to implementation - everything from a single source.</p>
             <a href="https://www.redbullmediahouse.com/" target="_blank">
-            <div className="button -dark">To Red Bull</div>
+            <div className="button -dark">To Red Bull Media House</div>
             </a>
               </div>
         </article>
