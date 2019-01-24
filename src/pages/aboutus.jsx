@@ -21,14 +21,17 @@ import Patric from '../../static/teamssuf/patric_hauser.jpg';
 import Jean from '../../static/teamssuf/vuil.jpg';
 import Alex from '../../static/teamssuf/alex_jus.jpg';
 import Paolo from '../../static/teamssuf/paolo.jpg';
+import Keith from '../../static/teamssuf/keith.jpg';
 //import Placeholder from '../../static/teamavaneo/default.png';
 import Spinu from '../../static/teamssut/alex_spinu.jpg';
+import Ginie from '../../static/teamssut/ginie.jpg';
+import Fredi from '../../static/teamssut/fredi.jpg';
+
 import Michael from '../../static/teamavaneo/michael_brentari.jpg';
 import Laura from '../../static/teamavaneo/laura_izzo.jpg';
 import Marlene from '../../static/teamavaneo/marlene_brentari.jpg';
 import Susanne from '../../static/teamavaneo/susanne_grabner.jpg';
-import Ginie from '../../static/teamssut/ginie.jpg';
-import Fredi from '../../static/teamssut/fredi.jpg';
+
 
 import Rico from '../../static/advisors/baldegger_rico_portrait.jpg';
 import Robert from '../../static/advisors/bider_robert_portrait.jpg';
@@ -182,6 +185,15 @@ const AboutUs = ({ data }) => (
                 <img src={Paolo} className="br-100 h4 w4 dib pa2" title="" alt="" />
                 <h3 className="f5 mb2">Paolo Piffaretti</h3>
                 <h4 className="f6 fw4 gray mt0">Startup Scout France</h4>
+              </div>
+            </article>
+            </div>
+            <div className="tabrow">
+            <article className="center pa3 pa4-ns">
+              <div className="tc">
+                <img src={Keith} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <h3 className="f5 mb2">Keith Gunura</h3>
+                <h4 className="f6 fw4 gray mt0">Startup Coach</h4>
               </div>
             </article>
             </div>
