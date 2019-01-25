@@ -2,10 +2,10 @@
 import React, { Component } from 'react';
 import { Transition, animated } from 'react-spring';
 import '../../styles/pagetransitionabout.css';
-import Mike from '../../../static/mike_gross_square.jpg';
+import Mike from '../../../static/teamssug/mike_baur.jpg';
 import Max from '../../../static/max_meister_square.jpg';
-import Oli from '../../../static/oliver_walzer_square.jpg';
-import Larissa from '../../../static/larissa.jpg';
+import Oli from '../../../static/teamssug/walzer_oliver.jpg';
+import Larissa from '../../../static/teamssug/larissa.jpg';
 import './arrow.css';
 
 const pages = [

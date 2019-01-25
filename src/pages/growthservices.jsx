@@ -8,7 +8,7 @@ import Product from '../../static/ssut.svg' /* //'../../static/growth-process.sv
 import Marketing from '../../static/ssut.svg'/* //'../../static/growth-market.svg'; */
 import Analysis from '../../static/bv4.svg'/* //'../../static/growth-analysis.svg'; */
 import Acount from '../../static/avaneo.svg'/* //'../../static/growth-account.svg'; */
-import RedBull from '../../static/logo_partner/lg-redbull.svg';
+import RedBull from '../../static/redbull.svg';
 import Seo from '../components/SEO/index';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
