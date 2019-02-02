@@ -112,6 +112,7 @@ nav ul {
     cursor: pointer;
   }
   .nav__menu {
+    margin-left: 0;
     line-height: 45px;
     font-weight: 700;
     text-transform: uppercase;
@@ -119,7 +120,7 @@ nav ul {
   .nav__menu-item {
     display: inline-block;
     position: relative;
-    margin: 0 1em;
+    margin: 0 .75em;
     cursor: pointer;
   }
   .nav__menu-item:hover a.hovereffect {
@@ -177,10 +178,10 @@ nav ul {
     font-weight: 700;
     color: rgb(85,85,85);
 }
-
+/* 
   ul.nav__menu {
     margin-top: 1em;
-}
+} */
 .nav_submenu_linkleft {
     padding-left: 1em
 }

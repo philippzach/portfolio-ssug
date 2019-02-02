@@ -7,18 +7,18 @@ import '../styles/navbar.css';
 const Header = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 2em 4em;
+  padding: 2em 2em;
   width: 100%;
   z-index: 10;
   position: absolute;
   @media (max-width: ${props => props.theme.breakpoints.l}) {
-    padding: 3em 4em 4em 1em;
+    padding: 3em 1em 4em 1em;
   }
   @media (max-width: ${props => props.theme.breakpoints.m}) {
-    padding: 3em 4em 4em 1em;
+    padding: 3em 1em 4em 1em;
   }
   @media (max-width: ${props => props.theme.breakpoints.s}) {
-    padding: 3em 4em 4em 1em;
+    padding: 3em 1em 4em 1em;
   }
   @media (max-width: 600px) {
     background-image: linear-gradient(rgba(255,255,255,.8),rgba(255,255,255,0.2) 58%, transparent);
@@ -74,6 +74,7 @@ const Navbar = () => (
             </li>
           </ul>
         </li>
+        <li className="nav__menu-item" style={{paddingBottom: 0,}}><div className="button -dark" style={{boxShadow: "none", backgroundColor: "#e6e6ea", margin: "0"}}><Link to="/join-the-platform" style={{color: "black"}}>Join the Platform</Link></div></li>
       </ul>
       <div>
       <label className="mobilemenu">
@@ -87,6 +88,7 @@ const Navbar = () => (
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/growthservices'>Growth Services</Link></li>
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/investorclub'>Investor Club</Link></li>
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/aboutus'>About us</Link></li>
+            <li className="mv4"><div className="button -dark" style={{boxShadow: "none", backgroundColor: "#e6e6ea", margin: "0"}}><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/aboutus'>Join the Platform</Link></div></li>
         </ul>
         </label>
         </div>
