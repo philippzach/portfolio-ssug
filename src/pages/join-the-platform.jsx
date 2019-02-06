@@ -1,6 +1,7 @@
 import React from 'react';
 import { Layout, Wrapper, NavbarInverted } from 'components';
 import styled from 'react-emotion';
+import Input from '../components/jointheplatform-input';
 import '../styles/pages/join-the-platform.css'
 
 /* const BackgroundNavbar = styled.div`
@@ -33,6 +34,20 @@ const Join = () => (
                 </div>
             </div>
         </section>
+        <Input >
+             <div>
+             <form action="https://formspree.io/your@email.com" method="POST">
+                <input type="email" placeholder="Enter your Email" name="_replyto"/>
+                <input type="submit" value="Join the Platform"/>
+                </form>
+             </div>
+         </Input>
+         <div>
+         Please contact Cindy Spelt, head of Platform.
+            Phone:
+            Email :
+            Or book directly an introduction call via Calendly
+         </div>
     </Layout>
 )
 

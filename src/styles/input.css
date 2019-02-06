@@ -1,0 +1,32 @@
+.box {
+    display: flex;
+    background: #f4f4f4;
+    border-radius: 2rem;
+    max-width: 62.5rem;
+    padding: 4rem 3rem;
+    margin: auto auto 2rem;
+}
+.boxUnits {
+    width: 33.33333%;
+    padding: 0 1em;
+}
+.boxTitle {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    background: lightgray;
+}
+.boxTitle:hover {
+    background: grey;
+}
+.boxTitle:hover .segmentation {
+    color: white
+}
+.segmentation {
+    line-height: 1.6em;
+    text-align: center;
+    font-size: 1.3em;
+}
