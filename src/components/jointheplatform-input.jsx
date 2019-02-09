@@ -40,6 +40,11 @@ class Input extends Component {
                     <span className="segmentation">I am an angel investor or venture capitalist.</span>
                 </div>
                 </div>
+                <div className="boxUnits">
+                <div className="boxTitle" onClick={this.toggleBox}>
+                    <span className="segmentation">I am an academic partner.</span>
+                </div>
+                </div>
             </div>
             {opened && (
               <div className="boxContent">

@@ -29,7 +29,7 @@ const Navigation = styled.nav`
 `;
 
 const Navbar = () => (
-  <Header>
+  <Header className="invertedBar">
     <Link to="/">
       <img src={Logo} alt="Swiss Startup Group Logo" title="Swiss Startup Group Logo" height="55px" />
     </Link>
