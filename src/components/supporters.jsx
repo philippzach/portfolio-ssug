@@ -14,6 +14,7 @@ import LogoK from '../../static/logos_supporter/testingtime.svg';
 import LogoL from '../../static/logos_supporter/what.svg';
 import LogoM from '../../static/logos_supporter/wngervieli.svg';
 import LogoN from '../../static/logos_supporter/worldwebforum.svg';
+import LogoO from '../../static/logos_supporter/austria.svg';
 
 import Logoa from '../../static/logos_sponsor/dieci.svg';
 import Logob from '../../static/logos_sponsor/drink.svg';
@@ -58,6 +59,9 @@ const Supporters = () => (
         </a>
         <a href="https://aiesec.org" target="_blank">
             <img className="pa3" src={LogoA} />
+        </a>
+        <a>
+          <img className="pa3" src={LogoO} />
         </a>
         </div>
         <div className="logorow flex flex-column items-center">
