@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
-import { Layout, Wrapper, Navbar } from 'components';
+import { Layout, Wrapper, NavbarInverted } from 'components';
 import styled from 'react-emotion';
 import Input from '../components/jointheplatform-input';
 import '../styles/pages/join-the-platform.css';
@@ -38,7 +38,7 @@ const Test = styled.div`
 
 const Join = ({ data }) => (
     <Layout>
-        <Navbar />
+        <NavbarInverted />
         <Test> 
           <Img fluid={data.join.childImageSharp.fluid} className="w-100" />
         </Test>
