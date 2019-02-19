@@ -15,10 +15,10 @@ const Header = styled.div`
     padding: 3em 1em 4em 1em;
   }
   @media (max-width: ${props => props.theme.breakpoints.m}) {
-    padding: 3em 1em 4em 1em;
+    padding: 3em 1em 2em 1em;
   }
   @media (max-width: ${props => props.theme.breakpoints.s}) {
-    padding: 3em 1em 4em 1em;
+    padding: 3em 1em 2em 1em;
   }
   @media (max-width: 600px) {
     background-image: linear-gradient(rgba(255,255,255,.8),rgba(255,255,255,0.2) 58%, transparent);
