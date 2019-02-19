@@ -33,7 +33,7 @@ const Slider = () => (
 			</a>
 		</div>
 		<div className="slide">
-		<a href="http://blinkers.io/" target="_blank">
+		<a href="http://blinkers.bike/" target="_blank">
 			<img className="iconspa" src={LogoC}  height="100" width="250" alt="" />
 			</a>
 		</div>
