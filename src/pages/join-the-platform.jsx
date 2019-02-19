@@ -1,10 +1,13 @@
 import React from 'react';
-import { Layout, Wrapper, NavbarInverted } from 'components';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
+import { Layout, Wrapper, Navbar } from 'components';
 import styled from 'react-emotion';
 import Input from '../components/jointheplatform-input';
 import '../styles/pages/join-the-platform.css';
 import '../styles/input.css';
 import Cindy from '../../static/cindyspelt.jpg';
+
 
 const Box = styled.div`
 display: flex;
@@ -26,13 +29,22 @@ const Cta = styled.a`
 color: black;
 font-weight: 600;
 `
+const Test = styled.div`
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    max-height: 450px;
+`
 
-const Join = () => (
+const Join = ({ data }) => (
     <Layout>
-        <NavbarInverted />
+        <Navbar />
+        <Test> 
+          <Img fluid={data.join.childImageSharp.fluid} className="w-100" />
+        </Test>
         <section className="page-section text_hero">
             <div className="grid-container">
-                <div className="pnp__hero-block pnp__text-hero" style={{backgroundColor: "#f7f7f7"}}>
+                <div className="pnp__hero-block pnp__text-hero" >
                     <div className="grid-container" style={{padding: "3em"}}>
                         <div className="grid-x align-middle">
                             <div className="cell">
@@ -102,3 +114,17 @@ const Join = () => (
 )
 
 export default Join
+
+export const query = graphql`
+  query {
+    join: file(relativePath: { eq: "images/join-the-platform.jpg" }) {
+        childImageSharp {
+          fluid(
+            maxWidth: 1500
+            traceSVG: { background: "#fff", color: "lightgrey" }
+          ) {
+            ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+    }
+  }`

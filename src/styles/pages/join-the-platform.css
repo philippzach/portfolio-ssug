@@ -6,7 +6,7 @@
 }
 .pnp__hero-block {
         min-height: 70vh;
-        padding: 8rem 0 3rem;
+        padding: 0 0 0rem;
         background-repeat: no-repeat;
         border-radius: 1.5rem;
         position: relative;
@@ -43,7 +43,7 @@
     }
         @media print, screen and (min-width: 40em) {
         .pnp__hero-block {
-            padding: 8rem 0 3rem;
+            padding: 0rem 0 0rem;
             height: var(--var-height);
         }  
     }
