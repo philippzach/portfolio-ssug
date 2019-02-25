@@ -5,10 +5,11 @@ import { Layout, Wrapper, Navbar, Title } from 'components';
 import Startup from '../../static/portfoliostartup.jpg';
 import Corporates from '../../static/corporatesportfolio.jpg';
 import '../styles/pages/portfolio.css';
-import Slider from '../components/logosliderportfolio';
+//import Slider from '../components/logosliderportfolio';
 import Seo from '../components/SEO/index';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
+import Logos from '../components/portfolio-companies';
 
 const Test = styled.div`
     position: relative;
@@ -25,7 +26,8 @@ const InvestmentPortfolio = ({ data }) => (
           <Img fluid={data.portfolio.childImageSharp.fluid} className="w-100" />
       </Test>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-      <Title>Portfolio</Title>
+      <Title>Portfolio Companies</Title>
+        <Logos />
       <div className="containertitle">
         <h2 className="lh-copy ttu headingcolorshadow">Be part of the whole together we grow faster and stronger</h2>
         <p className="lh-copy">
@@ -39,8 +41,6 @@ const InvestmentPortfolio = ({ data }) => (
           Together we achieve more.
         </p>
       </div>
-      <h3 className="tc">Our Portfolio</h3>
-      <Slider />
       <Title>What we offer</Title>
     </Wrapper>
     <div className="flex flex-column flex-row-ns mv4 background pb4">
