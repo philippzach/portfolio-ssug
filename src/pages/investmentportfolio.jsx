@@ -26,8 +26,7 @@ const InvestmentPortfolio = ({ data }) => (
           <Img fluid={data.portfolio.childImageSharp.fluid} className="w-100" />
       </Test>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-      <Title>Portfolio Companies</Title>
-        <Logos />
+    <Title>Potfolio</Title>
       <div className="containertitle">
         <h2 className="lh-copy ttu headingcolorshadow">Be part of the whole together we grow faster and stronger</h2>
         <p className="lh-copy">
@@ -41,8 +40,11 @@ const InvestmentPortfolio = ({ data }) => (
           Together we achieve more.
         </p>
       </div>
+      <Title>Companies</Title>
+        <Logos />
       <Title>What we offer</Title>
     </Wrapper>
+
     <div className="flex flex-column flex-row-ns mv4 background pb4">
       <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
         <img src={Startup} alt="" />

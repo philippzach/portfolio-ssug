@@ -17,7 +17,7 @@ height: 400px;
 
 const Imprint = () => (
     <Layout>
-    <Seo />
+    <Seo title="Imprint" desc="Imprint and Contact Information"/>
     <Hero>
     <Navbar />
     </Hero>
