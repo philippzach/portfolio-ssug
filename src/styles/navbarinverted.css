@@ -1,0 +1,15 @@
+a.inverted {
+  color: rgb(85,85,85);
+  font-family: roboto;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav__menu-item:hover a.inverted {
+  color: rgba(85,85,85,0.5);
+}
+.invertedBar {
+    box-shadow: 0 0 11px 0px rgb(85,85,85, 0.5);
+    background: white;
+}
+

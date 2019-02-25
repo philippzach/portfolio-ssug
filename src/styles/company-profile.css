@@ -1,0 +1,11 @@
+.Button__icon {
+    width: 12px;
+    margin-right: 4px;
+    margin-top: -4px;
+    fill: currentColor;
+    -webkit-transition: fill .3s ease-in-out;
+    transition: fill .3s ease-in-out;
+}
+a.backlink:hover {
+    text-decoration: underline;
+}

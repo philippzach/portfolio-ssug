@@ -7,5 +7,6 @@ import Title from './Title';
 import Layout from './Layout';
 import Wrapper from './Wrapper';
 import Navbar from './Navbar';
+import NavbarInverted from './NavbarInverted';
 
-export { Footer, Layout, Listing, SEO, Wrapper, SliceZone, Title, Header, Navbar };
+export { Footer, Layout, Listing, SEO, Wrapper, SliceZone, Title, Header, Navbar, NavbarInverted };
