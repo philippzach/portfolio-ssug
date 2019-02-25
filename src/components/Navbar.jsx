@@ -35,7 +35,7 @@ const Navbar = () => (
     </Link>
     <Navigation>
       <ul className="nav__menu">
-        <li className="nav__menu-item"><Link to="/factory" className="factory_after hovereffect">Factory</Link>
+        <li className="nav__menu-item"><Link to="/factory" className="factory_after menuitem hovereffect">Factory</Link>
           <ul className="nav__submenu factory">
 
             <li className="nav__submenu-item">
@@ -63,10 +63,10 @@ const Navbar = () => (
             </li>
           </ul>
         </li>
-        <li className="nav__menu-item"><Link to="/investmentportfolio"  className="hovereffect">Investment Portfolio</Link></li>
-        <li className="nav__menu-item"><Link to="/growthservices" className="hovereffect">Growth Services</Link></li>
-        <li className="nav__menu-item"><Link to="/investorclub"  className="hovereffect">Investor Club</Link></li>
-        <li className="nav__menu-item"><Link to="/aboutus" className="about_after grey hovereffect">About</Link>
+        <li className="nav__menu-item"><Link to="/investmentportfolio"  className="menuitem hovereffect">Investment Portfolio</Link></li>
+        <li className="nav__menu-item"><Link to="/growthservices" className="menuitem hovereffect">Growth Services</Link></li>
+        <li className="nav__menu-item"><Link to="/investorclub"  className="menuitem hovereffect">Investor Club</Link></li>
+        <li className="nav__menu-item"><Link to="/aboutus" className="menuitem about_after grey hovereffect">About</Link>
           <ul className="nav__submenu about">
             <li className="nav__submenu-item"><a href="https://www.swissstartupjobs.com" target="_blank" className="nav_submenu_linkright">Jobs</a>
             </li>
@@ -74,7 +74,6 @@ const Navbar = () => (
             </li>
           </ul>
         </li>
-        <li className="nav__menu-item" style={{paddingBottom: 0,}}><div className="button -dark" style={{boxShadow: "none", backgroundColor: "#e6e6ea", margin: "0"}}><Link to="/join-the-platform" style={{color: "black"}}>Join the Platform</Link></div></li>
       </ul>
       <div>
       <label className="mobilemenu">
@@ -93,6 +92,7 @@ const Navbar = () => (
         </label>
         </div>
     </Navigation>
+    <div id="cta-menu" className="button-white" style={{boxShadow: "none", margin: "0"}}><Link to="/join-the-platform">Join the Platform</Link></div>
   </Header>
 );
 

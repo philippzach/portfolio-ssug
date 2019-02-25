@@ -74,7 +74,6 @@ const Navbar = () => (
             </li>
           </ul>
         </li>
-        <li className="nav__menu-item" style={{paddingBottom: 0,}}><div className="button -dark" style={{boxShadow: "none", backgroundColor: "#e6e6ea", margin: "0"}}><Link to="/join-the-platform" style={{color: "black"}}>Join the Platform</Link></div></li>
       </ul>
       <div>
       <label className="mobilemenu">
@@ -93,6 +92,7 @@ const Navbar = () => (
         </label>
         </div>
     </Navigation>
+    <div id="cta-menu" className="button-white" style={{boxShadow: "none", margin: "0"}}><Link  to="/join-the-platform">Join the Platform</Link></div>
   </Header>
 );
 

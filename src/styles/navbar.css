@@ -1,7 +1,44 @@
+.menuitem {
+font-family: roboto;
+font-size: 1em;
+font-weight: bold;
+text-transform: uppercase;
+text-shadow: 0 2px 4px rgba(1,1,1,0.5);
+}
+.button-white {
+  display: inline-flex;
+    overflow: hidden;
+    padding: .5em;
+    cursor: pointer;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    transition: all .15s linear;
+    white-space: nowrap;
+    border-radius: 4px;
+    font-family: Roboto;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    justify-content: center;
+    align-items: center;
+    background: #e6e6ea;
+}
+.button-white a {
+  color: #000;
+  text-transform: uppercase;
+}
+@media (max-width: 1150px) {
+  ul.nav__menu {
+    font-size: 15px!important;
+  }
+}
 
 @media (max-width: 1055px) {
 ul.nav__menu {
     display: none;
+}
+#cta-menu {
+  display: none;
 }
 label .menu {
     position: absolute;
@@ -116,6 +153,7 @@ nav ul {
     line-height: 45px;
     font-weight: 700;
     text-transform: uppercase;
+    font-size: 16px;
   }
   .nav__menu-item {
     display: inline-block;

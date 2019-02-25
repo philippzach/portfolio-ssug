@@ -225,12 +225,22 @@ const AboutUs = ({ data }) => (
               </div>
               
             </article>
+            </div>
+            <div className="tabrow2">
             <article className="center pa3 pa4-ns">
             <div className="tc">
                 <img src={Fredi} className="br-100 h4 w4 dib pa2" title="" alt="" />
                 <h3 className="f5 mb2">Frederic Nachbauer</h3>
                 <h4 className="f6 fw4 gray mt0">Growth Hacker</h4>
               </div>
+            </article>
+            <article className="center pa3 pa4-ns">
+            <div className="tc">
+                <img src={Susanne} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <h3 className="f5 mb2">Cindy Spelt</h3>
+                <h4 className="f6 fw4 gray mt0">Head of Platform</h4>
+              </div>
+              
             </article>
             </div>
             </div>
@@ -252,14 +262,6 @@ const AboutUs = ({ data }) => (
                 <h3 className="f5 mb2">Marlene Brentari</h3>
                 <h4 className="f6 fw4 gray mt0">Accountant</h4>
               </div>
-            </article>
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Susanne} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Susanne Grabner</h3>
-                <h4 className="f6 fw4 gray mt0">Accountant</h4>
-              </div>
-              
             </article>
             <article className="center pa3 pa4-ns">
             <div className="tc">
