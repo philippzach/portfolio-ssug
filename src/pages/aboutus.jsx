@@ -196,19 +196,25 @@ const AboutUs = ({ data }) => (
                 <h4 className="f6 fw4 gray mt0">Startup Coach</h4>
               </div>
             </article>
+            <article className="center pa3 pa4-ns">
+            <div className="tc">
+                <img src={Susanne} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                <h3 className="f5 mb2">Cindy Spelt</h3>
+                <h4 className="f6 fw4 gray mt0">Head of Platform</h4>
+              </div>
+            </article>
             </div>
             </div>
         </TabPanel>
         <TabPanel className="tabpanel two">
         <div className="paddingtabs">
-        <div className="tabrow2">
+        <div className="tabrow">
             <article className="center pa3 pa4-ns">
             <div className="tc">
                 <img src={Oliver} className="br-100 h4 w4 dib pa2" title="" alt="" />
                 <h3 className="f5 mb2">Oliver Walzer</h3>
                 <h4 className="f6 fw4 gray mt0">Co-Founder</h4>
               </div>
-              
             </article>
             <article className="center pa3 pa4-ns">
             <div className="tc">
@@ -221,12 +227,9 @@ const AboutUs = ({ data }) => (
             <div className="tc">
                 <img src={Ginie} className="br-100 h4 w4 dib pa2" title="" alt="" />
                 <h3 className="f5 mb2">Virginia Beljean</h3>
-                <h4 className="f6 fw4 gray mt0">Head of Communication & Marketing</h4>
+                <h4 className="f6 fw4 gray mt0">Head of Communication<br/> & Marketing</h4>
               </div>
-              
             </article>
-            </div>
-            <div className="tabrow2">
             <article className="center pa3 pa4-ns">
             <div className="tc">
                 <img src={Fredi} className="br-100 h4 w4 dib pa2" title="" alt="" />
@@ -234,16 +237,8 @@ const AboutUs = ({ data }) => (
                 <h4 className="f6 fw4 gray mt0">Growth Hacker</h4>
               </div>
             </article>
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <img src={Susanne} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                <h3 className="f5 mb2">Cindy Spelt</h3>
-                <h4 className="f6 fw4 gray mt0">Head of Platform</h4>
-              </div>
-              
-            </article>
             </div>
-            </div>
+          </div>
         </TabPanel>
         <TabPanel className="tabpanel three">
         <div className="paddingtabs">
