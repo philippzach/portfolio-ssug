@@ -58,19 +58,17 @@ const GrowthServices = ({ data }) => (
             <img src={Product} alt="" title="" />
          </div>
         <div class="fl w-100 w-50-ns tr pa3-s pa3-m pl4-l">
-         <p className="lh-copy mt3">The <b>SWISS STARTUP TECH</b> helps startups create modern products. With our knowledge in
-          application architecture <b>we build highly scalable products and deploy them on cloud infrastructures.</b>
-           In addition, we transform existing applications to keep up with the technological progress. 
-           We challenge your existing application with our free due diligence. 
-            Want to get your product started or need additional speed to meet the deadline?</p>
-            <a href="mailto:virginia.beljean@ssut.ch">
-            <div className="button -dark">Learn More</div>
+         <p className="lh-copy mt3">The <b>SWISS STARTUP TECH</b> enables companies to plan, design and transform the potential of Digitalization and to turn the concept of blockchain into business results.They love to build digital products and services and thus combine future customer needs with technological potential.
+          <b>Their approach takes 100 days from the idea to the MVP launch of a private or public beta.</b>
+          They work in small interdisciplinary teams to create mockups, PoCs, prototypes and MVPs for compelling and profitable customer experiences.</p>
+            <a href="mailto:peach.zwyssig@ssut.ch">
+            <div className="button -dark">Contact Now</div>
             </a>
           </div>
         </article>
         <article class="mobileview cf mv6">
             <div class="fl w-100 w-50-ns tl pa3-s pa3-m ph4-l">
-            <p className="lh-copy mt3 pb5-l"><b>The BV4 experts analyse any startup with their sophisticated rating system and  provide you with relevant information to support your decision process</b> with an objective summary for your convenience. Last but not least they provide with their integrated commercial and financial due diligence a comprehensive review of the startup’s business plan based on projected market conditions, the industry and the competition.</p>
+            <p className="lh-copy mt3"><b>The BV4 experts analyse any startup with their sophisticated rating system and  provide you with relevant information to support your decision process</b> with an objective summary for your convenience. Last but not least they provide with their integrated commercial and financial due diligence a comprehensive review of the startup’s business plan based on projected market conditions, the industry and the competition.</p>
                         <a href="https://www.bv4.ch">
                         <div className="button -dark">To BV4</div>
                         </a>
