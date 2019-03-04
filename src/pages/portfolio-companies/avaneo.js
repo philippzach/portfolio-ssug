@@ -5,15 +5,15 @@ import LogoA from '../../../static/logos_portfolio/Logos-Portfolio-svg-Avaneo-01
 const Avaneo = () => (
     <Company 
         title="Avaneo"
-        shortdesc="Some short description"
+        shortdesc=""
         image={LogoA}
-        founded="2018"
+        founded="08/2016"
         location="Zurich"
-        management="Me you Him Her"
+        management="Michael Brentari"
         investment="Seed, Round A and B"
-        segment="Legal Services"
+        segment="Fiduciary Services"
         website="https://avaneo.ch"
-        paragraph="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        paragraph="Avaneo is a young trust company based in the city of Zurich. The client portfolio ranges from a potpourri of wild startups to long-established companies."
     />
 )
 

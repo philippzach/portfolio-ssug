@@ -13,7 +13,7 @@ import Supporters from '../components/supporters';
 import Seo from '../components/SEO/index';
 
 import Mike from '../../static/teamssug/mike_baur.jpg';
-import Max from '../../static/teamssug/meister_max.png';
+import Max from '../../static/max_meister.jpg';
 import Larissa from '../../static/teamssug/larissa.jpg';
 import Oliver from '../../static/teamssug/walzer_oliver.jpg';
 import Chris from '../../static/teamssuf/chris_bargholz.jpg';
@@ -22,7 +22,6 @@ import Jean from '../../static/teamssuf/vuil.jpg';
 import Alex from '../../static/teamssuf/alex_jus.jpg';
 import Paolo from '../../static/teamssuf/paolo.jpg';
 import Keith from '../../static/teamssuf/keith.jpg';
-//import Placeholder from '../../static/teamavaneo/default.png';
 import Spinu from '../../static/teamssut/alex_spinu.jpg';
 import Ginie from '../../static/teamssut/ginie.jpg';
 import Fredi from '../../static/teamssut/fredi.jpg';

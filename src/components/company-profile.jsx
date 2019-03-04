@@ -27,65 +27,87 @@ const Column = styled.div`
 }
 `
 const Paragraph = styled.p`
-
+font-size: .9rem;
+font-family: poppins;
+font-weight: 300;
+`
+const ParagraphLong = styled.p`
+font-size: 1rem;
+line-height: 35px;
+font-family: poppins;
+font-weight: 300;
+margin-top: 2rem;
+margin-bottom: 6rem;
+`
+const Linkto = styled.a`
+font-size: .9rem;
+font-family: poppins;
+font-weight: 300;
+`
+const Key = styled.div`
+    font-size: 1.25rem;
+    line-height: 1.2em;
+    font-weight: bold;
 `
 
 class Profile extends React.Component {
 render() {
     return (
         <Layout>
-        <Seo title="" desc=""/>
+        <Seo title={"Swiss Startup Group - " + this.props.title + " - Investment Portfolio"} desc={this.props.title + "is part of our Investment Portfolio at Swiss Startup Group since " + this.props.founded}/>
         <NavbarInverted />
             <Wrapper>
             <Container>
+                <div className="tc">
                 <Link className="backlink" to="/investmentportfolio" style={{ color: "black", fontWeight: "bold" }}>
                 <svg class="Button__icon" fill="#333" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path d="M0 0h24v24H0z" fill="none"></path> <path d="M12 0L0 12l12 12 3.404-3.404-6.408-6.41H24V9.814H8.996l6.408-6.41" fill-rule="evenodd"></path> </svg>
-                Portfolio
+                Investment Portfolio
                 </Link>
-                <img src={this.props.image} alt={this.props.title}/>
-                <h1>{this.props.title}</h1>
+                </div>
+                <img className="mt6 mb6" src={this.props.image} alt={this.props.title}/>
+                <h1 className="mb5">{this.props.title}</h1>
                 <h2>{this.props.shortdesc}</h2>
                 <Group>
                     <Column>
-                        <div>Founded</div>
+                        <Key>Founded</Key>
                         <div>
-                            <p>{this.props.founded}</p>
+                            <Paragraph>{this.props.founded}</Paragraph>
                         </div>
                     </Column>
                     <Column>
-                        <div>Location</div>
+                        <Key>Location</Key>
                         <div>
-                            <p>{this.props.location}</p>
+                            <Paragraph>{this.props.location}</Paragraph>
                         </div>
                     </Column>
                     <Column>
-                        <div>Management</div>
+                        <Key>Management</Key>
                         <div>
-                            <p>{this.props.management}</p>
+                            <Paragraph>{this.props.management}</Paragraph>
                         </div>
                     </Column>
                     <Column>
-                        <div>Investment</div>
+                        <Key>Investment</Key>
                         <div>
-                            <p>{this.props.investment}</p>
+                            <Paragraph>{this.props.investment}</Paragraph>
                         </div>
                     </Column>
                     <Column>
-                        <div>Segment</div>
+                        <Key>Segment</Key>
                         <div>
-                            <p>{this.props.segment}</p>
+                            <Paragraph>{this.props.segment}</Paragraph>
                         </div>
                     </Column>
                     <Column>
-                        <div>Website</div>
+                        <Key>Website</Key>
                         <div>
-                            <a style={{color: "black"}} href={this.props.website}>{this.props.website}</a>
+                            <Linkto style={{color: "black"}} href={this.props.website}>{this.props.website}</Linkto>
                         </div>
                     </Column>
                 </Group>
-                <Paragraph>
+                <ParagraphLong>
                     {this.props.paragraph}
-                </Paragraph>
+                </ParagraphLong>
             </Container>    
             </Wrapper>    
         </Layout>

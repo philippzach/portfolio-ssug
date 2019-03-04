@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Transition, animated } from 'react-spring';
 import '../../styles/pagetransitionabout.css';
 import Mike from '../../../static/teamssug/mike_baur.jpg';
-import Max from '../../../static/max_meister_square.jpg';
+import Max from '../../../static/max_meister.jpg';
 import Oli from '../../../static/teamssug/walzer_oliver.jpg';
 import Larissa from '../../../static/teamssug/larissa.jpg';
 import './arrow.css';
@@ -96,8 +96,8 @@ const pages = [
               <dd class="ml0 mb3">Seeing northern lights</dd>
               <dt class="f6 b mt2">I always wanted to</dt>
               <dd class="ml0 mb3">Ride in a submarine</dd>
-              <dt class="f6 b mt2">Favorite Tool</dt>
-              <dd class="ml0 mb3">Harvest</dd>
+              <dt class="f6 b mt2">What Co-Founder Max says</dt>
+              <dd class="ml0 mb3">Please Execute (pE)</dd>
             </dl>
             <dl class="lh-title mt0">
               <dt class="f6 b mt2">My teen idol</dt>

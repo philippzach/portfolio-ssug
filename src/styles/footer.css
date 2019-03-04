@@ -85,15 +85,15 @@ p.copyright a {
     padding-top: 1em;
     
 }
-.sublistitem {
+.sublistitem a {
     font-family: Roboto;
     font-weight: 300;
     font-size: .9em;
     color: lightgrey;
     cursor: pointer;
 }
-.sublistitem:hover {
-    color: white;
+.sublistitem:hover a {
+    color: white!important;
 }
 span.topmenu:hover {
     color: lightgrey;

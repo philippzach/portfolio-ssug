@@ -79,7 +79,7 @@ const Companies = () => (
                 </Link>
             </GroupItem>
             <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/evolut"> 
+                <Link className="logotile" to="/portfolio-companies/evolute"> 
                     <img  src={LogoF} alt="Evolut" /> 
                 </Link>
             </GroupItem>
@@ -89,7 +89,7 @@ const Companies = () => (
                 </Link>
             </GroupItem>
             <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/idun"> 
+                <Link className="logotile" to="/portfolio-companies/idun-technologies"> 
                     <img  src={LogoH} alt="Idun" /> 
                 </Link>
             </GroupItem>
@@ -119,12 +119,12 @@ const Companies = () => (
                 </Link>
             </GroupItem>
             <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/wissstartupfactory"> 
+                <Link className="logotile" to="/portfolio-companies/swissstartupfactory"> 
                     <img  src={LogoN} alt="Swiss Startup Factory" /> 
                 </Link>
             </GroupItem>
             <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/strukd"> 
+                <Link className="logotile" to="/portfolio-companies/struckd"> 
                     <img  src={LogoO} alt="Struckd" /> 
                 </Link>
             </GroupItem>
