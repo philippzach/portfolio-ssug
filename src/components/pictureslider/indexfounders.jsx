@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Transition, animated } from 'react-spring';
 import '../../styles/pagetransitionindexfounders.css';
 import Mike from '../../../static/teamssug/mike_baur.jpg';
-import Max from '../../../static/max_meister_square.jpg';
+import Max from '../../../static/max_meister.jpg';
 import Oli from '../../../static/teamssug/walzer_oliver.jpg';
 import './arrow.css';
 

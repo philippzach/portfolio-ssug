@@ -7,7 +7,7 @@ import '../styles/navbarinverted.css';
 const Header = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 2em 2em;
+  padding: 2em 1.5em;
   width: 100%;
   z-index: 10;
   position: absolute;
@@ -27,6 +27,13 @@ const Header = styled.div`
 const Navigation = styled.nav`
   margin: auto 0;
 `;
+const NavItem = {
+  fontFamily: "roboto",
+  fontSize: "1em",
+  fontWeight: "bold",
+  textTransform: "uppercase",
+  color: "#555",
+  }
 
 const Navbar = () => (
   <Header className="invertedBar">
@@ -35,44 +42,65 @@ const Navbar = () => (
     </Link>
     <Navigation>
       <ul className="nav__menu">
-        <li className="nav__menu-item"><Link to="/factory" className="factory_after inverted">Factory</Link>
-          <ul className="nav__submenu factory">
-
-            <li className="nav__submenu-item">
-              <a href="https://www.swissstartupfactory.com/startups/accelerator" target="_blank" className="nav_submenu_linkleft">Startups</a>
-            </li>
-            <li className="nav__submenu-item">
-            
-            <a href="https://www.swissstartupfactory.com/corporates/corporate-acceleration" target="_blank" className="nav_submenu_linkleft">Corporate Acceleration</a>
-            
-            </li>
-            <li className="nav__submenu-item">
-            
-            <a href="https://www.swissstartupfactory.com/corporates/company-building" target="_blank" className="nav_submenu_linkleft">Company Building</a>
-            
-            </li>
-            <li className="nav__submenu-item">
-            
-            <a href="https://ccvs.ch/" target="_blank" className="nav_submenu_linkleft">Corporate Venture Capital</a>
-            
-            </li>
-            <li className="nav__submenu-item">
-            
-            <a href="https://www.swissstartupfactory.com/corporates/innovation-consulting" target="_blank" className="nav_submenu_linkleft">Intra Innovation</a>
-            
-            </li>
-          </ul>
+      <li className="nav__menu-item">
+        <div class="sl-nav">
+            <ul>
+              <li>
+              <Link to="/factory" className="hovereffect" style={NavItem}>Factory</Link>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <div class="triangle" style={{right: "5%"}}/>
+                        <ul style={{right: "-119px"}}>
+                        <a className="hoversubmenu" href="https://www.swissstartupfactory.com/startups/accelerator"><li>Accelerator</li></a>
+                        <a className="hoversubmenu" href="https://www.swissstartupfactory.com/corporates/corporate-acceleration"><li>Corporate Acceleration</li></a>
+                        <a className="hoversubmenu" href="https://www.swissstartupfactory.com/corporates/company-building"><li>Company Building</li></a>
+                        <a className="hoversubmenu" href="https://ccvs.ch/"><li>Corporate Venture Capital</li></a>
+                        <a className="hoversubmenu" href="https://www.swissstartupfactory.com/corporates/innovation-consulting"><li style={{ paddingBottom: "5px"}}>Innovation Consulting</li></a>
+                        </ul>
+                </li>
+              </ul>
+          </div>
         </li>
-        <li className="nav__menu-item"><Link to="/investmentportfolio"  className="inverted">Investment Portfolio</Link></li>
-        <li className="nav__menu-item"><Link to="/growthservices" className="inverted">Growth Services</Link></li>
-        <li className="nav__menu-item"><Link to="/investorclub"  className="inverted">Investor Club</Link></li>
-        <li className="nav__menu-item"><Link to="/aboutus" className="about_after grey inverted">About</Link>
-          <ul className="nav__submenu about">
-            <li className="nav__submenu-item"><a href="https://www.swissstartupjobs.com" target="_blank" className="nav_submenu_linkright">Jobs</a>
-            </li>
-            <li className="nav__submenu-item"><Link to="/blog" className="nav_submenu_linkright">News</Link>
-            </li>
-          </ul>
+        <li className="nav__menu-item">
+        <div class="sl-nav">
+            <ul>
+              <li>
+              <Link to="/investmentportfolio" className="hovereffect" style={NavItem}>Investment Portfolio</Link>
+                </li>
+              </ul>
+          </div>
+        </li>
+        <li className="nav__menu-item">
+        <div class="sl-nav">
+            <ul>
+              <li>
+              <Link to="/growthservices" className="hovereffect" style={NavItem}>Growth Services</Link>
+                </li>
+              </ul>
+          </div>
+        </li>
+        <li className="nav__menu-item">
+        <div class="sl-nav">
+            <ul>
+              <li>
+              <Link to="/investorclub" className="hovereffect" style={NavItem}>Investor Club</Link>
+                </li>
+              </ul>
+          </div> 
+        </li>
+        <li className="nav__menu-item">
+        <div class="sl-nav">
+            <ul>
+              <li>
+              <Link to="/aboutus" className="hovereffect" style={NavItem}>About Us</Link>
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <div class="triangle" style={{right: "5%"}}/>
+                        <ul style={{right: "-41px"}}>
+                        <a className="hoversubmenu" href="https://www.swissstartupjobs.com/"><li>Jobs</li></a>
+                        <Link className="hoversubmenu" to="/blog"><li style={{ paddingBottom: "5px"}}>News</li></Link>
+                        </ul>
+                </li>
+              </ul>
+          </div>
         </li>
       </ul>
       <div>

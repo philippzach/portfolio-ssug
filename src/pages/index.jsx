@@ -19,6 +19,7 @@ import Point from '../../static/point.svg';
 import Seo from '../components/SEO/index';
 import SocialBanner from '../../static/socialsharing.jpg'
 
+/*
 const Test = styled.div`
     position: relative;
     overflow: hidden;
@@ -26,7 +27,7 @@ const Test = styled.div`
     max-height: 900px;
 `
 
-const HeroInner = styled.div`
+ const HeroInner = styled.div`
   h1 {
     margin-bottom: 2rem;
     text-transform: uppercase;
@@ -68,6 +69,80 @@ const HeroText = styled.div`
     margin-bottom: 5em;
     padding: 1em;
   }
+`; */
+const Test = styled.div`
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    max-height: 750px;
+`
+
+const HeroInner = styled.div`
+  h1 {
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 3em;
+    white-space: nowrap;
+    color: white;
+    line-height: 65px;
+    text-shadow: 1px 2px 4px rgba(0,0,0,.75);
+  }
+  @media (min-width: 1200px) {
+    position: absolute;
+    top: 400px;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  @media (min-width: 950px) and (max-width: 1200px){
+    position: absolute;
+    top: 350px;
+    left: 50%; 
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  @media (min-width: 700px) and (max-width: 950px) {
+    position: absolute;
+    top: 275px;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  @media (max-width: 700px) {
+    text-align: center;
+    h1{
+      padding-top: 2rem;
+      white-space: unset;
+    }
+  }
+`;
+
+const HeroText = styled.div`
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    padding-bottom: 2em;
+    max-width: 100%;
+    color: white;
+    text-shadow: 0 1px 5px rgba(0,0,0,1);
+  @media (max-width: 950px) {
+    font-size: 1.4rem;
+    max-width: 100%;
+    padding-bottom: 0;
+  }
+  @media (max-width: ${props => props.theme.breakpoints.s}) {
+    font-size: 1.25rem;
+    max-width: 100%;
+  }
+  @media (max-width: 700px) {
+    max-width: 100%;
+    margin-bottom: 5em;
+    padding: 1em;
+    color: black;
+    text-shadow: none;
+    margin-bottom: 0;
+    padding-bottom: 2em;
+  }
 `;
 
 const BulletPoint = styled.img`
@@ -90,8 +165,9 @@ class Index extends Component {
           </Test>
           <HeroInner>
             <h1 className="headingcolorshadow">
-              Switzerland's #1
-              <br />
+              Switzerland's 
+              #1
+              <br/>
               Venture Builder
             </h1>
             <HeroText>
@@ -102,11 +178,11 @@ class Index extends Component {
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <div className="logocontainer">
             <h3 className="lh-copy headingcolorshadow tc mt4 mb5">The Power of our Platform</h3>
-            <div className="fadeintextrighttop"><BulletPoint src={Point} />Know How</div>
-            <div className="fadeintextlefttop"><BulletPoint src={Point} />Network</div>
+            {/* <div className="fadeintextrighttop"><BulletPoint src={Point} />Know How</div>
+            <div className="fadeintextlefttop"><BulletPoint src={Point} />Network</div> */}
             <img src={Logo} alt="" title="" description="" className="logoheight"/>
-            <div  className="fadeintextrightbottom"><BulletPoint src={Point} />Deal Flow</div>
-            <div className="fadeintextleftbottom"><BulletPoint src={Point} />Funding</div>
+            {/* <div  className="fadeintextrightbottom"><BulletPoint src={Point} />Deal Flow</div>
+            <div className="fadeintextleftbottom"><BulletPoint src={Point} />Funding</div> */}
           </div>
           <div className="containertitle">
             <h2 className="lh-copy headingcolorshadow">
@@ -255,7 +331,7 @@ export const pageQuery = graphql`
           maxWidth: 1500
           traceSVG: { background: "#fff", color: "lightgrey" }
         ) {
-          ...GatsbyImageSharpFluid_tracedSVG
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
   }

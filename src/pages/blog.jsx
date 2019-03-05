@@ -9,6 +9,7 @@ import BlogGrid from '../components/Blog/bloggrid';
 import '../styles/pages/blog.css';
 import Seo from '../components/SEO/index';
 import Img from 'gatsby-image';
+import Form from '../components/formblog';
 
 const Test = styled.div`
     position: relative;
@@ -31,14 +32,15 @@ class Blog extends Component {
               <Img fluid={factory.childImageSharp.fluid} className="w-100" />
           </Test>
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-        <div className="subscribe">
+        <Form />
+        {/* <div className="subscribe">
         <h1>Subscribe to get the latest <span>news &amp; updates</span>.</h1>
       
         <form className="ph6-l">
           <input type="email" placeholder="Your email address" />
           <input className="button -dark" style={{margin: "0"}} type="submit" value="Subscribe" />
         </form>
-      </div>
+      </div> */}
       <Title style={{ marginTop: '4rem' }}>Blog & News</Title>
       </Wrapper>
           <div className="ph3-s ph4-m ph5-l mb5"> 

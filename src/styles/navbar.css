@@ -3,7 +3,8 @@ font-family: roboto;
 font-size: 1em;
 font-weight: bold;
 text-transform: uppercase;
-text-shadow: 0 2px 4px rgba(1,1,1,0.5);
+color: white;
+
 }
 .button-white {
   display: inline-flex;
@@ -214,7 +215,7 @@ nav ul {
     text-transform: uppercase;
     font-size: 0.8em;
     font-weight: 700;
-    color: rgb(85,85,85);
+    color: #333333;
 }
 /* 
   ul.nav__menu {
