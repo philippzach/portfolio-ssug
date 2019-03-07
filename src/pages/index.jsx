@@ -309,8 +309,12 @@ export const pageQuery = graphql`
               localFile {
                 id
               	childImageSharp {
-                  fluid(maxWidth: 700){
-                    ...GatsbyImageSharpFluid
+                  fluid(
+                    maxWidth: 800
+                    traceSVG: { background: "#fff", color: "lightgrey" }
+                    )
+                  {
+                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
                   }
                 }
               }

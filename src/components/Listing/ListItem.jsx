@@ -4,6 +4,7 @@ import styled from 'react-emotion';
 import { Link } from 'gatsby';
 import { Categories } from 'components/Listing';
 import '../../styles/blogpost.css';
+import Img from 'gatsby-image';
 
 const Item = styled.div`
 @media (min-width: 1500px) {
@@ -45,7 +46,7 @@ export default class ListItem extends Component {
       <Item>
       <Link to={node.uid}>
       <div className="grow blogpost pa3 pa4-m pa5-l">
-        <img className="shadowblog" src={node.data.coverimage.url} />
+        <Img className="shadowblog" fluid={node.data.coverimage.localFile.childImageSharp.fluid} alt={node.data.coverimage.alt} />
           <StyledLink className="lh-copy">
           {node.data.title.text}
           </StyledLink>
