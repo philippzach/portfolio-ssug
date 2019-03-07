@@ -58,7 +58,7 @@ const GrowthServices = ({ data }) => (
             <img src={Product} alt="" title="" />
          </div>
         <div class="fl w-100 w-50-ns tr pa3-s pa3-m pl4-l">
-         <p className="lh-copy mt3">The <b>SWISS STARTUP TECH</b> enables companies to plan, design and transform the potential of Digitalization and to turn the concept of blockchain into business results.They love to build digital products and services and thus combine future customer needs with technological potential.
+         <p className="lh-copy mt3">The <b>SWISS STARTUP TECH</b> enables companies to plan, design and transform the potential of digitalization and to turn the concept of blockchain into business results. They love to build digital products and services and thus combine future customer needs with technological potential.
           <b>Their approach takes 100 days from the idea to the MVP launch of a private or public beta.</b>
           They work in small interdisciplinary teams to create mockups, PoCs, prototypes and MVPs for compelling and profitable customer experiences.</p>
             <a href="mailto:peach.zwyssig@ssut.ch">

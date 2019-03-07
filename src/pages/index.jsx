@@ -84,15 +84,15 @@ const HeroInner = styled.div`
     font-size: 3em;
     white-space: nowrap;
     color: white;
-    line-height: 65px;
     text-shadow: 1px 2px 4px rgba(0,0,0,.75);
   }
   @media (min-width: 1200px) {
     position: absolute;
-    top: 400px;  /* position the top  edge of the element at the middle of the parent */
+    top: 350px;  /* position the top  edge of the element at the middle of the parent */
     left: 50%; /* position the left edge of the element at the middle of the parent */
     text-align: center;
     transform: translate(-50%, -50%);
+    line-height: 65px;
   }
   @media (min-width: 950px) and (max-width: 1200px){
     position: absolute;
@@ -100,6 +100,7 @@ const HeroInner = styled.div`
     left: 50%; 
     text-align: center;
     transform: translate(-50%, -50%);
+    line-height: 65px;
   }
   @media (min-width: 700px) and (max-width: 950px) {
     position: absolute;
@@ -113,6 +114,8 @@ const HeroInner = styled.div`
     h1{
       padding-top: 2rem;
       white-space: unset;
+      color: #333333;
+      text-shadow: 1px 1px 1px #666;
     }
   }
 `;
@@ -124,7 +127,8 @@ const HeroText = styled.div`
     padding-bottom: 2em;
     max-width: 100%;
     color: white;
-    text-shadow: 0 1px 5px rgba(0,0,0,1);
+    text-shadow: 1.5px 1.5px 3.5px #666;
+}
   @media (max-width: 950px) {
     font-size: 1.4rem;
     max-width: 100%;
@@ -337,82 +341,3 @@ export const pageQuery = graphql`
   }
   }
 `;
-
-/*
-<div className="cf">
-            <div className="fl w-100 w-50-ns">
-              <img src={Founders} alt="" />
-            </div>
-            <div className="fl w-100 w-50-ns tc">
-              <div>
-                <h3>Max Meister, COO</h3>
-                <p className="lh-copy">
-                  “The last two years are a great proof of concept for us and we are amazed by the market response.
-                  Together with our strategic partners we will now focus on internationalization, while corporate
-                  acceleration and company building will play an even more important role in our future business model.”
-                </p>
-              </div>
-            </div>
-          </div>
-
-
-
-
-{social.edges.map(s => (
-                <li key={s.node.primary.label.text}>
-                  <a href={s.node.primary.link.url}>{s.node.primary.label.text}</a>
-                </li>
-              ))}
-<Title style={{ marginTop: '8rem' }}>Recent projects</Title>
-          <ProjectListing>
-            {projects.edges.map(project => (
-              <li key={project.node.primary.label.text}>
-                <a href={project.node.primary.link.url}>{project.node.primary.label.text}</a>
-              </li>
-            ))}
-          </ProjectListing>
-          */
-
-/*
-projects: allPrismicProjectsBodyLinkItem {
-      edges {
-        node {
-          primary {
-            label {
-              text
-            }
-            link {
-              url
-            }
-          }
-        }
-      }
-    }
-
-homepage: prismicHomepage {
-      data {
-        title {
-          text
-        }
-        content {
-          html
-        }
-      }
-    }
-    social: allPrismicHeroLinksBodyLinkItem {
-      edges {
-        node {
-          primary {
-            label {
-              text
-            }
-            link {
-              url
-            }
-          }
-        }
-      }
-    }
-
-
-              */

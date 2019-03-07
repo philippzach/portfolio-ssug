@@ -163,7 +163,8 @@ nav ul {
     cursor: pointer;
   }
   .nav__menu-item:hover a.hovereffect {
-    color: rgba(247,247,247,0.5);
+    color: #706969;
+    text-shadow: none!important;
   }
   .nav__menu-item:hover .nav__submenu {
     display: block;

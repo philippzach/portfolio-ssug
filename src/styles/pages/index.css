@@ -2,9 +2,9 @@
 content: "";
 position: absolute;
 left: 50%;
-margin-top: -5em;
-height: 200px;
-width: 2px;
+margin-top: -2em;
+height: 160px;
+width: 1px;
 background-color: #edecea;
 }
 .backgroundpartners {
@@ -32,7 +32,7 @@ background-color: #edecea;
         display: flex;
         flex-direction: column;
         margin: 5em auto;
-        height: 29.5rem;
+        
     }
     @keyframes FadeInRight {
         0% {
