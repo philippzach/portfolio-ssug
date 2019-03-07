@@ -71,6 +71,19 @@ export const pageQuery = graphql`
             }
             coverimage {
               url
+              alt
+              localFile {
+                id
+              	childImageSharp {
+                  fluid(
+                    maxWidth: 800
+                    traceSVG: { background: "#fff", color: "lightgrey" }
+                    )
+                  {
+                    ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                  }
+                }
+              }
             }
             date(formatString: "DD.MM.YYYY")
             categories {
