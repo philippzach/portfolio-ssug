@@ -202,7 +202,7 @@ const AboutUs = ({ data }) => (
             <article className="center pa3 pa4-ns">
             <div className="tc">
                  <Img fluid={data.tech3.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Lucas</h3>
+                <h3 className="f5 mb2">Lucas Pelloni</h3>
                 <h4 className="f6 fw4 gray mt0">Full Stack Developer</h4>
               </div>
             </article>
@@ -213,6 +213,22 @@ const AboutUs = ({ data }) => (
                 <h4 className="f6 fw4 gray mt0">Growth Hacker</h4>
               </div>
             </article>
+            </div>
+            <div className="tabrow">
+              <article className="center pa3 pa4-ns">
+              <div className="tc">
+              <Img fluid={data.placeholder.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+                  <h3 className="f5 mb2">Peter Zwyssig</h3>
+                  <h4 className="f6 fw4 gray mt0">CEO</h4>
+                </div>
+              </article>
+              <article className="center pa3 pa4-ns">
+              <div className="tc">
+              <Img fluid={data.placeholder.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+                  <h3 className="f5 mb2">Severin Wullschleger</h3>
+                  <h4 className="f6 fw4 gray mt0">Full Stack Developer</h4>
+                </div>
+              </article>
             </div>
           </div>
         </TabPanel>
@@ -521,6 +537,16 @@ tech2: file(relativePath: { eq: "images/alex_spinu.jpg" }) {
   }
 }
 tech3: file(relativePath: { eq: "images/lucas.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+placeholder: file(relativePath: { eq: "images/placeholder.png" }) {
   childImageSharp {
     fluid(
       maxWidth: 1500
