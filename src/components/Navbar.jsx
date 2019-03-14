@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { Link } from 'gatsby';
 import styled from 'react-emotion';
 import Logo from '../../static/ssug_grey.svg';
@@ -36,7 +36,27 @@ const NavItem = {
   textShadow: "0 2px 4px rgba(1,1,1,0.5)",
   }
 
-const Navbar = () => (
+  class Navbar extends Component {
+    constructor(props, context) {
+      super(props, context);
+      this.state = {
+        sidebarOpen: false
+      };
+      this.handleMouseDown =this.handleMouseDown.bind(this);
+      this.toggleMenu = this.toggleMenu.bind(this);
+      
+    }
+    handleMouseDown(e) {
+      this.toggleMenu();
+      console.log("clicked");
+    }
+    toggleMenu() {
+      this.setState({ sidebarOpen: !this.state.sidebarOpen });
+    }
+    
+    
+  render() {
+    return(
   <Header>
     <Link to="/">
       <img src={Logo} alt="Swiss Startup Group Logo" title="Swiss Startup Group Logo" height="55px" />
@@ -105,9 +125,8 @@ const Navbar = () => (
         </li>
       </ul>
       <div>
-      <label className="mobilemenu">
-        <input type='checkbox'/>
-        <span className='menu'>
+      <div className={"mobilemenu" + this.state.sidebarOpen} >
+        <span className='menu' onClick={() => this.handleMouseDown()}>
             <span className='hamburger'></span>
         </span>
         <ul className="list pl0 ma0" style={{paddingTop: "22em"}}>
@@ -118,11 +137,13 @@ const Navbar = () => (
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/aboutus'>About us</Link></li>
             <li className="mv4"><div className="button -dark" style={{boxShadow: "none", backgroundColor: "#e6e6ea", margin: "0"}}><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/join-the-platform'>Join the Platform</Link></div></li>
         </ul>
-        </label>
+        </div>
         </div>
     </Navigation>
     <div id="cta-menu" className="button-white" style={{boxShadow: "none", margin: "0"}}><Link to="/join-the-platform">Join the Platform</Link></div>
   </Header>
 );
+}
+}
 
 export default Navbar;
