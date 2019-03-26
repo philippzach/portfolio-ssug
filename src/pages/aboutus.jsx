@@ -156,13 +156,13 @@ const AboutUs = ({ data }) => (
                 <h4 className="f6 fw4 gray mt0">Startup Coach</h4>
               </div>
             </article>
-            <article className="center pa3 pa4-ns">
+           {/*  <article className="center pa3 pa4-ns">
             <div className="tc">
                 <Img fluid={data.about7.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Cindy Spelt</h3>
                 <h4 className="f6 fw4 gray mt0">Head of Platform</h4>
               </div>
-            </article>
+            </article> */}
             <article className="center pa3 pa4-ns">
             <div className="tc">
                 <Img fluid={data.about8.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
@@ -217,16 +217,23 @@ const AboutUs = ({ data }) => (
             <div className="tabrow">
               <article className="center pa3 pa4-ns">
               <div className="tc">
-              <Img fluid={data.placeholder.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+              <Img fluid={data.tech4.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                   <h3 className="f5 mb2">Peter Zwyssig</h3>
                   <h4 className="f6 fw4 gray mt0">CEO</h4>
                 </div>
               </article>
               <article className="center pa3 pa4-ns">
               <div className="tc">
-              <Img fluid={data.placeholder.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+              <Img fluid={data.tech5.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                   <h3 className="f5 mb2">Severin Wullschleger</h3>
                   <h4 className="f6 fw4 gray mt0">Full Stack Developer</h4>
+                </div>
+              </article>
+              <article className="center pa3 pa4-ns">
+              <div className="tc">
+              <Img fluid={data.tech6.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+                  <h3 className="f5 mb2">Thomas Bocek</h3>
+                  <h4 className="f6 fw4 gray mt0">CTO</h4>
                 </div>
               </article>
             </div>
@@ -537,6 +544,36 @@ tech2: file(relativePath: { eq: "images/alex_spinu.jpg" }) {
   }
 }
 tech3: file(relativePath: { eq: "images/lucas.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+tech4: file(relativePath: { eq: "images/peter(peach)zwyssig.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+tech5: file(relativePath: { eq: "images/severin-wullschleger.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+tech6: file(relativePath: { eq: "images/thomas-bocek.jpg" }) {
   childImageSharp {
     fluid(
       maxWidth: 1500
