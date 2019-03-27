@@ -96,8 +96,8 @@ const Join = ({ data }) => (
          </Input>
          <div className="box">
             <Half>
-            <img style={{borderRadius: "15rem", zoom: ".4"}} src={Cindy} alt=""/>
-            <h3 style={{margin: "1em 0"}}>Cindy Spelt</h3>
+            <Img style={{borderRadius: "15rem", }} fixed={data.ginie.childImageSharp.fixed} alt=""/>
+            <h3 style={{margin: "1em 0"}}>Virginia Beljean</h3>
             <h4 style={{margin: "1em 0"}}>Head of Platform</h4>
             </Half>
             <Half>
@@ -123,6 +123,16 @@ export const query = graphql`
             traceSVG: { background: "#fff", color: "lightgrey" }
           ) {
             ...GatsbyImageSharpFluid_tracedSVG
+          }
+        }
+    }
+    ginie: file(relativePath: { eq: "images/ginie.jpg" }) {
+        childImageSharp {
+          fixed(
+            width: 200
+            traceSVG: { background: "#fff", color: "lightgrey" }
+          ) {
+            ...GatsbyImageSharpFixed_tracedSVG
           }
         }
     }
