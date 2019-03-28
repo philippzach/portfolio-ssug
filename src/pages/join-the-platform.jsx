@@ -6,8 +6,6 @@ import styled from 'react-emotion';
 import Input from '../components/jointheplatform-input';
 import '../styles/pages/join-the-platform.css';
 import '../styles/input.css';
-import Cindy from '../../static/cindyspelt.jpg';
-
 
 const Box = styled.div`
 display: flex;

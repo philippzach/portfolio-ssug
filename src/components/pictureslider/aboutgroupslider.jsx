@@ -113,7 +113,7 @@ const pages = [
           <span className="arrows"></span>
         </div>
       </div>
-  </animated.div>,
+  </animated.div>/* ,
    style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
    <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
      <img src={Larissa} alt="" style={{ maxHeight: '600px' }} />
@@ -147,7 +147,7 @@ const pages = [
           <span className="arrows"></span>
      </div>
    </div>
-</animated.div>
+</animated.div> */
 ];
 
 export default class PageTransition extends Component {
@@ -155,7 +155,7 @@ export default class PageTransition extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 3 ? 0 : state.index + 1,
+      index: state.index === 2 ? 0 : state.index + 1,
     }));
 
   render() {
