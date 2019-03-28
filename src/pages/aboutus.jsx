@@ -99,13 +99,6 @@ const AboutUs = ({ data }) => (
               </div>
               
             </article>
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-            <Img fluid={data.about10.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Larissa Truffer</h3>
-                <h4 className="f6 fw4 gray mt0">Executive Assistant</h4>
-              </div>
-            </article>
             </div>
             </div>
         </TabPanel>
@@ -154,6 +147,13 @@ const AboutUs = ({ data }) => (
                 <Img fluid={data.about6.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Keith Gunura</h3>
                 <h4 className="f6 fw4 gray mt0">Startup Coach</h4>
+              </div>
+            </article>
+             <article className="center pa3 pa4-ns">
+            <div className="tc">
+            <Img fluid={data.about10.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+                <h3 className="f5 mb2">Larissa Truffer</h3>
+                <h4 className="f6 fw4 gray mt0">Executive Assistant</h4>
               </div>
             </article>
            {/*  <article className="center pa3 pa4-ns">
