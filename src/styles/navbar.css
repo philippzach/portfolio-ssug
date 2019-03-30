@@ -29,7 +29,14 @@ color: white;
 }
 .button-white a {
   color: #000;
+  font-family: roboto;
+  font-size: 1em;
+  font-weight: bold;
   text-transform: uppercase;
+}
+.button-white:hover {
+  transition: all 150ms linear;
+  opacity: .85;
 }
 @media (max-width: 1150px) {
   ul.nav__menu {
