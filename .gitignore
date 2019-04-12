@@ -62,5 +62,6 @@ public/
 # Bundle stats
 bundle-stats.json
 
+.ssh
 .env.development
 .env.production
