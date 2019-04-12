@@ -7,20 +7,3 @@ Header set Cache-Control "public,max-age=86400"
 <FilesMatch "(\.html|sw.js)$">
         Header set Cache-Control "public,max-age=0,must-revalidate"
 </FilesMatch>
-
-Redirect 301 /news /blog
-Redirect 301 /jobs https://www.swissstartupjobs.com/
-Redirect 301 /investors /investment/
-Redirect 301 /about-us /aboutus
-Redirect 301 /policy-terms /imprint
-Redirect 301 /corporates/services /corporates
-Redirect 301 /startups/accelerator /startup-accelerator
-Redirect 301 /startups/investment /investment
-Redirect 301 /index.php/jobs/eir-program /eir-program
-Redirect 301 /about-us/faq /accelerator-faq
-Redirect 301 /corporates/company-building /company-building/
-Redirect 301 /corporates/innovation-consulting /corporate-innovation-service/
-Redirect 301 /startups/startup-services /startups
-Redirect 301 /index.php/jobs/swiss-innovators /swiss-innovators
-Redirect 301 /index.php/investors/international-investor-support /investment/
-Redirect 301 /index.php/startups/startup-services /startup-services
