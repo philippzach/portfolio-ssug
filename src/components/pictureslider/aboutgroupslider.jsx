@@ -5,7 +5,7 @@ import '../../styles/pagetransitionabout.css';
 import Mike from '../../../static/teamssug/mike_baur.jpg';
 import Max from '../../../static/max_meister.jpg';
 import Oli from '../../../static/teamssug/walzer_oliver.jpg';
-import Larissa from '../../../static/teamssug/larissa.jpg';
+import Christine from '../../../static/teamssug/christine.jpg';
 import './arrow.css';
 
 const pages = [
@@ -113,41 +113,41 @@ const pages = [
           <span className="arrows"></span>
         </div>
       </div>
-  </animated.div>/* ,
+  </animated.div> ,
    style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
    <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
-     <img src={Larissa} alt="" style={{ maxHeight: '600px' }} />
+     <img src={Christine} alt="" style={{ maxHeight: '600px' }} />
    </div>
    <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
      <div className="paddingfoundersabout">
-       <h4 className="mb1 dimgray">Executive Assistant</h4>
-       <h3>Larissa Truffer</h3>
+       <h4 className="mb1 dimgray">Spokes Person</h4>
+       <h3>Christine Maier</h3>
        <div className="flex">
           <dl class="lh-title pr1-s pr2-m pr4-l mt0">
-              <dt class="f6 b">No-Go</dt>
-              <dd class="ml0 mb3">Arroganz</dd>
-              <dt class="f6 b mt2">I Like</dt>
-              <dd class="ml0 mb3">Pasta</dd>
-              <dt class="f6 b mt2">Never without</dt>
-              <dd class="ml0 mb3">Mobile phone and handkerchiefs</dd>
-              <dt class="f6 b mt2">My Desktop</dt>
-              <dd class="ml0 mb3">Must be cleaned up every week</dd>
+              <dt class="f6 b">Sunday evening</dt>
+              <dd class="ml0 mb3">Watching «Tatort» with my daughter</dd>
+              <dt class="f6 b mt2">I can do best</dt>
+              <dd class="ml0 mb3">Motivate people, work hard, live intensively</dd>
+              <dt class="f6 b mt2">I am not good at</dt>
+              <dd class="ml0 mb3">Stuck in traffic and Algebra</dd>
+              <dt class="f6 b mt2">Overrated</dt>
+              <dd class="ml0 mb3">Being online constantly, anti-age-creams</dd>
             </dl>
             <dl class="lh-title mt0">
-              <dt class="f6 b mt2">Summer Residence</dt>
-              <dd class="ml0 mb3">Lake Zurich</dd>
-              <dt class="f6 b mt2">Winter residence</dt>
-              <dd class="ml0 mb3">Warm Bed</dd>
-              <dt class="f6 b mt2">Unbelievable but true</dt>
-              <dd class="ml0 mb3">I once had red, short hair</dd>
-              <dt class="f6 b mt2">What's easy</dt>
-              <dd class="ml0 mb3">to get up early</dd>
+              <dt class="f6 b mt2">Underrated</dt>
+              <dd class="ml0 mb3">Having time not to do anything, silence</dd>
+              <dt class="f6 b mt2">I live</dt>
+              <dd class="ml0 mb3">A wonderful, privileged life</dd>
+              <dt class="f6 b mt2">A must read</dt>
+              <dd class="ml0 mb3">Nassim Nicholas Taleb «Skin In The Game»</dd>
+              <dt class="f6 b mt2">As a child I wanted to be</dt>
+              <dd class="ml0 mb3">Winnetous wife</dd>
           </dl>
           </div>
           <span className="arrows"></span>
      </div>
    </div>
-</animated.div> */
+</animated.div>
 ];
 
 export default class PageTransition extends Component {
@@ -155,7 +155,7 @@ export default class PageTransition extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 2 ? 0 : state.index + 1,
+      index: state.index === 3 ? 0 : state.index + 1,
     }));
 
   render() {
