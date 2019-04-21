@@ -29,19 +29,15 @@ const Investor = ({ data }) => (
       <div className="containertitle">
         <h2 className="lh-copy ttu headingcolorshadow">For Private Venture Investors </h2>
         <p className="lh-copy">
-          We set a new standard in the selection process of early stage venture investment opportunities for qualified
-          investors. Together with our advisory board members and with some of the most renown ultra high net worth individuals in Europe we create a powerful and efficient startup investor club.
+        We set a new standard in the selection process of early-stage venture investment opportunities for qualified investors. Together with our advisory board members and some of the most renowned ultra-high net-worth individuals in Europe we create a powerful and efficient startup investors club.
         </p>
         <p className="lh-copy">
-          The SWISS STARTUP GROUP has a unique startup know how, an in-depth view of the Swiss startup market and a
-          strong platform which allows a fast, efficient and straightforward process.
+          The SWISS STARTUP GROUP combines unique startup know-how, an in-depth view of the Swiss startup market and a strong platform to allow for a fast, efficient and straightforward process.
         </p>
         <p className="lh-copy">
-          With our investor club we are positioned in the sweet spot between business angels and venture capital funds.
-          We source, analyse, review due diligences, structure and negotiate the investment terms and present these
-          investment opportunities to the members of the investor club.
+        With our Investors Club we are positioned in the sweet spot between business angels and venture capital funds. We source, analyze and review due diligences and structure and negotiate the investment terms before presenting investment opportunities to the members of the Investors Club.
         </p>
-        <p className="lh-copy b">As a member of our investors club you will join an exclusive circle of very active, private venture investors and SWISS STARTUP GROUP will become your venture office.</p>
+        <p className="lh-copy b">As a member of our Investors Club you will join an exclusive circle of very active, private venture investors and the SWISS STARTUP GROUP will become your venture office.</p>
       </div>
       <Title>Testimonials</Title>
     </Wrapper>
@@ -52,7 +48,7 @@ const Investor = ({ data }) => (
           <h4 className="pt4">Chris Wildmoser</h4>
         </div>
         <p className="tc lh-copy measure center f6 black-70">
-        Christian Wildmoser is former partner of CVC Capital Partners one of the leading private equity companies in the world. He has more than 25 years of investment experience and is today an active venture investor.
+        Christian Wildmoser is a former partner of CVC Capital Partners, one of the leading private equity firms in the world. He has more than 25 years of investment experience and today is an active venture investor.
         </p>
       </article>
       <article className="mobile mw6  pa3 pa4-ns mv3">
@@ -89,7 +85,7 @@ const Investor = ({ data }) => (
             
           </div>
           <p className="lh-copy measure center f6 black-70">
-          We have a world-class talent platform with our Swiss universities and our world wide benchmarking educational system.
+          Thanks to our Swiss universities and our worldwide benchmarking educational system, we have a world-class talent platform.
           </p>
           
         </article>
@@ -116,7 +112,7 @@ const Investor = ({ data }) => (
             
           </div>
           <p className="lh-copy measure center f6 black-70">
-          Switzerland has a very strong network of world market player companies such as ABB, Credit Suisse, UBS, Nestlé, Roche, Novartis just to mention a few of them. Last but not least Switzerland offers political stability and liberal laws.
+          Switzerland has a very strong network of world market player companies such as ABB, Credit Suisse, UBS, Nestlé, Roche, or Novartis, to mention just a few. Last but not least, Switzerland offers political stability and liberal laws.
           </p>
           
         </article>
@@ -128,12 +124,12 @@ const Investor = ({ data }) => (
             </h3>
           </div>
           <p className="lh-copy measure center f6 black-70">
-          We experience a strong push of Switzerland’s next generation to follow an entrepreneurial career and create their own startup companies.
+          We experience a strong push of Switzerland’s next generation to follow an entrepreneurial career and create own startup companies.
           </p>
           
         </article>
         </div>
-      <p className="mw6 center tc lh-copy pt5 b">We are convinced that these ingredients follow in a exclusive Swiss investment pipeline of early stage investment opportunities here in Switzerland.</p>
+      <p className="mw6 center tc lh-copy pt5 b">We are convinced that these ingredients make up an exclusive Swiss pipeline of early-stage investment opportunities here in Switzerland.</p>
       <div className="tc mt5">
       <a href="mailto:virginia.beljean@ssut.ch">
       <div className="button -dark center">Join the Investor Club</div>

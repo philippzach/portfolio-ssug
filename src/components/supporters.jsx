@@ -92,7 +92,7 @@ const Supporters = () => (
         <div className="pa3 measure">
           <h3>Supporters & Eco System</h3>
           <p className="lh-copy">
-          As a key player within the Swiss ecosystem, we interact closely to a variety of stakeholders & startup organisations aiming to accelerate the development of the Switzerland's startup scene.
+          As a key player within the Swiss ecosystem, we interact closely with a variety of stakeholders & startup organizations aiming to accelerate the development of Switzerland's startup scene.
           </p>
         </div>
         </div>
@@ -105,7 +105,7 @@ const Supporters = () => (
         <div className="pa3 measure">
           <h3>Sponsors</h3>
           <p className="lh-copy">
-          We are grateful to have such amazing sponsors that support us during all our events and our complete journey.
+          We are grateful to have such amazing sponsors that support us throughout our journey and with all our events.
           </p>
         </div>
         </div>

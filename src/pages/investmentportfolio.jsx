@@ -30,11 +30,10 @@ const InvestmentPortfolio = ({ data }) => (
       <div className="containertitle">
         <h2 className="lh-copy ttu headingcolorshadow">Be part of the whole together we grow faster and stronger</h2>
         <p className="lh-copy">
-          With our investors club, the network platform with direct access to all stakeholders of the venture chain, our
-          know-how, deal-flow and funding the SWISS STARTUP GROUP helps you to meet your needs.
+        With our Investors Club, the network platform with direct access to all stakeholders of the venture chain, our know-how, deal-flow and funding, we at the SWISS STARTUP GROUP help you to meet your needs.
         </p>
         <p className="lh-copy">
-        We have an exclusive startup investment platform, which contains our investor’s club, advisory board and corporate partners. We know the corporate venturing landscape inside out and have an excellent network from investors, corporates, startups, mentors and many more.
+        We have an exclusive startup investment platform that comprises our Investors Club, the advisory board and corporate partners. We know the corporate venturing landscape inside and out and have an excellent network of investors, corporates, startups, mentors and many more partners.
         </p>
         <p className="lh-copy b">
           Together we achieve more.
@@ -53,15 +52,14 @@ const InvestmentPortfolio = ({ data }) => (
         <div className="pa4">
           <h2>Startups</h2>
           <p className="lh-copy">
-            In the area of technology and innovation, we want to invest in the best startups in Switzerland and the
-            world. For this we look for scalable startups with a disruptive idea and an complementary team.
+          We want to invest in the best technology and innovation startups in Switzerland and the world. That is why we look for scalable startups with a disruptive idea as well as a well-attuned and driven team.
           </p>
           <p className="lh-copy">
-          No matter if you need money for your first prototype, for further product development or international expansion, we can support you. In addition, with us you do not only get funding, you will benefit from our overall Swiss Startup Group platform and our exclusive network.
+          No matter whether you require money for your first prototype, for further product development or international expansion, we can support you. In addition, with us you do not only get funding, you will benefit from the entire Swiss Startup Group platform and our exclusive network.
           </p>
           <p className="lh-copy">
             <b>
-              <b>Just fill in the questionnaire and upload the necessary documents.</b>
+              <b>Just complete the questionnaire and upload the necessary documents.</b>
             </b>
           </p>
           <a href="https://ssuf.typeform.com/to/PUNY52" target="_blank">
@@ -76,9 +74,7 @@ const InvestmentPortfolio = ({ data }) => (
           Do you want to invest in Swiss startups to extend your portfolio?
         </h3>
         <p className="investorparagraph lh-copy">
-          The SWISS STARTUP GROUP is the right partner for this endeavour. Why? The SWISS STARTUP GROUP has a deep
-          startup know how, an in-depth view of the swiss startup market and strong growth services which allows us a
-          fast, efficient and straightforward process.
+        The SWISS STARTUP GROUP is the right partner for this endeavour. Why? The SWISS STARTUP GROUP has extensive startup know-how, paired with in-depth knowledge of the swiss startup market and strong growth services, all of which allow for a fast, efficient and straightforward process.
         </p>
         <a href="mailto:virginia.beljean@ssut.ch">
         <div className="button -dark center">Contact us now</div>
@@ -97,14 +93,10 @@ const InvestmentPortfolio = ({ data }) => (
             Coordination and control mechanisms hinder agile work. As a result, established companies lose market share to innovative startups. 
           </p>
           <p className="lh-copy measure">
-          Corporate venturing enables your company to invest in new strategically relevant business models with
-           top entrepreneurs who have fresh ideas and thus a different approach to a specific market. Thereby you
-            gain competitive advantages such as specialist knowledge in the core business (R&D), learn new know-how
-             in processes and partner models (M&A), open up new business opportunities and much more.
+          Coordination and control mechanisms hinder agile work. As a result, established companies lose market share to innovative startups. Corporate venturing allows your company to invest in new strategically relevant business models with top entrepreneurs who have fresh ideas and a different approach to a specific market. Thus you gain competitive advantages such as specialist knowledge in the core business (R&D), gather new know-how regarding processes and partner models (M&A), open up new business opportunities and much more.
           </p>
           <p className="lh-copy measure">
-              There are a number of possible approaches a business can take to Corporate Venturing. The SWISS STARTUP GROUP is very 
-              familiar with the corporate venturing landscape and knows the business from the scratch. We are experts in this field and with our specialized startup know-how, experience and out growth services we strive to provide you with the most suitable strategy with the best service you can find.
+          There are a number of possible approaches a business can take to corporate venturing. We at the SWISS STARTUP GROUP are familiar with all aspects of the corporate venturing landscape and know the business from scratch. We are experts in this field and with our specialized startup know-how, experience and our growth services we strive to provide the most suitable strategies paired with the best service you can find.
           </p>
           <a href="mailto:chris.bargholz@ssuf.ch">
           <div className="button -dark">Tell me more</div>

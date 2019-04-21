@@ -18,9 +18,7 @@ const pages = [
           <h3>Max Meister, CSO</h3>
           <span className="arrows"></span>
           <p className="lh-copy">
-          “The last four years are a great proof of concept for us and we are amazed by the market response.
-                  Together with our strategic partners we will now focus on internationalization, while corporate
-                  acceleration and company building will play an even more important role in our future business model.”
+          “The last four years are a great proof of concept for us and we are amazed by the market response. Together with our strategic partners we will now focus on internationalization, while corporate acceleration and company building will play an even more important role in our future business model.”
           </p>
         </div>
       </div>
@@ -35,7 +33,7 @@ const pages = [
           <h3>Mike Baur, CEO</h3>
           <span className="arrows"></span>
           <p className="lh-copy">
-          “With the SSUG we want to put Switzerland on the map of international early stage investors. For us, this is just the beginning of a very exciting but also challenging mission. We are thankful for the investors trust and we are fully conscious of the responsibility and performance driven ambition of the SWISS STARTUP GROUP”.
+          “With the SSUG we want to put Switzerland on the map of international early-stage investors. For us, this is just the beginning of a very exciting but also challenging mission. We are thankful for the investors’ trust and fully conscious of the responsibility and performance-driven ambition of the SWISS STARTUP GROUP.”
           </p>
         </div>
       </div>

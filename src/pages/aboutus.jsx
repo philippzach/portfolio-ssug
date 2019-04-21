@@ -51,8 +51,7 @@ const AboutUs = ({ data }) => (
       <div className="containertitleabout">
         <h2 className="lh-title ttu headingcolorshadow">Values</h2>
         <p className="lh-copy">
-        Our values are part of our DNA. They guide the way we work with our  partners, within our communities and with each other. Through integrity, passion, humility, simplicity and a focus on 
-          success, we have created a vibrant company culture where ideas can blossom, people can thrive and success can flourish. 
+        Our values are part of our DNA. They guide the way we work with our partners, within our communities and with each other. Through integrity, passion, humility, simplicity and a focus on success, we have created a vibrant company culture where ideas can blossom, people can thrive and success can flourish. 
         </p>
         <Values />
       </div>
@@ -60,7 +59,7 @@ const AboutUs = ({ data }) => (
       <div className="containertitle">
         <h1 className="lh-title ttu headingcolorshadow">Team</h1>
         <p className="lh-copy mb5">
-         Our team consists smart experts with a diverse set of experiences and backgrounds. As unique as we are individually, we share a mutual passion for startup ecosstem and doing excellent work for our clients and partners. Get to know our team below. 
+        Our team consists of smart experts with a diverse set of experiences and backgrounds. As unique as we are individually, we share a mutual passion for the startup ecosystem and for doing excellent work for our clients and partners. Get to know our team below. 
         </p>
       </div>
       </Wrapper>

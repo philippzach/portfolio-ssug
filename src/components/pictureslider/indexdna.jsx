@@ -19,8 +19,7 @@ const pages = [
           <h3 className="headingcolorshadow">KNOW HOW</h3>
           <span className="arrows"></span>
           <p className="lh-copy">
-            End-to-end startup development and investment skill-set. SWISS STARTUP GROUP offers services across the
-            entire value chain: scouting, analysis, due diligence, acceleration, company buildng, investing and exit advisory.
+          End-to-end startup development and investment skill set. SWISS STARTUP GROUP offers services across the entire value chain: scouting, analysis, due diligence, acceleration, company building, investment and exit advisory.
           </p>
           <span className="b">1/4</span>
          
@@ -37,7 +36,7 @@ const pages = [
           <h3 className="headingcolorshadow">NETWORK PLATFORM</h3>
           <span className="arrows"></span>
           <p className="lh-copy">
-          Direct access to all stakeholders of the venture value chain such as investors, corporates and startups as well as top talents, mentors and academic partners. 
+          Direct access to all stakeholders of the venture value chain such as investors, corporates and startups as well as top talents, mentors and academic partners.
           </p>
           <span className="b">2/4</span>
           
@@ -55,7 +54,7 @@ const pages = [
           <h3 className="headingcolorshadow">FUNDING</h3>
           <span className="arrows"></span>
           <p className="lh-copy">
-          One of the most active early stage investor in Switzerland that assures a straightforward and efficient funding process for startups seeking for pre-seed, seed, A-, B- or C- rounds.
+          One of the most active early-stage investors in Switzerland, assuring a straightforward and efficient funding process for startups seeking pre-seed, seed, A, B or C rounds.
           </p>
           <span className="b">3/4</span>
    
@@ -71,7 +70,7 @@ const pages = [
       <h3 className="headingcolorshadow">DEAL FLOW</h3>
       <span className="arrows"></span>
       <p className="lh-copy">
-      Exclusive startup investment pipeline and access through our Swiss Startup Group ecosystem composed of our shareholders, our investors club members, advisory board members, corporate partners and academic partners but also through active scouting within Switzerland and abroad.
+      Exclusive startup investment pipeline and access through our Swiss Startup Group ecosystem made up of our shareholders, our Investors Club members, advisory board members, corporate partners and academic partners but also through active scouting within Switzerland and abroad.
       </p>
       <span className="b">4/4</span>
       {/* <span className="b ttu fr pr3">next</span> */}
