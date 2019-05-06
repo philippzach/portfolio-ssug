@@ -206,13 +206,13 @@ const AboutUs = ({ data }) => (
                 <h4 className="f6 fw4 gray mt0">Developer</h4>
               </div>
             </article>
-            <article className="center pa3 pa4-ns">
+            {/* <article className="center pa3 pa4-ns">
             <div className="tc">
                  <Img fluid={data.tech3.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Lucas Pelloni</h3>
                 <h4 className="f6 fw4 gray mt0">Full Stack Developer</h4>
               </div>
-            </article>
+            </article> */}
             <article className="center pa3 pa4-ns">
             <div className="tc">
             <Img fluid={data.tech1.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
@@ -221,7 +221,7 @@ const AboutUs = ({ data }) => (
               </div>
             </article>
             </div>
-            <div className="tabrow">
+            {/* <div className="tabrow">
               <article className="center pa3 pa4-ns">
               <div className="tc">
               <Img fluid={data.tech4.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
@@ -243,7 +243,7 @@ const AboutUs = ({ data }) => (
                   <h4 className="f6 fw4 gray mt0">CTO</h4>
                 </div>
               </article>
-            </div>
+            </div> */}
           </div>
         </TabPanel>
         <TabPanel className="tabpanel three">
