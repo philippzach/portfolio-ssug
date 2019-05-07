@@ -95,7 +95,7 @@ const CustomForm = ({ status, message, onValidated }) => {
   class Demo extends Component {
     render() {
       const url =
-        "https://ssuf.us13.list-manage.com/subscribe/post?u=fd499c5c6103d376d89973015&amp;id=ab74f43f98";
+        "https://ssuf.us13.list-manage.com/subscribe/post?u=fd499c5c6103d376d89973015&amp;id=1272104ece";
       return (
           
           <Container>
@@ -120,3 +120,4 @@ const CustomForm = ({ status, message, onValidated }) => {
   }
 
   export default Demo;
+
