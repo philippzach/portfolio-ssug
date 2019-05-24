@@ -62,7 +62,7 @@ const InvestmentPortfolio = ({ data }) => (
               <b>Just complete the questionnaire and upload the necessary documents.</b>
             </b>
           </p>
-          <a href="https://ssuf.typeform.com/to/PUNY52" target="_blank">
+          <a href="https://ssuf.typeform.com/to/phJkVo" target="_blank">
           <div className="button -dark">Start Now</div>
           </a>
         </div>
