@@ -6,6 +6,7 @@ import Mike from '../../../static/teamssug/mike_baur.jpg';
 import Max from '../../../static/max_meister.jpg';
 import Oli from '../../../static/teamssug/walzer_oliver.jpg';
 import Christine from '../../../static/teamssug/christine.jpg';
+import Flavio from '../../../static/teamssug/flavio.jpg'
 import './arrow.css';
 
 const pages = [
@@ -147,6 +148,40 @@ const pages = [
           <span className="arrows"></span>
      </div>
    </div>
+</animated.div>,
+ style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
+ <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
+   <img src={Flavio} alt="" style={{ maxHeight: '600px' }} />
+ </div>
+ <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
+   <div className="paddingfoundersabout">
+     <h4 className="mb1 dimgray">Associate</h4>
+     <h3>Flavio Bianchi</h3>
+     <div className="flex">
+        <dl class="lh-title pr1-s pr2-m pr4-l mt0">
+            <dt class="f6 b">Never without</dt>
+            <dd class="ml0 mb3">Purpose</dd>
+            <dt class="f6 b mt2">Perfect holidays</dt>
+            <dd class="ml0 mb3">Holidays spent with family and friends</dd>
+            <dt class="f6 b mt2">Still on my bucket list </dt>
+            <dd class="ml0 mb3">Be my own boss</dd>
+            <dt class="f6 b mt2">Secret tip</dt>
+            <dd class="ml0 mb3">Wouldn’t be secret if I told you</dd>
+          </dl>
+          <dl class="lh-title mt0">
+            <dt class="f6 b mt2">My teen idol</dt>
+            <dd class="ml0 mb3">My dad</dd>
+            <dt class="f6 b mt2">Rituals</dt>
+            <dd class="ml0 mb3">I always write down important thoughts? (Not sure if that’s a ritual, but it’s as close as I could get to having one)</dd>
+            <dt class="f6 b mt2">Most grateful for</dt>
+            <dd class="ml0 mb3">Opportunities</dd>
+            <dt class="f6 b mt2">Unbelievable but true</dt>
+            <dd class="ml0 mb3">I don’t speak Italian</dd>
+        </dl>
+        </div>
+        <span className="arrows"></span>
+   </div>
+ </div>
 </animated.div>
 ];
 
@@ -155,7 +190,7 @@ export default class PageTransition extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 3 ? 0 : state.index + 1,
+      index: state.index === 4 ? 0 : state.index + 1,
     }));
 
   render() {
