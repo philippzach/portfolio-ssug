@@ -107,6 +107,32 @@ const AboutUs = ({ data }) => (
               
             </article>
             </div>
+            <div className="tabrow2">
+            <article className="center pa3 pa4-ns">
+            <div className="tc">
+            <Img fluid={data.about14.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+                <h3 className="f5 mb2">Flavio Bianchi</h3>
+                <h4 className="f6 fw4 gray mt0">Associate</h4>
+              </div>
+              
+            </article>
+            <article className="center pa3 pa4-ns">
+            <div className="tc">
+            <Img fluid={data.about12.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+                <h3 className="f5 mb2">Philipp Steinberger</h3>
+                <h4 className="f6 fw4 gray mt0">Head of Investors Club</h4>
+              </div>
+              
+            </article>
+            <article className="center pa3 pa4-ns">
+            <div className="tc">
+            <Img fluid={data.about13.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+                <h3 className="f5 mb2">Guillaume Waser</h3>
+                <h4 className="f6 fw4 gray mt0">CFO</h4>
+              </div>
+              
+            </article>
+            </div>
             </div>
         </TabPanel>
         <TabPanel className="tabpanel one">
@@ -501,6 +527,36 @@ about10: file(relativePath: { eq: "images/larissa.jpg" }) {
   }
 }
 about11: file(relativePath: { eq: "images/christine.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about12: file(relativePath: { eq: "images/philippsteinberger.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about13: file(relativePath: { eq: "images/waser.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about14: file(relativePath: { eq: "images/flavio.jpg" }) {
   childImageSharp {
     fluid(
       maxWidth: 1500

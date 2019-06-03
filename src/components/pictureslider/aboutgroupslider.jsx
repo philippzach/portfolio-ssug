@@ -6,7 +6,9 @@ import Mike from '../../../static/teamssug/mike_baur.jpg';
 import Max from '../../../static/max_meister.jpg';
 import Oli from '../../../static/teamssug/walzer_oliver.jpg';
 import Christine from '../../../static/teamssug/christine.jpg';
-import Flavio from '../../../static/teamssug/flavio.jpg'
+import Flavio from '../../../static/teamssug/flavio.jpg';
+import Philipp from '../../../static/teamssug/philippsteinberger.jpg';
+import Waser from '../../../static/teamssug/waser.jpg';
 import './arrow.css';
 
 const pages = [
@@ -182,6 +184,74 @@ const pages = [
         <span className="arrows"></span>
    </div>
  </div>
+</animated.div>,
+ style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
+ <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
+   <img src={Philipp} alt="" style={{ maxHeight: '600px' }} />
+ </div>
+ <div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
+   <div className="paddingfoundersabout">
+     <h4 className="mb1 dimgray">Head of Investors Club</h4>
+     <h3>Philipp Steinberger</h3>
+     <div className="flex">
+        <dl class="lh-title pr1-s pr2-m pr4-l mt0">
+            <dt class="f6 b">Never without</dt>
+            <dd class="ml0 mb3">My Ibiza bracelets</dd>
+            <dt class="f6 b mt2">Favorite Place</dt>
+            <dd class="ml0 mb3">Cape Town</dd>
+            <dt class="f6 b mt2">My Charisma</dt>
+            <dd class="ml0 mb3">Dry sense of humour</dd>
+            <dt class="f6 b mt2">Most valueable lesson learnt</dt>
+            <dd class="ml0 mb3">If “Plan A” didn’t work, remember the alphabet has 25 more letters</dd>
+          </dl>
+          <dl class="lh-title mt0">
+            <dt class="f6 b mt2">My teen idol</dt>
+            <dd class="ml0 mb3">Aristotle Onassis</dd>
+            <dt class="f6 b mt2">A perfect day</dt>
+            <dd class="ml0 mb3">A never ending lunch with family/friends on the beach</dd>
+            <dt class="f6 b mt2">Most grateful for</dt>
+            <dd class="ml0 mb3">My family</dd>
+            <dt class="f6 b mt2">Proud of</dt>
+            <dd class="ml0 mb3">My 2 boys, Sebastian and Max</dd>
+        </dl>
+        </div>
+        <span className="arrows"></span>
+   </div>
+ </div>
+</animated.div>,
+style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
+<div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
+  <img src={Waser} alt="" style={{ maxHeight: '600px' }} />
+</div>
+<div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
+  <div className="paddingfoundersabout">
+    <h4 className="mb1 dimgray">Chief Financial Officer</h4>
+    <h3>Guillaume Waser</h3>
+    <div className="flex">
+       <dl class="lh-title pr1-s pr2-m pr4-l mt0">
+           <dt class="f6 b">Still on the bucket list</dt>
+           <dd class="ml0 mb3">Riding the Tran-Siberian from Moscow to Beijing</dd>
+           <dt class="f6 b mt2">Favourite book</dt>
+           <dd class="ml0 mb3">The Snowball - Warren Buffett and the Business of Life</dd>
+           <dt class="f6 b mt2">Overrated</dt>
+           <dd class="ml0 mb3">Social media hyperactivity</dd>
+           <dt class="f6 b mt2">Underrated</dt>
+           <dd class="ml0 mb3">Global warming & ocean pollution</dd>
+         </dl>
+         <dl class="lh-title mt0">
+           <dt class="f6 b mt2">My teen idol</dt>
+           <dd class="ml0 mb3">Terje Haakonsen</dd>
+           <dt class="f6 b mt2">Must have seen</dt>
+           <dd class="ml0 mb3">Sunset in Formentera</dd>
+           <dt class="f6 b mt2">My Desktop</dt>
+           <dd class="ml0 mb3">Is a bit everywhere</dd>
+           <dt class="f6 b mt2">Never without</dt>
+           <dd class="ml0 mb3">A lipstick</dd>
+       </dl>
+       </div>
+       <span className="arrows"></span>
+  </div>
+</div>
 </animated.div>
 ];
 
@@ -190,7 +260,7 @@ export default class PageTransition extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 4 ? 0 : state.index + 1,
+      index: state.index === 6 ? 0 : state.index + 1,
     }));
 
   render() {
