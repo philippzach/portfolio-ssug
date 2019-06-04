@@ -186,7 +186,7 @@ const AboutUs = ({ data }) => (
             <div className="tc">
             <Img fluid={data.about10.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Larissa Truffer</h3>
-                <h4 className="f6 fw4 gray mt0">Executive Assistant</h4>
+                <h4 className="f6 fw4 gray mt0">Marketing & Communications Manager</h4>
               </div>
             </article>
            {/*  <article className="center pa3 pa4-ns">
