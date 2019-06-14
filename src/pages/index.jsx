@@ -220,7 +220,7 @@ class Index extends Component {
               <p className="ttu b">Our Accelerator ></p>
             </div>
             </Link>
-            <Link to="/investorclub">
+            <Link to="/ventureassetmanagement">
             <div className="card black">
               <img className="svgicons" src={Investors} alt="" description="" title="" />
               {/*}<h4>Investors</h4>{*/}

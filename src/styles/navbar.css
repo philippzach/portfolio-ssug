@@ -38,9 +38,9 @@ color: white;
   transition: all 150ms linear;
   opacity: .85;
 }
-@media (max-width: 1150px) {
+@media (min-width: 1055px) and (max-width: 1250px) {
   ul.nav__menu {
-    font-size: 15px!important;
+    font-size: 13px!important;
   }
 }
 

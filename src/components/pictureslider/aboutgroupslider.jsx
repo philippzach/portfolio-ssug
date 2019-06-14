@@ -246,7 +246,7 @@ style => <animated.div style={{ ...style }} className="flex flex-column flex-row
            <dt class="f6 b mt2">My Desktop</dt>
            <dd class="ml0 mb3">Is a bit everywhere</dd>
            <dt class="f6 b mt2">Never without</dt>
-           <dd class="ml0 mb3">A lipstick</dd>
+           <dd class="ml0 mb3"> lipstick</dd>
        </dl>
        </div>
        <span className="arrows"></span>
