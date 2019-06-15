@@ -69,7 +69,7 @@ const Venture = ({ data }) => (
             <Img fixed={data.max.childImageSharp.fixed} alt="Swiss Startup Capital Team" className="shadow-5"/>
               <h4 className="pt4 mb1">Max Meister</h4>
             </div>
-            <p className="tc measure center f6 black-70">CSO
+            <p className="tc measure center f6 black-70">CEO
             </p>
           </article>
           <article className="mobile mw6  pa3 pa4-ns mv3">
@@ -96,10 +96,8 @@ const Venture = ({ data }) => (
     <div style={{ paddingTop: '2rem', paddingBottom: '4rem' }}>
       <div className="row mt4">
         <div className="w-100 w-50-ns">
-          <Header>We<br/> analyse</Header>
-          <Paragraph>the individual portfolio companies, 
-                manage the most important investments 
-                and report to the investor on a regular basis.</Paragraph>
+          <Header>Investments<br/>& Support</Header>
+          <Paragraph>through our proprietary dealflow, due diligence process and portfolio support we create value for our companies and investors.</Paragraph>
         </div>
         <div className="w-100 w-50-ns">
           <h3>1. Direct Investments</h3>
