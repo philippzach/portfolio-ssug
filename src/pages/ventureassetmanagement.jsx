@@ -113,7 +113,7 @@ const Venture = ({ data }) => (
       </div>
       <div className="w-100 w-50-ns">
         <h3>2. Indirect Investments</h3>
-        <p className="lh-copy b">In order to invest into new and promising growth companies, but also to conduct follow-on investments in our existing portfolio, the Swiss Startup Group has decided to set up its own fund - The Flagship Fund I, operational as of Q3 2019.</p>
+        <p className="lh-copy">In order to invest into new and promising growth companies, but also to conduct follow-on investments in our existing portfolio, the Swiss Startup Group has decided to set up its own fund - The Flagship Fund I, operational as of Q3 2019.</p>
       </div>
       </div>
       <div className="row mb4">
@@ -127,7 +127,7 @@ const Venture = ({ data }) => (
             <p className="lh-copy"><a style={{color: "inherit", textDecoration: "underline"}}href="https://ccvs.ch/">Corporate Venture Capital</a> will also be a core focus for Swiss Startup Capital AG. We support companies in setting up and implementing their own structures (internal - external - fund structures).</p>
           </div>
       </div>
-      <p className="mw6 center tc lh-copy pt6 b">We are convinced that these ingredients make up an exclusive Swiss pipeline of early-stage investment opportunities here in Switzerland.</p>
+      <p className="mw6 center tc lh-copy pt5 b">We are convinced that these ingredients make up an exclusive Swiss pipeline of early-stage investment opportunities here in Switzerland.</p>
       <div className="tc mv3">
         <a href="mailto:virginia.beljean@ssut.ch">
           <div className="button -dark center">Join the Investor Club</div>
