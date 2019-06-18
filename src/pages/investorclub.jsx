@@ -22,7 +22,7 @@ const Investor = ({ data }) => (
   <Seo title="SWISS STARTUP GROUP – Investor Club" desc="Exclusive Investor Club for qualified private early stage venture investors that offers great investment opportunities" />
       <Navbar />
       <Test> 
-          <Img fluid={data.investorclub.childImageSharp.fluid} className="w-100" />
+          <Img fluid={data.investorclubold.childImageSharp.fluid} className="w-100" />
       </Test>
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Investor Club</Title>
@@ -143,7 +143,7 @@ export default Investor;
 
 export const query = graphql`
   query {
-    investorclub: file(relativePath: { eq: "images/investorclub.jpg" }) {
+    investorclubold: file(relativePath: { eq: "images/investorclub-old.jpg" }) {
         childImageSharp {
           fluid(
             maxWidth: 1500

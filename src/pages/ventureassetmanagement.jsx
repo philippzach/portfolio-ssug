@@ -3,6 +3,7 @@ import styled from 'react-emotion';
 import { Layout, Wrapper, Navbar, Title } from 'components';
 //import Background from '../../static/investorclub.jpg';
 import '../styles/pages/investorclub.css';
+import {Link} from "gatsby";
 import Strebel from '../../static/hanspeter_strebel.jpg';
 import Urs from '../../static/urs_wietlisbach.jpg';
 import Chris from '../../static/chris_wildmoser.jpg';
@@ -129,9 +130,9 @@ const Venture = ({ data }) => (
       </div>
       <p className="mw6 center tc lh-copy pt5 b">We are convinced that these ingredients make up an exclusive Swiss pipeline of early-stage investment opportunities here in Switzerland.</p>
       <div className="tc mv3">
-        <a href="mailto:virginia.beljean@ssut.ch">
+        <Link to="/investorclub">
           <div className="button -dark center">Join the Investor Club</div>
-        </a>
+        </Link>
       </div>
     </div>
     </Wrapper>

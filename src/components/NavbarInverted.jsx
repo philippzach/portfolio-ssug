@@ -104,7 +104,7 @@ const NavItem = {
         <div class="sl-nav">
             <ul>
               <li>
-              <Link to="/investorclub" className="hovereffect" style={NavItem}>Venture Asset Management</Link>
+              <Link to="/ventureassetmanagement" className="hovereffect" style={NavItem}>Venture Asset Management</Link>
                 </li>
               </ul>
           </div> 
@@ -134,7 +134,7 @@ const NavItem = {
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/factory'>Factory</Link></li>
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/investmentportfolio'>Investment Portfolio</Link></li>
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/growthservices'>Growth Services</Link></li>
-            <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/investorclub'>Venture Asset Management</Link></li>
+            <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/ventureassetmanagement'>Venture Asset Management</Link></li>
             <li className="mv4"><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/aboutus'>About us</Link></li>
             <li className="mv4"><div className="button -dark" style={{boxShadow: "none", backgroundColor: "#e6e6ea", margin: "0"}}><Link className="ttu" style={{ fontSize: "1.5em", lineHeight: "1.2em"}} to='/join-the-platform'>Join the Platform</Link></div></li>
         </ul>
