@@ -37,7 +37,7 @@ max-width: 18em;
 
 const Venture = ({ data }) => (
   <Layout>
-    <Seo title="SWISS STARTUP GROUP – Venture Asset Mangement" desc="The Swiss Startup Group has founded Swiss Startup Capital AG as a Venture Asset Management division. Direct Investments - Indirect Investments - Corporate Finance." />
+    <Seo title="SWISS STARTUP GROUP – Venture Asset Mangement" desc="The Swiss Startup Group has founded Swiss Startup Capital AG as a Venture Asset Management division. Direct Investments - Indirect Investments - Corporate Venture Capital." />
     <Navbar />
     <Test> 
       <Img fluid={data.investorclub.childImageSharp.fluid} className="w-100" />
@@ -53,7 +53,7 @@ const Venture = ({ data }) => (
           <p className="lh-copy b">
           In the future, investments in startups will be managed as a separate investment category called Venture Asset Management.
           </p>
-          <p className="lh-copy">The Swiss Startup Group has entrusted the newly founded Swiss Startup Capital AG with the implementation of the Venture Asset Management division. Venture Asset Management offers three divisions: Direct Investments - Indirect Investments - Corporate Finance.
+          <p className="lh-copy">The Swiss Startup Group has entrusted the newly founded Swiss Startup Capital AG with the implementation of the Venture Asset Management division. Venture Asset Management offers three divisions: Direct Investments - Indirect Investments - Corporate Venture Capital.
           </p>
         </div>
       </div>
@@ -105,11 +105,14 @@ const Venture = ({ data }) => (
           <p className="lh-copy b">In the area of direct investments, we present qualified investors a carefully selected selection of promising investment opportunities and support individual investment decisions with a professional due diligence.</p>
           <p className="lh-copy">At the request of investors, we accompany the investments, actively support them and regularly report on their development. With this competent offer, we address experienced private investors as well as multi-family offices and banks who would like to give their customers professional access to an attractive asset class.</p>
           <p className="lh-copy">In the form of managed accounts, we offer our vast investment experience to investors who already own a portfolio of venture investments. This service is aimed in particular to clients who already own a venture investment portfolio. We analyze the individual portfolio companies, manage the most important investments and report to the investor on a regular basis. Like this, we support our clients so they can focus on their best participations, creating value efficiently.</p>
+          <Link to="/investorclub">
+          <div className="button -dark center">Join the Investor Club</div>
+        </Link>
         </div>
       </div>
       <div className="row mv6">
       <div className="w-100 w-50-ns">
-       <Header>Flagship<br/> Fund I</Header>
+       <Header>SSUG Flagship<br/> Fund I</Header>
        <Paragraph>The first fund will start operations in Q3 2019.</Paragraph>
       </div>
       <div className="w-100 w-50-ns">
@@ -123,17 +126,17 @@ const Venture = ({ data }) => (
           <Paragraph>will be a major topic of interest for the Swiss Startup Capital AG.</Paragraph>
           </div>
           <div className="w-100 w-50-ns">
-            <h3>3. Corporate Finance</h3>
+            <h3>3. Corporate Venturing</h3>
             <p className="lh-copy">In recent years, the Swiss Startup Group has been increasingly mandated by its partners to manage and accompany transactions for their investments. In particular, these included spin-offs, the setting-up of joint ventures and the preparation and execution of exit transactions. Swiss Startup Capital AG has experienced experts at its disposal who can support clients going forward.</p>
             <p className="lh-copy"><a style={{color: "inherit", textDecoration: "underline"}}href="https://ccvs.ch/">Corporate Venture Capital</a> will also be a core focus for Swiss Startup Capital AG. We support companies in setting up and implementing their own structures (internal - external - fund structures).</p>
           </div>
       </div>
       <p className="mw6 center tc lh-copy pt5 b">We are convinced that these ingredients make up an exclusive Swiss pipeline of early-stage investment opportunities here in Switzerland.</p>
-      <div className="tc mv3">
+      {/* <div className="tc mv3">
         <Link to="/investorclub">
           <div className="button -dark center">Join the Investor Club</div>
         </Link>
-      </div>
+      </div> */}
     </div>
     </Wrapper>
   </Layout>
