@@ -70,7 +70,7 @@ const AboutUs = ({ data }) => (
           <Tab className="tabitem four" selectedClassName="selected">Swiss Startup Group</Tab>
           <Tab className="tabitem one" selectedClassName="selected">Swiss Startup Factory</Tab>
           <Tab className="tabitem two" selectedClassName="selected">Swiss Startup Tech</Tab>
-          <Tab className="tabitem three" selectedClassName="selected">Avaneo</Tab>
+          {/* <Tab className="tabitem three" selectedClassName="selected">Avaneo</Tab> */}
         </TabList>
         <TabPanel className="tabpanel four">
         <div className="paddingtabs">
@@ -168,13 +168,13 @@ const AboutUs = ({ data }) => (
             </article>
             </div>
             <div className="tabrow">
-            <article className="center pa3 pa4-ns">
+            {/* <article className="center pa3 pa4-ns">
             <div className="tc">
                 <Img fluid={data.about9.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Jana Stucki</h3>
                 <h4 className="f6 fw4 gray mt0">Project Manager</h4>
               </div>
-            </article>
+            </article> */}
             <article className="center pa3 pa4-ns">
             <div className="tc">
                 <Img fluid={data.about6.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
@@ -225,13 +225,13 @@ const AboutUs = ({ data }) => (
                 <h4 className="f6 fw4 gray mt0">Co-Founder</h4>
               </div>
             </article>
-            <article className="center pa3 pa4-ns">
+            {/* <article className="center pa3 pa4-ns">
             <div className="tc">
             <Img fluid={data.tech2.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Alexandru Spinu</h3>
                 <h4 className="f6 fw4 gray mt0">Developer</h4>
               </div>
-            </article>
+            </article> */}
             {/* <article className="center pa3 pa4-ns">
             <div className="tc">
                  <Img fluid={data.tech3.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
@@ -272,7 +272,7 @@ const AboutUs = ({ data }) => (
             </div> */}
           </div>
         </TabPanel>
-        <TabPanel className="tabpanel three">
+        {/* <TabPanel className="tabpanel three">
         <div className="paddingtabs">
         <div className="tabrow2">
             <article className="center pa3 pa4-ns">
@@ -299,7 +299,7 @@ const AboutUs = ({ data }) => (
             </article>
             </div>
             </div>
-        </TabPanel>
+        </TabPanel> */}
       </Tabs>
       <Wrapper style={{ paddingTop: "5em", paddingBottom: "3em"}}>
         <Title>Advisory Board</Title>

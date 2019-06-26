@@ -16,11 +16,12 @@ background-color: #edecea;
     display: flex;
     flex-direction: column;
     margin: 7em auto 5em;
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
 }
+
 @media only screen and (max-width: 750px) {
     .cardwrapper {
         display: flex-wrap;
@@ -31,8 +32,11 @@ background-color: #edecea;
     .logocontainer {
         display: flex;
         flex-direction: column;
-        margin: 5em auto;
+        margin: 5em auto 0;
         
+    }
+    .logostop {
+      padding: .35em;
     }
     @keyframes FadeInRight {
         0% {
@@ -117,8 +121,11 @@ background-color: #edecea;
     .logocontainer {
         display: flex;
         flex-direction: column;
-        margin: 5em auto;
-        height: 19.5rem;
+        margin: 5em auto 0;
+       /*  height: 19.5rem; */
+    }
+    .logostop {
+      padding: 1em;
     }
     @keyframes FadeInRight {
         0% {

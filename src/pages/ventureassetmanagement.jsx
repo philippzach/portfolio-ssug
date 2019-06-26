@@ -51,9 +51,9 @@ const Venture = ({ data }) => (
         <div className="w-100 w-two-thirds-ns pl0 pl4-ns pt4 tc tl-ns">
           <h2 className="lh-copy ttu headingcolorshadow">Venture Asset Management</h2>
           <p className="lh-copy b">
-          In the future, investments in startups will be managed as a separate investment category called Venture Asset Management.
+          In the past 5 years investment in startups in Switzerland have gathered a lot of interest, which has led to a much more professional way of managing venture investments. Today venture investments have become a separate asset class for qualified investors called Venture Asset Management. 
           </p>
-          <p className="lh-copy">The Swiss Startup Group has entrusted the newly founded Swiss Startup Capital AG with the implementation of the Venture Asset Management division. Venture Asset Management offers three divisions: Direct Investments - Indirect Investments - Corporate Venture Capital.
+          <p className="lh-copy">Therefore the Swiss Startup Group has entrusted the newly founded Swiss Startup Capital AG who represents a fully dedicated Venture Asset Management offering in three divisons: Direct Investments - Indirect Investments - Corporate Venture Capital.
           </p>
         </div>
       </div>
@@ -102,9 +102,9 @@ const Venture = ({ data }) => (
         </div>
         <div className="w-100 w-50-ns">
           <h3>1. Direct Investments</h3>
-          <p className="lh-copy b">In the area of direct investments, we present qualified investors a carefully selected selection of promising investment opportunities and support individual investment decisions with a professional due diligence.</p>
-          <p className="lh-copy">At the request of investors, we accompany the investments, actively support them and regularly report on their development. With this competent offer, we address experienced private investors as well as multi-family offices and banks who would like to give their customers professional access to an attractive asset class.</p>
-          <p className="lh-copy">In the form of managed accounts, we offer our vast investment experience to investors who already own a portfolio of venture investments. This service is aimed in particular to clients who already own a venture investment portfolio. We analyze the individual portfolio companies, manage the most important investments and report to the investor on a regular basis. Like this, we support our clients so they can focus on their best participations, creating value efficiently.</p>
+          <p className="lh-copy b">In the area of direct investments, we present qualified investors a carefully selected pipeline of promising investment opportunities and support individual investment decisions with a professional due diligence.</p>
+          <p className="lh-copy">At the request of investors, we accompany the investments, actively support them and regularly report on their development. With this competent offer, we address experienced private investors as well as multi-family offices and asset managers and banks who would like to give their customers professional access to an attractive venture asset class.</p>
+          <p className="lh-copy">In the form of managed accounts, we offer our vast venture investment experience to investors who already own a portfolio of venture investments. This service is aimed in particular to clients who already own a venture investment portfolio. We analyze the individual portfolio companies, manage the most important investments and report to the investor on a regular basis. Like this, we support our clients so they can focus on their other core asset classes, creating value efficiently.</p>
           <Link to="/investorclub">
           <div className="button -dark center">Join the Investor Club</div>
         </Link>
@@ -117,7 +117,8 @@ const Venture = ({ data }) => (
       </div>
       <div className="w-100 w-50-ns">
         <h3>2. Indirect Investments</h3>
-        <p className="lh-copy">In order to invest into new and promising growth companies, but also to conduct follow-on investments in our existing portfolio, the Swiss Startup Group has decided to set up its own fund - The Flagship Fund I, operational as of Q3 2019.</p>
+        <p className="lh-copy">In order to invest into new and promising growth companies, but also to conduct follow-on investments in our existing portfolio, the Swiss Startup Group has decided to set up its own fund - The SSUG Flagship Fund I, will be operational as of Q3 2019.</p>
+        <p className="lh-copy">This fund is dedicated to qualified private and institutional investors who want to invest in venture with an indirect investment approach and on a discretionary base. It is a suitable solution for all investors who wish to delegate the investment decisions.</p>     
       </div>
       </div>
       <div className="row mb4">

@@ -18,6 +18,14 @@ import FounderSlider from '../components/pictureslider/indexfounders';
 import Point from '../../static/point.svg';
 import Seo from '../components/SEO/index';
 import SocialBanner from '../../static/socialsharing.jpg'
+import LogoA from '../../static/logo_partner_grey/lg-amag.svg';
+import LogoB from '../../static/logo_partner_grey/lg-gold.svg';
+import LogoC from '../../static/logo_partner_grey/lg-helvetia.svg';
+import LogoD from '../../static/logo_partner_grey/lg-redbull.svg';
+import LogoE from '../../static/logo_partner_grey/lg-richemont.svg';
+import LogoG from '../../static/logo_partner_grey/lg-wenger.svg';
+import LogoF from '../../static/logo_partner_grey/lg-start.svg';
+import LogoH from '../../static/logo_partner_grey/lg-west.svg';
 
 /*
 const Test = styled.div`
@@ -148,6 +156,11 @@ const HeroText = styled.div`
     padding-bottom: 2em;
   }
 `;
+const Logos = styled.div`
+    display: flex;
+    justify-content: center;
+
+`
 
 const BulletPoint = styled.img`
  height: 10px;
@@ -179,17 +192,48 @@ class Index extends Component {
             </HeroText>
           </HeroInner>
         <div className="line" />
-        <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
-          <div className="logocontainer">
-            <h3 className="lh-copy headingcolorshadow tc mt4 mb5">The Power of our Platform</h3>
-            {/* <div className="fadeintextrighttop"><BulletPoint src={Point} />Know How</div>
-            <div className="fadeintextlefttop"><BulletPoint src={Point} />Network</div> */}
-            <img src={Logo} alt="" title="" description="" className="logoheight"/>
-            {/* <div  className="fadeintextrightbottom"><BulletPoint src={Point} />Deal Flow</div>
-            <div className="fadeintextleftbottom"><BulletPoint src={Point} />Funding</div> */}
-          </div>
+        <Wrapper style={{ paddingTop: '2rem', paddingBottom: '1rem' }}>
+          <div className="logocontainer"> 
+            <h3 className="lh-copy headingcolorshadow tc mt4 mb3">The Power of our Platform</h3>
+            </div>
+            </Wrapper>
+            <Logos>
+                      <a href="http://www.amag.ch" target="_blank">
+                <img className="logostop" src={LogoA} height="100" width="250" alt="" />
+                </a>
+              
+              
+              <a href="http://www.goldbachgroup.com" target="_blank">
+                <img className="logostop" src={LogoB}  height="100" width="250" alt="" />
+                </a>
+            
+              
+              <a href="https://www.helvetia.com" target="_blank">
+                <img className="logostop" src={LogoC}  height="100" width="250" alt="" />
+                </a>
+            
+              
+              <a href="https://www.redbullmediahouse.com" target="_blank">
+                <img className="logostop" src={LogoD}  height="100" width="250" alt="" />
+                </a>
+                <a href="https://www.wengervieli.ch" target="_blank">
+                <img className="logostop" src={LogoG}  height="100" width="250" alt="" />
+                </a>
+            </Logos>
+            <Logos>
+            <a href="https://www.richemont.com" target="_blank">
+			<img className="logostop" src={LogoE}  height="100" width="250" alt="" />
+			</a>
+      <a href="http://startupinvest.ch" target="_blank">
+			<img className="logostop" src={LogoF}  height="100" width="250" alt="" />
+			</a>
+      <a href="http://www.westhive.com" target="_blank">
+			<img className="logostop" src={LogoH}  height="100" width="250" alt="" />
+			</a>
+            </Logos>
+            <Wrapper>
           <div className="containertitle">
-            <h2 className="lh-copy headingcolorshadow">
+            <h2 className="lh-copy headingcolorshadow mt5">
             OUR AMBITION: TO BE ONE OF THE WORLD’S LEADING VENTURE BUILDERS
             </h2>
             <p className="lh-copy"><span className="b">The SWISS STARTUP GROUP  is the only market player in Switzerland that combines all assets of the venture business on one platform.</span></p>
