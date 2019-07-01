@@ -46,7 +46,7 @@ const Venture = ({ data }) => (
       <Title>About</Title>
       <div className="flex-ns mt5 mb6">
         <div className="w-100 w-third-ns flex items-center justify-center justify-start-ns ">
-          <img src={SSUC} alt="Swiss Startup Capital Logo" width="250px"/>
+          <img src={SSUC} alt="Swiss Startup Capital Logo" width="300px"/>
         </div>
         <div className="w-100 w-two-thirds-ns pl0 pl4-ns pt4 tc tl-ns">
           <h2 className="lh-copy ttu headingcolorshadow">Venture Asset Management</h2>

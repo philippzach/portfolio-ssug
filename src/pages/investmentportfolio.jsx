@@ -28,7 +28,7 @@ const InvestmentPortfolio = ({ data }) => (
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
     <Title>Portfolio</Title>
       <div className="containertitle">
-        <h2 className="lh-copy ttu headingcolorshadow">Be part of the whole together we grow faster and stronger</h2>
+        <h2 className="lh-copy ttu headingcolorshadow">Be part of the whole platform - together we grow faster and stronger</h2>
         <p className="lh-copy">
         With our Investors Club, the network platform with direct access to all stakeholders of the venture chain, our know-how, deal-flow and funding, we at the SWISS STARTUP GROUP help you to meet your needs.
         </p>
