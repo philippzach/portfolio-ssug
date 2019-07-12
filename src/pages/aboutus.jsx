@@ -12,6 +12,7 @@ import AdvisorSlider from '../components/pictureslider/aboutadvisorslider';
 import Supporters from '../components/supporters';
 import Seo from '../components/SEO/index';
 
+import Christian from '../../static/advisors/wenger_christian.jpg'
 import Rico from '../../static/advisors/baldegger_rico_portrait.jpg';
 import Robert from '../../static/advisors/bider_robert_portrait.jpg';
 import Biver from '../../static/advisors/biver_jeanclaude_portrait.jpg';
@@ -308,6 +309,7 @@ const AboutUs = ({ data }) => (
         <div className="panel" style={{ backgroundColor: "#f7f7f7" }}>
         <div className="paddingtabs">
           <div className="tabrow">
+          
                     <article className="center pa3 pa4-ns">
                       <div className="tc">
                         <img src={Rico} className="br-100 h4 w4 dib pa2" title="" alt="" />
@@ -387,6 +389,12 @@ const AboutUs = ({ data }) => (
                     </article>
                   </div>
                   <div className="tabrow">
+                  <article className="center pa3 pa4-ns">
+                      <div className="tc">
+                        <img src={Christian} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Dr. Wenger Christian</h3>
+                      </div>
+                    </article>
                   <article className="center pa3 pa4-ns">
                       <div className="tc">
                         <img src={Sauter} className="br-100 h4 w4 dib pa2" title="" alt="" />

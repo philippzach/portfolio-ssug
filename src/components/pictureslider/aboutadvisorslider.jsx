@@ -30,7 +30,7 @@ const pages = [
       </div>
       <div className="w-100 w-60-ns pl3-ns flex items-center ">
         <div className="paddingfounders measure">
-          <h3>Wenger Christian</h3>
+          <h3>Dr. iur. Wenger Christian</h3>
           <span className="arrows"></span>
           <p className="lh-copy">
           Christian Wenger specializes in commercial and business law with a focus on
