@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import { Transition, animated } from 'react-spring';
 import '../../styles/pagetransitionadvisors.css';
+import Wenger from '../../../static/advisors/wenger_christian.jpg';
 import Oli from '../../../static/oliver_walzer_square.jpg';
 import Rico from '../../../static/advisors/baldegger_rico.jpg';
 import Robert from '../../../static/advisors/bider_robert.jpg';
@@ -22,6 +23,22 @@ import Urs from '../../../static/advisors/wietlisbach_urs.jpg';
 import './arrow.css';
 
 const pages = [
+  style => (
+    <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
+      <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
+        <img src={Wenger} alt="" style={{ maxHeight: '550px' }}/>
+      </div>
+      <div className="w-100 w-60-ns pl3-ns flex items-center ">
+        <div className="paddingfounders measure">
+          <h3>Wenger Christian</h3>
+          <span className="arrows"></span>
+          <p className="lh-copy">
+          Christian Wenger specializes in commercial and business law with a focus on
+private equity and venture capital. He is president and member of various boards of directors and executive boards. Amongst other initiatives he founded Swiss Startup Invest and is co-founder of digitalswitzerland with the aim of positioning Switzerland as a leading technology giant in Europe.          </p>
+        </div>
+      </div>
+    </animated.div>
+  ),
     style => (
         <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
           <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
@@ -269,7 +286,7 @@ export default class Founders extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 14 ? 0 : state.index + 1,
+      index: state.index === 15 ? 0 : state.index + 1,
     }));
 
   render() {
