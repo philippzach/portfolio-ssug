@@ -392,7 +392,7 @@ const AboutUs = ({ data }) => (
                   <article className="center pa3 pa4-ns">
                       <div className="tc">
                         <img src={Christian} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Dr. Wenger Christian</h3>
+                        <h3 className="f5 mb2">Dr. iur. Christian Wenger</h3>
                       </div>
                     </article>
                   <article className="center pa3 pa4-ns">
