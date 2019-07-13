@@ -6,16 +6,16 @@ import '../../styles/pages/blog.css';
 
 const List = styled.div`
   margin-bottom: 4rem;
-  margin-left: 0;
+  margin-top: 4em;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-  @media (max-width: 1000px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  @media (max-width: 550px) {
-    grid-template-columns: repeat(1, 1fr);
-  }
+  grid-column-gap: 2rem;
+  grid-template-rows: auto;
+  @media (min-width: 52em) {
+    grid-template-columns: repeat(2,1fr);
+}
+@media (min-width: 64em){
+    grid-template-columns: repeat(3,1fr);
+}
 `;
 
 export default class BlogGrid extends Component {

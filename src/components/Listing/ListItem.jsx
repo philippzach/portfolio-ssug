@@ -3,59 +3,83 @@ import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 import { Link } from 'gatsby';
 import { Categories } from 'components/Listing';
-import '../../styles/blogpost.css';
+import '../Blog/blog.css';
 import Img from 'gatsby-image';
 
-const Item = styled.div`
-@media (min-width: 1500px) {
-  max-width: 75%;
-  margin: 0 auto;
-}
-`;
 
-const Headline = styled.p`
+const List = styled.article`
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    background: #fff;
+    position: relative;
+    margin-bottom: 4rem;
+    box-shadow: 2px 2px 30px #949e9b35;   
+:hover {
+    box-shadow: 2px 2px 30px #949e9b;
+    transform: translateY(-1px);
+    transition: all .2s ease;
+}
+`
+
+const Footer = styled.p`
   font-family: 'Source Sans Pro', -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial',
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  color: ${props => props.theme.colors.grey};
-  margin-bottom: .5em;
-  font-size: .8em;
+  color: rgb(55, 55, 54);
+  margin-bottom: 0;
+  font-size: .75em;
+  padding: 1.5rem;
   a {
-    color: ${props => props.theme.colors.grey};
     font-style: normal;
     font-weight: normal;
   }
 `;
 
 const StyledLink = styled.p`
-  font-size: 1rem;
-  margin: 1em 0 .5em;
-  color: ${props => props.theme.colors.black};
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  color: rgb(55, 55, 54);
   font-style: normal;
-  height: 3em;
-  @media (max-width: ${props => props.theme.breakpoints.s}) {
-    font-size: 1.3rem;
-    height: 4em;
-  }
+  margin-bottom: 1.3rem;
+  line-height: 1.35em;
+  font-weight: 600;
 `;
+const Description = styled.p`
+color: rgb(55, 55, 54);
+line-height: 25px;
+font-size: 1rem;
+margin-bottom: 0;
+`
+const Text = styled.div`
+padding: 1.5em;
+`
 
 
 export default class ListItem extends Component {
   render() {
     const { node, categories} = this.props;
     return (
-      <Item>
-      <Link to={node.uid}>
-      <div className="grow blogpost pa3 pa4-m pa5-l">
-        <Img className="shadowblog" fluid={node.data.coverimage.localFile.childImageSharp.fluid} alt={node.data.coverimage.alt} />
-          <StyledLink className="lh-copy">
-          {node.data.title.text}
-          </StyledLink>
-        <Headline>
-          {node.data.date} — {categories && <Categories categories={categories} />}
-        </Headline>
-        </div>
-        </Link>
-      </Item>
+      <List className="blogpost">
+            <Link className="blogitemlink" to={node.uid}>
+            <Img className="shadowblog" fluid={node.data.coverimage.localFile.childImageSharp.fluid} alt={node.data.coverimage.alt} />
+              </Link>
+              <Text>      
+              <Link className="blogitemlink" to={node.uid}>
+                <StyledLink>
+                {node.data.title.text}
+                </StyledLink>
+                </Link>
+                <Link className="blogitemlink" to={node.uid}>
+                <Description>
+                  {node.data.description}
+                </Description>
+                </Link>
+        </Text>        
+        <Footer>
+        {node.data.date} · by <b>{categories && <Categories categories={categories} />}</b>
+        </Footer>
+        </List>
+
+      
     );
   }
 }
@@ -67,3 +91,16 @@ ListItem.propTypes = {
 };
 
 
+{/* <Item>
+      <Link to={node.uid}>
+      <div className="grow blogpost pa3 pa4-m pa5-l">
+        <Img className="shadowblog" fluid={node.data.coverimage.localFile.childImageSharp.fluid} alt={node.data.coverimage.alt} />
+          <StyledLink className="lh-copy">
+          {node.data.title.text}
+          </StyledLink>
+        <Headline>
+          {node.data.date} — {categories && <Categories categories={categories} />}
+        </Headline>
+        </div>
+        </Link>
+      </Item> */}
