@@ -6,7 +6,6 @@ import { Categories } from 'components/Listing';
 import '../Blog/blog.css';
 import Img from 'gatsby-image';
 
-
 const List = styled.article`
     display: grid;
     grid-template-rows: min-content 1fr min-content;

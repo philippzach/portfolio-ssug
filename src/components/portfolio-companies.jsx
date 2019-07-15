@@ -22,6 +22,10 @@ import LogoN from '../../static/logos_portfolio/Logos-Portfolio-svg-ssuf-01.svg'
 import LogoO from '../../static/logos_portfolio/Logos-Portfolio-svg-struckd.svg';
 import LogoP from '../../static/logos_portfolio/Logos-Portfolio-svg-westhive-01.svg';
 
+import Logo1 from '../../static/logos_portfolio/meinmech.svg';
+import Logo2 from '../../static/logos_portfolio/vay.svg';
+import Logo3 from '../../static/logos_portfolio/infeas.svg';
+
 const Heading = styled.h2`
 padding-top: 5em;
 `
@@ -53,11 +57,6 @@ const Companies = () => (
     <>
       <Wrapper>
         <Group>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/avaneo"> 
-                    <img  src={LogoA} alt="Avaneo" /> 
-                </Link>
-            </GroupItem>
             <GroupItem>
                 <Link className="logotile" to="/portfolio-companies/beaconsmind"> 
                     <img  src={LogoB} alt="Beaconsmind" /> 
@@ -94,8 +93,18 @@ const Companies = () => (
                 </Link>
             </GroupItem>
             <GroupItem>
+                <Link className="logotile" to="/portfolio-companies/infeas"> 
+                    <img  src={Logo3} alt="Infeas" /> 
+                </Link>
+            </GroupItem>
+            <GroupItem>
                 <Link className="logotile" to="/portfolio-companies/joineer"> 
                     <img  src={LogoI} alt="Joineer" /> 
+                </Link>
+            </GroupItem>
+            <GroupItem>
+                <Link className="logotile" to="/portfolio-companies/meinmech"> 
+                    <img  src={Logo1} alt="meinmech logo" /> 
                 </Link>
             </GroupItem>
             <GroupItem>
@@ -126,6 +135,11 @@ const Companies = () => (
             <GroupItem>
                 <Link className="logotile" to="/portfolio-companies/struckd"> 
                     <img  src={LogoO} alt="Struckd" /> 
+                </Link>
+            </GroupItem>
+            <GroupItem>
+                <Link className="logotile" to="/portfolio-companies/vay-sports"> 
+                    <img  src={Logo2} alt="vay sports logo" /> 
                 </Link>
             </GroupItem>
             <GroupItem>
