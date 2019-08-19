@@ -19,10 +19,26 @@ import Patrick from '../../../static/advisors/patrick_aebischer.jpg';
 import Sauter from '../../../static/advisors/sauter_claudia.jpg';
 import Stan from '../../../static/advisors/wawrinka_stan.jpg';
 import Urs from '../../../static/advisors/wietlisbach_urs.jpg';
+import Kai from '../../../static/advisors/kaicui.jpg';
 
 import './arrow.css';
 
 const pages = [
+  style => (
+    <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
+      <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
+        <img src={Kai} alt="" style={{ maxHeight: '550px' }}/>
+      </div>
+      <div className="w-100 w-60-ns pl3-ns flex items-center ">
+        <div className="paddingfounders measure">
+          <h3>Kai Cui</h3>
+          <span className="arrows"></span>
+          <p className="lh-copy">
+          Kai Cui is an investment advisor in Zurich, Switzerland. He has over 25 years experience as international executive in the financial consulting, health, E-Commerce and Internet  businesses in  Europe  and  China.  </p>
+        </div>
+      </div>
+    </animated.div>
+  ),
   style => (
     <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
       <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
@@ -286,7 +302,7 @@ export default class Founders extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 15 ? 0 : state.index + 1,
+      index: state.index === 16 ? 0 : state.index + 1,
     }));
 
   render() {

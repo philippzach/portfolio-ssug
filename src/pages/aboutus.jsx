@@ -28,6 +28,7 @@ import Patrick from '../../static/advisors/patrick_aebischer_portrait.jpg';
 import Sauter from '../../static/advisors/sauter_claudia_portrait.jpg';
 import Stan from '../../static/advisors/wawrinka_stan_portrait.jpg';
 import Urs from '../../static/advisors/wietlisbach_urs_portrait.jpg';
+import Kai from '../../static/advisors/kaicui.png';
 
 const Test = styled.div`
     position: relative;
@@ -391,10 +392,10 @@ const AboutUs = ({ data }) => (
                   <div className="tabrow">
                   <article className="center pa3 pa4-ns">
                       <div className="tc">
-                        <img src={Christian} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Dr. iur. Christian Wenger</h3>
+                        <img src={Kai} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Kai Cui</h3>
                       </div>
-                    </article>
+                    </article> 
                   <article className="center pa3 pa4-ns">
                       <div className="tc">
                         <img src={Sauter} className="br-100 h4 w4 dib pa2" title="" alt="" />
@@ -414,6 +415,14 @@ const AboutUs = ({ data }) => (
                       </div>
                     </article>
                   </div>
+                  <div className="tabrow">
+                    <article className="center pa3 pa4-ns">
+                      <div className="tc">
+                        <img src={Christian} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Dr. iur Christian Wenger</h3>
+                      </div>
+                    </article>
+                    </div>
             </div>
         </div>
       <Supporters />
