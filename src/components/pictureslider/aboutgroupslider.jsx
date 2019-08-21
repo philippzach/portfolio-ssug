@@ -9,6 +9,7 @@ import Christine from '../../../static/teamssug/christine.jpg';
 import Flavio from '../../../static/teamssug/flavio.jpg';
 import Philipp from '../../../static/teamssug/philippsteinberger.jpg';
 import Waser from '../../../static/teamssug/waser.jpg';
+import Simon from '../../../static/teamssug/simon.jpg';
 import './arrow.css';
 
 const pages = [
@@ -253,6 +254,41 @@ style => <animated.div style={{ ...style }} className="flex flex-column flex-row
   </div>
 </div>
 </animated.div>
+,
+style => <animated.div style={{ ...style }} className="flex flex-column flex-row-ns">
+<div className="pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center">
+  <img src={Simon} alt="" style={{ maxHeight: '600px' }} />
+</div>
+<div className="w-100 w-60-ns pl3-ns flex items-center justify-center">
+  <div className="paddingfoundersabout">
+    <h4 className="mb1 dimgray">Chief of Staff</h4>
+    <h3>Simon Koch</h3>
+    <div className="flex">
+       <dl class="lh-title pr1-s pr2-m pr4-l mt0">
+           <dt class="f6 b">Still on the bucket list</dt>
+           <dd class="ml0 mb3">Honeymoon</dd>
+           <dt class="f6 b mt2">I always wanted to</dt>
+           <dd class="ml0 mb3">Challange myself</dd>
+           <dt class="f6 b mt2">Favorite Tool</dt>
+           <dd class="ml0 mb3">Kindle</dd>
+           <dt class="f6 b mt2">My teen idol</dt>
+           <dd class="ml0 mb3">Michael Jordan</dd>
+         </dl>
+         <dl class="lh-title mt0">
+           <dt class="f6 b mt2">I do best</dt>
+           <dd class="ml0 mb3">Inspire others</dd>
+           <dt class="f6 b mt2">Overestimated</dt>
+           <dd class="ml0 mb3">What we can achieve in a year</dd>
+           <dt class="f6 b mt2">Underestimated</dt>
+           <dd class="ml0 mb3">What we can achieve in a decade</dd>
+           <dt class="f6 b mt2">Favorite book</dt>
+           <dd class="ml0 mb3">The War of Art by Steven Pressfield</dd>
+       </dl>
+       </div>
+       <span className="arrows"></span>
+  </div>
+</div>
+</animated.div>
 ];
 
 export default class PageTransition extends Component {
@@ -260,7 +296,7 @@ export default class PageTransition extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 6 ? 0 : state.index + 1,
+      index: state.index === 7 ? 0 : state.index + 1,
     }));
 
   render() {
