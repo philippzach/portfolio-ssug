@@ -28,6 +28,7 @@ import Patrick from '../../static/advisors/patrick_aebischer_portrait.jpg';
 import Sauter from '../../static/advisors/sauter_claudia_portrait.jpg';
 import Stan from '../../static/advisors/wawrinka_stan_portrait.jpg';
 import Urs from '../../static/advisors/wietlisbach_urs_portrait.jpg';
+import Kai from '../../static/advisors/kaicui.png';
 
 const Test = styled.div`
     position: relative;
@@ -133,6 +134,14 @@ const AboutUs = ({ data }) => (
               </div>
               
             </article>
+            <article className="center pa3 pa4-ns">
+            <div className="tc">
+            <Img fluid={data.about15.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+                <h3 className="f5 mb2">Simon Koch</h3>
+                <h4 className="f6 fw4 gray mt0">Chief of Staff</h4>
+              </div>
+              
+            </article>
             </div>
             </div>
         </TabPanel>
@@ -213,6 +222,13 @@ const AboutUs = ({ data }) => (
                 <h4 className="f6 fw4 gray mt0">Head of <br/>Communications & Marketing</h4>
               </div>
             </article>
+             <article className="center pa3 pa4-ns">
+              <div className="tc">
+                <Img fluid={data.about16.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+                <h3 className="f5 mb2">Tamara Savchuk</h3>
+                <h4 className="f6 fw4 gray mt0">Head of Company Buildung</h4>
+              </div>
+            </article> 
             </div>
             </div>
         </TabPanel>
@@ -391,10 +407,10 @@ const AboutUs = ({ data }) => (
                   <div className="tabrow">
                   <article className="center pa3 pa4-ns">
                       <div className="tc">
-                        <img src={Christian} className="br-100 h4 w4 dib pa2" title="" alt="" />
-                        <h3 className="f5 mb2">Dr. iur. Christian Wenger</h3>
+                        <img src={Kai} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Kai Cui</h3>
                       </div>
-                    </article>
+                    </article> 
                   <article className="center pa3 pa4-ns">
                       <div className="tc">
                         <img src={Sauter} className="br-100 h4 w4 dib pa2" title="" alt="" />
@@ -414,6 +430,14 @@ const AboutUs = ({ data }) => (
                       </div>
                     </article>
                   </div>
+                  <div className="tabrow">
+                    <article className="center pa3 pa4-ns">
+                      <div className="tc">
+                        <img src={Christian} className="br-100 h4 w4 dib pa2" title="" alt="" />
+                        <h3 className="f5 mb2">Dr. iur Christian Wenger</h3>
+                      </div>
+                    </article>
+                    </div>
             </div>
         </div>
         <Wrapper style={{ paddingTop: "2em", paddingBottom: "1em", textAlign: "center"}}>
@@ -568,6 +592,26 @@ about13: file(relativePath: { eq: "images/waser.jpg" }) {
   }
 }
 about14: file(relativePath: { eq: "images/flavio.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about15: file(relativePath: { eq: "images/simon.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about16: file(relativePath: { eq: "images/tamara.jpg" }) {
   childImageSharp {
     fluid(
       maxWidth: 1500
