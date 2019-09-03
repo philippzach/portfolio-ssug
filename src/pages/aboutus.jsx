@@ -416,6 +416,9 @@ const AboutUs = ({ data }) => (
                   </div>
             </div>
         </div>
+        <Wrapper style={{ paddingTop: "2em", paddingBottom: "1em", textAlign: "center"}}>
+        <span style={{fontSize: "1.2em"}}>Find a complete list of our <a style={{color: "inherit", textDecoration: "underline"}} href="https://www.swissstartupfactory.com/aboutus/">Mentors</a></span>
+        </Wrapper>
       <Supporters />
   </Layout>
 );
