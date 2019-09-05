@@ -175,7 +175,7 @@ class Index extends Component {
     } = this.props;
     return (
       <Layout>
-        <Seo title="SWISS STARTUP GROUP - World Class Venture Builder" desc="Swiss Venture Builder for Startup Scouting, Analysis, Acceleration, Company Building, Corporate Venturing, Growth and Investments in one platform." banner={SocialBanner} />
+        <Seo title="SWISS STARTUP GROUP - World Class Venture Platform" desc="World Class Venture Platform for Startup Scouting, Analysis, Acceleration, Company Building, Corporate Venturing, Growth and Investments in one platform." banner={SocialBanner} />
           <Navbar />
           <Test> 
             <Img fluid={index.childImageSharp.fluid} className="w-100" />
@@ -185,7 +185,7 @@ class Index extends Component {
               Switzerland's 
               #1
               <br/>
-              Venture Builder
+              Venture Platform
             </h1>
             <HeroText>
             A privately financed Swiss venture platform for scouting, building, accelerating and investing in the most promising startups.
@@ -234,13 +234,13 @@ class Index extends Component {
             <Wrapper>
           <div className="containertitle">
             <h2 className="lh-copy headingcolorshadow mt5">
-            OUR AMBITION: TO BE ONE OF THE WORLD’S LEADING VENTURE BUILDERS
+            OUR AMBITION: TO BE ONE OF THE WORLD’S LEADING VENTURE PLATFORM
             </h2>
             <p className="lh-copy"><span className="b">The SWISS STARTUP GROUP  is the only market player in Switzerland that combines all assets of the venture business on one platform.</span></p>
             <p className="lh-copy">
             Our venture platform allows you to scout, analyze, accelerate, build and invest in the most promising startups and to become part of the rapidly growing Swiss startup ecosystem.
             </p>
-            <p className="lh-copy">As a independent venture builder with proven track record we have an exclusive skill set and know-how. We have in-depth knowledge of the Swiss startup market and scout actively for the best cases, building a strong bridge between the Swiss and the international markets.</p>
+            <p className="lh-copy">As a independent venture platform with proven track record we have an exclusive skill set and know-how. We have in-depth knowledge of the Swiss startup market and scout actively for the best cases, building a strong bridge between the Swiss and the international markets.</p>
             <p className="lh-copy">Our venture platform combines all different skills of accelerators, angel networks, VCs, venture builders and innovation consulting. It makes the Swiss Startup Group a unique part of Switzerland’s startup ecosystem.</p>
             <b className="lh-copy">We are dedicated, passionate and driven by success.</b>
             <br />
