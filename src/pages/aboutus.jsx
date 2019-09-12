@@ -199,20 +199,6 @@ const AboutUs = ({ data }) => (
                 <h4 className="f6 fw4 gray mt0">Marketing & Communications Manager</h4>
               </div>
             </article>
-           {/*  <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <Img fluid={data.about7.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Cindy Spelt</h3>
-                <h4 className="f6 fw4 gray mt0">Head of Platform</h4>
-              </div>
-            </article> */}
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <Img fluid={data.about8.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Daniel Perschy</h3>
-                <h4 className="f6 fw4 gray mt0">Innovation Consultant</h4>
-              </div>
-            </article>
             </div>
             <div className="tabrow">
             <article className="center pa3 pa4-ns">
@@ -512,26 +498,6 @@ about5: file(relativePath: { eq: "images/ginie.jpg" }) {
   }
 }
 about6: file(relativePath: { eq: "images/keith.jpg" }) {
-  childImageSharp {
-    fluid(
-      maxWidth: 1500
-      traceSVG: { background: "#fff", color: "lightgrey" }
-    ) {
-      ...GatsbyImageSharpFluid_tracedSVG
-    }
-  }
-}
-about7: file(relativePath: { eq: "images/cindyspelt.jpg" }) {
-  childImageSharp {
-    fluid(
-      maxWidth: 1500
-      traceSVG: { background: "#fff", color: "lightgrey" }
-    ) {
-      ...GatsbyImageSharpFluid_tracedSVG
-    }
-  }
-}
-about8: file(relativePath: { eq: "images/daniel.jpg" }) {
   childImageSharp {
     fluid(
       maxWidth: 1500
