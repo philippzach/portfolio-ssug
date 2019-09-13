@@ -28,7 +28,9 @@ const Factory = ({ data }) => (
     <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
       <Title>Swiss Startup Factory</Title>
       <div className="containertitle">
-        <h2 className="lh-copy ttu headingcolorshadow">We inspire and enable people to build sustainable companies</h2>
+        <h2 className="lh-copy ttu headingcolorshadow">
+          We unleash the entrepreneurial potential to build startups and transform companies
+        </h2>
         <p className="lh-copy">
           SWISS STARTUP FACTORY is a venture builder for corporates and startups to innovate and accelerate the best new
           technologies.
