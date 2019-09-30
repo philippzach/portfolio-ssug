@@ -1,24 +1,18 @@
-
-
-In order to get it working locally
-
-1. npm install
-2. install gatsby if necessary
-3. create .env.development + .evn.production with API key from below
-4. run "gatsby develop" to run local server on localhost:8000
-5. run "gatsby build" to compile to production ready code
-6. After running "build" the static files will be in /public folder
-
-### Key for .env file
-API_KEY=MC5YQWhMUlJBQUFMX0RoYjJK.DO-_vU8IFe-_vSt4He-_vRjvv71rMu-_vU7vv73vv71h77-9Ljnvv71977-9WO-_vQlZMkJ1
-
-Blog Content is managed by Prismic. You can find the hard coded content in "/pages". Each file represents a Page Url.
-
-
-# Swiss Startup Group - Gatsby Starter
+# Website for SSUG
 
 A typography-heavy & light-themed Gatsby Starter which uses the Headless CMS [Prismic](https://prismic.io/).
 
+Blog Content is managed by Prismic. You can find the hard coded content in "/pages". Each file represents a Page Url.
+
+## In order to get it working locally
+
+1. npm install (make sure using Node v10, as Gatsby doesn't support latest)
+2. Install Gatsby: npm install -g gatsby-cli
+3. create .env.development + .evn.production with API key:
+   `API_KEY="MC5YQWhMUlJBQUFMX0RoYjJK.DO-\_vU8IFe-\_vSt4He-\_vRjvv71rMu-\_vU7vv73vv71h77-9Ljnvv71977-9WO-\_vQlZMkJ1"`
+4. run "gatsby develop" to run local server on localhost:8000
+5. run "gatsby build" to compile to production ready code
+6. After running "build" the static files will be in /public folder
 
 ## Features
 
@@ -31,7 +25,7 @@ Therefore the starter has following features:
 
 - Prismic as Headless CMS
 - Emotion and CSS for styling
-- Responsive layout 
+- Responsive layout
   - gatsby-image - The right image size for every screen size
   - Media Queries
 - SEO
@@ -214,4 +208,3 @@ export default theme;
 ```
 
 **Attention:** You also need to edit `static/robots.txt` to include your domain!
-
