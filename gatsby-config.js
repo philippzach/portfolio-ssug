@@ -34,7 +34,6 @@ const {
   _url,
   author,
   logo,
-  favicon,
   siteLanguage,
   twitter,
 } = require('./config/website');
@@ -130,7 +129,7 @@ module.exports = {
         background_color: backgroundColor,
         theme_color: themeColor,
         display: 'standalone',
-        icon: favicon,
+        icon: `src/logo.png`,
       },
     },
     {
