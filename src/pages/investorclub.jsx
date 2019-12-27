@@ -131,7 +131,7 @@ const Investor = ({ data }) => (
         </div>
       <p className="mw6 center tc lh-copy pt5 b">We are convinced that these ingredients make up an exclusive Swiss pipeline of early-stage investment opportunities here in Switzerland.</p>
       <div className="tc mt5">
-      <a href="mailto:virginia.beljean@ssut.ch">
+      <a href="mailto:philipp.steinberger@ssuc.ch">
       <div className="button -dark center">Join the Investor Club</div>
       </a>
       </div>
