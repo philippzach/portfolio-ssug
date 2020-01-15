@@ -110,14 +110,14 @@ const AboutUs = ({ data }) => (
             </article>
             </div>
             <div className="tabrow2">
-            <article className="center pa3 pa4-ns">
+          {/*   <article className="center pa3 pa4-ns">
             <div className="tc">
             <Img fluid={data.about14.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Flavio Bianchi</h3>
                 <h4 className="f6 fw4 gray mt0">Associate</h4>
               </div>
               
-            </article>
+            </article> */}
             <article className="center pa3 pa4-ns">
             <div className="tc">
             <Img fluid={data.about12.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
@@ -136,7 +136,7 @@ const AboutUs = ({ data }) => (
             </article>
             <article className="center pa3 pa4-ns">
             <div className="tc">
-            <Img fluid={data.about15.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+            <Img fluid={data.about8.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
                 <h3 className="f5 mb2">Simon Koch</h3>
                 <h4 className="f6 fw4 gray mt0">Chief of Staff</h4>
               </div>
@@ -146,70 +146,163 @@ const AboutUs = ({ data }) => (
             </div>
         </TabPanel>
         <TabPanel className="tabpanel one">
-        <div className="paddingtabs">
-        <div className="tabrow">
-            <article className="center pa3 pa4-ns">
-              <div className="tc">
-                <Img fluid={data.about1.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Mike Baur</h3>
-                <h4 className="f6 fw4 gray mt0">Co-Founder</h4>
-              </div>
-            </article>
-            <article className="center pa3 pa4-ns">
-              <div className="tc">
-                <Img fluid={data.about2.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Oliver Walzer</h3>
-                <h4 className="f6 fw4 gray mt0">Co-Founder</h4>
-              </div>
-            </article>
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <Img fluid={data.about3.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Max Meister</h3>
-                <h4 className="f6 fw4 gray mt0">Co-Founder</h4>
-              </div>
-            </article>
-            <article className="center pa3 pa4-ns">
-              <div className="tc">
-                <Img fluid={data.about4.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Chris Bargholz</h3>
-                <h4 className="f6 fw4 gray mt0">COO & Head of Acceleration</h4>
-              </div>
-            </article>
+        <div className='paddingtabs'>
+        <div className='tabrow'>
+          <article className='center pa3 pa4-ns'>
+            <div className='tc'>
+              <Img
+                fluid={data.about1.childImageSharp.fluid}
+                className='br-100 dib '
+                style={Profile}
+                title=''
+                alt=''
+              />
+              <h3 className='f5 mb2'>Mike Baur</h3>
+              <h4 className='f6 fw4 gray mt0'>Co-Founder</h4>
             </div>
-            <div className="tabrow">
-            <article className="center pa3 pa4-ns">
-            <div className="tc">
-                <Img fluid={data.about9.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Désirée Heutschi</h3>
-                <h4 className="f6 fw4 gray mt0">CEO</h4>
-              </div>
-            </article>
-             <article className="center pa3 pa4-ns">
-            <div className="tc">
-            <Img fluid={data.about10.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Larissa Truffer</h3>
-                <h4 className="f6 fw4 gray mt0">Marketing & Communications Manager</h4>
-              </div>
-            </article>
+          </article>
+          <article className='center pa3 pa4-ns'>
+            <div className='tc'>
+              <Img
+                fluid={data.about2.childImageSharp.fluid}
+                className='br-100 dib '
+                style={Profile}
+                title=''
+                alt=''
+              />
+              <h3 className='f5 mb2'>Oliver Walzer</h3>
+              <h4 className='f6 fw4 gray mt0'>Co-Founder</h4>
             </div>
-            <div className="tabrow">
-            <article className="center pa3 pa4-ns">
-              <div className="tc">
-                <Img fluid={data.about5.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Virginia Beljean</h3>
-                <h4 className="f6 fw4 gray mt0">Head of <br/>Communications & Marketing</h4>
-              </div>
-            </article>
-             <article className="center pa3 pa4-ns">
-              <div className="tc">
-                <Img fluid={data.about16.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Tamara Savchuk</h3>
-                <h4 className="f6 fw4 gray mt0">Head of Company Buildung</h4>
-              </div>
-            </article> 
+          </article>
+          <article className='center pa3 pa4-ns'>
+            <div className='tc'>
+              <Img
+                fluid={data.about3.childImageSharp.fluid}
+                className='br-100 dib '
+                style={Profile}
+                title=''
+                alt=''
+              />
+              <h3 className='f5 mb2'>Max Meister</h3>
+              <h4 className='f6 fw4 gray mt0'>Co-Founder</h4>
             </div>
+          </article>
+        </div>
+        <div className='tabrow'>
+          <article className='center pa3 pa4-ns'>
+            <div className='tc'>
+              <Img
+                fluid={data.about9.childImageSharp.fluid}
+                className='br-100 dib '
+                style={Profile}
+                title=''
+                alt=''
+              />
+              <h3 className='f5 mb2'>Désirée Heutschi</h3>
+              <h4 className='f6 fw4 gray mt0'>CEO</h4>
             </div>
+          </article>
+          <article className='center pa3 pa4-ns'>
+            <div className='tc'>
+              <Img
+                fluid={data.about6.childImageSharp.fluid}
+                className='br-100 dib '
+                style={Profile}
+                title=''
+                alt=''
+              />
+              <h3 className='f5 mb2'>Jeroen Hermans</h3>
+              <h4 className='f6 fw4 gray mt0'>
+                Head of Corporate Acceleration
+              </h4>
+            </div>
+          </article>
+          <article className='center pa3 pa4-ns'>
+            <div className='tc'>
+              <Img
+                fluid={data.about7.childImageSharp.fluid}
+                className='br-100 dib '
+                style={Profile}
+                title=''
+                alt=''
+              />
+              <h3 className='f5 mb2'>Tamara Savchuk</h3>
+              <h4 className='f6 fw4 gray mt0'>Head of Company Buildung</h4>
+            </div>
+          </article>
+
+          <article className='center pa3 pa4-ns'>
+            <div className='tc'>
+              <Img
+                fluid={data.about8.childImageSharp.fluid}
+                className='br-100 dib '
+                style={Profile}
+                title=''
+                alt=''
+              />
+              <h3 className='f5 mb2'>Simon Koch</h3>
+              <h4 className='f6 fw4 gray mt0'>Head of Marketing</h4>
+            </div>
+          </article>
+        </div>
+        <div className='tabrow'>
+          <article className='center pa3 pa4-ns'>
+            <div className='tc'>
+              <Img
+                fluid={data.about5.childImageSharp.fluid}
+                className='br-100 dib '
+                style={Profile}
+                title=''
+                alt=''
+              />
+              <h3 className='f5 mb2'>Kirill Babich</h3>
+              <h4 className='f6 fw4 gray mt0'>Venture Builder</h4>
+            </div>
+          </article>
+          <article className='center pa3 pa4-ns'>
+            <div className='tc'>
+              <Img
+                fluid={data.about10.childImageSharp.fluid}
+                className='br-100 dib '
+                style={Profile}
+                title=''
+                alt=''
+              />
+              <h3 className='f5 mb2'>Larissa Truffer</h3>
+              <h4 className='f6 fw4 gray mt0'>
+                Marketing & Communication
+                <br /> Manager
+              </h4>
+            </div>
+          </article>
+          <article className='center pa3 pa4-ns'>
+            <div className='tc'>
+              <Img
+                fluid={data.about4.childImageSharp.fluid}
+                className='br-100 dib '
+                style={Profile}
+                title=''
+                alt=''
+              />
+              <h3 className='f5 mb2'>Chris Bargholz</h3>
+              <h4 className='f6 fw4 gray mt0'>Acceleration Expert</h4>
+            </div>
+          </article>
+          <article className='center pa3 pa4-ns'>
+            <div className='tc'>
+              <Img
+                fluid={data.about15.childImageSharp.fluid}
+                className='br-100 dib '
+                style={Profile}
+                title=''
+                alt=''
+              />
+              <h3 className='f5 mb2'>Vuk Veggezi</h3>
+              <h4 className='f6 fw4 gray mt0'>Startup Analyst</h4>
+            </div>
+          </article>
+        </div>
+      </div>
         </TabPanel>
         <TabPanel className="tabpanel two">
         <div className="paddingtabs">
@@ -480,7 +573,37 @@ about4: file(relativePath: { eq: "images/chris_bargholz.jpg" }) {
     }
   }
 }
-about5: file(relativePath: { eq: "images/ginie.jpg" }) {
+about5: file(relativePath: { eq: "images/kirill_babich.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about6: file(relativePath: { eq: "images/jeroen_herman.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about7: file(relativePath: { eq: "images/tamaranew.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
+about8: file(relativePath: { eq: "images/simon.jpg" }) {
   childImageSharp {
     fluid(
       maxWidth: 1500
@@ -550,7 +673,7 @@ about14: file(relativePath: { eq: "images/flavio.jpg" }) {
     }
   }
 }
-about15: file(relativePath: { eq: "images/simon.jpg" }) {
+about15: file(relativePath: { eq: "images/vuk.jpg" }) {
   childImageSharp {
     fluid(
       maxWidth: 1500
@@ -560,16 +683,7 @@ about15: file(relativePath: { eq: "images/simon.jpg" }) {
     }
   }
 }
-about16: file(relativePath: { eq: "images/tamara.jpg" }) {
-  childImageSharp {
-    fluid(
-      maxWidth: 1500
-      traceSVG: { background: "#fff", color: "lightgrey" }
-    ) {
-      ...GatsbyImageSharpFluid_tracedSVG
-    }
-  }
-}
+
 avaneo1: file(relativePath: { eq: "images/michael_brentari.jpg" }) {
   childImageSharp {
     fluid(
