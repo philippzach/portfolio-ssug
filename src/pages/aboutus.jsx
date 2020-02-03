@@ -244,8 +244,22 @@ const AboutUs = ({ data }) => (
               <h4 className='f6 fw4 gray mt0'>Head of Marketing</h4>
             </div>
           </article>
+         
         </div>
         <div className='tabrow'>
+        <article className='center pa3 pa4-ns'>
+            <div className='tc'>
+              <Img
+                fluid={data.about16.childImageSharp.fluid}
+                className='br-100 dib '
+                style={Profile}
+                title=''
+                alt=''
+              />
+              <h3 className='f5 mb2'>Emanuele Larocca</h3>
+              <h4 className='f6 fw4 gray mt0'>Investment Associate</h4>
+            </div>
+          </article>
           <article className='center pa3 pa4-ns'>
             <div className='tc'>
               <Img
@@ -330,9 +344,16 @@ const AboutUs = ({ data }) => (
             </article> */}
             <article className="center pa3 pa4-ns">
             <div className="tc">
-            <Img fluid={data.tech1.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
-                <h3 className="f5 mb2">Frederic Nachbauer</h3>
-                <h4 className="f6 fw4 gray mt0">Growth Hacker</h4>
+            <Img fluid={data.tech4.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+                <h3 className="f5 mb2">Edgar Kussberg</h3>
+                <h4 className="f6 fw4 gray mt0">CEO</h4>
+              </div>
+            </article>
+            <article className="center pa3 pa4-ns">
+            <div className="tc">
+            <Img fluid={data.tech5.childImageSharp.fluid} className="br-100 dib " style={Profile} title="" alt="" />
+                <h3 className="f5 mb2">Besiana Bandilli</h3>
+                <h4 className="f6 fw4 gray mt0">Head of Design & Marketing</h4>
               </div>
             </article>
             </div>
@@ -683,6 +704,16 @@ about15: file(relativePath: { eq: "images/vuk.jpg" }) {
     }
   }
 }
+about16: file(relativePath: { eq: "images/emanuele.jpg" }) {
+  childImageSharp {
+    fluid(
+      maxWidth: 1500
+      traceSVG: { background: "#fff", color: "lightgrey" }
+    ) {
+      ...GatsbyImageSharpFluid_tracedSVG
+    }
+  }
+}
 
 avaneo1: file(relativePath: { eq: "images/michael_brentari.jpg" }) {
   childImageSharp {
@@ -744,7 +775,7 @@ tech3: file(relativePath: { eq: "images/lucas.jpg" }) {
     }
   }
 }
-tech4: file(relativePath: { eq: "images/peter(peach)zwyssig.jpg" }) {
+tech4: file(relativePath: { eq: "images/edgar.jpg" }) {
   childImageSharp {
     fluid(
       maxWidth: 1500
@@ -754,7 +785,7 @@ tech4: file(relativePath: { eq: "images/peter(peach)zwyssig.jpg" }) {
     }
   }
 }
-tech5: file(relativePath: { eq: "images/severin-wullschleger.jpg" }) {
+tech5: file(relativePath: { eq: "images/bandilli.jpg" }) {
   childImageSharp {
     fluid(
       maxWidth: 1500
