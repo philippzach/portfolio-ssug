@@ -112,7 +112,9 @@ const Venture = ({ data }) => (
               />
               <h4 className='pt4 mb1'>Emanuele Larocca</h4>
             </div>
-            <p className='tc  measure center f6 black-70'>Associate</p>
+            <p className='tc  measure center f6 black-70'>
+              Investment Associate
+            </p>
           </article>
         </div>
       </Wrapper>

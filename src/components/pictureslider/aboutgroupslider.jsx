@@ -10,6 +10,7 @@ import Christine from '../../../static/teamssug/christine.jpg';
 import Philipp from '../../../static/teamssug/philippsteinberger.jpg';
 import Waser from '../../../static/teamssug/waser.jpg';
 import Simon from '../../../static/teamssug/simon.jpg';
+import Emanuele from '../../images/emanuele.jpg';
 import './arrow.css';
 
 const pages = [
@@ -291,6 +292,47 @@ const pages = [
         </div>
       </div>
     </animated.div>
+  ),
+  style => (
+    <animated.div style={{ ...style }} className='flex flex-column flex-row-ns'>
+      <div className='pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center'>
+        <img src={Emanuele} alt='' style={{ maxHeight: '600px' }} />
+      </div>
+      <div className='w-100 w-60-ns pl3-ns flex items-center justify-center'>
+        <div className='paddingfoundersabout'>
+          <h4 className='mb1 dimgray'>Investment Associate</h4>
+          <h3>Emanuele Larocca</h3>
+
+          <div className='flex'>
+            <dl className='lh-title pr1-s pr2-m pr4-l mt0'>
+              <dt className='f6 b'> Mountains or Beach</dt>
+              <dd className='ml0 mb3'>Both, on their own season</dd>
+              <dt className='f6 b mt2'>How I live</dt>
+              <dd className='ml0 mb3'>By my rules</dd>
+              <dt className='f6 b mt2'>A must for reading</dt>
+              <dd className='ml0 mb3'>
+                Le città invisibili (Invisible cities), by Italo Calvino
+              </dd>
+              <dt className='f6 b mt2'>Secret tip</dt>
+              <dd className='ml0 mb3'>Be curious</dd>
+            </dl>
+            <dl className='lh-title mt0'>
+              <dt className='f6 b mt2'>I can do best</dt>
+              <dd className='ml0 mb3'>Rational decisions</dd>
+              <dt className='f6 b mt2'>I’m not good at</dt>
+              <dd className='ml0 mb3'>Irrational decisions</dd>
+              <dt className='f6 b mt2'>Rituals</dt>
+              <dd className='ml0 mb3'>
+                I never start watching a movie if I cannot finish it in one go
+              </dd>
+              <dt className='f6 b mt2'>Place of residence</dt>
+              <dd className='ml0 mb3'>Zurich</dd>
+            </dl>
+          </div>
+          <span className='arrows' />
+        </div>
+      </div>
+    </animated.div>
   )
 ];
 
@@ -299,7 +341,7 @@ export default class PageTransition extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 6 ? 0 : state.index + 1
+      index: state.index === 7 ? 0 : state.index + 1
     }));
 
   render() {
