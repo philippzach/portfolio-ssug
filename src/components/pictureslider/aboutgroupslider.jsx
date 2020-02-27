@@ -11,6 +11,8 @@ import Philipp from '../../../static/teamssug/philippsteinberger.jpg';
 import Waser from '../../../static/teamssug/waser.jpg';
 import Simon from '../../../static/teamssug/simon.jpg';
 import Emanuele from '../../images/emanuele.jpg';
+import Jingling from '../../images/jingling.jpg';
+import Elena from '../../images/elena.jpg';
 import './arrow.css';
 
 const pages = [
@@ -333,6 +335,91 @@ const pages = [
         </div>
       </div>
     </animated.div>
+  ),
+  style => (
+    <animated.div style={{ ...style }} className='flex flex-column flex-row-ns'>
+      <div className='pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center'>
+        <img src={Jingling} alt='' style={{ maxHeight: '600px' }} />
+      </div>
+      <div className='w-100 w-60-ns pl3-ns flex items-center justify-center'>
+        <div className='paddingfoundersabout'>
+          <h4 className='mb1 dimgray'>Investment Analyst</h4>
+          <h3>Jingling Tu</h3>
+
+          <div className='flex'>
+            <dl className='lh-title pr1-s pr2-m pr4-l mt0'>
+              <dt className='f6 b'>Where I'm from</dt>
+              <dd className='ml0 mb3'>China</dd>
+              <dt className='f6 b mt2'>Still on my bucket list</dt>
+              <dd className='ml0 mb3'>
+                1. Travel around the world (now more than 20 countries) 2. Read
+                as much as possible
+              </dd>
+              <dt className='f6 b mt2'>Favorite drink</dt>
+              <dd className='ml0 mb3'>Diet coke</dd>
+              <dt className='f6 b mt2'>One thing nobody knows about me</dt>
+              <dd className='ml0 mb3'>
+                {' '}
+                I loved writing ancient Chinese poetry since I was in middle
+                school, and I founded a poetry club with three of my classmates
+              </dd>
+            </dl>
+            <dl className='lh-title mt0'>
+              <dt className='f6 b mt2'>Favorite vacation spot</dt>
+              <dd className='ml0 mb3'>Spain, Marbella</dd>
+              <dt className='f6 b mt2'>Never without</dt>
+              <dd className='ml0 mb3'>
+                1. My phone. 2. My husband. 3. Books and reading
+              </dd>
+              <dt className='f6 b mt2'>A must for reading</dt>
+              <dd className='ml0 mb3'>Fall of Giants by Ken Follet</dd>
+              <dt className='f6 b mt2'>Overrated</dt>
+              <dd className='ml0 mb3'>wealth and power</dd>
+            </dl>
+          </div>
+          <span className='arrows' />
+        </div>
+      </div>
+    </animated.div>
+  ),
+  style => (
+    <animated.div style={{ ...style }} className='flex flex-column flex-row-ns'>
+      <div className='pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center'>
+        <img src={Elena} alt='' style={{ maxHeight: '600px' }} />
+      </div>
+      <div className='w-100 w-60-ns pl3-ns flex items-center justify-center'>
+        <div className='paddingfoundersabout'>
+          <h4 className='mb1 dimgray'>Investment Analyst</h4>
+          <h3>Elena Orbetsova</h3>
+
+          <div className='flex'>
+            <dl className='lh-title pr1-s pr2-m pr4-l mt0'>
+              <dt className='f6 b'>Where I'm from</dt>
+              <dd className='ml0 mb3'>Bulgaria</dd>
+              <dt className='f6 b mt2'>Still on my bucket list</dt>
+              <dd className='ml0 mb3'>Learning to ski</dd>
+              <dt className='f6 b mt2'>Favorite drink</dt>
+              <dd className='ml0 mb3'>Thyme tea</dd>
+              <dt className='f6 b mt2'>One thing nobody knows about me</dt>
+              <dd className='ml0 mb3'>
+                I could be obsessive about various things
+              </dd>
+            </dl>
+            <dl className='lh-title mt0'>
+              <dt className='f6 b mt2'>Favorite vacation spot</dt>
+              <dd className='ml0 mb3'>Golden Sands</dd>
+              <dt className='f6 b mt2'>Never without</dt>
+              <dd className='ml0 mb3'>My keys</dd>
+              <dt className='f6 b mt2'>I do best</dt>
+              <dd className='ml0 mb3'>Setting goals</dd>
+              <dt className='f6 b mt2'>Passion</dt>
+              <dd className='ml0 mb3'>cooking</dd>
+            </dl>
+          </div>
+          <span className='arrows' />
+        </div>
+      </div>
+    </animated.div>
   )
 ];
 
@@ -341,7 +428,7 @@ export default class PageTransition extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 7 ? 0 : state.index + 1
+      index: state.index === 9 ? 0 : state.index + 1
     }));
 
   render() {

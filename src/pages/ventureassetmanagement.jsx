@@ -117,6 +117,30 @@ const Venture = ({ data }) => (
             </p>
           </article>
         </div>
+        <div className='testimonialmobile'>
+          <article className='mobile mw6  pa3 pa4-ns mv3'>
+            <div className='tc'>
+              <Img
+                fixed={data.jingling.childImageSharp.fixed}
+                alt='Swiss Startup Capital Team'
+                className='shadow-5'
+              />
+              <h4 className='pt4 mb1'>Jingling Tu</h4>
+            </div>
+            <p className='tc measure center f6 black-70'>Investment Analyst</p>
+          </article>
+          <article className='mobile mw6  pa3 pa4-ns mv3'>
+            <div className='tc'>
+              <Img
+                fixed={data.elena.childImageSharp.fixed}
+                alt='Swiss Startup Capital Team'
+                className='shadow-5'
+              />
+              <h4 className='pt4 mb1'>Elena Orbetsova</h4>
+            </div>
+            <p className='tc measure center f6 black-70'>Investment Analyst</p>
+          </article>
+        </div>
       </Wrapper>
     </Background>
     <Wrapper>
@@ -276,6 +300,26 @@ export const query = graphql`
       }
     }
     flavio: file(relativePath: { eq: "images/emanuele-ssuc.jpg" }) {
+      childImageSharp {
+        fixed(
+          height: 350
+          traceSVG: { background: "#fff", color: "lightgrey" }
+        ) {
+          ...GatsbyImageSharpFixed_tracedSVG
+        }
+      }
+    }
+    elena: file(relativePath: { eq: "images/elena-ssuc-new.jpg" }) {
+      childImageSharp {
+        fixed(
+          height: 350
+          traceSVG: { background: "#fff", color: "lightgrey" }
+        ) {
+          ...GatsbyImageSharpFixed_tracedSVG
+        }
+      }
+    }
+    jingling: file(relativePath: { eq: "images/jingling-ssuc-new.jpg" }) {
       childImageSharp {
         fixed(
           height: 350
