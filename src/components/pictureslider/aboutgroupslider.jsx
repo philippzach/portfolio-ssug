@@ -9,6 +9,8 @@ import Christine from '../../../static/teamssug/christine.jpg';
 // import Flavio from '../../../static/teamssug/flavio.jpg';
 import Philipp from '../../../static/teamssug/philippsteinberger.jpg';
 import Waser from '../../../static/teamssug/waser.jpg';
+
+import Gianmarco from '../../images/gianmarco.jpg';
 import Simon from '../../../static/teamssug/simon.jpg';
 import Emanuele from '../../images/emanuele.jpg';
 import Jingling from '../../images/jingling.jpg';
@@ -298,6 +300,42 @@ const pages = [
   style => (
     <animated.div style={{ ...style }} className='flex flex-column flex-row-ns'>
       <div className='pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center'>
+        <img src={Gianmarco} alt='' style={{ maxHeight: '600px' }} />
+      </div>
+      <div className='w-100 w-60-ns pl3-ns flex items-center justify-center'>
+        <div className='paddingfoundersabout'>
+          <h4 className='mb1 dimgray'>Chief Communications Officer</h4>
+          <h3>Gianmarco Timpanaro</h3>
+          <div className='flex'>
+            <dl className='lh-title pr1-s pr2-m pr4-l mt0'>
+              <dt className='f6 b'>Where I'm from</dt>
+              <dd className='ml0 mb3'>Born in the heart of beautiful Zurich</dd>
+              <dt className='f6 b mt2'>My favourite destination</dt>
+              <dd className='ml0 mb3'>Somewhere at the beach</dd>
+              <dt className='f6 b mt2'>My favourite movie</dt>
+              <dd className='ml0 mb3'>The Shawshank Redemption</dd>
+              <dt className='f6 b mt2'>I can do without</dt>
+              <dd className='ml0 mb3'>Micro management</dd>
+            </dl>
+            <dl className='lh-title mt0'>
+              <dt className='f6 b mt2'>My passion</dt>
+              <dd className='ml0 mb3'>Race my motorcycle on race tracks</dd>
+              <dt className='f6 b mt2'>I cannot do without</dt>
+              <dd className='ml0 mb3'>Italian food and coffee</dd>
+              <dt className='f6 b mt2'>Never forget to</dt>
+              <dd className='ml0 mb3'>Be grateful</dd>
+              <dt className='f6 b mt2'>Still on my bucket list</dt>
+              <dd className='ml0 mb3'>Size the day</dd>
+            </dl>
+          </div>
+          <span className='arrows' />
+        </div>
+      </div>
+    </animated.div>
+  ),
+  style => (
+    <animated.div style={{ ...style }} className='flex flex-column flex-row-ns'>
+      <div className='pr3-ns mb4 mb0-ns w-100 w-40-ns flex items-center'>
         <img src={Emanuele} alt='' style={{ maxHeight: '600px' }} />
       </div>
       <div className='w-100 w-60-ns pl3-ns flex items-center justify-center'>
@@ -428,7 +466,7 @@ export default class PageTransition extends Component {
 
   toggle = e =>
     this.setState(state => ({
-      index: state.index === 9 ? 0 : state.index + 1
+      index: state.index === 10 ? 0 : state.index + 1
     }));
 
   render() {

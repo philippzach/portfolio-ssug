@@ -197,6 +197,23 @@ const AboutUs = ({ data }) => (
             <article className='center pa3 pa4-ns'>
               <div className='tc'>
                 <Img
+                  fluid={data.about19.childImageSharp.fluid}
+                  className='br-100 dib '
+                  style={Profile}
+                  title=''
+                  alt=''
+                />
+                <h3 className='f5 mb2'>Gianmarco Timpanaro</h3>
+                <h4 className='f6 fw4 gray mt0'>
+                  Chief Communications Officer
+                </h4>
+              </div>
+            </article>
+          </div>
+          <div className='tabrow2'>
+            <article className='center pa3 pa4-ns'>
+              <div className='tc'>
+                <Img
                   fluid={data.about16.childImageSharp.fluid}
                   className='br-100 dib '
                   style={Profile}
@@ -207,8 +224,6 @@ const AboutUs = ({ data }) => (
                 <h4 className='f6 fw4 gray mt0'>Investment Associate</h4>
               </div>
             </article>
-          </div>
-          <div className='tabrow2'>
             <article className='center pa3 pa4-ns'>
               <div className='tc'>
                 <Img
@@ -908,7 +923,16 @@ export const query = graphql`
         }
       }
     }
-
+    about19: file(relativePath: { eq: "images/gianmarco.jpg" }) {
+      childImageSharp {
+        fluid(
+          maxWidth: 1500
+          traceSVG: { background: "#fff", color: "lightgrey" }
+        ) {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
     avaneo1: file(relativePath: { eq: "images/michael_brentari.jpg" }) {
       childImageSharp {
         fluid(
