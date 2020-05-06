@@ -1,30 +1,16 @@
 .logotile {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-grow: 0;
-  flex-shrink: 0;
-  width: 220px;
-  height: 128px;
-  padding: 16px;
-}
-.logotilepast {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-grow: 0;
-  flex-shrink: 0;
-  width: 220px;
-  height: 128px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 220px;
+    height: 128px;
+    padding: 16px;
 }
 .logotile img {
-  max-width: 100%;
-  max-height: 100%;
-  padding: 0.75em;
-}
-.logotilepast img {
-  max-width: 100%;
-  max-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: .75em;
 }
