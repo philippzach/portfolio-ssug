@@ -32,6 +32,7 @@ const GroupItem = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   @media (min-width: 481px) {
     width: 50%;
   }
@@ -49,9 +50,9 @@ const Companies = () => (
               rel='noopener noreferrer'
               target='blank'
               className='logotileadapt'
-              href='https://www.1dropdx.com/'
+              href='https://growcer.com/#home'
             >
-              <img src={LogoB} alt='1 Drop Diagnostics' />
+              <img src={LogoD} alt='Growcer' />
             </a>
           </div>
 
@@ -60,49 +61,7 @@ const Companies = () => (
               style={{ marginBottom: '.5em', fontSize: '.9rem' }}
               className='tc'
             >
-              Investor Club | 2018 | active
-            </p>
-          </div>
-        </GroupItem>
-        <GroupItem>
-          <div>
-            <a
-              rel='noopener noreferrer'
-              target='blank'
-              className='logotileadapt'
-              href='https://eyeware.tech/'
-            >
-              <img src={LogoC} alt='Eyeware' />
-            </a>
-          </div>
-
-          <div>
-            <p
-              style={{ marginBottom: '.5em', fontSize: '.9rem' }}
-              className='tc'
-            >
-              Investor Club | 2019 | active
-            </p>
-          </div>
-        </GroupItem>
-        <GroupItem>
-          <div>
-            <a
-              rel='noopener noreferrer'
-              target='blank'
-              className='logotileadapt'
-              href='https://en.planted.ch/'
-            >
-              <img src={LogoF} alt='Planted' />
-            </a>
-          </div>
-
-          <div>
-            <p
-              style={{ marginBottom: '.5em', fontSize: '.9rem' }}
-              className='tc'
-            >
-              Investor Club | 2019 | active
+              Fund | 2020 | active
             </p>
           </div>
         </GroupItem>
@@ -134,9 +93,9 @@ const Companies = () => (
               rel='noopener noreferrer'
               target='blank'
               className='logotileadapt'
-              href='https://growcer.com/#home'
+              href='https://en.planted.ch/'
             >
-              <img src={LogoD} alt='Growcer' />
+              <img src={LogoF} alt='Planted' />
             </a>
           </div>
 
@@ -145,7 +104,50 @@ const Companies = () => (
               style={{ marginBottom: '.5em', fontSize: '.9rem' }}
               className='tc'
             >
-              Fund | 2020 | active
+              Investor Club | 2019 | active
+            </p>
+          </div>
+        </GroupItem>
+
+        <GroupItem>
+          <div>
+            <a
+              rel='noopener noreferrer'
+              target='blank'
+              className='logotileadapt'
+              href='https://eyeware.tech/'
+            >
+              <img src={LogoC} alt='Eyeware' />
+            </a>
+          </div>
+
+          <div>
+            <p
+              style={{ marginBottom: '.5em', fontSize: '.9rem' }}
+              className='tc'
+            >
+              Investor Club | 2019 | active
+            </p>
+          </div>
+        </GroupItem>
+        <GroupItem>
+          <div>
+            <a
+              rel='noopener noreferrer'
+              target='blank'
+              className='logotileadapt'
+              href='https://www.1dropdx.com/'
+            >
+              <img src={LogoB} alt='1 Drop Diagnostics' />
+            </a>
+          </div>
+
+          <div>
+            <p
+              style={{ marginBottom: '.5em', fontSize: '.9rem' }}
+              className='tc'
+            >
+              Investor Club | 2018 | active
             </p>
           </div>
         </GroupItem>

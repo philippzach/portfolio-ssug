@@ -15,6 +15,13 @@ import SSUC from '../images/ssuc.svg';
 import Seo from '../components/SEO/index';
 import Advisors from '../components/ssuc/advisors';
 
+const SpacerBig = styled.div`
+  padding: 2em 0;
+`;
+const InfoText = styled.div`
+  line-height: 35px;
+  max-width: 700px;
+`;
 const Test = styled.div`
   position: relative;
   overflow: hidden;
@@ -52,7 +59,7 @@ const Venture = ({ data }) => {
     return (
       <Layout>
         <Seo
-          title='SWISS STARTUP GROUP – Venture Asset Mangement'
+          title='SWISS STARTUP CAPITAL – Venture Asset Mangement'
           desc='The Swiss Startup Group has founded Swiss Startup Capital AG as a Venture Asset Management division. Direct Investments - Indirect Investments - Corporate Venture Capital.'
         />
         <Navbar />
@@ -82,9 +89,18 @@ const Venture = ({ data }) => {
               <p className='lh-copy'>
                 Our investment capabilities are tailored to the individual needs
                 of wealthy private clients and institutional investors,
-                featuring our own venture capital fund, an exclusive investors
+                featuring our own venture capital fund, an exclusive investor
                 club as well as professional corporate venture capital services.
               </p>
+              <p className='lh-copy'>
+                If you are a ambitious entrepreneur looking for funding please
+                get in touch.
+              </p>
+              <div className='mb5' style={{ textAlign: 'center' }}>
+                <a href='https://ssuc.typeform.com/to/KQyPyo'>
+                  <div className='button -dark center'>Apply for funding</div>
+                </a>
+              </div>
             </div>
           </div>
           <Title>Investment Funds - SSUG Flagship Fund I</Title>
@@ -167,6 +183,7 @@ const Venture = ({ data }) => {
             has already funded the following companies:
           </p>
           <Companies />
+          <SpacerBig />
           <p className='lh-copy mb2'>
             Prior to launching Swiss Startup Capital, the Swiss Startup Group’s
             team has supported and funded a number of startups that came out of
@@ -180,12 +197,21 @@ const Venture = ({ data }) => {
               </div>
             </Link>
           </div>
-          <p className='lh-copy tc'>
+          <SpacerBig />
+          <p className='lh-copy'>
             Previously, our team invested in and helped build successful
             companies in various sectors:
           </p>
           <CompaniesPast />
-          <Title>Team</Title>
+          <Title>Investment Team</Title>
+          <InfoText>
+            <p className='lh-copy mb4'>
+              Whether as entrepreneur, financier or academic, our team members
+              have gathered significant experience and skills that can be
+              leveraged on a daily basis by the exceptional founding teams which
+              we support.
+            </p>
+          </InfoText>
         </Wrapper>
         <Background>
           <Wrapper>
@@ -292,8 +318,23 @@ const Venture = ({ data }) => {
         <Spacer />
         <Wrapper style={{ paddingTop: '2rem', paddingBottom: '2rem' }}>
           <Title>Investment Committee</Title>
+          <InfoText>
+            <p className='lh-copy mb4'>
+              Our independent Investment Committee members have highly versatile
+              backgrounds and help the Investment Team in validating the best
+              opportunities out of our extensive deal.
+            </p>
+          </InfoText>
           <InvestTeam data={data} />
           <Title>Advisory Board</Title>
+          <InfoText>
+            <p className='lh-copy mb4'>
+              We can leverage a group of top-level advisorsto contribute unique
+              industry insights anddeal opportunities to Swiss Startup Capital
+              as well as to support our portfolio companies in accessing new
+              commercial opportunities, investors or hires.
+            </p>
+          </InfoText>
           <Advisors data={data} />
         </Wrapper>
         <Footer />
