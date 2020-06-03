@@ -46,9 +46,11 @@
     "react-measure": "^2.2.4",
     "react-responsive": "^6.1.1",
     "react-reveal": "^1.2.2",
+    "react-slick": "^0.26.1",
     "react-spring": "^7.2.11",
     "react-tabs": "^2.3.0",
     "react-typography": "^0.16.18",
+    "react-use-localstorage": "^3.4.1",
     "typeface-poppins": "0.0.54",
     "typeface-roboto": "0.0.54",
     "typography": "^0.16.18"
