@@ -151,7 +151,7 @@ class Navbar extends Component {
                 <ul>
                   <li>
                     <Link
-                      to='/ventureassetmanagement'
+                      to='/swissstartupcapital-verification'
                       className='hovereffect'
                       style={NavItem}
                     >
@@ -223,7 +223,7 @@ class Navbar extends Component {
                   <Link
                     className='ttu'
                     style={{ fontSize: '1.5em', lineHeight: '1.2em' }}
-                    to='/ventureassetmanagement'
+                    to='/swissstartupcapital-verification'
                   >
                     Swiss Startup Capital
                   </Link>

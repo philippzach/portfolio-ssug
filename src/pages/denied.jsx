@@ -27,7 +27,10 @@ const TermsFalse = () => (
         Please return and accept our terms and conditions to see the content of
         this website.
       </h2>
-      <Link className='button -dark center' to='/ventureassetmanagement'>
+      <Link
+        className='button -dark center'
+        to='/swissstartupcapital-verification'
+      >
         Return to Terms & Conditions
       </Link>
     </Text>

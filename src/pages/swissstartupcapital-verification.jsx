@@ -37,7 +37,7 @@ const Terms = () => {
   if (typeof window !== 'undefined') {
     const [item, setItem] = useLocalStorage('terms', false);
     if (item) {
-      navigate('/ventureassetmanagementtrue');
+      navigate('/swissstartupcapital');
       return null;
     }
     return (
@@ -120,15 +120,12 @@ const Terms = () => {
             </Paragraph>
           </Overflow>
           <Button>
-            <Link
-              className='button -dark center'
-              to='/ventureassetmanagementfalse'
-            >
+            <Link className='button -dark center' to='/denied'>
               I Decline
             </Link>
             <Link
               className='button -dark center'
-              to='/ventureassetmanagementtrue'
+              to='/swissstartupcapital'
               onClick={() => setItem(true)}
             >
               I Accept

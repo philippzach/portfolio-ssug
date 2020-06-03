@@ -3,6 +3,7 @@ import styled from 'react-emotion';
 import { Layout, Wrapper, Navbar, Title } from 'components';
 import useLocalStorage from 'react-use-localstorage';
 // import Background from '../../static/investorclub.jpg';
+
 import '../styles/pages/investorclub.css';
 import { Link, graphql, navigate } from 'gatsby';
 import Img from 'gatsby-image';
@@ -53,7 +54,7 @@ const Venture = ({ data }) => {
     const item = localStorage.getItem('terms');
     console.log(item);
     if (item === null) {
-      navigate('/ventureassetmanagement');
+      navigate('/swissstartupcapital-verification');
       return null;
     }
     return (
