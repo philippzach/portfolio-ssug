@@ -51,6 +51,7 @@
     "react-tabs": "^2.3.0",
     "react-typography": "^0.16.18",
     "react-use-localstorage": "^3.4.1",
+    "slick-carousel": "^1.8.1",
     "typeface-poppins": "0.0.54",
     "typeface-roboto": "0.0.54",
     "typography": "^0.16.18"
