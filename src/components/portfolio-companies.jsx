@@ -25,131 +25,143 @@ import LogoP from '../../static/logos_portfolio/Logos-Portfolio-svg-westhive-01.
 import Logo1 from '../../static/logos_portfolio/meinmech.svg';
 import Logo2 from '../../static/logos_portfolio/vay.svg';
 import Logo3 from '../../static/logos_portfolio/infeas.svg';
+import Logo4 from '../../static/logos_portfolio/urbanhouse.svg';
 
 const Heading = styled.h2`
-padding-top: 5em;
-`
+  padding-top: 5em;
+`;
 
 const Group = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    width: auto;
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-bottom: 4em;
-`
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: 4em;
+`;
 
 const GroupItem = styled.div`
-    width: 100%;
-    padding-right: 8px;
-    padding-left: 8px;
-    padding-bottom: 16px;
-    display: flex;
-    justify-content: center;
-@media (min-width: 481px){
+  width: 100%;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  @media (min-width: 481px) {
     width: 50%;
-}
-@media (min-width: 769px) {
+  }
+  @media (min-width: 769px) {
     width: 25%;
-}
-`
+  }
+`;
 const Companies = () => (
-    <>
-      <Wrapper>
-        <Group>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/beaconsmind"> 
-                    <img  src={LogoB} alt="Beaconsmind" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/blinkers"> 
-                    <img  src={LogoC} alt="Blinkers" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/bv4"> 
-                    <img  src={LogoD} alt="BV4" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/carhelper"> 
-                    <img  src={LogoE} alt="Carhelper" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/evolute"> 
-                    <img  src={LogoF} alt="Evolut" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/gowago"> 
-                    <img  src={LogoG} alt="Gowago" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/idun-technologies"> 
-                    <img  src={LogoH} alt="Idun" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/infeas"> 
-                    <img  src={Logo3} alt="Infeas" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/joineer"> 
-                    <img  src={LogoI} alt="Joineer" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/meinmech"> 
-                    <img  src={Logo1} alt="meinmech logo" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/mictic"> 
-                    <img  src={LogoJ} alt="Mictic" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/moveagain"> 
-                    <img  src={LogoK} alt="Moveagain" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/snowcookie"> 
-                    <img  src={LogoL} alt="Snowcookie" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/swissstartuptech"> 
-                    <img  src={LogoM} alt="Swiss Startup Tech" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/swissstartupfactory"> 
-                    <img  src={LogoN} alt="Swiss Startup Factory" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/struckd"> 
-                    <img  src={LogoO} alt="Struckd" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/vay-sports"> 
-                    <img  src={Logo2} alt="vay sports logo" /> 
-                </Link>
-            </GroupItem>
-            <GroupItem>
-                <Link className="logotile" to="/portfolio-companies/westhive"> 
-                    <img  src={LogoP} alt="Westhive" /> 
-                </Link>
-            </GroupItem>
-        </Group>
+  <>
+    <Wrapper>
+      <Group>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/beaconsmind'>
+            <img src={LogoB} alt='Beaconsmind' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/blinkers'>
+            <img src={LogoC} alt='Blinkers' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/bv4'>
+            <img src={LogoD} alt='BV4' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/carhelper'>
+            <img src={LogoE} alt='Carhelper' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/evolute'>
+            <img src={LogoF} alt='Evolut' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/gowago'>
+            <img src={LogoG} alt='Gowago' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link
+            className='logotile'
+            to='/portfolio-companies/idun-technologies'
+          >
+            <img src={LogoH} alt='Idun' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/infeas'>
+            <img src={Logo3} alt='Infeas' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/joineer'>
+            <img src={LogoI} alt='Joineer' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/meinmech'>
+            <img src={Logo1} alt='meinmech logo' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/mictic'>
+            <img src={LogoJ} alt='Mictic' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/moveagain'>
+            <img src={LogoK} alt='Moveagain' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/snowcookie'>
+            <img src={LogoL} alt='Snowcookie' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/swissstartuptech'>
+            <img src={LogoM} alt='Swiss Startup Tech' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link
+            className='logotile'
+            to='/portfolio-companies/swissstartupfactory'
+          >
+            <img src={LogoN} alt='Swiss Startup Factory' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/struckd'>
+            <img src={LogoO} alt='Struckd' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/vay-sports'>
+            <img src={Logo2} alt='vay sports logo' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/westhive'>
+            <img src={LogoP} alt='Westhive' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/urbanhaus'>
+            <img src={Logo4} alt='Urbanhouse' />
+          </Link>
+        </GroupItem>
+      </Group>
     </Wrapper>
-    </>
-)
+  </>
+);
 
-export default Companies
+export default Companies;
