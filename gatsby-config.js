@@ -64,8 +64,7 @@ module.exports = {
       options: {
         repositoryName: 'swiss-startup-group',
         accessToken: `${process.env.API_KEY}`,
-        schemas: {},
-        linkResolver: () => (post) => `/${post.uid}`,
+        linkResolver: () => post => `/${post.uid}`,
         htmlSerializer: () => (type, element, content) => {
           switch (type) {
             // First differentiate between a label and a preformatted field (e.g. the Code Block slice)
