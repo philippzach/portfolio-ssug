@@ -35,12 +35,11 @@ exports.createPages = async ({ graphql, actions }) => {
   const postsList = pages.data.allPrismicPost.edges;
 
   postsList.forEach((edge) => {
-    /*     if (edge.node.data.categories[0].category) {
+    if (edge.node.data.categories[0].category) {
       edge.node.data.categories.forEach((cat) => {
-        console.log(cat.category);
-        categorySet.add(cat.category.document[0].data.name);
+        categorySet.add(cat.category.document.data.name);
       });
-    } */
+    }
 
     createPage({
       path: `/${edge.node.uid}`,

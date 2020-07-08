@@ -55,7 +55,7 @@ const Text = styled.div`
 
 export default class ListItem extends Component {
   render() {
-    const { node } = this.props;
+    const { node, categories } = this.props;
     return (
       <List className='blogpost'>
         <Link className='blogitemlink' to={node.uid}>
@@ -74,7 +74,8 @@ export default class ListItem extends Component {
           </Link>
         </Text>
         <Footer>
-          {node.data.date} · by <b>Swiss Startup Group</b>
+          {node.data.date} · by{' '}
+          <b>{categories && <Categories categories={categories} />}</b>
         </Footer>
       </List>
     );
@@ -83,6 +84,8 @@ export default class ListItem extends Component {
 
 ListItem.propTypes = {
   node: PropTypes.object.isRequired,
+  categories: PropTypes.array.isRequired,
+  cover: PropTypes.object.isRequired,
 };
 
 {
