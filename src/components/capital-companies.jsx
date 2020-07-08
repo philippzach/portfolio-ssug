@@ -10,6 +10,7 @@ import LogoC from '../images/capital-companies/eyeware.png';
 import LogoD from '../images/capital-companies/growcer.png';
 import LogoE from '../images/capital-companies/piavita.jpg';
 import LogoF from '../images/capital-companies/planted.png';
+import LogoG from '../../static/logos_portfolio/viu.svg';
 
 const Heading = styled.h2`
   padding-top: 5em;
@@ -44,6 +45,27 @@ const Companies = () => (
   <>
     <Wrapper>
       <Group>
+        <GroupItem>
+          <div>
+            <a
+              rel='noopener noreferrer'
+              target='blank'
+              className='logotileadapt'
+              href='https://shopviu.com/en_ch/'
+            >
+              <img style={{ transform: 'scale(0.8)' }} src={LogoG} alt='VIU' />
+            </a>
+          </div>
+
+          <div>
+            <p
+              style={{ marginBottom: '.5em', fontSize: '.9rem' }}
+              className='tc'
+            >
+              Investor Club | 2020 | active
+            </p>
+          </div>
+        </GroupItem>
         <GroupItem>
           <div>
             <a

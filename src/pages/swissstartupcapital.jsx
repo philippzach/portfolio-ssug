@@ -181,7 +181,8 @@ const Venture = ({ data }) => {
           <Title>Companies</Title>
           <p className='lh-copy b'>
             Swiss Startup Capital has been active in the market since 2018 and
-            has already funded the following companies:
+            has already been involved in the financings of the following
+            companies:
           </p>
           <Companies />
           <SpacerBig />
@@ -232,9 +233,7 @@ const Venture = ({ data }) => {
                   </a>
                   <h4 className='pt4 mb1'>Max Meister</h4>
                 </div>
-                <p className='tc measure center f6 black-70'>
-                  Managing Director
-                </p>
+                <p className='tc measure center f6 black-70'>General Partner</p>
               </article>
               <article className='mobile mw6  pa3 pa4-ns mv3'>
                 <div className='tc'>
@@ -247,9 +246,7 @@ const Venture = ({ data }) => {
                   </a>
                   <h4 className='pt4 mb1'>Guillaume Waser</h4>
                 </div>
-                <p className='tc measure center f6 black-70'>
-                  Managing Director
-                </p>
+                <p className='tc measure center f6 black-70'>General Partner</p>
               </article>
               <article className='mobile mw6  pa3 pa4-ns mv3'>
                 <div className='tc'>
@@ -323,14 +320,14 @@ const Venture = ({ data }) => {
             <p className='lh-copy mb4'>
               Our independent Investment Committee members have highly versatile
               backgrounds and help the Investment Team in validating the best
-              opportunities out of our extensive deal.
+              opportunities out of our extensive deal pipeline.
             </p>
           </InfoText>
           <InvestTeam data={data} />
           <Title>Advisory Board</Title>
           <InfoText>
             <p className='lh-copy mb4'>
-              We can leverage a group of top-level advisorsto contribute unique
+              We can leverage a group of top-level advisors to contribute unique
               industry insights anddeal opportunities to Swiss Startup Capital
               as well as to support our portfolio companies in accessing new
               commercial opportunities, investors or hires.
