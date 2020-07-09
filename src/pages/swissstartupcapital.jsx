@@ -217,10 +217,10 @@ const Venture = ({ data }) => {
         </Wrapper>
         <Background>
           <Wrapper>
-            <h3 className='mw6 lh-copy pt4'>
+            {/* <h3 className='mw6 lh-copy pt4'>
               A team of dedicated professionals committed to exceeding your
               expectations
-            </h3>
+            </h3> */}
             <div className='testimonialmobile'>
               <article className='mobile mw6  pa3 pa4-ns mv3'>
                 <div className='tc'>
@@ -328,7 +328,7 @@ const Venture = ({ data }) => {
           <InfoText>
             <p className='lh-copy mb4'>
               We can leverage a group of top-level advisors to contribute unique
-              industry insights anddeal opportunities to Swiss Startup Capital
+              industry insights and deal opportunities to Swiss Startup Capital
               as well as to support our portfolio companies in accessing new
               commercial opportunities, investors or hires.
             </p>
