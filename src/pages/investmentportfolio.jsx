@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'react-emotion';
 import { Layout, Wrapper, Navbar, Title } from 'components';
+import Logos from '../components/portfolio-companies';
 // import Background from '../../static/investmentportfolio.jpg';
 import Startup from '../../static/portfoliostartup.jpg';
 import Corporates from '../../static/corporatesportfolio.jpg';
@@ -9,7 +10,6 @@ import '../styles/pages/portfolio.css';
 import Seo from '../components/SEO/index';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
-import Logos from '../components/portfolio-companies';
 
 const Test = styled.div`
   position: relative;

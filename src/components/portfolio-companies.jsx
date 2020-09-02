@@ -26,6 +26,7 @@ import Logo1 from '../../static/logos_portfolio/meinmech.svg';
 import Logo2 from '../../static/logos_portfolio/vay.svg';
 import Logo3 from '../../static/logos_portfolio/infeas.svg';
 import Logo4 from '../../static/logos_portfolio/urbanhouse.svg';
+import Logo5 from '../../static/logos_portfolio/quarterfood.svg';
 
 const Heading = styled.h2`
   padding-top: 5em;
@@ -157,6 +158,11 @@ const Companies = () => (
         <GroupItem>
           <Link className='logotile' to='/portfolio-companies/urbanhaus'>
             <img src={Logo4} alt='Urbanhouse' />
+          </Link>
+        </GroupItem>
+        <GroupItem>
+          <Link className='logotile' to='/portfolio-companies/quarterfood'>
+            <img src={Logo5} alt='Quarterfood' />
           </Link>
         </GroupItem>
       </Group>
